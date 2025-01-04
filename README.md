@@ -18,3 +18,10 @@ docker build -t linux-training .
 ```bash
 docker run -v session.log:/session.log -it linux-training
 ```
+
+### 3. Start saving the command logs and finish it
+
+```bash
+script -q session.log
+exit
+```
