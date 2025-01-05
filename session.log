@@ -1,15 +1,7 @@
-Script started on 2025-01-05 07:01:45+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="72" LINES="22"]
-# sh
-# echo $SHEL: L
+Script started on 2025-01-05 22:46:25+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="37" LINES="38"]
+# echo Je  Hello
+Hello
+# 		^L  		clear
+[H[2J[3J# exit
 
-# echo $0
-sh
-# bash
-[?2004h]0;root@90c5d7f6479d: /root@90c5d7f6479d:/# [7mecho $0[27mecho $0
-[?2004lbash
-[?2004h]0;root@90c5d7f6479d: /root@90c5d7f6479d:/# exit
-[?2004lexit
-# exit
-# exit
-
-Script done on 2025-01-05 07:03:25+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-05 22:47:03+00:00 [COMMAND_EXIT_CODE="0"]
