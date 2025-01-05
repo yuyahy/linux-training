@@ -1,17 +1,7 @@
-Script started on 2025-01-05 22:44:20+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="30" LINES="38"]
-# ping 8, .9.  9 8.9 8, .8
-PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-64 bytes from 8.8.8.8: icmp_seq=1 ttl=36 time=60.3 ms
-64 bytes from 8.8.8.8: icmp_seq=2 ttl=36 time=9.34 ms
-64 bytes from 8.8.8.8: icmp_seq=3 ttl=36 time=8.50 ms
-64 bytes from 8.8.8.8: icmp_seq=4 ttl=36 time=24.7 ms
-64 bytes from 8.8.8.8: icmp_seq=5 ttl=36 time=13.9 ms
-64 bytes from 8.8.8.8: icmp_seq=6 ttl=36 time=10.9 ms
-64 bytes from 8.8.8.8: icmp_seq=7 ttl=36 time=11.4 ms
-^C
---- 8.8.8.8 ping statistics ---
-7 packets transmitted, 7 received, 0% packet loss, time 6009ms
-rtt min/avg/max/mdev = 8.497/19.844/60.311/17.271 ms
-# exit
+Script started on 2025-01-05 22:46:25+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="37" LINES="38"]
+# echo Je  Hello
+Hello
+# 		^L  		clear
+[H[2J[3J# exit
 
-Script done on 2025-01-05 22:44:46+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-05 22:47:03+00:00 [COMMAND_EXIT_CODE="0"]
