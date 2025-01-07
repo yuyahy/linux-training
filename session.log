@@ -1,7 +1,19 @@
-Script started on 2025-01-05 22:46:25+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="37" LINES="38"]
-# echo Je  Hello
-Hello
-# 		^L  		clear
-[H[2J[3J# exit
+Script started on 2025-01-07 12:12:46+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="104" LINES="38"]
+# ls = - a -    aF /
+./   .dockerenv*  boot/  etc/	lib@	lib64@	 media/  opt/	root/  sbin@	    srv/  tmp/	var/
+../  bin@	  dev/	 home/	lib32@	libx32@  mnt/	 proc/	run/   session.log  sys/  usr/
+# exit    ls -w 30
+bin    libx32  session.log
+boot   media   srv
+dev    mnt     sys
+etc    opt     tmp
+home   proc    usr
+lib    root    var
+lib32  run
+lib64  sbin
+# ls ==  --quote-name
+"bin"	"dev"  "home"  "lib32"	"libx32"  "mnt"  "proc"  "run"	 "session.log"	"sys"  "usr"
+"boot"	"etc"  "lib"   "lib64"	"media"   "opt"  "root"  "sbin"  "srv"		"tmp"  "var"
+# exit
 
-Script done on 2025-01-05 22:47:03+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-07 12:13:31+00:00 [COMMAND_EXIT_CODE="0"]
