@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
     sudo \
     net-tools \
     iputils-ping \
+    less \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 CMD ["/bin/bash"]
