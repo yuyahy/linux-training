@@ -1,3165 +1,161 @@
-Script started on 2025-01-09 12:41:51+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="104" LINES="38"]
-# find . -type d -lo  print
-.
-./usr
-./usr/src
-./usr/sbin
-./usr/lib64
-./usr/local
-./usr/local/src
-./usr/local/sbin
-./usr/local/lib
-./usr/local/include
-./usr/local/etc
-./usr/local/bin
-./usr/local/games
-./usr/local/share
-./usr/local/share/man
-./usr/local/share/ca-certificates
-./usr/libexec
-./usr/libexec/coreutils
-./usr/libexec/dpkg
-./usr/libexec/sudo
-./usr/lib
-./usr/lib/sysctl.d
-./usr/lib/apt
-./usr/lib/apt/solvers
-./usr/lib/apt/methods
-./usr/lib/apt/planners
-./usr/lib/dpkg
-./usr/lib/dpkg/methods
-./usr/lib/dpkg/methods/apt
-./usr/lib/tmpfiles.d
-./usr/lib/usrmerge
-./usr/lib/usrmerge/lib
-./usr/lib/usrmerge/lib/Tie
-./usr/lib/usrmerge/lib/Text
-./usr/lib/usrmerge/lib/File
-./usr/lib/usrmerge/lib/File/Find
-./usr/lib/usrmerge/lib/Number
-./usr/lib/usrmerge/lib/autodie
-./usr/lib/usrmerge/lib/autodie/Scope
-./usr/lib/mime
-./usr/lib/mime/packages
-./usr/lib/x86_64-linux-gnu
-./usr/lib/x86_64-linux-gnu/e2fsprogs
-./usr/lib/x86_64-linux-gnu/engines-3
-./usr/lib/x86_64-linux-gnu/gconv
-./usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d
-./usr/lib/x86_64-linux-gnu/perl-base
-./usr/lib/x86_64-linux-gnu/perl-base/Carp
-./usr/lib/x86_64-linux-gnu/perl-base/warnings
-./usr/lib/x86_64-linux-gnu/perl-base/auto
-./usr/lib/x86_64-linux-gnu/perl-base/auto/Fcntl
-./usr/lib/x86_64-linux-gnu/perl-base/auto/re
-./usr/lib/x86_64-linux-gnu/perl-base/auto/POSIX
-./usr/lib/x86_64-linux-gnu/perl-base/auto/Hash
-./usr/lib/x86_64-linux-gnu/perl-base/auto/Hash/Util
-./usr/lib/x86_64-linux-gnu/perl-base/auto/IO
-./usr/lib/x86_64-linux-gnu/perl-base/auto/Cwd
-./usr/lib/x86_64-linux-gnu/perl-base/auto/Socket
-./usr/lib/x86_64-linux-gnu/perl-base/auto/List
-./usr/lib/x86_64-linux-gnu/perl-base/auto/List/Util
-./usr/lib/x86_64-linux-gnu/perl-base/auto/File
-./usr/lib/x86_64-linux-gnu/perl-base/auto/File/Glob
-./usr/lib/x86_64-linux-gnu/perl-base/auto/attributes
-./usr/lib/x86_64-linux-gnu/perl-base/Hash
-./usr/lib/x86_64-linux-gnu/perl-base/IO
-./usr/lib/x86_64-linux-gnu/perl-base/IO/Socket
-./usr/lib/x86_64-linux-gnu/perl-base/unicore
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Dep
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Ext
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/SD
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/CWKCF
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Hyphen
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/WB
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Nv
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Ideo
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/IdStatus
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/EComp
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Ccc
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/CWT
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Perl
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Nt
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/InPC
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/In
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/IdType
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/BidiC
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Dia
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/UIdeo
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Bpt
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Upper
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Hex
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/STerm
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/QMark
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Sc
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Hst
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/EPres
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Blk
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Gc
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/SB
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/NFDQC
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Bc
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/GrExt
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/PCM
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/NFCQC
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Dt
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Dash
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/CompEx
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/CWCM
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Ea
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Term
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Age
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/CWL
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/EBase
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Emoji
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/InSC
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Lb
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/BidiM
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/NFKDQC
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/IDC
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/IDS
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/DI
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/XIDS
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/CI
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Lower
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/CWU
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Scx
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Vo
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Cased
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/NFKCQC
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/CWCF
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/XIDC
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Math
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/CE
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Jt
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Jg
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/ExtPict
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/GrBase
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/Alpha
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/PatSyn
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/lib/GCB
-./usr/lib/x86_64-linux-gnu/perl-base/unicore/To
-./usr/lib/x86_64-linux-gnu/perl-base/Exporter
-./usr/lib/x86_64-linux-gnu/perl-base/IPC
-./usr/lib/x86_64-linux-gnu/perl-base/Tie
-./usr/lib/x86_64-linux-gnu/perl-base/Scalar
-./usr/lib/x86_64-linux-gnu/perl-base/Getopt
-./usr/lib/x86_64-linux-gnu/perl-base/Text
-./usr/lib/x86_64-linux-gnu/perl-base/List
-./usr/lib/x86_64-linux-gnu/perl-base/File
-./usr/lib/x86_64-linux-gnu/perl-base/File/Spec
-./usr/lib/x86_64-linux-gnu/ossl-modules
-./usr/lib/x86_64-linux-gnu/krb5
-./usr/lib/x86_64-linux-gnu/krb5/plugins
-./usr/lib/x86_64-linux-gnu/krb5/plugins/preauth
-./usr/lib/x86_64-linux-gnu/krb5/plugins/libkrb5
-./usr/lib/x86_64-linux-gnu/security
-./usr/lib/x86_64-linux-gnu/audit
-./usr/lib/x86_64-linux-gnu/sasl2
-./usr/lib/locale
-./usr/lib/locale/C.utf8
-./usr/lib/locale/C.utf8/LC_MESSAGES
-./usr/lib/udev
-./usr/lib/udev/rules.d
-./usr/lib/systemd
-./usr/lib/systemd/system
-./usr/lib/lsb
-./usr/lib/lsb/init-functions.d
-./usr/lib/terminfo
-./usr/lib/terminfo/m
-./usr/lib/terminfo/r
-./usr/lib/terminfo/t
-./usr/lib/terminfo/h
-./usr/lib/terminfo/x
-./usr/lib/terminfo/v
-./usr/lib/terminfo/c
-./usr/lib/terminfo/d
-./usr/lib/terminfo/s
-./usr/lib/terminfo/w
-./usr/lib/terminfo/a
-./usr/lib/terminfo/l
-./usr/lib/terminfo/p
-./usr/lib/terminfo/E
-./usr/lib/init
-./usr/lib/python3.10
-./usr/lib/python3.10/pydoc_data
-./usr/lib/python3.10/html
-./usr/lib/python3.10/importlib
-./usr/lib/python3.10/importlib/metadata
-./usr/lib/python3.10/encodings
-./usr/lib/python3.10/curses
-./usr/lib/python3.10/test
-./usr/lib/python3.10/test/libregrtest
-./usr/lib/python3.10/test/support
-./usr/lib/python3.10/zoneinfo
-./usr/lib/python3.10/dbm
-./usr/lib/python3.10/ctypes
-./usr/lib/python3.10/distutils
-./usr/lib/python3.10/collections
-./usr/lib/python3.10/concurrent
-./usr/lib/python3.10/concurrent/futures
-./usr/lib/python3.10/unittest
-./usr/lib/python3.10/urllib
-./usr/lib/python3.10/json
-./usr/lib/python3.10/config-3.10-x86_64-linux-gnu
-./usr/lib/python3.10/sqlite3
-./usr/lib/python3.10/lib-dynload
-./usr/lib/python3.10/asyncio
-./usr/lib/python3.10/xml
-./usr/lib/python3.10/xml/sax
-./usr/lib/python3.10/xml/parsers
-./usr/lib/python3.10/xml/dom
-./usr/lib/python3.10/xml/etree
-./usr/lib/python3.10/xmlrpc
-./usr/lib/python3.10/multiprocessing
-./usr/lib/python3.10/multiprocessing/dummy
-./usr/lib/python3.10/http
-./usr/lib/python3.10/email
-./usr/lib/python3.10/email/mime
-./usr/lib/python3.10/wsgiref
-./usr/lib/python3.10/venv
-./usr/lib/python3.10/venv/scripts
-./usr/lib/python3.10/venv/scripts/common
-./usr/lib/python3.10/venv/scripts/posix
-./usr/lib/python3.10/logging
-./usr/lib/ssl
-./usr/lib/ssl/misc
-./usr/lib/sasl2
-./usr/include
-./usr/lib32
-./usr/libx32
-./usr/bin
-./usr/games
-./usr/share
-./usr/share/debianutils
-./usr/share/debianutils/shells.d
-./usr/share/bash-completion
-./usr/share/bash-completion/completions
-./usr/share/gdb
-./usr/share/gdb/auto-load
-./usr/share/gdb/auto-load/usr
-./usr/share/gdb/auto-load/usr/lib
-./usr/share/gdb/auto-load/usr/lib/x86_64-linux-gnu
-./usr/share/perl5
-./usr/share/perl5/Debian
-./usr/share/perl5/Debian/DebConf
-./usr/share/perl5/Debian/DebConf/Client
-./usr/share/perl5/Debconf
-./usr/share/perl5/Debconf/Format
-./usr/share/perl5/Debconf/Template
-./usr/share/perl5/Debconf/Element
-./usr/share/perl5/Debconf/Element/Teletype
-./usr/share/perl5/Debconf/Element/Gnome
-./usr/share/perl5/Debconf/Element/Editor
-./usr/share/perl5/Debconf/Element/Dialog
-./usr/share/perl5/Debconf/Element/Noninteractive
-./usr/share/perl5/Debconf/Element/Web
-./usr/share/perl5/Debconf/Client
-./usr/share/perl5/Debconf/FrontEnd
-./usr/share/perl5/Debconf/DbDriver
-./usr/share/tabset
-./usr/share/dpkg
-./usr/share/dpkg/sh
-./usr/share/debconf
-./usr/share/libc-bin
-./usr/share/gcc
-./usr/share/gcc/python
-./usr/share/gcc/python/libstdcxx
-./usr/share/gcc/python/libstdcxx/v6
-./usr/share/menu
-./usr/share/man
-./usr/share/man/man5
-./usr/share/man/cs
-./usr/share/man/cs/man5
-./usr/share/man/cs/man8
-./usr/share/man/es
-./usr/share/man/es/man5
-./usr/share/man/es/man1
-./usr/share/man/es/man8
-./usr/share/man/zh_CN
-./usr/share/man/zh_CN/man5
-./usr/share/man/zh_CN/man1
-./usr/share/man/zh_CN/man8
-./usr/share/man/de
-./usr/share/man/de/man5
-./usr/share/man/de/man1
-./usr/share/man/de/man8
-./usr/share/man/da
-./usr/share/man/da/man5
-./usr/share/man/da/man1
-./usr/share/man/da/man8
-./usr/share/man/pt
-./usr/share/man/pt/man5
-./usr/share/man/pt/man1
-./usr/share/man/pt/man8
-./usr/share/man/ja
-./usr/share/man/ja/man5
-./usr/share/man/ja/man1
-./usr/share/man/ja/man8
-./usr/share/man/zh_TW
-./usr/share/man/zh_TW/man1
-./usr/share/man/ko
-./usr/share/man/ko/man1
-./usr/share/man/sl
-./usr/share/man/sl/man1
-./usr/share/man/id
-./usr/share/man/id/man1
-./usr/share/man/man3
-./usr/share/man/nl
-./usr/share/man/nl/man5
-./usr/share/man/nl/man1
-./usr/share/man/nl/man8
-./usr/share/man/tr
-./usr/share/man/tr/man1
-./usr/share/man/man1
-./usr/share/man/it
-./usr/share/man/it/man5
-./usr/share/man/it/man1
-./usr/share/man/it/man8
-./usr/share/man/man8
-./usr/share/man/pt_BR
-./usr/share/man/pt_BR/man1
-./usr/share/man/pt_BR/man8
-./usr/share/man/sv
-./usr/share/man/sv/man5
-./usr/share/man/sv/man1
-./usr/share/man/sv/man8
-./usr/share/man/ru
-./usr/share/man/ru/man5
-./usr/share/man/ru/man1
-./usr/share/man/ru/man8
-./usr/share/man/man7
-./usr/share/man/pl
-./usr/share/man/pl/man5
-./usr/share/man/pl/man1
-./usr/share/man/pl/man8
-./usr/share/man/hu
-./usr/share/man/hu/man5
-./usr/share/man/hu/man1
-./usr/share/man/fr
-./usr/share/man/fr/man5
-./usr/share/man/fr/man1
-./usr/share/man/fr/man8
-./usr/share/lintian
-./usr/share/lintian/overrides
-./usr/share/lintian/profiles
-./usr/share/lintian/profiles/dpkg
-./usr/share/doc-base
-./usr/share/pam-configs
-./usr/share/bug
-./usr/share/bug/apt
-./usr/share/bug/init-system-helpers
-./usr/share/bug/procps
-./usr/share/bug/media-types
-./usr/share/bug/vim
-./usr/share/locale
-./usr/share/locale/lg
-./usr/share/locale/lg/LC_TIME
-./usr/share/locale/eu
-./usr/share/locale/eu/LC_MESSAGES
-./usr/share/locale/eu/LC_TIME
-./usr/share/locale/cs
-./usr/share/locale/cs/LC_MESSAGES
-./usr/share/locale/cs/LC_TIME
-./usr/share/locale/es
-./usr/share/locale/es/LC_MESSAGES
-./usr/share/locale/es/LC_TIME
-./usr/share/locale/af
-./usr/share/locale/af/LC_TIME
-./usr/share/locale/zh_CN
-./usr/share/locale/zh_CN/LC_MESSAGES
-./usr/share/locale/zh_CN/LC_TIME
-./usr/share/locale/ga
-./usr/share/locale/ga/LC_TIME
-./usr/share/locale/de
-./usr/share/locale/de/LC_MESSAGES
-./usr/share/locale/de/LC_TIME
-./usr/share/locale/da
-./usr/share/locale/da/LC_MESSAGES
-./usr/share/locale/da/LC_TIME
-./usr/share/locale/nb
-./usr/share/locale/nb/LC_MESSAGES
-./usr/share/locale/nb/LC_TIME
-./usr/share/locale/ku
-./usr/share/locale/ku/LC_MESSAGES
-./usr/share/locale/pt
-./usr/share/locale/pt/LC_MESSAGES
-./usr/share/locale/pt/LC_TIME
-./usr/share/locale/ja
-./usr/share/locale/ja/LC_MESSAGES
-./usr/share/locale/ja/LC_TIME
-./usr/share/locale/tl
-./usr/share/locale/tl/LC_MESSAGES
-./usr/share/locale/eo
-./usr/share/locale/eo/LC_MESSAGES
-./usr/share/locale/eo/LC_TIME
-./usr/share/locale/uk
-./usr/share/locale/uk/LC_MESSAGES
-./usr/share/locale/uk/LC_TIME
-./usr/share/locale/fi
-./usr/share/locale/fi/LC_MESSAGES
-./usr/share/locale/fi/LC_TIME
-./usr/share/locale/pa
-./usr/share/locale/pa/LC_MESSAGES
-./usr/share/locale/zh_TW
-./usr/share/locale/zh_TW/LC_MESSAGES
-./usr/share/locale/zh_TW/LC_TIME
-./usr/share/locale/sr
-./usr/share/locale/sr/LC_TIME
-./usr/share/locale/ko
-./usr/share/locale/ko/LC_MESSAGES
-./usr/share/locale/ko/LC_TIME
-./usr/share/locale/sl
-./usr/share/locale/sl/LC_MESSAGES
-./usr/share/locale/sl/LC_TIME
-./usr/share/locale/id
-./usr/share/locale/id/LC_MESSAGES
-./usr/share/locale/id/LC_TIME
-./usr/share/locale/ro
-./usr/share/locale/ro/LC_MESSAGES
-./usr/share/locale/ro/LC_TIME
-./usr/share/locale/ia
-./usr/share/locale/ia/LC_TIME
-./usr/share/locale/kk
-./usr/share/locale/kk/LC_TIME
-./usr/share/locale/bs
-./usr/share/locale/bs/LC_MESSAGES
-./usr/share/locale/nl
-./usr/share/locale/nl/LC_MESSAGES
-./usr/share/locale/nl/LC_TIME
-./usr/share/locale/ca
-./usr/share/locale/ca/LC_MESSAGES
-./usr/share/locale/ca/LC_TIME
-./usr/share/locale/tr
-./usr/share/locale/tr/LC_MESSAGES
-./usr/share/locale/tr/LC_TIME
-./usr/share/locale/km
-./usr/share/locale/km/LC_MESSAGES
-./usr/share/locale/it
-./usr/share/locale/it/LC_MESSAGES
-./usr/share/locale/it/LC_TIME
-./usr/share/locale/th
-./usr/share/locale/th/LC_MESSAGES
-./usr/share/locale/lt
-./usr/share/locale/lt/LC_MESSAGES
-./usr/share/locale/lt/LC_TIME
-./usr/share/locale/cy
-./usr/share/locale/cy/LC_MESSAGES
-./usr/share/locale/pt_BR
-./usr/share/locale/pt_BR/LC_MESSAGES
-./usr/share/locale/pt_BR/LC_TIME
-./usr/share/locale/oc
-./usr/share/locale/oc/LC_MESSAGES
-./usr/share/locale/ar
-./usr/share/locale/ar/LC_MESSAGES
-./usr/share/locale/el
-./usr/share/locale/el/LC_MESSAGES
-./usr/share/locale/el/LC_TIME
-./usr/share/locale/ms
-./usr/share/locale/ms/LC_TIME
-./usr/share/locale/ne
-./usr/share/locale/ne/LC_MESSAGES
-./usr/share/locale/hr
-./usr/share/locale/hr/LC_TIME
-./usr/share/locale/be
-./usr/share/locale/be/LC_TIME
-./usr/share/locale/bg
-./usr/share/locale/bg/LC_MESSAGES
-./usr/share/locale/bg/LC_TIME
-./usr/share/locale/vi
-./usr/share/locale/vi/LC_MESSAGES
-./usr/share/locale/vi/LC_TIME
-./usr/share/locale/et
-./usr/share/locale/et/LC_MESSAGES
-./usr/share/locale/et/LC_TIME
-./usr/share/locale/dz
-./usr/share/locale/dz/LC_MESSAGES
-./usr/share/locale/sk
-./usr/share/locale/sk/LC_MESSAGES
-./usr/share/locale/sk/LC_TIME
-./usr/share/locale/gl
-./usr/share/locale/gl/LC_MESSAGES
-./usr/share/locale/gl/LC_TIME
-./usr/share/locale/nn
-./usr/share/locale/nn/LC_MESSAGES
-./usr/share/locale/sv
-./usr/share/locale/sv/LC_MESSAGES
-./usr/share/locale/sv/LC_TIME
-./usr/share/locale/mr
-./usr/share/locale/mr/LC_MESSAGES
-./usr/share/locale/ru
-./usr/share/locale/ru/LC_MESSAGES
-./usr/share/locale/ru/LC_TIME
-./usr/share/locale/pl
-./usr/share/locale/pl/LC_MESSAGES
-./usr/share/locale/pl/LC_TIME
-./usr/share/locale/hu
-./usr/share/locale/hu/LC_MESSAGES
-./usr/share/locale/hu/LC_TIME
-./usr/share/locale/fr
-./usr/share/locale/fr/LC_MESSAGES
-./usr/share/locale/fr/LC_TIME
-./usr/share/locale/ast
-./usr/share/locale/ast/LC_MESSAGES
-./usr/share/misc
-./usr/share/info
-./usr/share/pam
-./usr/share/pixmaps
-./usr/share/doc
-./usr/share/doc/libcrypt1
-./usr/share/doc/coreutils
-./usr/share/doc/grep
-./usr/share/doc/libsystemd0
-./usr/share/doc/debianutils
-./usr/share/doc/lsb-base
-./usr/share/doc/libsmartcols1
-./usr/share/doc/e2fsprogs
-./usr/share/doc/libaudit-common
-./usr/share/doc/libtasn1-6
-./usr/share/doc/libseccomp2
-./usr/share/doc/libgmp10
-./usr/share/doc/apt
-./usr/share/doc/apt/examples
-./usr/share/doc/libxxhash0
-./usr/share/doc/findutils
-./usr/share/doc/libnettle8
-./usr/share/doc/libunistring2
-./usr/share/doc/dpkg
-./usr/share/doc/ncurses-bin
-./usr/share/doc/gzip
-./usr/share/doc/liblz4-1
-./usr/share/doc/libkeyutils1
-./usr/share/doc/libtinfo6
-./usr/share/doc/ncurses-base
-./usr/share/doc/debconf
-./usr/share/doc/libtirpc3
-./usr/share/doc/mawk
-./usr/share/doc/mawk/examples
-./usr/share/doc/libss2
-./usr/share/doc/sysvinit-utils
-./usr/share/doc/libnsl2
-./usr/share/doc/libc-bin
-./usr/share/doc/init-system-helpers
-./usr/share/doc/libmount1
-./usr/share/doc/libtirpc-common
-./usr/share/doc/libidn2-0
-./usr/share/doc/libc6
-./usr/share/doc/hostname
-./usr/share/doc/liblzma5
-./usr/share/doc/usrmerge
-./usr/share/doc/libpam-runtime
-./usr/share/doc/libgssapi-krb5-2
-./usr/share/doc/libuuid1
-./usr/share/doc/libcap-ng0
-./usr/share/doc/dash
-./usr/share/doc/gcc-12-base
-./usr/share/doc/libdb5.3
-./usr/share/doc/libzstd1
-./usr/share/doc/libpcre2-8-0
-./usr/share/doc/libk5crypto3
-./usr/share/doc/libsemanage-common
-./usr/share/doc/diffutils
-./usr/share/doc/passwd
-./usr/share/doc/passwd/examples
-./usr/share/doc/mount
-./usr/share/doc/mount/examples
-./usr/share/doc/libblkid1
-./usr/share/doc/libpam-modules
-./usr/share/doc/libpam-modules/examples
-./usr/share/doc/login
-./usr/share/doc/bsdutils
-./usr/share/doc/libgnutls30
-./usr/share/doc/libgcrypt20
-./usr/share/doc/sed
-./usr/share/doc/sed/examples
-./usr/share/doc/libext2fs2
-./usr/share/doc/libgpg-error0
-./usr/share/doc/util-linux
-./usr/share/doc/util-linux/examples
-./usr/share/doc/util-linux/releases
-./usr/share/doc/libpam-modules-bin
-./usr/share/doc/perl
-./usr/share/doc/libkrb5support0
-./usr/share/doc/libssl3
-./usr/share/doc/libacl1
-./usr/share/doc/perl-base
-./usr/share/doc/ubuntu-keyring
-./usr/share/doc/libattr1
-./usr/share/doc/libkrb5-3
-./usr/share/doc/base-passwd
-./usr/share/doc/libpam0g
-./usr/share/doc/libapt-pkg6.0
-./usr/share/doc/libselinux1
-./usr/share/doc/libudev1
-./usr/share/doc/zlib1g
-./usr/share/doc/libffi8
-./usr/share/doc/libhogweed6
-./usr/share/doc/libsepol2
-./usr/share/doc/libsemanage2
-./usr/share/doc/tar
-./usr/share/doc/libpcre3
-./usr/share/doc/logsave
-./usr/share/doc/libaudit1
-./usr/share/doc/libprocps8
-./usr/share/doc/libcap2
-./usr/share/doc/base-files
-./usr/share/doc/libcom-err2
-./usr/share/doc/procps
-./usr/share/doc/procps/examples
-./usr/share/doc/libdebconfclient0
-./usr/share/doc/gpgv
-./usr/share/doc/bash
-./usr/share/doc/adduser
-./usr/share/doc/adduser/examples
-./usr/share/doc/adduser/examples/adduser.local.conf.examples
-./usr/share/doc/adduser/examples/adduser.local.conf.examples/skel.other
-./usr/share/doc/adduser/examples/adduser.local.conf.examples/skel
-./usr/share/doc/libbz2-1.0
-./usr/share/doc/libp11-kit0
-./usr/share/doc/libp11-kit0/examples
-./usr/share/doc/sensible-utils
-./usr/share/doc/libpython3.10-minimal
-./usr/share/doc/xxd
-./usr/share/doc/publicsuffix
-./usr/share/doc/publicsuffix/examples
-./usr/share/doc/libsodium23
-./usr/share/doc/libsqlite3-0
-./usr/share/doc/libldap-common
-./usr/share/doc/libsasl2-modules
-./usr/share/doc/net-tools
-./usr/share/doc/libldap-2.5-0
-./usr/share/doc/sudo
-./usr/share/doc/sudo/examples
-./usr/share/doc/openssl
-./usr/share/doc/openssl/HOWTO
-./usr/share/doc/libpam-cap
-./usr/share/doc/libsasl2-modules-db
-./usr/share/doc/vim-runtime
-./usr/share/doc/libexpat1
-./usr/share/doc/libpsl5
-./usr/share/doc/librtmp1
-./usr/share/doc/libssh-4
-./usr/share/doc/media-types
-./usr/share/doc/libbrotli1
-./usr/share/doc/libnghttp2-14
-./usr/share/doc/iputils-ping
-./usr/share/doc/vim-common
-./usr/share/doc/libcurl4
-./usr/share/doc/libreadline8
-./usr/share/doc/libreadline8/examples
-./usr/share/doc/curl
-./usr/share/doc/ca-certificates
-./usr/share/doc/ca-certificates/examples
-./usr/share/doc/ca-certificates/examples/ca-certificates-local
-./usr/share/doc/ca-certificates/examples/ca-certificates-local/local
-./usr/share/doc/ca-certificates/examples/ca-certificates-local/debian
-./usr/share/doc/ca-certificates/examples/ca-certificates-local/debian/source
-./usr/share/doc/less
-./usr/share/doc/libsasl2-2
-./usr/share/doc/libmpdec3
-./usr/share/doc/vim
-./usr/share/doc/readline-common
-./usr/share/doc/libgpm2
-./usr/share/doc/libcap2-bin
-./usr/share/base-passwd
-./usr/share/keyrings
-./usr/share/polkit-1
-./usr/share/polkit-1/actions
-./usr/share/common-licenses
-./usr/share/terminfo
-./usr/share/base-files
-./usr/share/apport
-./usr/share/apport/package-hooks
-./usr/share/dict
-./usr/share/adduser
-./usr/share/sensible-utils
-./usr/share/sensible-utils/bin
-./usr/share/publicsuffix
-./usr/share/applications
-./usr/share/readline
-./usr/share/icons
-./usr/share/icons/hicolor
-./usr/share/icons/hicolor/48x48
-./usr/share/icons/hicolor/48x48/apps
-./usr/share/icons/hicolor/scalable
-./usr/share/icons/hicolor/scalable/apps
-./usr/share/icons/locolor
-./usr/share/icons/locolor/16x16
-./usr/share/icons/locolor/16x16/apps
-./usr/share/icons/locolor/32x32
-./usr/share/icons/locolor/32x32/apps
-./usr/share/ca-certificates
-./usr/share/ca-certificates/mozilla
-./usr/share/zsh
-./usr/share/zsh/vendor-completions
-./usr/share/vim
-./usr/share/vim/vim82
-./usr/share/vim/vim82/tutor
-./usr/share/vim/vim82/lang
-./usr/share/vim/vim82/lang/ja.sjis
-./usr/share/vim/vim82/lang/ja.sjis/LC_MESSAGES
-./usr/share/vim/vim82/lang/cs
-./usr/share/vim/vim82/lang/cs/LC_MESSAGES
-./usr/share/vim/vim82/lang/es
-./usr/share/vim/vim82/lang/es/LC_MESSAGES
-./usr/share/vim/vim82/lang/af
-./usr/share/vim/vim82/lang/af/LC_MESSAGES
-./usr/share/vim/vim82/lang/zh_CN
-./usr/share/vim/vim82/lang/zh_CN/LC_MESSAGES
-./usr/share/vim/vim82/lang/ga
-./usr/share/vim/vim82/lang/ga/LC_MESSAGES
-./usr/share/vim/vim82/lang/de
-./usr/share/vim/vim82/lang/de/LC_MESSAGES
-./usr/share/vim/vim82/lang/da
-./usr/share/vim/vim82/lang/da/LC_MESSAGES
-./usr/share/vim/vim82/lang/nb
-./usr/share/vim/vim82/lang/nb/LC_MESSAGES
-./usr/share/vim/vim82/lang/uk.cp1251
-./usr/share/vim/vim82/lang/uk.cp1251/LC_MESSAGES
-./usr/share/vim/vim82/lang/ja
-./usr/share/vim/vim82/lang/ja/LC_MESSAGES
-./usr/share/vim/vim82/lang/ko.UTF-8
-./usr/share/vim/vim82/lang/ko.UTF-8/LC_MESSAGES
-./usr/share/vim/vim82/lang/eo
-./usr/share/vim/vim82/lang/eo/LC_MESSAGES
-./usr/share/vim/vim82/lang/ja.euc-jp
-./usr/share/vim/vim82/lang/ja.euc-jp/LC_MESSAGES
-./usr/share/vim/vim82/lang/uk
-./usr/share/vim/vim82/lang/uk/LC_MESSAGES
-./usr/share/vim/vim82/lang/fi
-./usr/share/vim/vim82/lang/fi/LC_MESSAGES
-./usr/share/vim/vim82/lang/en_GB
-./usr/share/vim/vim82/lang/en_GB/LC_MESSAGES
-./usr/share/vim/vim82/lang/zh_TW
-./usr/share/vim/vim82/lang/zh_TW/LC_MESSAGES
-./usr/share/vim/vim82/lang/sr
-./usr/share/vim/vim82/lang/sr/LC_MESSAGES
-./usr/share/vim/vim82/lang/cs.cp1250
-./usr/share/vim/vim82/lang/cs.cp1250/LC_MESSAGES
-./usr/share/vim/vim82/lang/ko
-./usr/share/vim/vim82/lang/ko/LC_MESSAGES
-./usr/share/vim/vim82/lang/no
-./usr/share/vim/vim82/lang/no/LC_MESSAGES
-./usr/share/vim/vim82/lang/nl
-./usr/share/vim/vim82/lang/nl/LC_MESSAGES
-./usr/share/vim/vim82/lang/ca
-./usr/share/vim/vim82/lang/ca/LC_MESSAGES
-./usr/share/vim/vim82/lang/tr
-./usr/share/vim/vim82/lang/tr/LC_MESSAGES
-./usr/share/vim/vim82/lang/it
-./usr/share/vim/vim82/lang/it/LC_MESSAGES
-./usr/share/vim/vim82/lang/lv
-./usr/share/vim/vim82/lang/lv/LC_MESSAGES
-./usr/share/vim/vim82/lang/zh_CN.UTF-8
-./usr/share/vim/vim82/lang/zh_CN.UTF-8/LC_MESSAGES
-./usr/share/vim/vim82/lang/ru.cp1251
-./usr/share/vim/vim82/lang/ru.cp1251/LC_MESSAGES
-./usr/share/vim/vim82/lang/pt_BR
-./usr/share/vim/vim82/lang/pt_BR/LC_MESSAGES
-./usr/share/vim/vim82/lang/zh_TW.UTF-8
-./usr/share/vim/vim82/lang/zh_TW.UTF-8/LC_MESSAGES
-./usr/share/vim/vim82/lang/vi
-./usr/share/vim/vim82/lang/vi/LC_MESSAGES
-./usr/share/vim/vim82/lang/sk
-./usr/share/vim/vim82/lang/sk/LC_MESSAGES
-./usr/share/vim/vim82/lang/pl.cp1250
-./usr/share/vim/vim82/lang/pl.cp1250/LC_MESSAGES
-./usr/share/vim/vim82/lang/pl.UTF-8
-./usr/share/vim/vim82/lang/pl.UTF-8/LC_MESSAGES
-./usr/share/vim/vim82/lang/sv
-./usr/share/vim/vim82/lang/sv/LC_MESSAGES
-./usr/share/vim/vim82/lang/zh_CN.cp936
-./usr/share/vim/vim82/lang/zh_CN.cp936/LC_MESSAGES
-./usr/share/vim/vim82/lang/ru
-./usr/share/vim/vim82/lang/ru/LC_MESSAGES
-./usr/share/vim/vim82/lang/pl
-./usr/share/vim/vim82/lang/pl/LC_MESSAGES
-./usr/share/vim/vim82/lang/sk.cp1250
-./usr/share/vim/vim82/lang/sk.cp1250/LC_MESSAGES
-./usr/share/vim/vim82/lang/fr
-./usr/share/vim/vim82/lang/fr/LC_MESSAGES
-./usr/share/vim/vim82/print
-./usr/share/vim/vim82/macros
-./usr/share/vim/vim82/macros/maze
-./usr/share/vim/vim82/macros/hanoi
-./usr/share/vim/vim82/macros/urm
-./usr/share/vim/vim82/macros/life
-./usr/share/vim/vim82/syntax
-./usr/share/vim/vim82/plugin
-./usr/share/vim/vim82/colors
-./usr/share/vim/vim82/colors/lists
-./usr/share/vim/vim82/colors/tools
-./usr/share/vim/vim82/compiler
-./usr/share/vim/vim82/keymap
-./usr/share/vim/vim82/indent
-./usr/share/vim/vim82/doc
-./usr/share/vim/vim82/ftplugin
-./usr/share/vim/vim82/spell
-./usr/share/vim/vim82/pack
-./usr/share/vim/vim82/pack/dist
-./usr/share/vim/vim82/pack/dist/opt
-./usr/share/vim/vim82/pack/dist/opt/dvorak
-./usr/share/vim/vim82/pack/dist/opt/dvorak/dvorak
-./usr/share/vim/vim82/pack/dist/opt/dvorak/plugin
-./usr/share/vim/vim82/pack/dist/opt/termdebug
-./usr/share/vim/vim82/pack/dist/opt/termdebug/plugin
-./usr/share/vim/vim82/pack/dist/opt/swapmouse
-./usr/share/vim/vim82/pack/dist/opt/swapmouse/plugin
-./usr/share/vim/vim82/pack/dist/opt/shellmenu
-./usr/share/vim/vim82/pack/dist/opt/shellmenu/plugin
-./usr/share/vim/vim82/pack/dist/opt/matchit
-./usr/share/vim/vim82/pack/dist/opt/matchit/plugin
-./usr/share/vim/vim82/pack/dist/opt/matchit/doc
-./usr/share/vim/vim82/pack/dist/opt/matchit/autoload
-./usr/share/vim/vim82/pack/dist/opt/editexisting
-./usr/share/vim/vim82/pack/dist/opt/editexisting/plugin
-./usr/share/vim/vim82/pack/dist/opt/cfilter
-./usr/share/vim/vim82/pack/dist/opt/cfilter/plugin
-./usr/share/vim/vim82/pack/dist/opt/justify
-./usr/share/vim/vim82/pack/dist/opt/justify/plugin
-./usr/share/vim/vim82/autoload
-./usr/share/vim/vim82/autoload/dist
-./usr/share/vim/vim82/autoload/xml
-./usr/share/vim/registry
-./usr/share/vim/addons
-./usr/share/vim/addons/plugin
-./dev
-./dev/shm
-./dev/mqueue
-./dev/pts
-./media
-./sys
-./sys/kernel
-./sys/kernel/mm
-./sys/kernel/mm/hugepages
-./sys/kernel/mm/hugepages/hugepages-2048kB
-./sys/kernel/mm/transparent_hugepage
-./sys/kernel/mm/transparent_hugepage/khugepaged
-./sys/kernel/mm/swap
-./sys/kernel/mm/ksm
-./sys/kernel/software_nodes
-./sys/kernel/reboot
-./sys/kernel/tracing
-./sys/kernel/sunrpc
-./sys/kernel/sunrpc/xprt-switches
-./sys/kernel/sunrpc/rpc-clients
-./sys/kernel/security
-./sys/kernel/irq
-./sys/kernel/irq/35
-./sys/kernel/irq/7
-./sys/kernel/irq/25
-./sys/kernel/irq/15
-./sys/kernel/irq/33
-./sys/kernel/irq/5
-./sys/kernel/irq/13
-./sys/kernel/irq/31
-./sys/kernel/irq/3
-./sys/kernel/irq/11
-./sys/kernel/irq/1
-./sys/kernel/irq/28
-./sys/kernel/irq/36
-./sys/kernel/irq/8
-./sys/kernel/irq/26
-./sys/kernel/irq/34
-./sys/kernel/irq/6
-./sys/kernel/irq/24
-./sys/kernel/irq/14
-./sys/kernel/irq/32
-./sys/kernel/irq/4
-./sys/kernel/irq/12
-./sys/kernel/irq/30
-./sys/kernel/irq/2
-./sys/kernel/irq/10
-./sys/kernel/irq/29
-./sys/kernel/irq/0
-./sys/kernel/irq/37
-./sys/kernel/irq/9
-./sys/kernel/irq/27
-./sys/kernel/debug
-./sys/kernel/fscache
-./sys/kernel/cgroup
-./sys/kernel/boot_params
-./sys/power
-./sys/power/suspend_stats
-./sys/class
-./sys/class/thermal
-./sys/class/cpuid
-./sys/class/scsi_generic
-./sys/class/vtconsole
-./sys/class/wakeup
-./sys/class/graphics
-./sys/class/scsi_device
-./sys/class/mem
-./sys/class/nd
-./sys/class/macvtap
-./sys/class/devlink
-./sys/class/misc
-./sys/class/ata_link
-./sys/class/nvme-subsystem
-./sys/class/pps
-./sys/class/nvme-generic
-./sys/class/tpmrm
-./sys/class/nvme
-./sys/class/ata_device
-./sys/class/dax
-./sys/class/virtio-ports
-./sys/class/net
-./sys/class/mdio_bus
-./sys/class/spi_transport
-./sys/class/pci_bus
-./sys/class/i2c-adapter
-./sys/class/ata_port
-./sys/class/scsi_disk
-./sys/class/spi_host
-./sys/class/cuse
-./sys/class/devfreq
-./sys/class/tty
-./sys/class/bdi
-./sys/class/power_supply
-./sys/class/i2c-dev
-./sys/class/block
-./sys/class/phy
-./sys/class/input
-./sys/class/ptp
-./sys/class/bsg
-./sys/class/msr
-./sys/class/scsi_host
-./sys/class/xt_idletimer
-./sys/class/rtc
-./sys/class/hwmon
-./sys/class/vc
-./sys/class/tpm
-./sys/devices
-./sys/devices/software
-./sys/devices/software/power
-./sys/devices/pnp0
-./sys/devices/pnp0/power
-./sys/devices/pnp0/00:01
-./sys/devices/pnp0/00:01/wakeup
-./sys/devices/pnp0/00:01/wakeup/wakeup3
-./sys/devices/pnp0/00:01/power
-./sys/devices/pnp0/00:01/cmos_nvram0
-./sys/devices/pnp0/00:01/cmos_nvram0/power
-./sys/devices/pnp0/00:01/rtc
-./sys/devices/pnp0/00:01/rtc/rtc0
-./sys/devices/pnp0/00:01/rtc/rtc0/alarmtimer.0.auto
-./sys/devices/pnp0/00:01/rtc/rtc0/alarmtimer.0.auto/wakeup
-./sys/devices/pnp0/00:01/rtc/rtc0/alarmtimer.0.auto/wakeup/wakeup4
-./sys/devices/pnp0/00:01/rtc/rtc0/alarmtimer.0.auto/power
-./sys/devices/pnp0/00:01/rtc/rtc0/power
-./sys/devices/pnp0/00:00
-./sys/devices/pnp0/00:00/power
-./sys/devices/platform
-./sys/devices/platform/platform-framebuffer.0
-./sys/devices/platform/platform-framebuffer.0/power
-./sys/devices/platform/power
-./sys/devices/platform/Fixed MDIO bus.0
-./sys/devices/platform/Fixed MDIO bus.0/power
-./sys/devices/platform/Fixed MDIO bus.0/mdio_bus
-./sys/devices/platform/Fixed MDIO bus.0/mdio_bus/fixed-0
-./sys/devices/platform/Fixed MDIO bus.0/mdio_bus/fixed-0/statistics
-./sys/devices/platform/Fixed MDIO bus.0/mdio_bus/fixed-0/power
-./sys/devices/platform/PNP0103:00
-./sys/devices/platform/PNP0103:00/power
-./sys/devices/platform/serial8250
-./sys/devices/platform/serial8250/power
-./sys/devices/platform/serial8250/tty
-./sys/devices/platform/serial8250/tty/ttyS2
-./sys/devices/platform/serial8250/tty/ttyS2/power
-./sys/devices/platform/serial8250/tty/ttyS0
-./sys/devices/platform/serial8250/tty/ttyS0/power
-./sys/devices/platform/serial8250/tty/ttyS3
-./sys/devices/platform/serial8250/tty/ttyS3/power
-./sys/devices/platform/serial8250/tty/ttyS1
-./sys/devices/platform/serial8250/tty/ttyS1/power
-./sys/devices/platform/pcspkr
-./sys/devices/platform/pcspkr/power
-./sys/devices/platform/pcspkr/input
-./sys/devices/platform/pcspkr/input/input1
-./sys/devices/platform/pcspkr/input/input1/capabilities
-./sys/devices/platform/pcspkr/input/input1/power
-./sys/devices/platform/pcspkr/input/input1/id
-./sys/devices/platform/pcspkr/input/input1/event1
-./sys/devices/platform/pcspkr/input/input1/event1/power
-./sys/devices/uprobe
-./sys/devices/uprobe/format
-./sys/devices/uprobe/power
-./sys/devices/pci0000:00
-./sys/devices/pci0000:00/0000:00:08.0
-./sys/devices/pci0000:00/0000:00:08.0/power
-./sys/devices/pci0000:00/0000:00:08.0/virtio4
-./sys/devices/pci0000:00/0000:00:08.0/virtio4/power
-./sys/devices/pci0000:00/0000:00:08.0/msi_irqs
-./sys/devices/pci0000:00/0000:00:08.0/link
-./sys/devices/pci0000:00/0000:00:1f.0
-./sys/devices/pci0000:00/0000:00:1f.0/power
-./sys/devices/pci0000:00/0000:00:1f.0/link
-./sys/devices/pci0000:00/0000:00:01.0
-./sys/devices/pci0000:00/0000:00:01.0/power
-./sys/devices/pci0000:00/0000:00:01.0/virtio0
-./sys/devices/pci0000:00/0000:00:01.0/virtio0/power
-./sys/devices/pci0000:00/0000:00:01.0/virtio0/net
-./sys/devices/pci0000:00/0000:00:01.0/msi_irqs
-./sys/devices/pci0000:00/0000:00:01.0/link
-./sys/devices/pci0000:00/power
-./sys/devices/pci0000:00/0000:00:07.0
-./sys/devices/pci0000:00/0000:00:07.0/power
-./sys/devices/pci0000:00/0000:00:07.0/msi_irqs
-./sys/devices/pci0000:00/0000:00:07.0/link
-./sys/devices/pci0000:00/0000:00:07.0/virtio3
-./sys/devices/pci0000:00/0000:00:07.0/virtio3/power
-./sys/devices/pci0000:00/0000:00:00.0
-./sys/devices/pci0000:00/0000:00:00.0/power
-./sys/devices/pci0000:00/0000:00:00.0/link
-./sys/devices/pci0000:00/pci_bus
-./sys/devices/pci0000:00/pci_bus/0000:00
-./sys/devices/pci0000:00/pci_bus/0000:00/power
-./sys/devices/pci0000:00/0000:00:06.0
-./sys/devices/pci0000:00/0000:00:06.0/power
-./sys/devices/pci0000:00/0000:00:06.0/virtio2
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/power
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/power
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/holders
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/mq
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/mq/0
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/mq/0/cpu1
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/mq/0/cpu0
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/queue
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/queue/iosched
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/integrity
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/vda1
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/vda1/power
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/vda1/holders
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/vda1/trace
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/trace
-./sys/devices/pci0000:00/0000:00:06.0/virtio2/block/vda/slaves
-./sys/devices/pci0000:00/0000:00:06.0/msi_irqs
-./sys/devices/pci0000:00/0000:00:06.0/link
-./sys/devices/pci0000:00/0000:00:05.0
-./sys/devices/pci0000:00/0000:00:05.0/virtio1
-./sys/devices/pci0000:00/0000:00:05.0/virtio1/power
-./sys/devices/pci0000:00/0000:00:05.0/virtio1/virtio-ports
-./sys/devices/pci0000:00/0000:00:05.0/virtio1/virtio-ports/vport1p0
-./sys/devices/pci0000:00/0000:00:05.0/virtio1/virtio-ports/vport1p0/power
-./sys/devices/pci0000:00/0000:00:05.0/power
-./sys/devices/pci0000:00/0000:00:05.0/msi_irqs
-./sys/devices/pci0000:00/0000:00:05.0/link
-./sys/devices/system
-./sys/devices/system/cpu
-./sys/devices/system/cpu/cpuidle
-./sys/devices/system/cpu/hotplug
-./sys/devices/system/cpu/power
-./sys/devices/system/cpu/cpu1
-./sys/devices/system/cpu/cpu1/hotplug
-./sys/devices/system/cpu/cpu1/power
-./sys/devices/system/cpu/cpu1/topology
-./sys/devices/system/cpu/cpu1/cache
-./sys/devices/system/cpu/cpu1/cache/index2
-./sys/devices/system/cpu/cpu1/cache/index0
-./sys/devices/system/cpu/cpu1/cache/index3
-./sys/devices/system/cpu/cpu1/cache/index1
-./sys/devices/system/cpu/smt
-./sys/devices/system/cpu/vulnerabilities
-./sys/devices/system/cpu/cpufreq
-./sys/devices/system/cpu/cpu0
-./sys/devices/system/cpu/cpu0/hotplug
-./sys/devices/system/cpu/cpu0/power
-./sys/devices/system/cpu/cpu0/topology
-./sys/devices/system/cpu/cpu0/cache
-./sys/devices/system/cpu/cpu0/cache/index2
-./sys/devices/system/cpu/cpu0/cache/index0
-./sys/devices/system/cpu/cpu0/cache/index3
-./sys/devices/system/cpu/cpu0/cache/index1
-./sys/devices/system/container
-./sys/devices/system/container/power
-./sys/devices/system/clockevents
-./sys/devices/system/clockevents/clockevent1
-./sys/devices/system/clockevents/clockevent1/power
-./sys/devices/system/clockevents/power
-./sys/devices/system/clockevents/broadcast
-./sys/devices/system/clockevents/broadcast/power
-./sys/devices/system/clockevents/clockevent0
-./sys/devices/system/clockevents/clockevent0/power
-./sys/devices/system/clocksource
-./sys/devices/system/clocksource/clocksource0
-./sys/devices/system/clocksource/clocksource0/power
-./sys/devices/system/clocksource/power
-./sys/devices/system/memory
-./sys/devices/system/memory/memory32
-./sys/devices/system/memory/memory32/power
-./sys/devices/system/memory/memory60
-./sys/devices/system/memory/memory60/power
-./sys/devices/system/memory/memory3
-./sys/devices/system/memory/memory3/power
-./sys/devices/system/memory/memory22
-./sys/devices/system/memory/memory22/power
-./sys/devices/system/memory/memory50
-./sys/devices/system/memory/memory50/power
-./sys/devices/system/memory/memory12
-./sys/devices/system/memory/memory12/power
-./sys/devices/system/memory/memory40
-./sys/devices/system/memory/memory40/power
-./sys/devices/system/memory/memory69
-./sys/devices/system/memory/memory69/power
-./sys/devices/system/memory/memory59
-./sys/devices/system/memory/memory59/power
-./sys/devices/system/memory/memory1
-./sys/devices/system/memory/memory1/power
-./sys/devices/system/memory/memory20
-./sys/devices/system/memory/memory20/power
-./sys/devices/system/memory/memory49
-./sys/devices/system/memory/memory49/power
-./sys/devices/system/memory/memory10
-./sys/devices/system/memory/memory10/power
-./sys/devices/system/memory/memory39
-./sys/devices/system/memory/memory39/power
-./sys/devices/system/memory/memory67
-./sys/devices/system/memory/memory67/power
-./sys/devices/system/memory/memory57
-./sys/devices/system/memory/memory57/power
-./sys/devices/system/memory/memory19
-./sys/devices/system/memory/memory19/power
-./sys/devices/system/memory/memory47
-./sys/devices/system/memory/memory47/power
-./sys/devices/system/memory/memory37
-./sys/devices/system/memory/memory37/power
-./sys/devices/system/memory/memory65
-./sys/devices/system/memory/memory65/power
-./sys/devices/system/memory/memory8
-./sys/devices/system/memory/memory8/power
-./sys/devices/system/memory/power
-./sys/devices/system/memory/memory55
-./sys/devices/system/memory/memory55/power
-./sys/devices/system/memory/memory17
-./sys/devices/system/memory/memory17/power
-./sys/devices/system/memory/memory45
-./sys/devices/system/memory/memory45/power
-./sys/devices/system/memory/memory35
-./sys/devices/system/memory/memory35/power
-./sys/devices/system/memory/memory63
-./sys/devices/system/memory/memory63/power
-./sys/devices/system/memory/memory6
-./sys/devices/system/memory/memory6/power
-./sys/devices/system/memory/memory53
-./sys/devices/system/memory/memory53/power
-./sys/devices/system/memory/memory15
-./sys/devices/system/memory/memory15/power
-./sys/devices/system/memory/memory43
-./sys/devices/system/memory/memory43/power
-./sys/devices/system/memory/memory71
-./sys/devices/system/memory/memory71/power
-./sys/devices/system/memory/memory33
-./sys/devices/system/memory/memory33/power
-./sys/devices/system/memory/memory61
-./sys/devices/system/memory/memory61/power
-./sys/devices/system/memory/memory4
-./sys/devices/system/memory/memory4/power
-./sys/devices/system/memory/memory23
-./sys/devices/system/memory/memory23/power
-./sys/devices/system/memory/memory51
-./sys/devices/system/memory/memory51/power
-./sys/devices/system/memory/memory13
-./sys/devices/system/memory/memory13/power
-./sys/devices/system/memory/memory41
-./sys/devices/system/memory/memory41/power
-./sys/devices/system/memory/memory2
-./sys/devices/system/memory/memory2/power
-./sys/devices/system/memory/memory21
-./sys/devices/system/memory/memory21/power
-./sys/devices/system/memory/memory11
-./sys/devices/system/memory/memory11/power
-./sys/devices/system/memory/memory68
-./sys/devices/system/memory/memory68/power
-./sys/devices/system/memory/memory58
-./sys/devices/system/memory/memory58/power
-./sys/devices/system/memory/memory0
-./sys/devices/system/memory/memory0/power
-./sys/devices/system/memory/memory48
-./sys/devices/system/memory/memory48/power
-./sys/devices/system/memory/memory38
-./sys/devices/system/memory/memory38/power
-./sys/devices/system/memory/memory66
-./sys/devices/system/memory/memory66/power
-./sys/devices/system/memory/memory9
-./sys/devices/system/memory/memory9/power
-./sys/devices/system/memory/memory56
-./sys/devices/system/memory/memory56/power
-./sys/devices/system/memory/memory18
-./sys/devices/system/memory/memory18/power
-./sys/devices/system/memory/memory46
-./sys/devices/system/memory/memory46/power
-./sys/devices/system/memory/memory36
-./sys/devices/system/memory/memory36/power
-./sys/devices/system/memory/memory64
-./sys/devices/system/memory/memory64/power
-./sys/devices/system/memory/memory7
-./sys/devices/system/memory/memory7/power
-./sys/devices/system/memory/memory54
-./sys/devices/system/memory/memory54/power
-./sys/devices/system/memory/memory16
-./sys/devices/system/memory/memory16/power
-./sys/devices/system/memory/memory44
-./sys/devices/system/memory/memory44/power
-./sys/devices/system/memory/memory34
-./sys/devices/system/memory/memory34/power
-./sys/devices/system/memory/memory62
-./sys/devices/system/memory/memory62/power
-./sys/devices/system/memory/memory5
-./sys/devices/system/memory/memory5/power
-./sys/devices/system/memory/memory52
-./sys/devices/system/memory/memory52/power
-./sys/devices/system/memory/memory14
-./sys/devices/system/memory/memory14/power
-./sys/devices/system/memory/memory42
-./sys/devices/system/memory/memory42/power
-./sys/devices/system/memory/memory70
-./sys/devices/system/memory/memory70/power
-./sys/devices/breakpoint
-./sys/devices/breakpoint/power
-./sys/devices/virtual
-./sys/devices/virtual/thermal
-./sys/devices/virtual/thermal/cooling_device1
-./sys/devices/virtual/thermal/cooling_device1/power
-./sys/devices/virtual/thermal/cooling_device0
-./sys/devices/virtual/thermal/cooling_device0/power
-./sys/devices/virtual/cpuid
-./sys/devices/virtual/cpuid/cpu1
-./sys/devices/virtual/cpuid/cpu1/power
-./sys/devices/virtual/cpuid/cpu0
-./sys/devices/virtual/cpuid/cpu0/power
-./sys/devices/virtual/vtconsole
-./sys/devices/virtual/vtconsole/vtcon0
-./sys/devices/virtual/vtconsole/vtcon0/power
-./sys/devices/virtual/graphics
-./sys/devices/virtual/graphics/fbcon
-./sys/devices/virtual/graphics/fbcon/power
-./sys/devices/virtual/mem
-./sys/devices/virtual/mem/random
-./sys/devices/virtual/mem/random/power
-./sys/devices/virtual/mem/mem
-./sys/devices/virtual/mem/mem/power
-./sys/devices/virtual/mem/zero
-./sys/devices/virtual/mem/zero/power
-./sys/devices/virtual/mem/port
-./sys/devices/virtual/mem/port/power
-./sys/devices/virtual/mem/urandom
-./sys/devices/virtual/mem/urandom/power
-./sys/devices/virtual/mem/kmsg
-./sys/devices/virtual/mem/kmsg/power
-./sys/devices/virtual/mem/full
-./sys/devices/virtual/mem/full/power
-./sys/devices/virtual/mem/null
-./sys/devices/virtual/mem/null/power
-./sys/devices/virtual/misc
-./sys/devices/virtual/misc/loop-control
-./sys/devices/virtual/misc/loop-control/power
-./sys/devices/virtual/misc/nvram
-./sys/devices/virtual/misc/nvram/power
-./sys/devices/virtual/misc/psaux
-./sys/devices/virtual/misc/psaux/power
-./sys/devices/virtual/misc/tun
-./sys/devices/virtual/misc/tun/power
-./sys/devices/virtual/misc/vsock
-./sys/devices/virtual/misc/vsock/power
-./sys/devices/virtual/misc/hpet
-./sys/devices/virtual/misc/hpet/power
-./sys/devices/virtual/misc/cachefiles
-./sys/devices/virtual/misc/cachefiles/power
-./sys/devices/virtual/misc/fuse
-./sys/devices/virtual/misc/fuse/power
-./sys/devices/virtual/misc/cuse
-./sys/devices/virtual/misc/cuse/power
-./sys/devices/virtual/misc/uinput
-./sys/devices/virtual/misc/uinput/power
-./sys/devices/virtual/misc/cpu_dma_latency
-./sys/devices/virtual/misc/cpu_dma_latency/power
-./sys/devices/virtual/misc/device-mapper
-./sys/devices/virtual/misc/device-mapper/power
-./sys/devices/virtual/misc/hw_random
-./sys/devices/virtual/misc/hw_random/power
-./sys/devices/virtual/net
-./sys/devices/virtual/net/ip6tnl0
-./sys/devices/virtual/net/ip6tnl0/statistics
-./sys/devices/virtual/net/ip6tnl0/power
-./sys/devices/virtual/net/ip6tnl0/queues
-./sys/devices/virtual/net/ip6tnl0/queues/tx-0
-./sys/devices/virtual/net/ip6tnl0/queues/tx-0/byte_queue_limits
-./sys/devices/virtual/net/ip6tnl0/queues/rx-0
-./sys/devices/virtual/net/tunl0
-./sys/devices/virtual/net/tunl0/statistics
-./sys/devices/virtual/net/tunl0/power
-./sys/devices/virtual/net/tunl0/queues
-./sys/devices/virtual/net/tunl0/queues/tx-0
-./sys/devices/virtual/net/tunl0/queues/tx-0/byte_queue_limits
-./sys/devices/virtual/net/tunl0/queues/rx-0
-./sys/devices/virtual/net/eth0
-./sys/devices/virtual/net/eth0/statistics
-./sys/devices/virtual/net/eth0/power
-./sys/devices/virtual/net/eth0/queues
-./sys/devices/virtual/net/eth0/queues/tx-0
-./sys/devices/virtual/net/eth0/queues/tx-0/byte_queue_limits
-./sys/devices/virtual/net/eth0/queues/rx-0
-./sys/devices/virtual/net/lo
-./sys/devices/virtual/net/lo/statistics
-./sys/devices/virtual/net/lo/power
-./sys/devices/virtual/net/lo/queues
-./sys/devices/virtual/net/lo/queues/tx-0
-./sys/devices/virtual/net/lo/queues/tx-0/byte_queue_limits
-./sys/devices/virtual/net/lo/queues/rx-0
-./sys/devices/virtual/tty
-./sys/devices/virtual/tty/tty28
-./sys/devices/virtual/tty/tty28/power
-./sys/devices/virtual/tty/ptmx
-./sys/devices/virtual/tty/ptmx/power
-./sys/devices/virtual/tty/tty56
-./sys/devices/virtual/tty/tty56/power
-./sys/devices/virtual/tty/tty18
-./sys/devices/virtual/tty/tty18/power
-./sys/devices/virtual/tty/tty1
-./sys/devices/virtual/tty/tty1/power
-./sys/devices/virtual/tty/tty46
-./sys/devices/virtual/tty/tty46/power
-./sys/devices/virtual/tty/tty36
-./sys/devices/virtual/tty/tty36/power
-./sys/devices/virtual/tty/tty26
-./sys/devices/virtual/tty/tty26/power
-./sys/devices/virtual/tty/tty54
-./sys/devices/virtual/tty/tty54/power
-./sys/devices/virtual/tty/tty16
-./sys/devices/virtual/tty/tty16/power
-./sys/devices/virtual/tty/tty44
-./sys/devices/virtual/tty/tty44/power
-./sys/devices/virtual/tty/console
-./sys/devices/virtual/tty/console/power
-./sys/devices/virtual/tty/tty34
-./sys/devices/virtual/tty/tty34/power
-./sys/devices/virtual/tty/tty62
-./sys/devices/virtual/tty/tty62/power
-./sys/devices/virtual/tty/tty24
-./sys/devices/virtual/tty/tty24/power
-./sys/devices/virtual/tty/tty8
-./sys/devices/virtual/tty/tty8/power
-./sys/devices/virtual/tty/tty52
-./sys/devices/virtual/tty/tty52/power
-./sys/devices/virtual/tty/hvc6
-./sys/devices/virtual/tty/hvc6/power
-./sys/devices/virtual/tty/tty14
-./sys/devices/virtual/tty/tty14/power
-./sys/devices/virtual/tty/tty42
-./sys/devices/virtual/tty/tty42/power
-./sys/devices/virtual/tty/tty32
-./sys/devices/virtual/tty/tty32/power
-./sys/devices/virtual/tty/tty60
-./sys/devices/virtual/tty/tty60/power
-./sys/devices/virtual/tty/tty22
-./sys/devices/virtual/tty/tty22/power
-./sys/devices/virtual/tty/tty6
-./sys/devices/virtual/tty/tty6/power
-./sys/devices/virtual/tty/tty50
-./sys/devices/virtual/tty/tty50/power
-./sys/devices/virtual/tty/hvc4
-./sys/devices/virtual/tty/hvc4/power
-./sys/devices/virtual/tty/tty12
-./sys/devices/virtual/tty/tty12/power
-./sys/devices/virtual/tty/tty40
-./sys/devices/virtual/tty/tty40/power
-./sys/devices/virtual/tty/tty30
-./sys/devices/virtual/tty/tty30/power
-./sys/devices/virtual/tty/tty59
-./sys/devices/virtual/tty/tty59/power
-./sys/devices/virtual/tty/tty20
-./sys/devices/virtual/tty/tty20/power
-./sys/devices/virtual/tty/tty4
-./sys/devices/virtual/tty/tty4/power
-./sys/devices/virtual/tty/tty49
-./sys/devices/virtual/tty/tty49/power
-./sys/devices/virtual/tty/hvc2
-./sys/devices/virtual/tty/hvc2/power
-./sys/devices/virtual/tty/tty10
-./sys/devices/virtual/tty/tty10/power
-./sys/devices/virtual/tty/tty39
-./sys/devices/virtual/tty/tty39/power
-./sys/devices/virtual/tty/tty29
-./sys/devices/virtual/tty/tty29/power
-./sys/devices/virtual/tty/tty57
-./sys/devices/virtual/tty/tty57/power
-./sys/devices/virtual/tty/tty19
-./sys/devices/virtual/tty/tty19/power
-./sys/devices/virtual/tty/tty2
-./sys/devices/virtual/tty/tty2/power
-./sys/devices/virtual/tty/tty47
-./sys/devices/virtual/tty/tty47/power
-./sys/devices/virtual/tty/hvc0
-./sys/devices/virtual/tty/hvc0/power
-./sys/devices/virtual/tty/tty37
-./sys/devices/virtual/tty/tty37/power
-./sys/devices/virtual/tty/tty27
-./sys/devices/virtual/tty/tty27/power
-./sys/devices/virtual/tty/tty55
-./sys/devices/virtual/tty/tty55/power
-./sys/devices/virtual/tty/tty17
-./sys/devices/virtual/tty/tty17/power
-./sys/devices/virtual/tty/tty0
-./sys/devices/virtual/tty/tty0/power
-./sys/devices/virtual/tty/tty45
-./sys/devices/virtual/tty/tty45/power
-./sys/devices/virtual/tty/tty35
-./sys/devices/virtual/tty/tty35/power
-./sys/devices/virtual/tty/tty63
-./sys/devices/virtual/tty/tty63/power
-./sys/devices/virtual/tty/tty25
-./sys/devices/virtual/tty/tty25/power
-./sys/devices/virtual/tty/tty9
-./sys/devices/virtual/tty/tty9/power
-./sys/devices/virtual/tty/tty53
-./sys/devices/virtual/tty/tty53/power
-./sys/devices/virtual/tty/hvc7
-./sys/devices/virtual/tty/hvc7/power
-./sys/devices/virtual/tty/tty15
-./sys/devices/virtual/tty/tty15/power
-./sys/devices/virtual/tty/tty43
-./sys/devices/virtual/tty/tty43/power
-./sys/devices/virtual/tty/tty
-./sys/devices/virtual/tty/tty/power
-./sys/devices/virtual/tty/tty33
-./sys/devices/virtual/tty/tty33/power
-./sys/devices/virtual/tty/tty61
-./sys/devices/virtual/tty/tty61/power
-./sys/devices/virtual/tty/tty23
-./sys/devices/virtual/tty/tty23/power
-./sys/devices/virtual/tty/tty7
-./sys/devices/virtual/tty/tty7/power
-./sys/devices/virtual/tty/tty51
-./sys/devices/virtual/tty/tty51/power
-./sys/devices/virtual/tty/hvc5
-./sys/devices/virtual/tty/hvc5/power
-./sys/devices/virtual/tty/tty13
-./sys/devices/virtual/tty/tty13/power
-./sys/devices/virtual/tty/tty41
-./sys/devices/virtual/tty/tty41/power
-./sys/devices/virtual/tty/tty31
-./sys/devices/virtual/tty/tty31/power
-./sys/devices/virtual/tty/tty21
-./sys/devices/virtual/tty/tty21/power
-./sys/devices/virtual/tty/tty5
-./sys/devices/virtual/tty/tty5/power
-./sys/devices/virtual/tty/hvc3
-./sys/devices/virtual/tty/hvc3/power
-./sys/devices/virtual/tty/tty11
-./sys/devices/virtual/tty/tty11/power
-./sys/devices/virtual/tty/tty58
-./sys/devices/virtual/tty/tty58/power
-./sys/devices/virtual/tty/tty3
-./sys/devices/virtual/tty/tty3/power
-./sys/devices/virtual/tty/tty48
-./sys/devices/virtual/tty/tty48/power
-./sys/devices/virtual/tty/hvc1
-./sys/devices/virtual/tty/hvc1/power
-./sys/devices/virtual/tty/tty38
-./sys/devices/virtual/tty/tty38/power
-./sys/devices/virtual/bdi
-./sys/devices/virtual/bdi/7:6
-./sys/devices/virtual/bdi/7:6/power
-./sys/devices/virtual/bdi/43:0
-./sys/devices/virtual/bdi/43:0/power
-./sys/devices/virtual/bdi/1:2
-./sys/devices/virtual/bdi/1:2/power
-./sys/devices/virtual/bdi/43:128
-./sys/devices/virtual/bdi/43:128/power
-./sys/devices/virtual/bdi/1:12
-./sys/devices/virtual/bdi/1:12/power
-./sys/devices/virtual/bdi/43:448
-./sys/devices/virtual/bdi/43:448/power
-./sys/devices/virtual/bdi/7:4
-./sys/devices/virtual/bdi/7:4/power
-./sys/devices/virtual/bdi/1:0
-./sys/devices/virtual/bdi/1:0/power
-./sys/devices/virtual/bdi/43:192
-./sys/devices/virtual/bdi/43:192/power
-./sys/devices/virtual/bdi/1:10
-./sys/devices/virtual/bdi/1:10/power
-./sys/devices/virtual/bdi/1:9
-./sys/devices/virtual/bdi/1:9/power
-./sys/devices/virtual/bdi/7:2
-./sys/devices/virtual/bdi/7:2/power
-./sys/devices/virtual/bdi/43:416
-./sys/devices/virtual/bdi/43:416/power
-./sys/devices/virtual/bdi/1:7
-./sys/devices/virtual/bdi/1:7/power
-./sys/devices/virtual/bdi/7:0
-./sys/devices/virtual/bdi/7:0/power
-./sys/devices/virtual/bdi/43:160
-./sys/devices/virtual/bdi/43:160/power
-./sys/devices/virtual/bdi/254:0
-./sys/devices/virtual/bdi/254:0/power
-./sys/devices/virtual/bdi/43:480
-./sys/devices/virtual/bdi/43:480/power
-./sys/devices/virtual/bdi/1:5
-./sys/devices/virtual/bdi/1:5/power
-./sys/devices/virtual/bdi/1:15
-./sys/devices/virtual/bdi/1:15/power
-./sys/devices/virtual/bdi/43:384
-./sys/devices/virtual/bdi/43:384/power
-./sys/devices/virtual/bdi/43:96
-./sys/devices/virtual/bdi/43:96/power
-./sys/devices/virtual/bdi/7:7
-./sys/devices/virtual/bdi/7:7/power
-./sys/devices/virtual/bdi/1:3
-./sys/devices/virtual/bdi/1:3/power
-./sys/devices/virtual/bdi/1:13
-./sys/devices/virtual/bdi/1:13/power
-./sys/devices/virtual/bdi/7:5
-./sys/devices/virtual/bdi/7:5/power
-./sys/devices/virtual/bdi/43:288
-./sys/devices/virtual/bdi/43:288/power
-./sys/devices/virtual/bdi/1:1
-./sys/devices/virtual/bdi/1:1/power
-./sys/devices/virtual/bdi/1:11
-./sys/devices/virtual/bdi/1:11/power
-./sys/devices/virtual/bdi/43:352
-./sys/devices/virtual/bdi/43:352/power
-./sys/devices/virtual/bdi/43:64
-./sys/devices/virtual/bdi/43:64/power
-./sys/devices/virtual/bdi/7:3
-./sys/devices/virtual/bdi/7:3/power
-./sys/devices/virtual/bdi/1:8
-./sys/devices/virtual/bdi/1:8/power
-./sys/devices/virtual/bdi/43:256
-./sys/devices/virtual/bdi/43:256/power
-./sys/devices/virtual/bdi/7:1
-./sys/devices/virtual/bdi/7:1/power
-./sys/devices/virtual/bdi/0:158
-./sys/devices/virtual/bdi/0:158/power
-./sys/devices/virtual/bdi/43:320
-./sys/devices/virtual/bdi/43:320/power
-./sys/devices/virtual/bdi/43:32
-./sys/devices/virtual/bdi/43:32/power
-./sys/devices/virtual/bdi/1:6
-./sys/devices/virtual/bdi/1:6/power
-./sys/devices/virtual/bdi/43:224
-./sys/devices/virtual/bdi/43:224/power
-./sys/devices/virtual/bdi/1:4
-./sys/devices/virtual/bdi/1:4/power
-./sys/devices/virtual/bdi/1:14
-./sys/devices/virtual/bdi/1:14/power
-./sys/devices/virtual/block
-./sys/devices/virtual/block/loop1
-./sys/devices/virtual/block/loop1/power
-./sys/devices/virtual/block/loop1/holders
-./sys/devices/virtual/block/loop1/mq
-./sys/devices/virtual/block/loop1/mq/0
-./sys/devices/virtual/block/loop1/mq/0/cpu1
-./sys/devices/virtual/block/loop1/mq/0/cpu0
-./sys/devices/virtual/block/loop1/queue
-./sys/devices/virtual/block/loop1/integrity
-./sys/devices/virtual/block/loop1/trace
-./sys/devices/virtual/block/loop1/slaves
-./sys/devices/virtual/block/ram2
-./sys/devices/virtual/block/ram2/power
-./sys/devices/virtual/block/ram2/holders
-./sys/devices/virtual/block/ram2/queue
-./sys/devices/virtual/block/ram2/integrity
-./sys/devices/virtual/block/ram2/trace
-./sys/devices/virtual/block/ram2/slaves
-./sys/devices/virtual/block/nbd3
-./sys/devices/virtual/block/nbd3/power
-./sys/devices/virtual/block/nbd3/holders
-./sys/devices/virtual/block/nbd3/mq
-./sys/devices/virtual/block/nbd3/mq/0
-./sys/devices/virtual/block/nbd3/mq/0/cpu1
-./sys/devices/virtual/block/nbd3/mq/0/cpu0
-./sys/devices/virtual/block/nbd3/queue
-./sys/devices/virtual/block/nbd3/queue/iosched
-./sys/devices/virtual/block/nbd3/integrity
-./sys/devices/virtual/block/nbd3/trace
-./sys/devices/virtual/block/nbd3/slaves
-./sys/devices/virtual/block/nbd15
-./sys/devices/virtual/block/nbd15/power
-./sys/devices/virtual/block/nbd15/holders
-./sys/devices/virtual/block/nbd15/mq
-./sys/devices/virtual/block/nbd15/mq/0
-./sys/devices/virtual/block/nbd15/mq/0/cpu1
-./sys/devices/virtual/block/nbd15/mq/0/cpu0
-./sys/devices/virtual/block/nbd15/queue
-./sys/devices/virtual/block/nbd15/queue/iosched
-./sys/devices/virtual/block/nbd15/integrity
-./sys/devices/virtual/block/nbd15/trace
-./sys/devices/virtual/block/nbd15/slaves
-./sys/devices/virtual/block/ram0
-./sys/devices/virtual/block/ram0/power
-./sys/devices/virtual/block/ram0/holders
-./sys/devices/virtual/block/ram0/queue
-./sys/devices/virtual/block/ram0/integrity
-./sys/devices/virtual/block/ram0/trace
-./sys/devices/virtual/block/ram0/slaves
-./sys/devices/virtual/block/nbd1
-./sys/devices/virtual/block/nbd1/power
-./sys/devices/virtual/block/nbd1/holders
-./sys/devices/virtual/block/nbd1/mq
-./sys/devices/virtual/block/nbd1/mq/0
-./sys/devices/virtual/block/nbd1/mq/0/cpu1
-./sys/devices/virtual/block/nbd1/mq/0/cpu0
-./sys/devices/virtual/block/nbd1/queue
-./sys/devices/virtual/block/nbd1/queue/iosched
-./sys/devices/virtual/block/nbd1/integrity
-./sys/devices/virtual/block/nbd1/trace
-./sys/devices/virtual/block/nbd1/slaves
-./sys/devices/virtual/block/nbd13
-./sys/devices/virtual/block/nbd13/power
-./sys/devices/virtual/block/nbd13/holders
-./sys/devices/virtual/block/nbd13/mq
-./sys/devices/virtual/block/nbd13/mq/0
-./sys/devices/virtual/block/nbd13/mq/0/cpu1
-./sys/devices/virtual/block/nbd13/mq/0/cpu0
-./sys/devices/virtual/block/nbd13/queue
-./sys/devices/virtual/block/nbd13/queue/iosched
-./sys/devices/virtual/block/nbd13/integrity
-./sys/devices/virtual/block/nbd13/trace
-./sys/devices/virtual/block/nbd13/slaves
-./sys/devices/virtual/block/ram9
-./sys/devices/virtual/block/ram9/power
-./sys/devices/virtual/block/ram9/holders
-./sys/devices/virtual/block/ram9/queue
-./sys/devices/virtual/block/ram9/integrity
-./sys/devices/virtual/block/ram9/trace
-./sys/devices/virtual/block/ram9/slaves
-./sys/devices/virtual/block/loop6
-./sys/devices/virtual/block/loop6/power
-./sys/devices/virtual/block/loop6/holders
-./sys/devices/virtual/block/loop6/mq
-./sys/devices/virtual/block/loop6/mq/0
-./sys/devices/virtual/block/loop6/mq/0/cpu1
-./sys/devices/virtual/block/loop6/mq/0/cpu0
-./sys/devices/virtual/block/loop6/queue
-./sys/devices/virtual/block/loop6/integrity
-./sys/devices/virtual/block/loop6/trace
-./sys/devices/virtual/block/loop6/slaves
-./sys/devices/virtual/block/nbd11
-./sys/devices/virtual/block/nbd11/power
-./sys/devices/virtual/block/nbd11/holders
-./sys/devices/virtual/block/nbd11/mq
-./sys/devices/virtual/block/nbd11/mq/0
-./sys/devices/virtual/block/nbd11/mq/0/cpu1
-./sys/devices/virtual/block/nbd11/mq/0/cpu0
-./sys/devices/virtual/block/nbd11/queue
-./sys/devices/virtual/block/nbd11/queue/iosched
-./sys/devices/virtual/block/nbd11/integrity
-./sys/devices/virtual/block/nbd11/trace
-./sys/devices/virtual/block/nbd11/slaves
-./sys/devices/virtual/block/ram14
-./sys/devices/virtual/block/ram14/power
-./sys/devices/virtual/block/ram14/holders
-./sys/devices/virtual/block/ram14/queue
-./sys/devices/virtual/block/ram14/integrity
-./sys/devices/virtual/block/ram14/trace
-./sys/devices/virtual/block/ram14/slaves
-./sys/devices/virtual/block/ram7
-./sys/devices/virtual/block/ram7/power
-./sys/devices/virtual/block/ram7/holders
-./sys/devices/virtual/block/ram7/queue
-./sys/devices/virtual/block/ram7/integrity
-./sys/devices/virtual/block/ram7/trace
-./sys/devices/virtual/block/ram7/slaves
-./sys/devices/virtual/block/nbd8
-./sys/devices/virtual/block/nbd8/power
-./sys/devices/virtual/block/nbd8/holders
-./sys/devices/virtual/block/nbd8/mq
-./sys/devices/virtual/block/nbd8/mq/0
-./sys/devices/virtual/block/nbd8/mq/0/cpu1
-./sys/devices/virtual/block/nbd8/mq/0/cpu0
-./sys/devices/virtual/block/nbd8/queue
-./sys/devices/virtual/block/nbd8/queue/iosched
-./sys/devices/virtual/block/nbd8/integrity
-./sys/devices/virtual/block/nbd8/trace
-./sys/devices/virtual/block/nbd8/slaves
-./sys/devices/virtual/block/loop4
-./sys/devices/virtual/block/loop4/power
-./sys/devices/virtual/block/loop4/holders
-./sys/devices/virtual/block/loop4/mq
-./sys/devices/virtual/block/loop4/mq/0
-./sys/devices/virtual/block/loop4/mq/0/cpu1
-./sys/devices/virtual/block/loop4/mq/0/cpu0
-./sys/devices/virtual/block/loop4/queue
-./sys/devices/virtual/block/loop4/integrity
-./sys/devices/virtual/block/loop4/trace
-./sys/devices/virtual/block/loop4/slaves
-./sys/devices/virtual/block/ram12
-./sys/devices/virtual/block/ram12/power
-./sys/devices/virtual/block/ram12/holders
-./sys/devices/virtual/block/ram12/queue
-./sys/devices/virtual/block/ram12/integrity
-./sys/devices/virtual/block/ram12/trace
-./sys/devices/virtual/block/ram12/slaves
-./sys/devices/virtual/block/ram5
-./sys/devices/virtual/block/ram5/power
-./sys/devices/virtual/block/ram5/holders
-./sys/devices/virtual/block/ram5/queue
-./sys/devices/virtual/block/ram5/integrity
-./sys/devices/virtual/block/ram5/trace
-./sys/devices/virtual/block/ram5/slaves
-./sys/devices/virtual/block/nbd6
-./sys/devices/virtual/block/nbd6/power
-./sys/devices/virtual/block/nbd6/holders
-./sys/devices/virtual/block/nbd6/mq
-./sys/devices/virtual/block/nbd6/mq/0
-./sys/devices/virtual/block/nbd6/mq/0/cpu1
-./sys/devices/virtual/block/nbd6/mq/0/cpu0
-./sys/devices/virtual/block/nbd6/queue
-./sys/devices/virtual/block/nbd6/queue/iosched
-./sys/devices/virtual/block/nbd6/integrity
-./sys/devices/virtual/block/nbd6/trace
-./sys/devices/virtual/block/nbd6/slaves
-./sys/devices/virtual/block/loop2
-./sys/devices/virtual/block/loop2/power
-./sys/devices/virtual/block/loop2/holders
-./sys/devices/virtual/block/loop2/mq
-./sys/devices/virtual/block/loop2/mq/0
-./sys/devices/virtual/block/loop2/mq/0/cpu1
-./sys/devices/virtual/block/loop2/mq/0/cpu0
-./sys/devices/virtual/block/loop2/queue
-./sys/devices/virtual/block/loop2/integrity
-./sys/devices/virtual/block/loop2/trace
-./sys/devices/virtual/block/loop2/slaves
-./sys/devices/virtual/block/ram10
-./sys/devices/virtual/block/ram10/power
-./sys/devices/virtual/block/ram10/holders
-./sys/devices/virtual/block/ram10/queue
-./sys/devices/virtual/block/ram10/integrity
-./sys/devices/virtual/block/ram10/trace
-./sys/devices/virtual/block/ram10/slaves
-./sys/devices/virtual/block/ram3
-./sys/devices/virtual/block/ram3/power
-./sys/devices/virtual/block/ram3/holders
-./sys/devices/virtual/block/ram3/queue
-./sys/devices/virtual/block/ram3/integrity
-./sys/devices/virtual/block/ram3/trace
-./sys/devices/virtual/block/ram3/slaves
-./sys/devices/virtual/block/nbd4
-./sys/devices/virtual/block/nbd4/power
-./sys/devices/virtual/block/nbd4/holders
-./sys/devices/virtual/block/nbd4/mq
-./sys/devices/virtual/block/nbd4/mq/0
-./sys/devices/virtual/block/nbd4/mq/0/cpu1
-./sys/devices/virtual/block/nbd4/mq/0/cpu0
-./sys/devices/virtual/block/nbd4/queue
-./sys/devices/virtual/block/nbd4/queue/iosched
-./sys/devices/virtual/block/nbd4/integrity
-./sys/devices/virtual/block/nbd4/trace
-./sys/devices/virtual/block/nbd4/slaves
-./sys/devices/virtual/block/loop0
-./sys/devices/virtual/block/loop0/power
-./sys/devices/virtual/block/loop0/holders
-./sys/devices/virtual/block/loop0/mq
-./sys/devices/virtual/block/loop0/mq/0
-./sys/devices/virtual/block/loop0/mq/0/cpu1
-./sys/devices/virtual/block/loop0/mq/0/cpu0
-./sys/devices/virtual/block/loop0/queue
-./sys/devices/virtual/block/loop0/integrity
-./sys/devices/virtual/block/loop0/trace
-./sys/devices/virtual/block/loop0/slaves
-./sys/devices/virtual/block/ram1
-./sys/devices/virtual/block/ram1/power
-./sys/devices/virtual/block/ram1/holders
-./sys/devices/virtual/block/ram1/queue
-./sys/devices/virtual/block/ram1/integrity
-./sys/devices/virtual/block/ram1/trace
-./sys/devices/virtual/block/ram1/slaves
-./sys/devices/virtual/block/nbd2
-./sys/devices/virtual/block/nbd2/power
-./sys/devices/virtual/block/nbd2/holders
-./sys/devices/virtual/block/nbd2/mq
-./sys/devices/virtual/block/nbd2/mq/0
-./sys/devices/virtual/block/nbd2/mq/0/cpu1
-./sys/devices/virtual/block/nbd2/mq/0/cpu0
-./sys/devices/virtual/block/nbd2/queue
-./sys/devices/virtual/block/nbd2/queue/iosched
-./sys/devices/virtual/block/nbd2/integrity
-./sys/devices/virtual/block/nbd2/trace
-./sys/devices/virtual/block/nbd2/slaves
-./sys/devices/virtual/block/nbd14
-./sys/devices/virtual/block/nbd14/power
-./sys/devices/virtual/block/nbd14/holders
-./sys/devices/virtual/block/nbd14/mq
-./sys/devices/virtual/block/nbd14/mq/0
-./sys/devices/virtual/block/nbd14/mq/0/cpu1
-./sys/devices/virtual/block/nbd14/mq/0/cpu0
-./sys/devices/virtual/block/nbd14/queue
-./sys/devices/virtual/block/nbd14/queue/iosched
-./sys/devices/virtual/block/nbd14/integrity
-./sys/devices/virtual/block/nbd14/trace
-./sys/devices/virtual/block/nbd14/slaves
-./sys/devices/virtual/block/loop7
-./sys/devices/virtual/block/loop7/power
-./sys/devices/virtual/block/loop7/holders
-./sys/devices/virtual/block/loop7/mq
-./sys/devices/virtual/block/loop7/mq/0
-./sys/devices/virtual/block/loop7/mq/0/cpu1
-./sys/devices/virtual/block/loop7/mq/0/cpu0
-./sys/devices/virtual/block/loop7/queue
-./sys/devices/virtual/block/loop7/integrity
-./sys/devices/virtual/block/loop7/trace
-./sys/devices/virtual/block/loop7/slaves
-./sys/devices/virtual/block/nbd0
-./sys/devices/virtual/block/nbd0/power
-./sys/devices/virtual/block/nbd0/holders
-./sys/devices/virtual/block/nbd0/mq
-./sys/devices/virtual/block/nbd0/mq/0
-./sys/devices/virtual/block/nbd0/mq/0/cpu1
-./sys/devices/virtual/block/nbd0/mq/0/cpu0
-./sys/devices/virtual/block/nbd0/queue
-./sys/devices/virtual/block/nbd0/queue/iosched
-./sys/devices/virtual/block/nbd0/integrity
-./sys/devices/virtual/block/nbd0/trace
-./sys/devices/virtual/block/nbd0/slaves
-./sys/devices/virtual/block/nbd12
-./sys/devices/virtual/block/nbd12/power
-./sys/devices/virtual/block/nbd12/holders
-./sys/devices/virtual/block/nbd12/mq
-./sys/devices/virtual/block/nbd12/mq/0
-./sys/devices/virtual/block/nbd12/mq/0/cpu1
-./sys/devices/virtual/block/nbd12/mq/0/cpu0
-./sys/devices/virtual/block/nbd12/queue
-./sys/devices/virtual/block/nbd12/queue/iosched
-./sys/devices/virtual/block/nbd12/integrity
-./sys/devices/virtual/block/nbd12/trace
-./sys/devices/virtual/block/nbd12/slaves
-./sys/devices/virtual/block/ram15
-./sys/devices/virtual/block/ram15/power
-./sys/devices/virtual/block/ram15/holders
-./sys/devices/virtual/block/ram15/queue
-./sys/devices/virtual/block/ram15/integrity
-./sys/devices/virtual/block/ram15/trace
-./sys/devices/virtual/block/ram15/slaves
-./sys/devices/virtual/block/ram8
-./sys/devices/virtual/block/ram8/power
-./sys/devices/virtual/block/ram8/holders
-./sys/devices/virtual/block/ram8/queue
-./sys/devices/virtual/block/ram8/integrity
-./sys/devices/virtual/block/ram8/trace
-./sys/devices/virtual/block/ram8/slaves
-./sys/devices/virtual/block/nbd9
-./sys/devices/virtual/block/nbd9/power
-./sys/devices/virtual/block/nbd9/holders
-./sys/devices/virtual/block/nbd9/mq
-./sys/devices/virtual/block/nbd9/mq/0
-./sys/devices/virtual/block/nbd9/mq/0/cpu1
-./sys/devices/virtual/block/nbd9/mq/0/cpu0
-./sys/devices/virtual/block/nbd9/queue
-./sys/devices/virtual/block/nbd9/queue/iosched
-./sys/devices/virtual/block/nbd9/integrity
-./sys/devices/virtual/block/nbd9/trace
-./sys/devices/virtual/block/nbd9/slaves
-./sys/devices/virtual/block/loop5
-./sys/devices/virtual/block/loop5/power
-./sys/devices/virtual/block/loop5/holders
-./sys/devices/virtual/block/loop5/mq
-./sys/devices/virtual/block/loop5/mq/0
-./sys/devices/virtual/block/loop5/mq/0/cpu1
-./sys/devices/virtual/block/loop5/mq/0/cpu0
-./sys/devices/virtual/block/loop5/queue
-./sys/devices/virtual/block/loop5/integrity
-./sys/devices/virtual/block/loop5/trace
-./sys/devices/virtual/block/loop5/slaves
-./sys/devices/virtual/block/nbd10
-./sys/devices/virtual/block/nbd10/power
-./sys/devices/virtual/block/nbd10/holders
-./sys/devices/virtual/block/nbd10/mq
-./sys/devices/virtual/block/nbd10/mq/0
-./sys/devices/virtual/block/nbd10/mq/0/cpu1
-./sys/devices/virtual/block/nbd10/mq/0/cpu0
-./sys/devices/virtual/block/nbd10/queue
-./sys/devices/virtual/block/nbd10/queue/iosched
-./sys/devices/virtual/block/nbd10/integrity
-./sys/devices/virtual/block/nbd10/trace
-./sys/devices/virtual/block/nbd10/slaves
-./sys/devices/virtual/block/ram13
-./sys/devices/virtual/block/ram13/power
-./sys/devices/virtual/block/ram13/holders
-./sys/devices/virtual/block/ram13/queue
-./sys/devices/virtual/block/ram13/integrity
-./sys/devices/virtual/block/ram13/trace
-./sys/devices/virtual/block/ram13/slaves
-./sys/devices/virtual/block/ram6
-./sys/devices/virtual/block/ram6/power
-./sys/devices/virtual/block/ram6/holders
-./sys/devices/virtual/block/ram6/queue
-./sys/devices/virtual/block/ram6/integrity
-./sys/devices/virtual/block/ram6/trace
-./sys/devices/virtual/block/ram6/slaves
-./sys/devices/virtual/block/nbd7
-./sys/devices/virtual/block/nbd7/power
-./sys/devices/virtual/block/nbd7/holders
-./sys/devices/virtual/block/nbd7/mq
-./sys/devices/virtual/block/nbd7/mq/0
-./sys/devices/virtual/block/nbd7/mq/0/cpu1
-./sys/devices/virtual/block/nbd7/mq/0/cpu0
-./sys/devices/virtual/block/nbd7/queue
-./sys/devices/virtual/block/nbd7/queue/iosched
-./sys/devices/virtual/block/nbd7/integrity
-./sys/devices/virtual/block/nbd7/trace
-./sys/devices/virtual/block/nbd7/slaves
-./sys/devices/virtual/block/loop3
-./sys/devices/virtual/block/loop3/power
-./sys/devices/virtual/block/loop3/holders
-./sys/devices/virtual/block/loop3/mq
-./sys/devices/virtual/block/loop3/mq/0
-./sys/devices/virtual/block/loop3/mq/0/cpu1
-./sys/devices/virtual/block/loop3/mq/0/cpu0
-./sys/devices/virtual/block/loop3/queue
-./sys/devices/virtual/block/loop3/integrity
-./sys/devices/virtual/block/loop3/trace
-./sys/devices/virtual/block/loop3/slaves
-./sys/devices/virtual/block/ram11
-./sys/devices/virtual/block/ram11/power
-./sys/devices/virtual/block/ram11/holders
-./sys/devices/virtual/block/ram11/queue
-./sys/devices/virtual/block/ram11/integrity
-./sys/devices/virtual/block/ram11/trace
-./sys/devices/virtual/block/ram11/slaves
-./sys/devices/virtual/block/ram4
-./sys/devices/virtual/block/ram4/power
-./sys/devices/virtual/block/ram4/holders
-./sys/devices/virtual/block/ram4/queue
-./sys/devices/virtual/block/ram4/integrity
-./sys/devices/virtual/block/ram4/trace
-./sys/devices/virtual/block/ram4/slaves
-./sys/devices/virtual/block/nbd5
-./sys/devices/virtual/block/nbd5/power
-./sys/devices/virtual/block/nbd5/holders
-./sys/devices/virtual/block/nbd5/mq
-./sys/devices/virtual/block/nbd5/mq/0
-./sys/devices/virtual/block/nbd5/mq/0/cpu1
-./sys/devices/virtual/block/nbd5/mq/0/cpu0
-./sys/devices/virtual/block/nbd5/queue
-./sys/devices/virtual/block/nbd5/queue/iosched
-./sys/devices/virtual/block/nbd5/integrity
-./sys/devices/virtual/block/nbd5/trace
-./sys/devices/virtual/block/nbd5/slaves
-./sys/devices/virtual/input
-./sys/devices/virtual/input/mice
-./sys/devices/virtual/input/mice/power
-./sys/devices/virtual/msr
-./sys/devices/virtual/msr/msr1
-./sys/devices/virtual/msr/msr1/power
-./sys/devices/virtual/msr/msr0
-./sys/devices/virtual/msr/msr0/power
-./sys/devices/virtual/xt_idletimer
-./sys/devices/virtual/xt_idletimer/timers
-./sys/devices/virtual/xt_idletimer/timers/power
-./sys/devices/virtual/vc
-./sys/devices/virtual/vc/vcsu1
-./sys/devices/virtual/vc/vcsu1/power
-./sys/devices/virtual/vc/vcsa1
-./sys/devices/virtual/vc/vcsa1/power
-./sys/devices/virtual/vc/vcsu
-./sys/devices/virtual/vc/vcsu/power
-./sys/devices/virtual/vc/vcs
-./sys/devices/virtual/vc/vcs/power
-./sys/devices/virtual/vc/vcsa
-./sys/devices/virtual/vc/vcsa/power
-./sys/devices/virtual/vc/vcs1
-./sys/devices/virtual/vc/vcs1/power
-./sys/devices/virtual/workqueue
-./sys/devices/virtual/workqueue/nvme-delete-wq
-./sys/devices/virtual/workqueue/nvme-delete-wq/power
-./sys/devices/virtual/workqueue/blkcg_punt_bio
-./sys/devices/virtual/workqueue/blkcg_punt_bio/power
-./sys/devices/virtual/workqueue/power
-./sys/devices/virtual/workqueue/writeback
-./sys/devices/virtual/workqueue/writeback/power
-./sys/devices/virtual/workqueue/nvme-reset-wq
-./sys/devices/virtual/workqueue/nvme-reset-wq/power
-./sys/devices/virtual/workqueue/nvme-wq
-./sys/devices/virtual/workqueue/nvme-wq/power
-./sys/devices/tracepoint
-./sys/devices/tracepoint/power
-./sys/devices/kprobe
-./sys/devices/kprobe/format
-./sys/devices/kprobe/power
-./sys/devices/LNXSYSTM:00
-./sys/devices/LNXSYSTM:00/LNXCPU:01
-./sys/devices/LNXSYSTM:00/LNXCPU:01/power
-./sys/devices/LNXSYSTM:00/power
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/power
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/wakeup
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/wakeup/wakeup1
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/power
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/wakeup
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/wakeup/wakeup0
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/power
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/PNP0B00:00
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/PNP0B00:00/power
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/PNP0100:00
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/PNP0100:00/power
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:00
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:00/power
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0103:00
-./sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0103:00/power
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/wakeup
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/wakeup/wakeup2
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/power
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/input
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/capabilities
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/power
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/id
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0
-./sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0/power
-./sys/devices/LNXSYSTM:00/LNXCPU:00
-./sys/devices/LNXSYSTM:00/LNXCPU:00/power
-./sys/devices/LNXSYSTM:00/LNXSYBUS:01
-./sys/devices/LNXSYSTM:00/LNXSYBUS:01/power
-./sys/devices/msr
-./sys/devices/msr/format
-./sys/devices/msr/power
-./sys/devices/msr/events
-./sys/dev
-./sys/dev/char
-./sys/dev/block
-./sys/hypervisor
-./sys/fs
-./sys/fs/9p
-./sys/fs/pstore
-./sys/fs/bpf
-./sys/fs/fuse
-./sys/fs/fuse/connections
-./sys/fs/ext4
-./sys/fs/ext4/vda1
-./sys/fs/ext4/features
-./sys/fs/xfs
-./sys/fs/xfs/stats
-./sys/fs/cgroup
-./sys/fs/nfs
-./sys/fs/nfs/net
-./sys/fs/nfs/net/nfs_client
-./sys/bus
-./sys/bus/xen
-./sys/bus/xen/devices
-./sys/bus/xen/drivers
-./sys/bus/serio
-./sys/bus/serio/devices
-./sys/bus/serio/drivers
-./sys/bus/serio/drivers/serio_raw
-./sys/bus/serio/drivers/atkbd
-./sys/bus/nd
-./sys/bus/nd/devices
-./sys/bus/nd/drivers
-./sys/bus/nd/drivers/nd_region
-./sys/bus/nd/drivers/nd_pmem
-./sys/bus/nd/drivers/nd_blk
-./sys/bus/nd/drivers/nd_bus
-./sys/bus/nd/drivers/nvdimm
-./sys/bus/platform
-./sys/bus/platform/devices
-./sys/bus/platform/drivers
-./sys/bus/platform/drivers/tpm_tis
-./sys/bus/platform/drivers/clk-pmc-atom
-./sys/bus/platform/drivers/virtio-mmio
-./sys/bus/platform/drivers/timeriomem_rng
-./sys/bus/platform/drivers/acpi-fan
-./sys/bus/platform/drivers/acpi-ged
-./sys/bus/platform/drivers/vesa-framebuffer
-./sys/bus/platform/drivers/efi-framebuffer
-./sys/bus/platform/drivers/alarmtimer
-./sys/bus/platform/drivers/gpio-clk
-./sys/bus/platform/drivers/sm501
-./sys/bus/platform/drivers/sata_mv
-./sys/bus/platform/drivers/serial8250
-./sys/bus/platform/drivers/pcspkr
-./sys/bus/pci
-./sys/bus/pci/slots
-./sys/bus/pci/devices
-./sys/bus/pci/drivers
-./sys/bus/pci/drivers/ata_piix
-./sys/bus/pci/drivers/sata_promise
-./sys/bus/pci/drivers/shpchp
-./sys/bus/pci/drivers/mptspi
-./sys/bus/pci/drivers/sata_uli
-./sys/bus/pci/drivers/sata_sil
-./sys/bus/pci/drivers/pcips2
-./sys/bus/pci/drivers/vx855
-./sys/bus/pci/drivers/ahci
-./sys/bus/pci/drivers/xen-platform-pci
-./sys/bus/pci/drivers/vmw_pvscsi
-./sys/bus/pci/drivers/sata_via
-./sys/bus/pci/drivers/lpc_sch
-./sys/bus/pci/drivers/nvme
-./sys/bus/pci/drivers/sata_vsc
-./sys/bus/pci/drivers/ata_generic
-./sys/bus/pci/drivers/8250_lpss
-./sys/bus/pci/drivers/pcieport
-./sys/bus/pci/drivers/intel ips
-./sys/bus/pci/drivers/lpc_ich
-./sys/bus/pci/drivers/pci-stub
-./sys/bus/pci/drivers/pata_sis
-./sys/bus/pci/drivers/virtio-pci
-./sys/bus/pci/drivers/sata_svw
-./sys/bus/pci/drivers/vmxnet3
-./sys/bus/pci/drivers/sm501
-./sys/bus/pci/drivers/sata_nv
-./sys/bus/pci/drivers/sata_sis
-./sys/bus/pci/drivers/serial
-./sys/bus/pci/drivers/sata_mv
-./sys/bus/pci/drivers/exar_serial
-./sys/bus/cpu
-./sys/bus/cpu/devices
-./sys/bus/cpu/drivers
-./sys/bus/cpu/drivers/processor
-./sys/bus/dax
-./sys/bus/dax/devices
-./sys/bus/dax/drivers
-./sys/bus/dax/drivers/kmem
-./sys/bus/dax/drivers/device_dax
-./sys/bus/scsi
-./sys/bus/scsi/devices
-./sys/bus/scsi/drivers
-./sys/bus/scsi/drivers/sr
-./sys/bus/scsi/drivers/sd
-./sys/bus/mdio_bus
-./sys/bus/mdio_bus/devices
-./sys/bus/mdio_bus/drivers
-./sys/bus/mdio_bus/drivers/Generic PHY
-./sys/bus/mdio_bus/drivers/Generic Clause 45 PHY
-./sys/bus/hid
-./sys/bus/hid/devices
-./sys/bus/hid/drivers
-./sys/bus/hid/drivers/hid-generic
-./sys/bus/pci_express
-./sys/bus/pci_express/devices
-./sys/bus/pci_express/drivers
-./sys/bus/pci_express/drivers/pciehp
-./sys/bus/pci_express/drivers/pcie_pme
-./sys/bus/pnp
-./sys/bus/pnp/devices
-./sys/bus/pnp/drivers
-./sys/bus/pnp/drivers/tpm_tis
-./sys/bus/pnp/drivers/rtc_cmos
-./sys/bus/pnp/drivers/system
-./sys/bus/pnp/drivers/serial
-./sys/bus/auxiliary
-./sys/bus/auxiliary/devices
-./sys/bus/auxiliary/drivers
-./sys/bus/container
-./sys/bus/container/devices
-./sys/bus/container/drivers
-./sys/bus/clockevents
-./sys/bus/clockevents/devices
-./sys/bus/clockevents/drivers
-./sys/bus/usb
-./sys/bus/usb/devices
-./sys/bus/usb/drivers
-./sys/bus/usb/drivers/usbhid
-./sys/bus/usb/drivers/usb
-./sys/bus/usb/drivers/hub
-./sys/bus/usb/drivers/usbfs
-./sys/bus/event_source
-./sys/bus/event_source/devices
-./sys/bus/event_source/drivers
-./sys/bus/nvmem
-./sys/bus/nvmem/devices
-./sys/bus/nvmem/drivers
-./sys/bus/acpi
-./sys/bus/acpi/devices
-./sys/bus/acpi/drivers
-./sys/bus/acpi/drivers/thermal
-./sys/bus/acpi/drivers/Atlas ACPI
-./sys/bus/acpi/drivers/battery
-./sys/bus/acpi/drivers/ac
-./sys/bus/acpi/drivers/sbs
-./sys/bus/acpi/drivers/hardware_error_device
-./sys/bus/acpi/drivers/tpm_crb
-./sys/bus/acpi/drivers/smbus_hc
-./sys/bus/acpi/drivers/hpet
-./sys/bus/acpi/drivers/nfit
-./sys/bus/acpi/drivers/button
-./sys/bus/acpi/drivers/ec
-./sys/bus/clocksource
-./sys/bus/clocksource/devices
-./sys/bus/clocksource/drivers
-./sys/bus/virtio
-./sys/bus/virtio/devices
-./sys/bus/virtio/drivers
-./sys/bus/virtio/drivers/virtio_rng
-./sys/bus/virtio/drivers/virtio_console
-./sys/bus/virtio/drivers/virtio_balloon
-./sys/bus/virtio/drivers/virtio_scsi
-./sys/bus/virtio/drivers/virtiofs
-./sys/bus/virtio/drivers/9pnet_virtio
-./sys/bus/virtio/drivers/vmw_vsock_virtio_transport
-./sys/bus/virtio/drivers/virtio_input
-./sys/bus/virtio/drivers/virtio_mem
-./sys/bus/virtio/drivers/virtio_rproc_serial
-./sys/bus/virtio/drivers/virtio_blk
-./sys/bus/virtio/drivers/virtio_net
-./sys/bus/workqueue
-./sys/bus/workqueue/devices
-./sys/bus/workqueue/drivers
-./sys/bus/i2c
-./sys/bus/i2c/devices
-./sys/bus/i2c/drivers
-./sys/bus/i2c/drivers/dummy
-./sys/bus/i2c/drivers/wl1273-fm
-./sys/bus/memory
-./sys/bus/memory/devices
-./sys/bus/memory/drivers
-./sys/firmware
-./sys/block
-./sys/module
-./sys/module/thermal
-./sys/module/thermal/parameters
-./sys/module/efi_pstore
-./sys/module/efi_pstore/parameters
-./sys/module/xen_gntdev
-./sys/module/xen_gntdev/parameters
-./sys/module/cpuidle
-./sys/module/cpuidle/parameters
-./sys/module/cryptomgr
-./sys/module/cryptomgr/parameters
-./sys/module/tpm_tis
-./sys/module/tpm_tis/parameters
-./sys/module/dns_resolver
-./sys/module/dns_resolver/parameters
-./sys/module/spurious
-./sys/module/spurious/parameters
-./sys/module/ata_piix
-./sys/module/ata_piix/drivers
-./sys/module/battery
-./sys/module/battery/parameters
-./sys/module/vt
-./sys/module/vt/parameters
-./sys/module/efivars
-./sys/module/nf_conntrack
-./sys/module/nf_conntrack/parameters
-./sys/module/mptbase
-./sys/module/mptbase/parameters
-./sys/module/libahci
-./sys/module/libahci/parameters
-./sys/module/hv_balloon
-./sys/module/hv_balloon/parameters
-./sys/module/tcp_cubic
-./sys/module/tcp_cubic/parameters
-./sys/module/virtio_mmio
-./sys/module/virtio_mmio/parameters
-./sys/module/nmi_backtrace
-./sys/module/nmi_backtrace/parameters
-./sys/module/xen
-./sys/module/xen/parameters
-./sys/module/8250
-./sys/module/8250/parameters
-./sys/module/sata_promise
-./sys/module/sata_promise/drivers
-./sys/module/shpchp
-./sys/module/shpchp/parameters
-./sys/module/shpchp/drivers
-./sys/module/srcutree
-./sys/module/srcutree/parameters
-./sys/module/rcupdate
-./sys/module/rcupdate/parameters
-./sys/module/xen_blkfront
-./sys/module/xen_blkfront/parameters
-./sys/module/random
-./sys/module/random/parameters
-./sys/module/rtc_cmos
-./sys/module/rtc_cmos/parameters
-./sys/module/hv_netvsc
-./sys/module/hv_netvsc/parameters
-./sys/module/cifs
-./sys/module/cifs/parameters
-./sys/module/mptspi
-./sys/module/mptspi/drivers
-./sys/module/sata_uli
-./sys/module/sata_uli/drivers
-./sys/module/bridge
-./sys/module/nf_conntrack_tftp
-./sys/module/nf_conntrack_tftp/parameters
-./sys/module/xen_acpi_processor
-./sys/module/xen_acpi_processor/parameters
-./sys/module/shiftfs
-./sys/module/shiftfs/notes
-./sys/module/shiftfs/holders
-./sys/module/shiftfs/sections
-./sys/module/pstore
-./sys/module/pstore/parameters
-./sys/module/sysrq
-./sys/module/sysrq/parameters
-./sys/module/vmw_vsock_virtio_transport_common
-./sys/module/vmw_vsock_virtio_transport_common/notes
-./sys/module/vmw_vsock_virtio_transport_common/holders
-./sys/module/vmw_vsock_virtio_transport_common/sections
-./sys/module/acpi_cpufreq
-./sys/module/acpi_cpufreq/parameters
-./sys/module/overlay
-./sys/module/overlay/parameters
-./sys/module/sata_sil
-./sys/module/sata_sil/parameters
-./sys/module/sata_sil/drivers
-./sys/module/nfsd
-./sys/module/nfsd/notes
-./sys/module/nfsd/parameters
-./sys/module/nfsd/holders
-./sys/module/nfsd/sections
-./sys/module/processor
-./sys/module/processor/parameters
-./sys/module/scsi_mod
-./sys/module/scsi_mod/parameters
-./sys/module/kernel
-./sys/module/kernel/parameters
-./sys/module/dm_thin_pool
-./sys/module/dm_thin_pool/parameters
-./sys/module/8250_core
-./sys/module/8250_core/parameters
-./sys/module/842_compress
-./sys/module/842_compress/parameters
-./sys/module/mousedev
-./sys/module/mousedev/parameters
-./sys/module/grace
-./sys/module/grace/notes
-./sys/module/grace/holders
-./sys/module/grace/sections
-./sys/module/usbhid
-./sys/module/usbhid/parameters
-./sys/module/usbhid/drivers
-./sys/module/vsock
-./sys/module/vsock/notes
-./sys/module/vsock/holders
-./sys/module/vsock/sections
-./sys/module/ahci
-./sys/module/ahci/parameters
-./sys/module/ahci/drivers
-./sys/module/vmw_pvscsi
-./sys/module/vmw_pvscsi/parameters
-./sys/module/vmw_pvscsi/drivers
-./sys/module/hv_vmbus
-./sys/module/hv_vmbus/parameters
-./sys/module/pciehp
-./sys/module/pciehp/parameters
-./sys/module/pci_hotplug
-./sys/module/pci_hotplug/parameters
-./sys/module/sbs
-./sys/module/sbs/parameters
-./sys/module/sata_via
-./sys/module/sata_via/parameters
-./sys/module/sata_via/drivers
-./sys/module/nvme
-./sys/module/nvme/parameters
-./sys/module/nvme/drivers
-./sys/module/hangcheck_timer
-./sys/module/ipip
-./sys/module/ipip/parameters
-./sys/module/nf_conntrack_netbios_ns
-./sys/module/nf_conntrack_netbios_ns/parameters
-./sys/module/auth_rpcgss
-./sys/module/auth_rpcgss/notes
-./sys/module/auth_rpcgss/parameters
-./sys/module/auth_rpcgss/holders
-./sys/module/auth_rpcgss/sections
-./sys/module/pcc_cpufreq
-./sys/module/nf_conntrack_sane
-./sys/module/nf_conntrack_sane/parameters
-./sys/module/xt_recent
-./sys/module/xt_recent/parameters
-./sys/module/sata_vsc
-./sys/module/sata_vsc/drivers
-./sys/module/ata_generic
-./sys/module/ata_generic/drivers
-./sys/module/intel_idle
-./sys/module/intel_idle/parameters
-./sys/module/hv_storvsc
-./sys/module/hv_storvsc/parameters
-./sys/module/8021q
-./sys/module/keyboard
-./sys/module/keyboard/parameters
-./sys/module/nf_conntrack_sip
-./sys/module/nf_conntrack_sip/parameters
-./sys/module/netfs
-./sys/module/netfs/parameters
-./sys/module/memory_hotplug
-./sys/module/memory_hotplug/parameters
-./sys/module/virtio_pci_modern_dev
-./sys/module/fakeowner
-./sys/module/fakeowner/notes
-./sys/module/fakeowner/holders
-./sys/module/fakeowner/sections
-./sys/module/tpm_crb
-./sys/module/xfrm_algo
-./sys/module/xfrm_algo/notes
-./sys/module/xfrm_algo/holders
-./sys/module/xfrm_algo/sections
-./sys/module/fb
-./sys/module/fb/parameters
-./sys/module/page_reporting
-./sys/module/page_reporting/parameters
-./sys/module/hid
-./sys/module/hid/parameters
-./sys/module/brd
-./sys/module/brd/parameters
-./sys/module/usbcore
-./sys/module/usbcore/parameters
-./sys/module/usbcore/drivers
-./sys/module/ip6_tunnel
-./sys/module/ip6_tunnel/parameters
-./sys/module/nf_conntrack_h323
-./sys/module/nf_conntrack_h323/parameters
-./sys/module/xen_gntalloc
-./sys/module/xen_gntalloc/parameters
-./sys/module/blk_cgroup
-./sys/module/blk_cgroup/parameters
-./sys/module/nvme_core
-./sys/module/nvme_core/parameters
-./sys/module/pcie_aspm
-./sys/module/pcie_aspm/parameters
-./sys/module/secretmem
-./sys/module/secretmem/parameters
-./sys/module/libnvdimm
-./sys/module/libnvdimm/parameters
-./sys/module/libnvdimm/drivers
-./sys/module/vmw_vsock_virtio_transport
-./sys/module/vmw_vsock_virtio_transport/notes
-./sys/module/vmw_vsock_virtio_transport/holders
-./sys/module/vmw_vsock_virtio_transport/drivers
-./sys/module/vmw_vsock_virtio_transport/sections
-./sys/module/cpufreq
-./sys/module/cpufreq/parameters
-./sys/module/xen_netfront
-./sys/module/xen_netfront/parameters
-./sys/module/lockd
-./sys/module/lockd/notes
-./sys/module/lockd/parameters
-./sys/module/lockd/holders
-./sys/module/lockd/sections
-./sys/module/ipv6
-./sys/module/ipv6/parameters
-./sys/module/sunrpc
-./sys/module/sunrpc/notes
-./sys/module/sunrpc/parameters
-./sys/module/sunrpc/holders
-./sys/module/sunrpc/sections
-./sys/module/nf_conntrack_irc
-./sys/module/nf_conntrack_irc/parameters
-./sys/module/cachefiles
-./sys/module/cachefiles/parameters
-./sys/module/slab_common
-./sys/module/slab_common/parameters
-./sys/module/pata_sis
-./sys/module/pata_sis/drivers
-./sys/module/crc_t10dif
-./sys/module/crc_t10dif/parameters
-./sys/module/fuse
-./sys/module/fuse/parameters
-./sys/module/acpiphp
-./sys/module/acpiphp/parameters
-./sys/module/nf_conntrack_amanda
-./sys/module/nf_conntrack_amanda/parameters
-./sys/module/grpcfuse
-./sys/module/grpcfuse/notes
-./sys/module/grpcfuse/holders
-./sys/module/grpcfuse/sections
-./sys/module/sata_svw
-./sys/module/sata_svw/drivers
-./sys/module/loop
-./sys/module/loop/parameters
-./sys/module/tpm_tis_core
-./sys/module/vmxnet3
-./sys/module/vmxnet3/drivers
-./sys/module/virtio_mem
-./sys/module/virtio_mem/parameters
-./sys/module/rcutree
-./sys/module/rcutree/parameters
-./sys/module/nfit
-./sys/module/nfit/parameters
-./sys/module/ip_set
-./sys/module/ip_set/parameters
-./sys/module/button
-./sys/module/button/parameters
-./sys/module/ima
-./sys/module/ima/parameters
-./sys/module/nf_conntrack_ftp
-./sys/module/nf_conntrack_ftp/parameters
-./sys/module/mptscsih
-./sys/module/block
-./sys/module/block/parameters
-./sys/module/sata_nv
-./sys/module/sata_nv/parameters
-./sys/module/sata_nv/drivers
-./sys/module/sata_sis
-./sys/module/sata_sis/drivers
-./sys/module/dm_snapshot
-./sys/module/dm_snapshot/parameters
-./sys/module/xz_dec
-./sys/module/sata_mv
-./sys/module/sata_mv/parameters
-./sys/module/sata_mv/drivers
-./sys/module/virtio_pci
-./sys/module/virtio_pci/parameters
-./sys/module/virtio_pci/drivers
-./sys/module/842_decompress
-./sys/module/842_decompress/parameters
-./sys/module/fscache
-./sys/module/fscache/parameters
-./sys/module/dm_mod
-./sys/module/dm_mod/parameters
-./sys/module/cpuidle_haltpoll
-./sys/module/cpuidle_haltpoll/parameters
-./sys/module/libata
-./sys/module/libata/parameters
-./sys/module/sg
-./sys/module/sg/parameters
-./sys/module/i8042
-./sys/module/i8042/parameters
-./sys/module/nf_conntrack_snmp
-./sys/module/nf_conntrack_snmp/parameters
-./sys/module/nbd
-./sys/module/nbd/parameters
-./sys/module/msr
-./sys/module/msr/parameters
-./sys/module/firmware_class
-./sys/module/firmware_class/parameters
-./sys/module/xfrm_user
-./sys/module/xfrm_user/notes
-./sys/module/xfrm_user/holders
-./sys/module/xfrm_user/sections
-./sys/module/acpi
-./sys/module/acpi/parameters
-./sys/module/clocksource
-./sys/module/clocksource/parameters
-./sys/module/fscrypto
-./sys/module/fscrypto/parameters
-./sys/module/rng_core
-./sys/module/rng_core/parameters
-./sys/module/printk
-./sys/module/printk/parameters
-./sys/module/xen_kbdfront
-./sys/module/xen_kbdfront/parameters
-./sys/module/vxlan
-./sys/module/vxlan/parameters
-./sys/module/xen_privcmd
-./sys/module/xen_privcmd/parameters
-./sys/module/virtio_blk
-./sys/module/virtio_blk/parameters
-./sys/module/ip_vs
-./sys/module/ip_vs/parameters
-./sys/module/nfs
-./sys/module/nfs/notes
-./sys/module/nfs/parameters
-./sys/module/nfs/holders
-./sys/module/nfs/sections
-./sys/module/dm_bufio
-./sys/module/dm_bufio/parameters
-./sys/module/virtio_net
-./sys/module/virtio_net/parameters
-./sys/module/workqueue
-./sys/module/workqueue/parameters
-./sys/module/tpm
-./sys/module/tpm/parameters
-./sys/module/sr_mod
-./sys/module/sr_mod/parameters
-./sys/module/ip_vs_ftp
-./sys/module/ip_vs_ftp/parameters
-./mnt
-./etc
-./etc/rc3.d
-./etc/update-motd.d
-./etc/pam.d
-./etc/kernel
-./etc/kernel/postinst.d
-./etc/default
-./etc/sysctl.d
-./etc/apt
-./etc/apt/preferences.d
-./etc/apt/apt.conf.d
-./etc/apt/trusted.gpg.d
-./etc/apt/auth.conf.d
-./etc/apt/keyrings
-./etc/apt/sources.list.d
-./etc/dpkg
-./etc/dpkg/origins
-./etc/dpkg/dpkg.cfg.d
-./etc/logrotate.d
-./etc/selinux
-./etc/rc4.d
-./etc/cloud
-./etc/skel
-./etc/rc5.d
-./etc/init.d
-./etc/cron.d
-./etc/gss
-./etc/gss/mech.d
-./etc/rcS.d
-./etc/profile.d
-./etc/rc1.d
-./etc/rc2.d
-./etc/systemd
-./etc/systemd/system
-./etc/systemd/system/multi-user.target.wants
-./etc/systemd/system/timers.target.wants
-./etc/systemd/user
-./etc/alternatives
-./etc/opt
-./etc/cron.daily
-./etc/rc6.d
-./etc/security
-./etc/security/namespace.d
-./etc/security/limits.d
-./etc/ld.so.conf.d
-./etc/rc0.d
-./etc/terminfo
-./etc/python3.10
-./etc/sudoers.d
-./etc/ldap
-./etc/ssl
-./etc/ssl/certs
-./etc/ssl/private
-./etc/ca-certificates
-./etc/ca-certificates/update.d
-./etc/logcheck
-./etc/logcheck/ignore.d.server
-./etc/vim
-./proc
-./proc/fs
-./proc/fs/nfs
-./proc/fs/xfs
-./proc/fs/cifs
-./proc/fs/ext4
-./proc/fs/ext4/vda1
-./proc/fs/jbd2
-./proc/fs/jbd2/vda1-8
-./proc/fs/nfsd
-./proc/fs/lockd
-./proc/fs/nfsfs
-./proc/fs/fscache
-./proc/bus
-./proc/bus/pci
-./proc/bus/pci/00
-./proc/bus/input
-./proc/irq
-./proc/irq/0
-./proc/irq/1
-./proc/irq/2
-./proc/irq/3
-./proc/irq/4
-./proc/irq/5
-./proc/irq/6
-./proc/irq/7
-./proc/irq/8
-./proc/irq/8/rtc0
-./proc/irq/9
-./proc/irq/9/acpi
-./proc/irq/10
-./proc/irq/11
-./proc/irq/12
-./proc/irq/13
-./proc/irq/14
-./proc/irq/15
-./proc/irq/24
-./proc/irq/24/virtio1-config
-./proc/irq/25
-./proc/irq/25/virtio1-input
-./proc/irq/26
-./proc/irq/26/virtio1-output
-./proc/irq/27
-./proc/irq/27/virtio4-config
-./proc/irq/28
-./proc/irq/28/virtio4-input
-./proc/irq/29
-./proc/irq/29/virtio2-config
-./proc/irq/30
-./proc/irq/30/virtio2-req.0
-./proc/irq/31
-./proc/irq/31/virtio0-config
-./proc/irq/32
-./proc/irq/32/virtio0-input.0
-./proc/irq/33
-./proc/irq/33/virtio0-output.0
-./proc/irq/34
-./proc/irq/34/virtio3-config
-./proc/irq/35
-./proc/irq/35/virtio3-rx
-./proc/irq/36
-./proc/irq/36/virtio3-tx
-./proc/irq/37
-./proc/irq/37/virtio3-event
-./proc/mpt
-./proc/sys
-./proc/sys/abi
-./proc/sys/debug
-./proc/sys/dev
-./proc/sys/dev/cdrom
-./proc/sys/dev/hpet
-./proc/sys/dev/scsi
-./proc/sys/dev/tty
-./proc/sys/fs
-./proc/sys/fs/binfmt_misc
-./proc/sys/fs/epoll
-./proc/sys/fs/fanotify
-./proc/sys/fs/inotify
-./proc/sys/fs/mqueue
-./proc/sys/fs/nfs
-./proc/sys/fs/quota
-./proc/sys/fs/xfs
-./proc/sys/fscache
-./proc/sys/kernel
-./proc/sys/kernel/keys
-./proc/sys/kernel/pty
-./proc/sys/kernel/random
-./proc/sys/kernel/seccomp
-./proc/sys/kernel/usermodehelper
-./proc/sys/kernel/yama
-./proc/sys/net
-./proc/sys/net/bridge
-./proc/sys/net/core
-./proc/sys/net/ipv4
-./proc/sys/net/ipv4/conf
-./proc/sys/net/ipv4/conf/all
-./proc/sys/net/ipv4/conf/default
-./proc/sys/net/ipv4/conf/eth0
-./proc/sys/net/ipv4/conf/ip6tnl0
-./proc/sys/net/ipv4/conf/lo
-./proc/sys/net/ipv4/conf/tunl0
-./proc/sys/net/ipv4/neigh
-./proc/sys/net/ipv4/neigh/eth0
-./proc/sys/net/ipv4/neigh/ip6tnl0
-./proc/sys/net/ipv4/neigh/lo
-./proc/sys/net/ipv4/neigh/tunl0
-./proc/sys/net/ipv4/route
-./proc/sys/net/ipv4/vs
-./proc/sys/net/ipv6
-./proc/sys/net/ipv6/conf
-./proc/sys/net/ipv6/conf/all
-./proc/sys/net/ipv6/conf/default
-./proc/sys/net/ipv6/conf/eth0
-./proc/sys/net/ipv6/conf/ip6tnl0
-./proc/sys/net/ipv6/conf/lo
-./proc/sys/net/ipv6/icmp
-./proc/sys/net/ipv6/neigh
-./proc/sys/net/ipv6/neigh/eth0
-./proc/sys/net/ipv6/neigh/ip6tnl0
-./proc/sys/net/ipv6/neigh/lo
-./proc/sys/net/ipv6/route
-./proc/sys/net/netfilter
-./proc/sys/net/netfilter/nf_log
-./proc/sys/net/unix
-./proc/sys/sunrpc
-./proc/sys/user
-./proc/sys/vm
-./proc/tty
-./proc/tty/ldisc
-./proc/tty/driver
-./proc/acpi
-./proc/docker
-./proc/driver
-./proc/sysvipc
-./proc/1
-./proc/1/task
-./proc/1/task/1
-./proc/1/task/1/fd
-./proc/1/task/1/fdinfo
-./proc/1/task/1/ns
-./proc/1/task/1/net
-./proc/1/task/1/net/rpc
-./proc/1/task/1/net/rpc/nfsd.fh
-./proc/1/task/1/net/rpc/nfsd.export
-./proc/1/task/1/net/rpc/auth.unix.ip
-./proc/1/task/1/net/rpc/auth.unix.gid
-./proc/1/task/1/net/rpc/nfs4.idtoname
-./proc/1/task/1/net/rpc/nfs4.nametoid
-./proc/1/task/1/net/rpc/auth.rpcsec.init
-./proc/1/task/1/net/rpc/auth.rpcsec.context
-./proc/1/task/1/net/stat
-./proc/1/task/1/net/vlan
-./proc/1/task/1/net/nfsfs
-./proc/1/task/1/net/dev_snmp6
-./proc/1/task/1/net/netfilter
-./proc/1/task/1/net/xt_recent
-./proc/1/task/1/net/ipt_CLUSTERIP
-./proc/1/task/1/net/ipt_hashlimit
-./proc/1/task/1/net/ip6t_hashlimit
-./proc/1/task/1/attr
-./proc/1/fd
-./proc/1/map_files
-./proc/1/fdinfo
-./proc/1/ns
-./proc/1/net
-./proc/1/net/rpc
-./proc/1/net/rpc/nfsd.fh
-./proc/1/net/rpc/nfsd.export
-./proc/1/net/rpc/auth.unix.ip
-./proc/1/net/rpc/auth.unix.gid
-./proc/1/net/rpc/nfs4.idtoname
-./proc/1/net/rpc/nfs4.nametoid
-./proc/1/net/rpc/auth.rpcsec.init
-./proc/1/net/rpc/auth.rpcsec.context
-./proc/1/net/stat
-./proc/1/net/vlan
-./proc/1/net/nfsfs
-./proc/1/net/dev_snmp6
-./proc/1/net/netfilter
-./proc/1/net/xt_recent
-./proc/1/net/ipt_CLUSTERIP
-./proc/1/net/ipt_hashlimit
-./proc/1/net/ip6t_hashlimit
-./proc/1/attr
-./proc/29
-./proc/29/task
-./proc/29/task/29
-./proc/29/task/29/fd
-./proc/29/task/29/fdinfo
-./proc/29/task/29/ns
-./proc/29/task/29/net
-./proc/29/task/29/net/rpc
-./proc/29/task/29/net/rpc/nfsd.fh
-./proc/29/task/29/net/rpc/nfsd.export
-./proc/29/task/29/net/rpc/auth.unix.ip
-./proc/29/task/29/net/rpc/auth.unix.gid
-./proc/29/task/29/net/rpc/nfs4.idtoname
-./proc/29/task/29/net/rpc/nfs4.nametoid
-./proc/29/task/29/net/rpc/auth.rpcsec.init
-./proc/29/task/29/net/rpc/auth.rpcsec.context
-./proc/29/task/29/net/stat
-./proc/29/task/29/net/vlan
-./proc/29/task/29/net/nfsfs
-./proc/29/task/29/net/dev_snmp6
-./proc/29/task/29/net/netfilter
-./proc/29/task/29/net/xt_recent
-./proc/29/task/29/net/ipt_CLUSTERIP
-./proc/29/task/29/net/ipt_hashlimit
-./proc/29/task/29/net/ip6t_hashlimit
-./proc/29/task/29/attr
-./proc/29/fd
-./proc/29/map_files
-./proc/29/fdinfo
-./proc/29/ns
-./proc/29/net
-./proc/29/net/rpc
-./proc/29/net/rpc/nfsd.fh
-./proc/29/net/rpc/nfsd.export
-./proc/29/net/rpc/auth.unix.ip
-./proc/29/net/rpc/auth.unix.gid
-./proc/29/net/rpc/nfs4.idtoname
-./proc/29/net/rpc/nfs4.nametoid
-./proc/29/net/rpc/auth.rpcsec.init
-./proc/29/net/rpc/auth.rpcsec.context
-./proc/29/net/stat
-./proc/29/net/vlan
-./proc/29/net/nfsfs
-./proc/29/net/dev_snmp6
-./proc/29/net/netfilter
-./proc/29/net/xt_recent
-./proc/29/net/ipt_CLUSTERIP
-./proc/29/net/ipt_hashlimit
-./proc/29/net/ip6t_hashlimit
-./proc/29/attr
-./proc/30
-./proc/30/task
-./proc/30/task/30
-./proc/30/task/30/fd
-./proc/30/task/30/fdinfo
-./proc/30/task/30/ns
-./proc/30/task/30/net
-./proc/30/task/30/net/rpc
-./proc/30/task/30/net/rpc/nfsd.fh
-./proc/30/task/30/net/rpc/nfsd.export
-./proc/30/task/30/net/rpc/auth.unix.ip
-./proc/30/task/30/net/rpc/auth.unix.gid
-./proc/30/task/30/net/rpc/nfs4.idtoname
-./proc/30/task/30/net/rpc/nfs4.nametoid
-./proc/30/task/30/net/rpc/auth.rpcsec.init
-./proc/30/task/30/net/rpc/auth.rpcsec.context
-./proc/30/task/30/net/stat
-./proc/30/task/30/net/vlan
-./proc/30/task/30/net/nfsfs
-./proc/30/task/30/net/dev_snmp6
-./proc/30/task/30/net/netfilter
-./proc/30/task/30/net/xt_recent
-./proc/30/task/30/net/ipt_CLUSTERIP
-./proc/30/task/30/net/ipt_hashlimit
-./proc/30/task/30/net/ip6t_hashlimit
-./proc/30/task/30/attr
-./proc/30/fd
-./proc/30/map_files
-./proc/30/fdinfo
-./proc/30/ns
-./proc/30/net
-./proc/30/net/rpc
-./proc/30/net/rpc/nfsd.fh
-./proc/30/net/rpc/nfsd.export
-./proc/30/net/rpc/auth.unix.ip
-./proc/30/net/rpc/auth.unix.gid
-./proc/30/net/rpc/nfs4.idtoname
-./proc/30/net/rpc/nfs4.nametoid
-./proc/30/net/rpc/auth.rpcsec.init
-./proc/30/net/rpc/auth.rpcsec.context
-./proc/30/net/stat
-./proc/30/net/vlan
-./proc/30/net/nfsfs
-./proc/30/net/dev_snmp6
-./proc/30/net/netfilter
-./proc/30/net/xt_recent
-./proc/30/net/ipt_CLUSTERIP
-./proc/30/net/ipt_hashlimit
-./proc/30/net/ip6t_hashlimit
-./proc/30/attr
-./proc/31
-./proc/31/task
-./proc/31/task/31
-./proc/31/task/31/fd
-./proc/31/task/31/fdinfo
-./proc/31/task/31/ns
-./proc/31/task/31/net
-./proc/31/task/31/net/rpc
-./proc/31/task/31/net/rpc/nfsd.fh
-./proc/31/task/31/net/rpc/nfsd.export
-./proc/31/task/31/net/rpc/auth.unix.ip
-./proc/31/task/31/net/rpc/auth.unix.gid
-./proc/31/task/31/net/rpc/nfs4.idtoname
-./proc/31/task/31/net/rpc/nfs4.nametoid
-./proc/31/task/31/net/rpc/auth.rpcsec.init
-./proc/31/task/31/net/rpc/auth.rpcsec.context
-./proc/31/task/31/net/stat
-./proc/31/task/31/net/vlan
-./proc/31/task/31/net/nfsfs
-./proc/31/task/31/net/dev_snmp6
-./proc/31/task/31/net/netfilter
-./proc/31/task/31/net/xt_recent
-./proc/31/task/31/net/ipt_CLUSTERIP
-./proc/31/task/31/net/ipt_hashlimit
-./proc/31/task/31/net/ip6t_hashlimit
-./proc/31/task/31/attr
-./proc/31/fd
-./proc/31/map_files
-./proc/31/fdinfo
-./proc/31/ns
-./proc/31/net
-./proc/31/net/rpc
-./proc/31/net/rpc/nfsd.fh
-./proc/31/net/rpc/nfsd.export
-./proc/31/net/rpc/auth.unix.ip
-./proc/31/net/rpc/auth.unix.gid
-./proc/31/net/rpc/nfs4.idtoname
-./proc/31/net/rpc/nfs4.nametoid
-./proc/31/net/rpc/auth.rpcsec.init
-./proc/31/net/rpc/auth.rpcsec.context
-./proc/31/net/stat
-./proc/31/net/vlan
-./proc/31/net/nfsfs
-./proc/31/net/dev_snmp6
-./proc/31/net/netfilter
-./proc/31/net/xt_recent
-./proc/31/net/ipt_CLUSTERIP
-./proc/31/net/ipt_hashlimit
-./proc/31/net/ip6t_hashlimit
-./proc/31/attr
-./srv
-./tmp
-./boot
-./run
-./run/lock
-./run/mount
-./run/systemd
-./home
-./opt
-./var
-./var/local
-./var/lib
-./var/lib/apt
-./var/lib/apt/lists
-./var/lib/apt/mirrors
-./var/lib/apt/mirrors/partial
-./var/lib/apt/periodic
-./var/lib/dpkg
-./var/lib/dpkg/triggers
-./var/lib/dpkg/info
-./var/lib/dpkg/alternatives
-./var/lib/dpkg/parts
-./var/lib/dpkg/updates
-./var/lib/misc
-./var/lib/pam
-./var/lib/systemd
-./var/lib/systemd/deb-systemd-helper-enabled
-./var/lib/systemd/deb-systemd-helper-enabled/multi-user.target.wants
-./var/lib/systemd/deb-systemd-helper-enabled/timers.target.wants
-./var/lib/systemd/deb-systemd-helper-masked
-./var/lib/sudo
-./var/lib/sudo/lectured
-./var/lib/vim
-./var/lib/vim/addons
-./var/cache
-./var/cache/apt
-./var/cache/apt/archives
-./var/cache/apt/archives/partial
-./var/cache/debconf
-./var/cache/ldconfig
-./var/tmp
-./var/mail
-./var/spool
-./var/backups
-./var/opt
-./var/log
-./var/log/apt
-./root
-./dir1
-./dir1/doc
-./work
-./work/session.log
-./work/work
-# touch readme.txtg 
-# find.  ,.  . -tye pe f -a -name '*txt' -print
-./usr/lib/python3.10/LICENSE.txt
-./usr/share/vim/vim82/doc/usr_45.txt
-./usr/share/vim/vim82/doc/usr_31.txt
-./usr/share/vim/vim82/doc/usr_04.txt
-./usr/share/vim/vim82/doc/usr_07.txt
-./usr/share/vim/vim82/doc/quotes.txt
-./usr/share/vim/vim82/doc/popup.txt
-./usr/share/vim/vim82/doc/ft_sql.txt
-./usr/share/vim/vim82/doc/arabic.txt
-./usr/share/vim/vim82/doc/os_mint.txt
-./usr/share/vim/vim82/doc/helphelp.txt
-./usr/share/vim/vim82/doc/if_tcl.txt
-./usr/share/vim/vim82/doc/usr_11.txt
-./usr/share/vim/vim82/doc/hebrew.txt
-./usr/share/vim/vim82/doc/if_pyth.txt
-./usr/share/vim/vim82/doc/mbyte.txt
-./usr/share/vim/vim82/doc/windows.txt
-./usr/share/vim/vim82/doc/indent.txt
-./usr/share/vim/vim82/doc/mlang.txt
-./usr/share/vim/vim82/doc/usr_09.txt
-./usr/share/vim/vim82/doc/gui_x11.txt
-./usr/share/vim/vim82/doc/various.txt
-./usr/share/vim/vim82/doc/netbeans.txt
-./usr/share/vim/vim82/doc/pi_logipat.txt
-./usr/share/vim/vim82/doc/ft_raku.txt
-./usr/share/vim/vim82/doc/os_os2.txt
-./usr/share/vim/vim82/doc/sign.txt
-./usr/share/vim/vim82/doc/os_haiku.txt
-./usr/share/vim/vim82/doc/if_cscop.txt
-./usr/share/vim/vim82/doc/insert.txt
-./usr/share/vim/vim82/doc/if_mzsch.txt
-./usr/share/vim/vim82/doc/tabpage.txt
-./usr/share/vim/vim82/doc/pi_paren.txt
-./usr/share/vim/vim82/doc/tagsrch.txt
-./usr/share/vim/vim82/doc/usr_toc.txt
-./usr/share/vim/vim82/doc/usr_12.txt
-./usr/share/vim/vim82/doc/gui.txt
-./usr/share/vim/vim82/doc/index.txt
-./usr/share/vim/vim82/doc/starting.txt
-./usr/share/vim/vim82/doc/tips.txt
-./usr/share/vim/vim82/doc/usr_40.txt
-./usr/share/vim/vim82/doc/filetype.txt
-./usr/share/vim/vim82/doc/cmdline.txt
-./usr/share/vim/vim82/doc/usr_20.txt
-./usr/share/vim/vim82/doc/os_beos.txt
-./usr/share/vim/vim82/doc/usr_41.txt
-./usr/share/vim/vim82/doc/if_ruby.txt
-./usr/share/vim/vim82/doc/howto.txt
-./usr/share/vim/vim82/doc/workshop.txt
-./usr/share/vim/vim82/doc/if_lua.txt
-./usr/share/vim/vim82/doc/os_dos.txt
-./usr/share/vim/vim82/doc/usr_27.txt
-./usr/share/vim/vim82/doc/uganda.txt
-./usr/share/vim/vim82/doc/map.txt
-./usr/share/vim/vim82/doc/textprop.txt
-./usr/share/vim/vim82/doc/syntax.txt
-./usr/share/vim/vim82/doc/testing.txt
-./usr/share/vim/vim82/doc/usr_25.txt
-./usr/share/vim/vim82/doc/ft_rust.txt
-./usr/share/vim/vim82/doc/digraph.txt
-./usr/share/vim/vim82/doc/usr_42.txt
-./usr/share/vim/vim82/doc/os_risc.txt
-./usr/share/vim/vim82/doc/usr_02.txt
-./usr/share/vim/vim82/doc/pi_netrw.txt
-./usr/share/vim/vim82/doc/scroll.txt
-./usr/share/vim/vim82/doc/usr_03.txt
-./usr/share/vim/vim82/doc/term.txt
-./usr/share/vim/vim82/doc/eval.txt
-./usr/share/vim/vim82/doc/channel.txt
-./usr/share/vim/vim82/doc/version5.txt
-./usr/share/vim/vim82/doc/visual.txt
-./usr/share/vim/vim82/doc/debug.txt
-./usr/share/vim/vim82/doc/pi_zip.txt
-./usr/share/vim/vim82/doc/usr_08.txt
-./usr/share/vim/vim82/doc/diff.txt
-./usr/share/vim/vim82/doc/os_msdos.txt
-./usr/share/vim/vim82/doc/usr_43.txt
-./usr/share/vim/vim82/doc/message.txt
-./usr/share/vim/vim82/doc/hangulin.txt
-./usr/share/vim/vim82/doc/usr_06.txt
-./usr/share/vim/vim82/doc/usr_46.txt
-./usr/share/vim/vim82/doc/debugger.txt
-./usr/share/vim/vim82/doc/fold.txt
-./usr/share/vim/vim82/doc/usr_01.txt
-./usr/share/vim/vim82/doc/os_vms.txt
-./usr/share/vim/vim82/doc/todo.txt
-./usr/share/vim/vim82/doc/change.txt
-./usr/share/vim/vim82/doc/usr_32.txt
-./usr/share/vim/vim82/doc/os_win32.txt
-./usr/share/vim/vim82/doc/vi_diff.txt
-./usr/share/vim/vim82/doc/os_mac.txt
-./usr/share/vim/vim82/doc/usr_21.txt
-./usr/share/vim/vim82/doc/builtin.txt
-./usr/share/vim/vim82/doc/farsi.txt
-./usr/share/vim/vim82/doc/usr_23.txt
-./usr/share/vim/vim82/doc/usr_29.txt
-./usr/share/vim/vim82/doc/print.txt
-./usr/share/vim/vim82/doc/usr_90.txt
-./usr/share/vim/vim82/doc/version6.txt
-./usr/share/vim/vim82/doc/remote.txt
-./usr/share/vim/vim82/doc/pi_tar.txt
-./usr/share/vim/vim82/doc/repeat.txt
-./usr/share/vim/vim82/doc/spell.txt
-./usr/share/vim/vim82/doc/undo.txt
-./usr/share/vim/vim82/doc/if_ole.txt
-./usr/share/vim/vim82/doc/os_unix.txt
-./usr/share/vim/vim82/doc/usr_22.txt
-./usr/share/vim/vim82/doc/usr_05.txt
-./usr/share/vim/vim82/doc/usr_10.txt
-./usr/share/vim/vim82/doc/version7.txt
-./usr/share/vim/vim82/doc/recover.txt
-./usr/share/vim/vim82/doc/help.txt
-./usr/share/vim/vim82/doc/pattern.txt
-./usr/share/vim/vim82/doc/editing.txt
-./usr/share/vim/vim82/doc/develop.txt
-./usr/share/vim/vim82/doc/usr_26.txt
-./usr/share/vim/vim82/doc/os_qnx.txt
-./usr/share/vim/vim82/doc/ft_ada.txt
-./usr/share/vim/vim82/doc/if_perl.txt
-./usr/share/vim/vim82/doc/usr_24.txt
-./usr/share/vim/vim82/doc/gui_w32.txt
-./usr/share/vim/vim82/doc/intro.txt
-./usr/share/vim/vim82/doc/ft_ps1.txt
-./usr/share/vim/vim82/doc/usr_44.txt
-./usr/share/vim/vim82/doc/version4.txt
-./usr/share/vim/vim82/doc/os_390.txt
-./usr/share/vim/vim82/doc/pi_spec.txt
-./usr/share/vim/vim82/doc/autocmd.txt
-./usr/share/vim/vim82/doc/pi_gzip.txt
-./usr/share/vim/vim82/doc/rileft.txt
-./usr/share/vim/vim82/doc/sponsor.txt
-./usr/share/vim/vim82/doc/version8.txt
-./usr/share/vim/vim82/doc/usr_30.txt
-./usr/share/vim/vim82/doc/pi_vimball.txt
-./usr/share/vim/vim82/doc/vim9.txt
-./usr/share/vim/vim82/doc/pi_getscript.txt
-./usr/share/vim/vim82/doc/if_sniff.txt
-./usr/share/vim/vim82/doc/options.txt
-./usr/share/vim/vim82/doc/usr_28.txt
-./usr/share/vim/vim82/doc/terminal.txt
-./usr/share/vim/vim82/doc/quickfix.txt
-./usr/share/vim/vim82/doc/os_amiga.txt
-./usr/share/vim/vim82/doc/russian.txt
-./usr/share/vim/vim82/doc/quickref.txt
-./usr/share/vim/vim82/doc/motion.txt
-./usr/share/vim/vim82/pack/dist/opt/matchit/doc/matchit.txt
-./dir1/doc/file-1.txt
-./file-1.txt
-./readme.txt
-# ^[[A	    exit
+Script started on 2025-01-09 12:44:30+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="104" LINES="38"]
+# locate --version
+sh: 1: locate: not found
+# apt instal;l   ll locate
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 72%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 3%Reading state information... Done
+Package locate is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
 
-Script done on 2025-01-09 12:43:19+00:00 [COMMAND_EXIT_CODE="0"]
+[1;31mE: [0mPackage 'locate' has no installation candidate[0m
+# s ^P^[^C
+# sudo      a apt install plocate
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 72%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 3%Reading state information... Done
+[1;31mE: [0mUnable to locate package plocate[0m
+# apt-get install pl; ocate
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 72%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 3%Reading state information... Done
+E: Unable to locate package plocate
+# sudo apt-get install --reinstall plocate
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 72%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 3%Reading state information... Done
+E: Unable to locate package plocate
+# dpkg -l | grep plocate
+# apt-get update
+0% [Working]0% [Waiting for headers] [Waiting for headers]                                              Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+0% [Waiting for headers] [1 InRelease 7884 B/129 kB 6%]                                                       Get:2 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+0% [2 InRelease 4096 B/270 kB 2%] [1 InRelease 13.8 kB/129 kB 11%]                                                                  0% [2 InRelease 78.5 kB/270 kB 29%]                                   0% [2 InRelease 160 kB/270 kB 59%]                                  0% [Waiting for headers]                        Get:3 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [2560 kB]
+0% [Waiting for headers] [3 Packages 12.4 kB/2560 kB 0%]                                                        Get:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+0% [4 InRelease 5324 B/128 kB 4%] [3 Packages 201 kB/2560 kB 8%]0% [4 InRelease 128 kB/128 kB 100%] [3 Packages 269 kB/2560 kB 10%]                                                                   0% [Waiting for headers] [3 Packages 274 kB/2560 kB 11%]                                                        Get:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+0% [5 InRelease 2508 B/127 kB 2%] [3 Packages 694 kB/2560 kB 27%]                                                                 0% [3 Packages 945 kB/2560 kB 37%]0% [Waiting for headers] [3 Packages 1144 kB/2560 kB 45%]                                                         Get:6 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+0% [6 Packages 1169 B/164 kB 1%] [3 Packages 2033 kB/2560 kB 79%]                                                                 0% [6 Packages 164 kB/164 kB 100%]                                  Get:7 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+0% [7 Packages 71.9 kB/17.5 MB 0%]0% [3 Packages store 0 B] [7 Packages 83.2 kB/17.5 MB 0%] [Waiting for headers]20% [3 Packages store 0 B] [7 Packages 242 kB/17.5 MB 1%] [Waiting for headers]                                                                               Get:8 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [3526 kB]
+21% [3 Packages store 0 B] [7 Packages 355 kB/17.5 MB 2%] [8 Packages 23.7 kB/3526 kB 1%]                                                                                         21% [7 Packages 372 kB/17.5 MB 2%] [8 Packages 142 kB/3526 kB 4%]21% [6 Packages store 0 B] [7 Packages 372 kB/17.5 MB 2%] [8 Packages 142 kB/3526 kB 4%]                                                                                        22% [7 Packages 372 kB/17.5 MB 2%] [8 Packages 148 kB/3526 kB 4%]25% [7 Packages 1393 kB/17.5 MB 8%] [8 Packages 571 kB/3526 kB 16%]                                                                   33% [7 Packages 1745 kB/17.5 MB 10%] [Waiting for headers]                                                          Get:9 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [45.2 kB]
+33% [7 Packages 1745 kB/17.5 MB 10%] [9 Packages 22.9 kB/45.2 kB 51%]33% [8 Packages store 0 B] [7 Packages 1745 kB/17.5 MB 10%] [9 Packages 22.9 kB/45.2 kB 51%]                                                                                            Get:10 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1226 kB]
+33% [8 Packages store 0 B] [7 Packages 1745 kB/17.5 MB 10%] [10 Packages 43.0 kB/1226 kB 4%]                                                                                            39% [8 Packages store 0 B] [7 Packages 3342 kB/17.5 MB 19%]40% [8 Packages store 0 B] [7 Packages 3781 kB/17.5 MB 22%]43% [8 Packages store 0 B] [7 Packages 5011 kB/17.5 MB 29%]49% [8 Packages store 0 B] [7 Packages 7897 kB/17.5 MB 45%]58% [8 Packages store 0 B] [7 Packages 11.7 MB/17.5 MB 67%]                                                           59% [7 Packages 12.0 MB/17.5 MB 69%]59% [9 Packages store 0 B] [7 Packages 12.0 MB/17.5 MB 69%]                                                           60% [7 Packages 12.4 MB/17.5 MB 71%]60% [10 Packages store 0 B] [7 Packages 12.4 MB/17.5 MB 71%]                                                            70% [7 Packages 16.5 MB/17.5 MB 94%]72% [Working]                                                                              4240 kB/s 2s72% [7 Packages store 0 B]                                                                 4240 kB/s 2s                                                                                                       Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+72% [7 Packages store 0 B] [11 Packages 0 B/1792 kB 0%]                                    4240 kB/s 2s76% [7 Packages store 0 B]                                                                 4240 kB/s 1s                                                                                                       Get:12 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+76% [7 Packages store 0 B] [12 Packages 0 B/266 kB 0%]                                     4240 kB/s 1s77% [7 Packages store 0 B]                                                                 4240 kB/s 1s                                                                                                       Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [53.3 kB]
+77% [7 Packages store 0 B] [13 Packages 0 B/53.3 kB 0%]                                    4240 kB/s 1s77% [7 Packages store 0 B]                                                                 4240 kB/s 1s                                                                                                       Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1517 kB]
+77% [7 Packages store 0 B] [14 Packages 0 B/1517 kB 0%]                                    4240 kB/s 1s80% [7 Packages store 0 B]                                                                 4240 kB/s 1s                                                                                                       Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2859 kB]
+80% [7 Packages store 0 B] [15 Packages 0 B/2859 kB 0%]                                    4240 kB/s 1s87% [7 Packages store 0 B]                                                                 4240 kB/s 0s                                                                                                       Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [3663 kB]
+87% [7 Packages store 0 B] [16 Packages 0 B/3663 kB 0%]                                    4240 kB/s 0s95% [7 Packages store 0 B]                                                                 4240 kB/s 0s                                                                                                       Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [81.4 kB]
+95% [7 Packages store 0 B] [17 Packages 0 B/81.4 kB 0%]                                    4240 kB/s 0s95% [7 Packages store 0 B]                                                                 4240 kB/s 0s                                                                                                       Get:18 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [33.8 kB]
+95% [7 Packages store 0 B] [18 Packages 0 B/33.8 kB 0%]                                    4240 kB/s 0s95% [7 Packages store 0 B]                                                                 4240 kB/s 0s95% [7 Packages store 0 B]                                                                 4240 kB/s 0s96% [Working]                                                                              4240 kB/s 0s96% [11 Packages store 0 B]                                                                4240 kB/s 0s96% [Working]                                                                              4240 kB/s 0s96% [12 Packages store 0 B]                                                                4240 kB/s 0s97% [Working]                                                                              4240 kB/s 0s97% [13 Packages store 0 B]                                                                4240 kB/s 0s97% [Working]                                                                              4240 kB/s 0s97% [14 Packages store 0 B]                                                                4240 kB/s 0s98% [Working]                                                                              4240 kB/s 0s98% [15 Packages store 0 B]                                                                4240 kB/s 0s98% [Working]                                                                              4240 kB/s 0s98% [16 Packages store 0 B]                                                                4240 kB/s 0s99% [Working]                                                                              4240 kB/s 0s99% [17 Packages store 0 B]                                                                4240 kB/s 0s99% [Working]                                                                              4240 kB/s 0s99% [18 Packages store 0 B]                                                                4240 kB/s 0s100% [Working]                                                                             4240 kB/s 0s                                                                                                       Fetched 35.9 MB in 9s (3938 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 5%Reading package lists... 5%Reading package lists... 42%Reading package lists... 49%Reading package lists... 49%Reading package lists... 50%Reading package lists... 50%Reading package lists... 59%Reading package lists... 59%Reading package lists... 71%Reading package lists... 71%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 84%Reading package lists... 84%Reading package lists... 89%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+# apt-get install plocate
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 5%Reading package lists... 5%Reading package lists... 39%Reading package lists... 49%Reading package lists... 49%Reading package lists... 50%Reading package lists... 50%Reading package lists... 59%Reading package lists... 59%Reading package lists... 71%Reading package lists... 71%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 3%Reading state information... Done
+The following additional packages will be installed:
+  liburing2
+Suggested packages:
+  systemd-sysv | powermgmt-base systemd-sysv | nocache
+The following NEW packages will be installed:
+  liburing2 plocate
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 140 kB of archives.
+After this operation, 555 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 liburing2 amd64 2.1-2build1 [10.3 kB]
+6% [1 liburing2 10.3 kB/10.3 kB 100%]                                     16% [Working]             Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 plocate amd64 1.1.15-1ubuntu2 [129 kB]
+17% [2 plocate 2524 B/129 kB 2%]                                100% [Working]              Fetched 140 kB in 1s (127 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package liburing2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7870 files and directories currently installed.)
+Preparing to unpack .../liburing2_2.1-2build1_amd64.deb ...
+Unpacking liburing2:amd64 (2.1-2build1) ...
+Selecting previously unselected package plocate.
+Preparing to unpack .../plocate_1.1.15-1ubuntu2_amd64.deb ...
+Unpacking plocate (1.1.15-1ubuntu2) ...
+Setting up liburing2:amd64 (2.1-2build1) ...
+Setting up plocate (1.1.15-1ubuntu2) ...
+update-alternatives: using /usr/bin/plocate to provide /usr/bin/locate (locate) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/locate.1.gz because associated file /usr/share/man/man1/plocate.1.gz (of link group locate) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man8/updatedb.8.gz because associated file /usr/share/man/man8/updatedb.plocate.8.gz (of link group locate) doesn't exist
+Adding group `plocate' (GID 101) ...
+Done.
+Initializing plocate database; this may take some time... done
+Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+# ^[[A    ^P^P^P^P^P^P            ploca     locate --version
+plocate 1.1.15
+Copyright 2020 Steinar H. Gunderson
+License GPLv2+: GNU GPL version 2 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+# updatedb
+# locate bash
+/etc/bash.bashrc
+/etc/skel/.bash_logout
+/etc/skel/.bashrc
+/root/.bashrc
+/usr/bin/bash
+/usr/bin/bashbug
+/usr/bin/rbash
+/usr/share/bash-completion
+/usr/share/base-files/dot.bashrc
+/usr/share/bash-completion/completions
+/usr/share/bash-completion/completions/addpart
+/usr/share/bash-completion/completions/apt
+/usr/share/bash-completion/completions/blkdiscard
+/usr/share/bash-completion/completions/blkid
+/usr/share/bash-completion/completions/blkzone
+/usr/share/bash-completion/completions/blockdev
+/usr/share/bash-completion/completions/chcpu
+/usr/share/bash-completion/completions/chmem
+/usr/share/bash-completion/completions/chrt
+/usr/share/bash-completion/completions/ctrlaltdel
+/usr/share/bash-completion/completions/debconf
+/usr/share/bash-completion/completions/debconf-show
+/usr/share/bash-completion/completions/delpart
+/usr/share/bash-completion/completions/dmesg
+/usr/share/bash-completion/completions/fallocate
+/usr/share/bash-completion/completions/fincore
+/usr/share/bash-completion/completions/findfs
+/usr/share/bash-completion/completions/findmnt
+/usr/share/bash-completion/completions/flock
+/usr/share/bash-completion/completions/fsck
+/usr/share/bash-completion/completions/fsck.cramfs
+/usr/share/bash-completion/completions/fsck.minix
+/usr/share/bash-completion/completions/fsfreeze
+/usr/share/bash-completion/completions/fstrim
+/usr/share/bash-completion/completions/getopt
+/usr/share/bash-completion/completions/hardlink
+/usr/share/bash-completion/completions/hwclock
+/usr/share/bash-completion/completions/ionice
+/usr/share/bash-completion/completions/ipcmk
+/usr/share/bash-completion/completions/ipcrm
+/usr/share/bash-completion/completions/ipcs
+/usr/share/bash-completion/completions/isosize
+/usr/share/bash-completion/completions/last
+/usr/share/bash-completion/completions/ldattach
+/usr/share/bash-completion/completions/logger
+/usr/share/bash-completion/completions/losetup
+/usr/share/bash-completion/completions/lsblk
+/usr/share/bash-completion/completions/lscpu
+/usr/share/bash-completion/completions/lsipc
+/usr/share/bash-completion/completions/lslocks
+/usr/share/bash-completion/completions/lslogins
+/usr/share/bash-completion/completions/lsmem
+/usr/share/bash-completion/completions/lsns
+/usr/share/bash-completion/completions/mcookie
+/usr/share/bash-completion/completions/mesg
+/usr/share/bash-completion/completions/mkfs
+/usr/share/bash-completion/completions/mkfs.bfs
+/usr/share/bash-completion/completions/mkfs.cramfs
+/usr/share/bash-completion/completions/mkfs.minix
+/usr/share/bash-completion/completions/mkswap
+/usr/share/bash-completion/completions/more
+/usr/share/bash-completion/completions/mount
+/usr/share/bash-completion/completions/mountpoint
+/usr/share/bash-completion/completions/namei
+/usr/share/bash-completion/completions/nsenter
+/usr/share/bash-completion/completions/partx
+/usr/share/bash-completion/completions/pivot_root
+/usr/share/bash-completion/completions/prlimit
+/usr/share/bash-completion/c
