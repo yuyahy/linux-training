@@ -1,11 +1,31 @@
-Script started on 2025-01-13 01:32:39+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="66" LINES="38"]
-# ecx ho Q@  E$  $OP  PARH  TH
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-# whoch     ich cat
-/usr/bin/cat
-# wch  hich c -a ping
-/usr/bin/ping
-/bin/ping
-# w exit
+Script started on 2025-01-13 01:35:35+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="66" LINES="38"]
+# K LANF-=   F FG  H I OL  G-=  =ja_JP,UR   , mn   P< < > N < > ,m  .UR TF-i9  9 =  -8 cat --help
+Usage: cat [OPTION]... [FILE]...
+Concatenate FILE(s) to standard output.
 
-Script done on 2025-01-13 01:33:36+00:00 [COMMAND_EXIT_CODE="0"]
+With no FILE, or when FILE is -, read standard input.
+
+  -A, --show-all           equivalent to -vET
+  -b, --number-nonblank    number nonempty output lines, overrides -n
+  -e                       equivalent to -vE
+  -E, --show-ends          display $ at end of each line
+  -n, --number             number all output lines
+  -s, --squeeze-blank      suppress repeated empty output lines
+  -t                       equivalent to -vT
+  -T, --show-tabs          display TAB characters as ^I
+  -u                       (ignored)
+  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB
+      --help     display this help and exit
+      --version  output version information and exit
+
+Examples:
+  cat f - g  Output f's contents, then standard input, then g's contents.
+  cat        Copy standard input to standard output.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/cat>
+or available locally via: info '(coreutils) cat invocation'
+# exit
+
+Script done on 2025-01-13 01:37:22+00:00 [COMMAND_EXIT_CODE="0"]
