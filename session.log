@@ -1,31 +1,1236 @@
-Script started on 2025-01-13 01:35:35+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="66" LINES="38"]
-# K LANF-=   F FG  H I OL  G-=  =ja_JP,UR   , mn   P< < > N < > ,m  .UR TF-i9  9 =  -8 cat --help
-Usage: cat [OPTION]... [FILE]...
-Concatenate FILE(s) to standard output.
+[1m[7m%[27m[1m[0m                                                                  ]2;yuya@mbp:~/Work/linux-training]1;..inux-training]7;file://mbp.local/Users/yuya/Work/linux-training\[0m[27m[24m[J[39m[0m[49m[40m[39m yuya@mbp [44m[30m[30m ~/Work/linux-training [43m[34m[30m  chap07 ± [49m[33m[39m [K[?1h=[?2004hbbim b  vvim[?1l>[?2004l
+]2;vim]1;vim[?1049h[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[?25l[2;1H[94m~                                                                 [3;1H~                                                                 [4;1H~                                                                 [5;1H~                                                                 [6;1H~                                                                 [7;1H~                                                                 [8;1H~                                                                 [9;1H~                                                                 [10;1H~                                                                 [11;1H~                                                                 [12;1H~                                                                 [13;1H~                                                                 [14;1H~                                                                 [15;1H~                                                                 [16;1H~                                                                 [17;1H~                                                                 [18;1H~                                                                 [19;1H~                                                                 [20;1H~                                                                 [21;1H~                                                                 [22;1H~                                                                 [23;1H~                                                                 [24;1H~                                                                 [25;1H~                                                                 [26;1H~                                                                 [27;1H~                                                                 [28;1H~                                                                 [29;1H~                                                                 [30;1H~                                                                 [31;1H~                                                                 [32;1H~                                                                 [33;1H~                                                                 [34;1H~                                                                 [35;1H~                                                                 [36;1H~                                                                 [37;1H~                                                                 [m[14;25HVIM - Vi IMproved[16;26Hversion 9.0.1991[17;22Hby Bram Moolenaar et al.[18;12HVim is open source and freely distributable[20;19HHelp poor children in Uganda![21;11Htype  :help iccf[34m<Enter>[m       for information [23;11Htype  :q[34m<Enter>[m               to exit         [24;11Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[25;11Htype  :help version9[34m<Enter>[m   for version info[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[29m[m[H[2J[?25l[2;1H[94m~                                                                 [3;1H~                                                                 [4;1H~                                                                 [5;1H~                                                                 [6;1H~                                                                 [7;1H~                                                                 [8;1H~                                                                 [9;1H~                                                                 [10;1H~                                                                 [11;1H~                                                                 [12;1H~                                                                 [13;1H~                                                                 [14;1H~                                                                 [15;1H~                                                                 [16;1H~                                                                 [17;1H~                                                                 [18;1H~                                                                 [19;1H~                                                                 [20;1H~                                                                 [21;1H~                                                                 [22;1H~                                                                 [23;1H~                                                                 [24;1H~                                                                 [25;1H~                                                                 [26;1H~                                                                 [27;1H~                                                                 [28;1H~                                                                 [29;1H~                                                                 [30;1H~                                                                 [31;1H~                                                                 [32;1H~                                                                 [33;1H~                                                                 [34;1H~                                                                 [35;1H~                                                                 [36;1H~                                                                 [37;1H~                                                                 [m[14;25HVIM - Vi IMproved[16;26Hversion 9.0.1991[17;22Hby Bram Moolenaar et al.[18;12HVim is open source and freely distributable[20;19HHelp poor children in Uganda![21;11Htype  :help iccf[38;5;81m<Enter>[m       for information [23;11Htype  :q[38;5;81m<Enter>[m               to exit         [24;11Htype  :help[38;5;81m<Enter>[m  or  [38;5;81m<F1>[m  for on-line help[25;11Htype  :help version9[38;5;81m<Enter>[m   for version info[1;1H[?25h[?25l[38;1H:[?25hq![?25l[38;3H[K[38;3H[?25h[?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?1049l[?25h[>4;m[1m[7m%[27m[1m[0m                                                                  ]2;yuya@mbp:~/Work/linux-training]1;..inux-training]7;file://mbp.local/Users/yuya/Work/linux-training\[0m[27m[24m[J[39m[0m[49m[40m[39m yuya@mbp [44m[30m[30m ~/Work/linux-training [43m[34m[30m  chap07 ± [49m[33m[39m [K[?1h=[?2004hvvim nre  ewfikle   le1, , m .txt[?1l>[?2004l
+]2;vim newfile1.txt]1;vim[?1049h[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[38;1H"newfile1.txt" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                 [3;1H~                                                                 [4;1H~                                                                 [5;1H~                                                                 [6;1H~                                                                 [7;1H~                                                                 [8;1H~                                                                 [9;1H~                                                                 [10;1H~                                                                 [11;1H~                                                                 [12;1H~                                                                 [13;1H~                                                                 [14;1H~                                                                 [15;1H~                                                                 [16;1H~                                                                 [17;1H~                                                                 [18;1H~                                                                 [19;1H~                                                                 [20;1H~                                                                 [21;1H~                                                                 [22;1H~                                                                 [23;1H~                                                                 [24;1H~                                                                 [25;1H~                                                                 [26;1H~                                                                 [27;1H~                                                                 [28;1H~                                                                 [29;1H~                                                                 [30;1H~                                                                 [31;1H~                                                                 [32;1H~                                                                 [33;1H~                                                                 [34;1H~                                                                 [35;1H~                                                                 [36;1H~                                                                 [37;1H~                                                                 [1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[29m[m[H[2J[?25l[2;1H[94m~                                                                 [3;1H~                                                                 [4;1H~                                                                 [5;1H~                                                                 [6;1H~                                                                 [7;1H~                                                                 [8;1H~                                                                 [9;1H~                                                                 [10;1H~                                                                 [11;1H~                                                                 [12;1H~                                                                 [13;1H~                                                                 [14;1H~                                                                 [15;1H~                                                                 [16;1H~                                                                 [17;1H~                                                                 [18;1H~                                                                 [19;1H~                                                                 [20;1H~                                                                 [21;1H~                                                                 [22;1H~                                                                 [23;1H~                                                                 [24;1H~                                                                 [25;1H~                                                                 [26;1H~                                                                 [27;1H~                                                                 [28;1H~                                                                 [29;1H~                                                                 [30;1H~                                                                 [31;1H~                                                                 [32;1H~                                                                 [33;1H~                                                                 [34;1H~                                                                 [35;1H~                                                                 [36;1H~                                                                 [37;1H~                                                                 [m[38;1H"newfile1.txt" [New][1;1H[?25h[?25l[38;1H[K[38;1H:[?25he[?25l[38;2H[K[38;2H[?25hw[?25l"newfile1.txt" [New] 0L, 0B written[1;1H[?25h[?25l[38;1H[K[38;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?1049l[?25h[>4;m[1m[7m%[27m[1m[0m                                                                  ]2;yuya@mbp:~/Work/linux-training]1;..inux-training]7;file://mbp.local/Users/yuya/Work/linux-training\[0m[27m[24m[J[39m[0m[49m[40m[39m yuya@mbp [44m[30m[30m ~/Work/linux-training [43m[34m[30m  chap07 ± [49m[33m[39m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsDockerfile   README.md    newfile1.txt session.log  [1m[36mwork[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                  ]2;yuya@mbp:~/Work/linux-training]1;..inux-training]7;file://mbp.local/Users/yuya/Work/linux-training\[0m[27m[24m[J[39m[0m[49m[40m[39m yuya@mbp [44m[30m[30m ~/Work/linux-training [43m[34m[30m  chap07 ± [49m[33m[39m [K[?1h=[?2004hccat newfile1.txt[1m [0m [K[A[65C[K[1B[K[A[65C[?1l>[?2004l[1B]2;cat newfile1.txt]1;cat[1m[7m%[27m[1m[0m                                                                  ]2;yuya@mbp:~/Work/linux-training]1;..inux-training]7;file://mbp.local/Users/yuya/Work/linux-training\[0m[27m[24m[J[39m[0m[49m[40m[39m yuya@mbp [44m[30m[30m ~/Work/linux-training [43m[34m[30m  chap07 ± [49m[33m[39m [K[?1h=[?2004hccp , .,  , ./  . . /etc/cer  roooooo     nrt  tab,  . [K[K[?1l>[?2004l
+]2;cp /etc/crontab .]1;cpcp: /etc/crontab: No such file or directory
+[1m[7m%[27m[1m[0m                                                                  ]2;yuya@mbp:~/Work/linux-training]1;..inux-training]7;file://mbp.local/Users/yuya/Work/linux-training\[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m yuya@mbp [44m[30m[30m ~/Work/linux-training [43m[34m[30m  chap07 ± [49m[33m[39m [K[?1h=[?2004hkksk  lls . /. / e etc[?1l>[?2004l
+]2;ls -G /etc]1;ls[35m/etc[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                  ]2;yuya@mbp:~/Work/linux-training]1;..inux-training]7;file://mbp.local/Users/yuya/Work/linux-training\[0m[27m[24m[J[39m[0m[49m[40m[39m yuya@mbp [44m[30m[30m ~/Work/linux-training [43m[34m[30m  chap07 ± [49m[33m[39m [K[?1h=[?2004h[7m docker run -v $([7mp[7mwd)/session.log:/session.log -v $(pwd)/work:/work -it linux-train[7mi[7mng[27m[K
+[K[3A[49C[27m [27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27mv[27m [27m$[27m(p[27mw[27md[27m)[27m/[27ms[27me[27ms[27ms[27mi[27mo[27mn[27m.[27ml[27mo[27mg[27m:[27m/[27ms[27me[27ms[27ms[27mi[27mo[27mn[27m.[27ml[27mo[27mg[27m [27m-[27mv[27m [27m$[27m([27mp[27mw[27md[27m)[27m/[27mw[27mo[27mr[27mk[27m:[27m/[27mw[27mo[27mr[27mk[27m [27m-[27mi[27mt[27m [27ml[27mi[27mn[27mu[27mx[27m-[27mt[27mr[27ma[27mi[27mni[27mn[27mg[1B[K[?1l>[?2004l
+]2;docker run -v $(pwd)/session.log:/session.log -v $(pwd)/work:/work -it ]1;docker[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls /r tx  w weee    etc/cron  .d=   tab
+[?2004lls: cannot access '/etc/crontab': No such file or directory
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls /etc/crontab   .dls[1P[1P[1@x[1@:[1@r[1P[1P[1P[1@x[1@:[1P[1P[1@x[1P[1@c[1@:[1@r[1P[1P[1@a[1@t
+[?2004lcat: /etc/cron.d: Is a directory
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# la   a a as  s. /  /j etc
+[?2004ladduser.conf            [0m[01;34mkernel[0m         [01;34mrc2.d[0m
+[01;34malternatives[0m            ld.so.cache    [01;34mrc3.d[0m
+[01;34mapt[0m                     ld.so.conf     [01;34mrc4.d[0m
+bash.bashrc             [01;34mld.so.conf.d[0m   [01;34mrc5.d[0m
+bindresvport.blacklist  [01;34mldap[0m           [01;34mrc6.d[0m
+[01;34mca-certificates[0m         legal          [01;34mrcS.d[0m
+ca-certificates.conf    libaudit.conf  resolv.conf
+[01;34mcloud[0m                   [40;31;01mlocaltime[0m      [01;36mrmt[0m
+[01;34mcron.d[0m                  [01;34mlogcheck[0m       [01;34msecurity[0m
+[01;34mcron.daily[0m              login.defs     [01;34mselinux[0m
+debconf.conf            [01;34mlogrotate.d[0m    shadow
+debian_version          lsb-release    shells
+[01;34mdefault[0m                 machine-id     [01;34mskel[0m
+deluser.conf            mime.types     [01;34mssl[0m
+[01;34mdpkg[0m                    mke2fs.conf    subgid
+e2scrub.conf            [01;36mmtab[0m           subuid
+environment             netconfig      sudo.conf
+fstab                   networks       sudo_logsrvd.conf
+gai.conf                nsswitch.conf  sudoers
+group                   [01;34mopt[0m            [01;34msudoers.d[0m
+gshadow                 [01;36mos-release[0m     sysctl.conf
+[01;34mgss[0m                     pam.conf       [01;34msysctl.d[0m
+host.conf               [01;34mpam.d[0m          [01;34msystemd[0m
+hostname                passwd         [01;34mterminfo[0m
+hosts                   profile        timezone
+[01;34minit.d[0m                  [01;34mprofile.d[0m      [01;34mupdate-motd.d[0m
+inputrc                 [01;34mpython3.10[0m     [01;34mvim[0m
+issue                   [01;34mrc0.d[0m          xattr.conf
+issue.net               [01;34mrc1.d[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# s co p . /etc/sudo
+sudo.conf          sudoers            
+sudo_logsrvd.conf  sudoers.d/         
+]0;root@8e51637945da: /root@8e51637945da:/# cp /etc/sudoers .
+[?2004l[?2004h]0;root@8e51637945da: /root@8e51637945da:/# cat sudoers 
+[?2004l#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead of
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#
+Defaults	env_reset
+Defaults	mail_badpass
+Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+Defaults	use_pty
 
-With no FILE, or when FILE is -, read standard input.
+# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"
 
-  -A, --show-all           equivalent to -vET
-  -b, --number-nonblank    number nonempty output lines, overrides -n
-  -e                       equivalent to -vE
-  -E, --show-ends          display $ at end of each line
-  -n, --number             number all output lines
-  -s, --squeeze-blank      suppress repeated empty output lines
-  -t                       equivalent to -vT
-  -T, --show-tabs          display TAB characters as ^I
-  -u                       (ignored)
-  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB
-      --help     display this help and exit
-      --version  output version information and exit
+# This allows running arbitrary commands, but so does ALL, and it means
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
 
-Examples:
-  cat f - g  Output f's contents, then standard input, then g's contents.
-  cat        Copy standard input to standard output.
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
 
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
-Full documentation <https://www.gnu.org/software/coreutils/cat>
-or available locally via: info '(coreutils) cat invocation'
-# exit
+# While you shouldn't normally run git as root, you need to with etckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
 
-Script done on 2025-01-13 01:37:22+00:00 [COMMAND_EXIT_CODE="0"]
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.
+#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification
+root	ALL=(ALL:ALL) ALL
+
+# Members of the admin group may gain root privileges
+%admin ALL=(ALL) ALL
+
+# Allow members of group sudo to execute any command
+%sudo	ALL=(ALL:ALL) ALL
+
+# See sudoers(5) for more information on "@include" directives:
+
+@includedir /etc/sudoers.d
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# vim sudp oers 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"sudoers" [readonly] 54L, 1671B[2;1H�[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#
+# This file MUST be edited with the 'visudo' command as root.[m[2;62H[K[3;1H[34m#[m[3;2H[K[4;1H[34m# Please consider adding local content in /etc/sudoers.d/ instead  [5;1Hof
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[31m"/usr/local/sbin:/usr/local/bin:/usr/ss[13;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[34m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[19;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [22;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[30;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[37;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[m[38;49H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[38;39H/[1;1H[38;40Hc[1;1H[38;41Hc[1;1H[38;42Hc[1;1H[38;43Hc[1;1H[38;44H/[1;1H[38;45Hc[1;1H[38;46Hc[1;1H[38;47Hc[1;1H[38;48Hc[1;1H[38;39H          [1;1H[?25h[?25l[38;39H/[1;1H[38;40H2[1;1H[38;41Hb[1;1H[38;42H2[1;1H[38;43Hb[1;1H[38;44H/[1;1H[38;45H3[1;1H[38;46H6[1;1H[38;47H3[1;1H[38;48H6[1;1H[38;39H          [1;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead  [5;1Hof
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[13;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[19;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [22;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[30;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[37;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[m[38;49H1,1[11CTop"sudoers" [readonly] 54L, 1671B[1;1H[?25h[?25l[38;39Hj[1;1H[38;39H [2;1H[38;49H2[2;1H[?25h[?25l[38;39Hj[2;1H[38;39H [3;1H[38;49H3[3;1H[?25h[?25l[38;39Hj[3;1H[38;39H [4;1H[38;49H4[4;1H[?25h[?25l[38;39Hj[4;1H[38;39H [6;1H[38;49H5[6;1H[?25h[?25l[38;39Hj[6;1H[38;39H [7;1H[38;49H6[7;1H[?25h[?25l[38;39Hj[7;1H[38;39H [8;1H[38;49H7[8;1H[?25h[?25l[38;39Hj[8;1H[38;39H [9;1H[38;49H8[9;1H[?25h[?25l[38;39Hh[9;1H[38;39H [9;1H[?25h[?25l[38;39Hh[9;1H[38;39H [9;1H[?25h[?25l[38;39Hh[9;1H[38;39H [9;1H[?25h[?25l[38;39Hj[9;1H[38;39H [10;1H[38;49H9[10;1H[?25h[?25l[38;39Hj[10;1H[38;39H [11;1H[38;49H10,1[11;1H[?25h[?25l[38;39Hj[11;1H[38;39H [12;1H[38;50H1[12;1H[?25h[?25l[38;39Hj[12;1H[38;39H [14;1H[38;50H2[14;1H[?25h[?25l[38;39Hj[14;1H[38;39H [15;1H[38;50H3,0-1[15;1H[?25h[?25l[38;39Hj[15;1H[38;39H [16;1H[38;50H4,1  [16;1H[?25h[?25l[38;39Hj[16;1H[38;39H [17;1H[38;50H5[17;1H[?25h[?25l[38;39Hj[17;1H[38;39H [18;1H[38;50H6[18;1H[?25h[?25l[38;39Hj[18;1H[38;39H [20;1H[38;50H7,0-1[20;1H[?25h[?25l[38;39Hj[20;1H[38;39H [21;1H[38;50H8,1  [21;1H[?25h[?25l[38;39Hk[21;1H[38;39H [20;1H[38;50H7,0-1[20;1H[?25h[?25l[38;39Hk[20;1H[38;39H [18;1H[38;50H6,1  [18;1H[?25h[?25l[38;39Hk[18;1H[38;39H [17;1H[38;50H5[17;1H[?25h[?25l[38;39Hk[17;1H[38;39H [16;1H[38;50H4[16;1H[?25h[?25l[38;39Hk[16;1H[38;39H [15;1H[38;50H3,0-1[15;1H[?25h[?25l[38;39Hj[15;1H[38;39H [16;1H[38;50H4,1  [16;1H[?25h[?25l[38;39Hj[16;1H[38;39H [17;1H[38;50H5[17;1H[?25h[?25l[38;39Hk[17;1H[38;39H [16;1H[38;50H4[16;1H[?25h[?25l[38;39H;[16;1H[38;39H [16;1H[?25h[?25l[38;39H;[16;1H[38;39H [16;1H[?25h[?25l[38;39Hl[16;1H[38;39H [16;2H[38;52H2[16;2H[?25h[?25l[38;39Hj[16;2H[38;39H [17;2H[38;50H5[17;2H[?25h[?25l[38;39Hl[17;2H[38;39H [17;3H[38;52H3[17;3H[?25h[?25l[38;39Hl[17;3H[38;39H [17;4H[38;52H4[17;4H[?25h[?25l[38;39Hl[17;4H[38;39H [17;5H[38;52H5[17;5H[?25h[?25l[38;39Hh[17;5H[38;39H [17;4H[38;52H4[17;4H[?25h[?25l[38;39Hh[17;4H[38;39H [17;3H[38;52H3[17;3H[?25h[?25l[38;39Hl[17;3H[38;39H [17;4H[38;52H4[17;4H[?25h[?25l[38;39Hl[17;4H[38;39H [17;5H[38;52H5[17;5H[?25h[?25l[38;39Hl[17;5H[38;39H [17;6H[38;52H6[17;6H[?25h[?25l[38;39Hl[17;6H[38;39H [17;7H[38;52H7[17;7H[?25h[?25l[38;39Hl[17;7H[38;39H [17;8H[38;52H8[17;8H[?25h[?25l[38;39Hj[17;8H[38;39H [18;8H[38;50H6[18;8H[?25h[?25l[38;39Hl[18;8H[38;39H [18;9H[38;52H9[18;9H[?25h[?25l[38;39Hj[18;9H[38;39H [20;1H[38;50H7,0-1[20;1H[?25h[?25l[38;39Hj[20;1H[38;39H [21;9H[38;50H8,9  [21;9H[?25h[?25l[38;39Hj[21;9H[38;39H [23;9H[38;50H9[23;9H[?25h[?25l[38;39Hj[23;9H[38;39H [24;9H[38;49H20[24;9H[?25h[?25l[38;39Hj[24;9H[38;39H [25;1H[38;50H1,0-1[25;1H[?25h[?25l[38;39Hj[25;1H[38;39H [26;9H[38;50H2,9  [26;9H[?25h[?25l[38;39Hj[26;9H[38;39H [27;9H[38;50H3[27;9H[?25h[?25l[38;39Hk[27;9H[38;39H [26;9H[38;50H2[26;9H[?25h[?25l[38;39Hk[26;9H[38;39H [25;1H[38;50H1,0-1[25;1H[?25h[?25l[38;39Hk[25;1H[38;39H [24;9H[38;50H0,9  [24;9H[?25h[?25l[38;39Hk[24;9H[38;39H [23;9H[38;49H19[23;9H[?25h[?25l[38;39Hk[23;9H[38;39H [21;9H[38;50H8[21;9H[?25h[?25l[38;39Hl[21;9H[38;39H [21;10H[38;52H10[21;10H[?25h[?25l[38;39Hl[21;10H[38;39H [21;11H[38;53H1[21;11H[?25h[?25l[38;39Hl[21;11H[38;39H [21;12H[38;53H2[21;12H[?25h[?25l[38;39Hl[21;12H[38;39H [21;13H[38;53H3[21;13H[?25h[?25l[38;39Hk[21;13H[38;39H [20;1H[38;50H7,0-1[20;1H[?25h[?25l[38;39Hk[20;1H[38;39H [18;13H[38;50H6,13 [18;13H[?25h[?25l[38;39Hk[18;13H[38;39H [17;13H[38;50H5[17;13H[?25h[?25l[38;39Hk[17;13H[38;39H [16;13H[38;50H4[16;13H[?25h[?25l[38;39Hj[16;13H[38;39H [17;13H[38;50H5[17;13H[?25h[?25l[38;39Hj[17;13H[38;39H [18;13H[38;50H6[18;13H[?25h[?25l[38;39Hj[18;13H[38;39H [20;1H[38;50H7,0-1[20;1H[?25h[?25l[38;39Hh[20;1H[38;39H [20;1H[?25h[?25l[38;39Hh[20;1H[38;39H [20;1H[?25h[?25l[38;39Hh[20;1H[38;39H [20;1H[?25h[?25l[38;39Hl[20;1H[38;39H [20;1H[?25h[?25l[38;39Hl[20;1H[38;39H [20;1H[?25h[?25l[38;39Hk[20;1H[38;39H [18;13H[38;50H6,13 [18;13H[?25h[?25l[38;39Hk[18;13H[38;39H [17;13H[38;50H5[17;13H[?25h[?25l[38;39Hl[17;13H[38;39H [17;14H[38;53H4[17;14H[?25h[?25l[38;39Hl[17;14H[38;39H [17;15H[38;53H5[17;15H[?25h[?25l[38;39Hl[17;15H[38;39H [17;16H[38;53H6[17;16H[?25h[?25l[38;39Hl[17;16H[38;39H [17;17H[38;53H7[17;17H[?25h[?25l[38;39Hl[17;17H[38;39H [17;18H[38;53H8[17;18H[?25h[?25l[38;39Hl[17;18H[38;39H [17;19H[38;53H9[17;19H[?25h[?25l[38;39Hl[17;19H[38;39H [17;20H[1m[36m[46m([m[1m[36mgroup sudo[m[1m[36m[46m)[m[38;52H20[17;20H[?25h[?25l[38;39Hl[17;20H[38;39H [17;21H[1m[36m(group sudo)[m[38;53H1[17;21H[?25h[?25l[38;39Hl[17;21H[38;39H [17;22H[38;53H2[17;22H[?25h[?25l[38;39Hl[17;22H[38;39H [17;23H[38;53H3[17;23H[?25h[?25l[38;39Hl[17;23H[38;39H [17;24H[38;53H4[17;24H[?25h[?25l[38;39Hh[17;24H[38;39H [17;23H[38;53H3[17;23H[?25h[?25l[38;39Hh[17;23H[38;39H [17;22H[38;53H2[17;22H[?25h[?25l[38;39Hh[17;22H[38;39H [17;21H[38;53H1[17;21H[?25h[?25l[38;39Hh[17;21H[38;39H [17;20H[1m[36m[46m([m[1m[36mgroup sudo[m[1m[36m[46m)[m[38;53H0[17;20H[?25h[?25l[38;39Hh[17;20H[38;39H [17;19H[1C[1m[36m(group sudo)[m[38;52H19[17;19H[?25h[?25l[38;39Hh[17;19H[38;39H [17;18H[38;53H8[17;18H[?25h[?25l[38;39Hh[17;18H[38;39H [17;17H[38;53H7[17;17H[?25h[?25l[38;39Hh[17;17H[38;39H [17;16H[38;53H6[17;16H[?25h[?25l[38;39Hl[17;16H[38;39H [17;17H[38;53H7[17;17H[?25h[?25l[38;39Hl[17;17H[38;39H [17;18H[38;53H8[17;18H[?25h[?25l[38;39Hl[17;18H[38;39H [17;19H[38;53H9[17;19H[?25h[?25l[38;39Hl[17;19H[38;39H [17;20H[1m[36m[46m([m[1m[36mgroup sudo[m[1m[36m[46m)[m[38;52H20[17;20H[?25h[?25l[38;39Hl[17;20H[38;39H [17;21H[1m[36m(group sudo)[m[38;53H1[17;21H[?25h[?25l[38;39Hl[17;21H[38;39H [17;22H[38;53H2[17;22H[?25h[?25l[38;39Hh[17;22H[38;39H [17;21H[38;53H1[17;21H[?25h[?25l[38;39Hh[17;21H[38;39H [17;20H[1m[36m[46m([m[1m[36mgroup sudo[m[1m[36m[46m)[m[38;53H0[17;20H[?25h[?25l[38;39Hh[17;20H[38;39H [17;19H[1C[1m[36m(group sudo)[m[38;52H19[17;19H[?25h[?25l[38;39Hh[17;19H[38;39H [17;18H[38;53H8[17;18H[?25h[?25l[38;39Hh[17;18H[38;39H [17;17H[38;53H7[17;17H[?25h[?25l[38;39Hh[17;17H[38;39H [17;16H[38;53H6[17;16H[?25h[?25l[38;39Hh[17;16H[38;39H [17;15H[38;53H5[17;15H[?25h[?25l[38;39Hh[17;15H[38;39H [17;14H[38;53H4[17;14H[?25h[?25l[38;39Hl[17;14H[38;39H [17;15H[38;53H5[17;15H[?25h[?25l[38;39Hl[17;15H[38;39H [17;16H[38;53H6[17;16H[?25h[?25l[38;39Hl[17;16H[38;39H [17;17H[38;53H7[17;17H[?25h[?25l[38;39Hl[17;17H[38;39H [17;18H[38;53H8[17;18H[?25h[?25l[38;39Hl[17;18H[38;39H [17;19H[38;53H9[17;19H[?25h[?25l[38;39Hl[17;19H[38;39H [17;20H[1m[36m[46m([m[1m[36mgroup sudo[m[1m[36m[46m)[m[38;52H20[17;20H[?25h[?25l[38;39Hj[17;20H[38;39H [18;20H[17;20H[1m[36m(group sudo)[m[38;50H6[18;20H[?25h[?25l[38;39Hj[18;20H[38;39H [20;1H[38;50H7,0-1[20;1H[?25h[?25l[38;39Hk[20;1H[38;39H [18;20H[38;50H6,20 [18;20H[?25h[?25l[38;39Hk[18;20H[38;39H [17;20H[1m[36m[46m([m[1m[36mgroup sudo[m[1m[36m[46m)[m[38;50H5[17;20H[?25h[?25l[38;39Hj[17;20H[38;39H [18;20H[17;20H[1m[36m(group sudo)[m[38;50H6[18;20H[?25h[?25l[38;39Hk[18;20H[38;39H [17;20H[1m[36m[46m([m[1m[36mgroup sudo[m[1m[36m[46m)[m[38;50H5[17;20H[?25h[?25l[38;39Hk[17;20H[38;39H [16;20H[17;20H[1m[36m(group sudo)[m[38;50H4[16;20H[?25h[?25l[38;39Hk[16;20H[38;39H [15;1H[38;50H3,0-1[15;1H[?25h[?25l[38;39Hk[15;1H[38;39H [14;20H[38;50H2,13-20[14;20H[?25h[?25l[38;39Hk[14;20H[38;39H [12;20H[38;50H1[12;20H[?25h[?25l[38;39Hk[12;20H[38;39H [11;20H[38;50H0[11;20H[?25h[?25l[38;39Hk[11;20H[38;39H [10;20H[38;49H9,13-20 [10;20H[?25h[?25l[38;39Hk[10;20H[38;39H [9;1H[38;49H8,1    [9;1H[?25h[?25l[38;39Hk[9;1H[38;39H [8;20H[38;49H7,20[8;20H[?25h[?25l[38;39Hk[8;20H[38;39H [7;1H[38;49H6,1 [7;1H[?25h[?25l[38;39Hk[7;1H[38;39H [6;20H[38;49H5,20[6;20H[?25h[?25l[38;39Hk[6;20H[38;39H [4;20H[38;49H4[4;20H[?25h[?25l[38;39Hk[4;20H[38;39H [3;1H[38;49H3,1 [3;1H[?25h[?25l[38;39Hk[3;1H[38;39H [2;20H[38;49H2,20[2;20H[?25h[?25l[38;39Hk[2;20H[38;39H [1;1H[38;49H1,1 [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hl[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hj[1;1H[38;39H [2;20H[38;49H2,20[2;20H[?25h[?25l[38;39Hj[2;20H[38;39H [3;1H[38;49H3,1 [3;1H[?25h[?25l[38;39Hk[3;1H[38;39H [2;20H[38;49H2,20[2;20H[?25h[?25l[38;39Hs[2;20H[38;39H [2;20H[38;39Hcl[2;20H[38;1H[1m[31mW10: Warning: Changing a readonly file[m[38;39H[K[38;1H
+[1m[32mPress ENTER or type command to continue[?25h[?25l[m  [2;20H[38;1H[1m--[m[1m[32me[m[1m INSERT[m[1m[32mE[m[1m --[m[38;13H[K[38;49H2,20[10CTop[1;1H[L[1;1H[1m[36m#[2;20Hxxxedited with the 'visudo' command as root.[m[38;1H[1m--[m[1m[31m0[m[1m INSERT[m[1m[31mi[m[1m --[m[1m[31m:[m[38;13H[K[38;49H2,23[10CTop[2;23H[?25h[?25l[1m[36mkedited with the 'visudo' command as root.[m[38;52H4[2;24H[?25h[?25l[1m[36mkedited with the 'visudo' command as root.[m[38;52H5[2;25H[?25h[?25l[1m[36mKedited with the 'visudo' command as root.[m[38;52H6[2;26H[?25h[?25l[3;37r[3;1H[L[1;38r[2;26H[1m[36mLedited with the 'visudo' command as roott[3;1H.[m[38;49H[K[38;49H2,27[10CTop[2;27H[?25h[?25l[1m[36mKedited with the 'visudo' command as rooo[3;1Ht.[m[38;52H8[2;28H[?25h[?25l[1m[36mLedited with the 'visudo' command as roo[3;1Hot.[m[38;52H9[2;29H[?25h[?25l[1m[36m'edited with the 'visudo' command as rr[3;1Hoot.[m[38;51H30[2;30H[?25h[?25l[1m[36medited with the 'visudo' command as roo[3;1Hot.[m[3;4H[K[38;51H29[2;29H[?25h[?25l[1m[36mKedited with the 'visudo' command as rr[3;1Hoot.[m[38;51H30[2;30H[?25h[?25l[1m[36mLedited with the 'visudo' command as  [3;1Hroot.[m[38;52H1[2;31H[?25h[?25l[1m[36m:edited with the 'visudo' command ass[3;1H root.[m[38;52H2[2;32H[?25h[38;1H[K[2;31H[?25l[38;39H^[[2;31H[38;39H  [2;32H[38;49H2,31[10CTop[2;31H[?25h[?25l[38;50H6,[32;1H[?25h[?25l[38;39H:[32;1H[38;39H[K[38;1H:[?25hq[?25l[38;1H[K[32;1H[38;49H26,1[10CTop[32;1H[?25h[?25l[38;39H:[32;1H[38;39H[K[38;1H:[?25hq[?25l[38;1H[K[32;1H[38;49H26,1[10CTop[32;1H[?25h[?25l[38;39HL[32;1H[38;39H [32;1H[?25h[?25l[38;39HK[32;1H[38;1H:! man 'Defaults'[38;39H[K[38;18H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[32;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m#
+# This file MUST bexxxkkKLKLKL:edited with the 'visudo' command ass[3;1H root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead  [6;1Hof
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[14;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[20;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [23;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[31;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[m[38;49H26,1[10CTop[32;1H[?25h[?25l[38;39H^X[32;1H[38;39H  [32;1H[?25h[?25l[38;39HL[32;1H[38;39H [32;1H[?25h[?25l[38;39HK[32;1H[38;1H:! man 'Defaults'[38;39H[K[38;18H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[32;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m#
+# This file MUST bexxxkkKLKLKL:edited with the 'visudo' command ass[3;1H root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead  [6;1Hof
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[14;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[20;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [23;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[31;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[m[38;49H26,1[10CTop[32;1H[?25h[?25l[38;39H"[32;1H[?25h[?25l[38;40H~@k[32;1H[38;39H    [32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[37;1H[1m[36m#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[m[38;49H[K[38;49H27,0-1[9C4%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [31;1H[1;37r[1;1H[2M[1;38r[37;1H[1m[36m# Ditto for GPG agent[m[38;49H[K[38;49H28,1[11C9%[31;1H[?25h[?25l[38;39H~@k[31;1H[38;39H   [32;1H[38;50H9[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[37;1H[1m[36m#Defaults:%sudo env_keep += "GPG_AGENT_INFO"[m[38;49H[K[38;49H30,0-1[8C13%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [31;1H[1;37r[1;1H[2M[1;38r[37;1H[1m[36m# Host alias specification[m[38;49H[K[38;49H31,1[10C19%[31;1H[?25h[?25l[38;39H~@k[31;1H[38;39H   [32;1H[38;50H2[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[38;49H[K[38;49H33,0-1[8C23%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[37;1H[1m[36m# User alias specification[m[38;49H[K[38;49H34,1[10C28%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[38;49H[K[38;49H35,1[10C33%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[37;1H[1m[36m# Cmnd alias specification[m[38;49H[K[38;49H36,0-1[8C38%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[38;49H[K[38;49H37,1[10C42%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[37;1H[1m[36m# User privilege specification[m[38;49H[K[38;49H38,0-1[8C47%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [31;1H[1;37r[1;1H[2M[1;38r[36;1Hroot    ALL=(ALL:ALL) ALL[38;49H[K[38;49H39,1[10C55%[31;1H[?25h[?25l[38;39H~@k[31;1H[38;39H   [32;1H[38;49H40,0-1[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[37;1H[1m[36m# Members of the admin group may gain root privileges[m[38;49H[K[38;49H41,1[10C60%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[37;1H%admin ALL=(ALL) ALL[38;49H[K[38;49H42,0-1[8C65%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[38;49H[K[38;49H43,1[10C70%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[37;1H[1m[36m# Allow members of group sudo to execute any command[m[38;49H[K[38;49H44,1[10C75%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [31;1H[1;37r[1;1H[2M[1;38r[36;1H%sudo   ALL=(ALL:ALL) ALL[38;49H[K[38;49H45,0-1[8C84%[31;1H[?25h[?25l[38;39H~@k[31;1H[38;39H   [32;1H[38;50H6,1  [32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [32;1H[1;37r[37;1H
+[1;38r[37;1H[1m[36m# See sudoers(5) for more information on "@include" directives:[m[38;49H[K[38;49H47,1[10C89%[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [31;1H[1;37r[1;1H[2M[1;38r[37;1H@includedir /etc/sudoers.d[38;49H[K[38;49H48,0-1[8CBot[31;1H[?25h[?25l[38;39H~@k[31;1H[38;39H   [32;1H[38;50H9,1  [32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [33;1H[38;49H50[33;1H[?25h[?25l[38;39H~@k[33;1H[38;39H   [34;1H[38;50H1,0-1[34;1H[?25h[?25l[38;39H~@k[34;1H[38;39H   [35;1H[38;50H2,1  [35;1H[?25h[?25l[38;39H~@k[35;1H[38;39H   [36;1H[38;50H3,0-1[36;1H[?25h[?25l[38;39H~@k[36;1H[38;39H   [37;1H[38;50H4,1  [37;1H[?25h[?25l[38;39H~@k[37;1H[38;39H   [37;1H[?25h[?25l[38;39H~@k[37;1H[38;39H   [37;1H[?25h[?25l[38;39H~@k[37;1H[38;39H   [37;1H[?25h[?25l[38;39HL[37;1H[38;39H [37;1H[?25h[?25l[38;39H:[37;1H[38;39H[K[38;1H:[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# vim sudoers cat sudoers vim sudoers 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"sudoers" [readonly] 54L, 1671B[2;1H�[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"[m[2;37H[K[3;1H[K[4;1H[34m# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[8;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[15;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[34m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[34m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[34m# See sudoers(5) for more information on "@include" directives:[m
+
+@includedir /etc/sudoers.d[38;49H54,1[10CBot[37;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[38;39H/[37;1H[38;40Hc[37;1H[38;41Hc[37;1H[38;42Hc[37;1H[38;43Hc[37;1H[38;44H/[37;1H[38;45Hc[37;1H[38;46Hc[37;1H[38;47Hc[37;1H[38;48Hc[37;1H[38;39H          [37;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[8;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[15;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[1m[36m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[1m[36m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[1m[36m# See sudoers(5) for more information on "@include" directives:[m
+
+@includedir /etc/sudoers.d[38;49H54,1[10CBot"sudoers" [readonly] 54L, 1671B[37;1H[?25h[?25l[38;39Hz[37;1H[?25h[?25l[38;40Hz[37;1H[38;39H  [19;1H[1;37r[1;1H[18M[1;38r[20;1H[1m[34m~                                                                 [21;1H~                                                                 [22;1H~                                                                 [23;1H~                                                                 [24;1H~                                                                 [25;1H~                                                                 [26;1H~                                                                 [27;1H~                                                                 [28;1H~                                                                 [29;1H~                                                                 [30;1H~                                                                 [31;1H~                                                                 [32;1H~                                                                 [33;1H~                                                                 [34;1H~                                                                 [35;1H~                                                                 [36;1H~                                                                 [37;1H~                                                                 [m[38;1H[K[38;49H54,1[10CBot[19;1H[?25h[?25l[38;1HType  :qa  and pr...nter> to exit Vim[38;49H[K[38;49H54,1[10CBot[19;1H[?25h[?25l[38;39HL[19;1H[38;39H [19;1H[?25h[?25l[38;39HK[19;1H[38;1H:! man 'includedir'[38;20H[K[38;20H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[19;1H[27m[23m[29m[m[H[2J[2;1H[1m[36m# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[1m[36m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[1m[36m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[1m[36m# See sudoers(5) for more information on "@include" directives:[m
+
+@includedir /etc/sudoers.d
+[1m[34m~                                                                 [21;1H~                                                                 [22;1H~                                                                 [23;1H~                                                                 [24;1H~                                                                 [25;1H~                                                                 [26;1H~                                                                 [27;1H~                                                                 [28;1H~                                                                 [29;1H~                                                                 [30;1H~                                                                 [31;1H~                                                                 [32;1H~                                                                 [33;1H~                                                                 [34;1H~                                                                 [35;1H~                                                                 [36;1H~                                                                 [37;1H~                                                                 [m[38;49H54,1[10CBot[19;1H[?25h[?25l[38;39Hz[19;1H[?25h[?25l[38;40Hz[19;1H[38;39H  [19;1H[?25h[?25l[38;39Hx[19;1H[38;39H [19;1H[38;39Hdl[19;1H[38;1H[1m[31mW10: Warning: Changing a readonly file[m[38;39H[K[38;1H
+[1m[32mPress ENTER or type command to continue[?25h[?25l[m  [19;1H[1;1H[L[19;1Hincludedir /etc/sudoers.d[19;26H[K[38;1H[K[38;49H54,1[10CBot[19;1H[?25h[?25lncludedir /etc/sudoers.d[19;25H[K[19;1H[?25h[?25l[38;39Hx[19;1H[38;39H [19;1H[38;39Hdl[19;1H[38;39H  [19;1Hcludedir /etc/sudoers.d[19;24H[K[19;1H[?25h[?25l[38;39HL[19;1H[38;39H [19;1H[?25h[?25l[38;39H:[19;1H[38;39H[K[38;1H:[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# vim sudoers 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"sudoers" [readonly] 54L, 1671B[2;1H�[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"[m[2;37H[K[3;1H[K[4;1H[34m# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[8;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[15;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[34m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[34m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[34m# See sudoers(5) for more information on "@include" directives:[m
+
+@includedir /etc/sudoers.d[38;49H54,1[10CBot[37;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[38;39H/[37;1H[38;40Hc[37;1H[38;41Hc[37;1H[38;42Hc[37;1H[38;43Hc[37;1H[38;44H/[37;1H[38;45Hc[37;1H[38;46Hc[37;1H[38;47Hc[37;1H[38;48Hc[37;1H[38;39H          [37;1H[?25h[?25l[38;39H/[37;1H[38;40H2[37;1H[38;41Hb[37;1H[38;42H2[37;1H[38;43Hb[37;1H[38;44H/[37;1H[38;45H3[37;1H[38;46H6[37;1H[38;47H3[37;1H[38;48H6[37;1H[38;39H          [37;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[8;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[15;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[1m[36m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[1m[36m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[1m[36m# See sudoers(5) for more information on "@include" directives:[m
+
+@includedir /etc/sudoers.d[38;49H54,1[10CBot"sudoers" [readonly] 54L, 1671B[37;1H[?25h[?25l[38;39H~@k[37;1H[38;39H   [36;1H[38;50H3,0-1[36;1H[?25h[?25l[38;39H~@k[36;1H[38;39H   [35;1H[38;50H2,1  [35;1H[?25h[?25l[38;39H~@k[35;1H[38;39H   [34;1H[38;50H1,0-1[34;1H[?25h[?25l[38;39H~@k[34;1H[38;39H   [33;1H[38;50H0,1  [33;1H[?25h[?25l[38;39H~@k[33;1H[38;39H   [32;1H[38;49H49[32;1H[?25h[?25l[38;39H~@k[32;1H[38;39H   [31;1H[38;50H8,0-1[31;1H[?25h[?25l[38;39Hk[31;1H[38;39H [30;1H[38;50H7,1  [30;1H[?25h[?25l[38;39Hk[30;1H[38;39H [29;1H[38;50H6[29;1H[?25h[?25l[38;39Hk[29;1H[38;39H [28;1H[38;50H5,0-1[28;1H[?25h[?25l[38;39Hk[28;1H[38;39H [27;1H[38;50H4,1  [27;1H[?25h[?25l[38;39Hk[27;1H[38;39H [26;1H[38;50H3[26;1H[?25h[?25l[38;39Hk[26;1H[38;39H [25;1H[38;50H2,0-1[25;1H[?25h[?25l[38;39Hk[25;1H[38;39H [24;1H[38;50H1,1  [24;1H[?25h[?25l[38;39Hk[24;1H[38;39H [23;1H[38;50H0,0-1[23;1H[?25h[?25l[38;39Hk[23;1H[38;39H [22;1H[38;49H39,1  [22;1H[?25h[?25l[38;39Hk[22;1H[38;39H [21;1H[38;50H8,0-1[21;1H[?25h[?25l[38;39Hk[21;1H[38;39H [20;1H[38;50H7,1  [20;1H[?25h[?25l[38;39Hk[20;1H[38;39H [19;1H[38;50H6,0-1[19;1H[?25h[?25l[38;39Hk[19;1H[38;39H [18;1H[38;50H5,1  [18;1H[?25h[?25l[38;39Hx[18;1H[38;39H [18;1H[38;39Hdl[18;1H[38;1H[1m[31mW10: Warning: Changing a readonly file[m[38;39H[K[38;1H
+[1m[32mPress ENTER or type command to continue[?25h[?25l[m  [18;1H[1;1H[L[1;1H[1m[36m# different sudoers have their choice of editor respected.[m[18;1HDefaults:%sudo env_keep += [1m[35m"GPG_AGENT_INFO"[m[18;44H[K[38;1H[K[38;49H35,1[10CBot[18;1H[?25h[?25l[38;49H54[37;1H[?25h[?25l[38;39H:[37;1H[38;39H[K[38;1H:[?25hL[?25l[38;2H[K[38;2H[?25h1[?25l[38;2H[K[38;2H[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34metc[0m   [01;36mlib32[0m   [01;34mmedia[0m  [01;34mproc[0m  [01;36msbin[0m         sudoers  [01;34musr[0m
+[01;34mboot[0m  [01;34mhome[0m  [01;36mlib64[0m   [01;34mmnt[0m    [01;34mroot[0m  session.log  [01;34msys[0m      [01;34mvar[0m
+[01;34mdev[0m   [01;36mlib[0m   [01;36mlibx32[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msrv[0m          [30;42mtmp[0m      [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# chmode  999         ks  =l  k k ls -la
+[?2004ltotal 84
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [0m[01;34m.[0m
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [01;34m..[0m
+-rwxr-xr-x   1 root root     0 Jan 13 01:56 [01;32m.dockerenv[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mboot[0m
+drwxr-xr-x   5 root root   360 Jan 13 01:56 [01;34mdev[0m
+drwxr-xr-x   1 root root  4096 Jan 13 01:56 [01;34metc[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mhome[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root    10 Sep 11 14:04 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmedia[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmnt[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mopt[0m
+dr-xr-xr-x 194 root root     0 Jan 13 01:56 [01;34mproc[0m
+drwx------   1 root root  4096 Jan 13 02:02 [01;34mroot[0m
+drwxr-xr-x   5 root root  4096 Sep 11 14:08 [01;34mrun[0m
+lrwxrwxrwx   1 root root     8 Sep 11 14:04 [01;36msbin[0m -> [01;34musr/sbin[0m
+-rw-r--r--   1 root root 15294 Jan 13 01:56 session.log
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34msrv[0m
+-r--r-----   1 root root  1671 Jan 13 01:58 sudoers
+dr-xr-xr-x  13 root root     0 Jan 13 01:56 [01;34msys[0m
+drwxrwxrwt   1 root root  4096 Jan  9 12:30 [30;42mtmp[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:04 [01;34musr[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:07 [01;34mvar[0m
+drwxr-xr-x   4 root root   128 Jan  9 12:29 [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# xh==    whoamn i
+[?2004lroot
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# chmod 89  9 8 700 sudoers 
+[?2004l[?2004h]0;root@8e51637945da: /root@8e51637945da:/# chmod 700 sudoers [12Pwhoamils -la | few   grep[  si udoers 
+[?2004l-rwx------   1 root root  1671 Jan 13 01:58 [01;31m[Ksudoers[m[K
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la | grep sudoers [4Pchmod 700 sudoers [12Pwhoamils -la[K
+[?2004l[0m[01;36mbin[0m   [01;34metc[0m   [01;36mlib32[0m   [01;34mmedia[0m  [01;34mproc[0m  [01;36msbin[0m         [01;32msudoers[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34mhome[0m  [01;36mlib64[0m   [01;34mmnt[0m    [01;34mroot[0m  session.log  [01;34msys[0m      [01;34mvar[0m
+[01;34mdev[0m   [01;36mlib[0m   [01;36mlibx32[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msrv[0m          [30;42mtmp[0m      [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la[K
+[?2004l[0m[01;36mbin[0m   [01;34metc[0m   [01;36mlib32[0m   [01;34mmedia[0m  [01;34mproc[0m  [01;36msbin[0m         [01;32msudoers[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34mhome[0m  [01;36mlib64[0m   [01;34mmnt[0m    [01;34mroot[0m  session.log  [01;34msys[0m      [01;34mvar[0m
+[01;34mdev[0m   [01;36mlib[0m   [01;36mlibx32[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msrv[0m          [30;42mtmp[0m      [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la
+[?2004ltotal 84
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [0m[01;34m.[0m
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [01;34m..[0m
+-rwxr-xr-x   1 root root     0 Jan 13 01:56 [01;32m.dockerenv[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mboot[0m
+drwxr-xr-x   5 root root   360 Jan 13 01:56 [01;34mdev[0m
+drwxr-xr-x   1 root root  4096 Jan 13 01:56 [01;34metc[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mhome[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root    10 Sep 11 14:04 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmedia[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmnt[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mopt[0m
+dr-xr-xr-x 194 root root     0 Jan 13 01:56 [01;34mproc[0m
+drwx------   1 root root  4096 Jan 13 02:02 [01;34mroot[0m
+drwxr-xr-x   5 root root  4096 Sep 11 14:08 [01;34mrun[0m
+lrwxrwxrwx   1 root root     8 Sep 11 14:04 [01;36msbin[0m -> [01;34musr/sbin[0m
+-rw-r--r--   1 root root 15294 Jan 13 01:56 session.log
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34msrv[0m
+-rwx------   1 root root  1671 Jan 13 01:58 [01;32msudoers[0m
+dr-xr-xr-x  13 root root     0 Jan 13 01:56 [01;34msys[0m
+drwxrwxrwt   1 root root  4096 Jan  9 12:30 [30;42mtmp[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:04 [01;34musr[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:07 [01;34mvar[0m
+drwxr-xr-x   4 root root   128 Jan  9 12:29 [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# whoami
+[?2004lroot
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# chmod 700 sudoers 
+[?2004l[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la | grep sudoers 
+[?2004l-rwx------   1 root root  1671 Jan 13 01:58 [01;31m[Ksudoers[m[K
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34metc[0m   [01;36mlib32[0m   [01;34mmedia[0m  [01;34mproc[0m  [01;36msbin[0m         [01;32msudoers[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34mhome[0m  [01;36mlib64[0m   [01;34mmnt[0m    [01;34mroot[0m  session.log  [01;34msys[0m      [01;34mvar[0m
+[01;34mdev[0m   [01;36mlib[0m   [01;36mlibx32[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msrv[0m          [30;42mtmp[0m      [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la
+[?2004ltotal 84
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [0m[01;34m.[0m
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [01;34m..[0m
+-rwxr-xr-x   1 root root     0 Jan 13 01:56 [01;32m.dockerenv[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mboot[0m
+drwxr-xr-x   5 root root   360 Jan 13 01:56 [01;34mdev[0m
+drwxr-xr-x   1 root root  4096 Jan 13 01:56 [01;34metc[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mhome[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root    10 Sep 11 14:04 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmedia[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmnt[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mopt[0m
+dr-xr-xr-x 194 root root     0 Jan 13 01:56 [01;34mproc[0m
+drwx------   1 root root  4096 Jan 13 02:02 [01;34mroot[0m
+drwxr-xr-x   5 root root  4096 Sep 11 14:08 [01;34mrun[0m
+lrwxrwxrwx   1 root root     8 Sep 11 14:04 [01;36msbin[0m -> [01;34musr/sbin[0m
+-rw-r--r--   1 root root 15294 Jan 13 01:56 session.log
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34msrv[0m
+-rwx------   1 root root  1671 Jan 13 01:58 [01;32msudoers[0m
+dr-xr-xr-x  13 root root     0 Jan 13 01:56 [01;34msys[0m
+drwxrwxrwt   1 root root  4096 Jan  9 12:30 [30;42mtmp[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:04 [01;34musr[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:07 [01;34mvar[0m
+drwxr-xr-x   4 root root   128 Jan  9 12:29 [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# whoami
+[?2004lroot
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# chmod 700 sudoers 
+[?2004l[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la | grep sudoers 
+[?2004l-rwx------   1 root root  1671 Jan 13 01:58 [01;31m[Ksudoers[m[K
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34metc[0m   [01;36mlib32[0m   [01;34mmedia[0m  [01;34mproc[0m  [01;36msbin[0m         [01;32msudoers[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34mhome[0m  [01;36mlib64[0m   [01;34mmnt[0m    [01;34mroot[0m  session.log  [01;34msys[0m      [01;34mvar[0m
+[01;34mdev[0m   [01;36mlib[0m   [01;36mlibx32[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msrv[0m          [30;42mtmp[0m      [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la
+[?2004ltotal 84
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [0m[01;34m.[0m
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [01;34m..[0m
+-rwxr-xr-x   1 root root     0 Jan 13 01:56 [01;32m.dockerenv[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mboot[0m
+drwxr-xr-x   5 root root   360 Jan 13 01:56 [01;34mdev[0m
+drwxr-xr-x   1 root root  4096 Jan 13 01:56 [01;34metc[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mhome[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root    10 Sep 11 14:04 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmedia[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmnt[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mopt[0m
+dr-xr-xr-x 194 root root     0 Jan 13 01:56 [01;34mproc[0m
+drwx------   1 root root  4096 Jan 13 02:02 [01;34mroot[0m
+drwxr-xr-x   5 root root  4096 Sep 11 14:08 [01;34mrun[0m
+lrwxrwxrwx   1 root root     8 Sep 11 14:04 [01;36msbin[0m -> [01;34musr/sbin[0m
+-rw-r--r--   1 root root 15294 Jan 13 01:56 session.log
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34msrv[0m
+-rwx------   1 root root  1671 Jan 13 01:58 [01;32msudoers[0m
+dr-xr-xr-x  13 root root     0 Jan 13 01:56 [01;34msys[0m
+drwxrwxrwt   1 root root  4096 Jan  9 12:30 [30;42mtmp[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:04 [01;34musr[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:07 [01;34mvar[0m
+drwxr-xr-x   4 root root   128 Jan  9 12:29 [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# whoami
+[?2004lroot
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# chmod 700 sudoers 
+[?2004l[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la | grep sudoers 
+[?2004l-rwx------   1 root root  1671 Jan 13 01:58 [01;31m[Ksudoers[m[K
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34metc[0m   [01;36mlib32[0m   [01;34mmedia[0m  [01;34mproc[0m  [01;36msbin[0m         [01;32msudoers[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34mhome[0m  [01;36mlib64[0m   [01;34mmnt[0m    [01;34mroot[0m  session.log  [01;34msys[0m      [01;34mvar[0m
+[01;34mdev[0m   [01;36mlib[0m   [01;36mlibx32[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msrv[0m          [30;42mtmp[0m      [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la
+[?2004ltotal 84
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [0m[01;34m.[0m
+drwxr-xr-x   1 root root  4096 Jan 13 02:02 [01;34m..[0m
+-rwxr-xr-x   1 root root     0 Jan 13 01:56 [01;32m.dockerenv[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mboot[0m
+drwxr-xr-x   5 root root   360 Jan 13 01:56 [01;34mdev[0m
+drwxr-xr-x   1 root root  4096 Jan 13 01:56 [01;34metc[0m
+drwxr-xr-x   2 root root  4096 Apr 18  2022 [01;34mhome[0m
+lrwxrwxrwx   1 root root     7 Sep 11 14:04 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root     9 Sep 11 14:04 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root    10 Sep 11 14:04 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmedia[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mmnt[0m
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34mopt[0m
+dr-xr-xr-x 194 root root     0 Jan 13 01:56 [01;34mproc[0m
+drwx------   1 root root  4096 Jan 13 02:02 [01;34mroot[0m
+drwxr-xr-x   5 root root  4096 Sep 11 14:08 [01;34mrun[0m
+lrwxrwxrwx   1 root root     8 Sep 11 14:04 [01;36msbin[0m -> [01;34musr/sbin[0m
+-rw-r--r--   1 root root 15294 Jan 13 01:56 session.log
+drwxr-xr-x   2 root root  4096 Sep 11 14:04 [01;34msrv[0m
+-rwx------   1 root root  1671 Jan 13 01:58 [01;32msudoers[0m
+dr-xr-xr-x  13 root root     0 Jan 13 01:56 [01;34msys[0m
+drwxrwxrwt   1 root root  4096 Jan  9 12:30 [30;42mtmp[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:04 [01;34musr[0m
+drwxr-xr-x   1 root root  4096 Sep 11 14:07 [01;34mvar[0m
+drwxr-xr-x   4 root root   128 Jan  9 12:29 [01;34mwork[0m
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# whoami
+[?2004lroot
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# chmod 700 sudoers 
+[?2004l[?2004h]0;root@8e51637945da: /root@8e51637945da:/# ls -la | grep sudoers [Kci  vi  m sudoers 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"sudoers" 54L, 1671B[2;1H�[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"[m[2;37H[K[3;1H[K[4;1H[34m# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[8;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[15;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[34m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[34m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[34m# See sudoers(5) for more information on "@include" directives:[m
+
+@includedir /etc/sudoers.d[38;49H54,1[10CBot[37;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[1m[36m# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[8;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[15;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[1m[36m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[1m[36m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[1m[36m# See sudoers(5) for more information on "@include" directives:[m
+
+@includedir /etc/sudoers.d[38;49H54,1[10CBot"sudoers" 54L, 1671B[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hincludedir /etc/sudoers.d[37;26H[K[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hncludedir /etc/sudoers.d[37;25H[K[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hcludedir /etc/sudoers.d[37;24H[K[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hludedir /etc/sudoers.d[37;23H[K[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hudedir /etc/sudoers.d[37;22H[K[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hdedir /etc/sudoers.d[37;21H[K[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hedir /etc/sudoers.d[37;20H[K[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hdir /etc/sudoers.d[37;19H[K[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hir /etc/sudoers.d[37;18H[K[37;1H[?25h[?25l[38;39Hx[37;1H[38;39H [37;1H[38;39Hdl[37;1H[38;39H  [37;1Hr /etc/sudoers.d[37;17H[K[37;1H[?25h[?25l[38;39H:[37;1H[38;1H[K[38;1H:[?25h3xz[?25l[38;4H[K[38;4H[?25h[?25l[1m[37m[41mE140: Use ! to write partial buffer[37;1H[m[38;49H54,1[10CBot[37;1H[?25h[?25l[38;39Hk[37;1H[38;39H [36;1H[38;50H3,0-1[36;1H[?25h[?25l[38;39Hk[36;1H[38;39H [35;1H[38;50H2,1  [35;1H[?25h[?25l[38;39Hk[35;1H[38;39H [34;1H[38;50H1,0-1[34;1H[?25h[?25l[38;39Hk[34;1H[38;39H [33;1H[38;50H0,1  [33;1H[?25h[?25l[38;39Hk[33;1H[38;39H [32;1H[38;49H49[32;1H[?25h[?25l[38;39Hk[32;1H[38;39H [31;1H[38;50H8,0-1[31;1H[?25h[?25l[38;39Hk[31;1H[38;39H [30;1H[38;50H7,1  [30;1H[?25h[?25l[38;39Hk[30;1H[38;39H [29;1H[38;50H6[29;1H[?25h[?25l[38;39Hk[29;1H[38;39H [28;1H[38;50H5,0-1[28;1H[?25h[?25l[38;39Hk[28;1H[38;39H [27;1H[38;50H4,1  [27;1H[?25h[?25l[38;39Hk[27;1H[38;39H [26;1H[38;50H3[26;1H[?25h[?25l[38;39Hk[26;1H[38;39H [25;1H[38;50H2,0-1[25;1H[?25h[?25l[38;39Hk[25;1H[38;39H [24;1H[38;50H1,1  [24;1H[?25h[?25l[38;39Hk[24;1H[38;39H [23;1H[38;50H0,0-1[23;1H[?25h[?25l[38;39Hk[23;1H[38;39H [22;1H[38;49H39,1  [22;1H[?25h[?25l[38;39Hk[22;1H[38;39H [21;1H[38;50H8,0-1[21;1H[?25h[?25l[38;39Hk[21;1H[38;39H [20;1H[38;50H7,1  [20;1H[?25h[?25l[38;39Hk[20;1H[38;39H [19;1H[38;50H6,0-1[19;1H[?25h[?25l[38;39Hk[19;1H[38;39H [18;1H[38;50H5,1  [18;1H[?25h[?25l[38;39Hk[18;1H[38;39H [17;1H[38;50H4[17;1H[?25h[?25l[38;39Hk[17;1H[38;39H [16;1H[38;50H3,0-1[16;1H[?25h[?25l[38;39Hk[16;1H[38;39H [15;1H[38;50H2,1  [15;1H[?25h[?25l[38;39Hk[15;1H[38;39H [14;1H[38;50H1[14;1H[?25h[?25l[38;39Hk[14;1H[38;39H [13;1H[38;50H0,0-1[13;1H[?25h[?25l[38;39Hk[13;1H[38;39H [12;1H[38;49H29,1  [12;1H[?25h[?25l[38;39Hk[12;1H[38;39H [11;1H[38;50H8[11;1H[?25h[?25l[38;39Hk[11;1H[38;39H [10;1H[38;50H7,0-1[10;1H[?25h[?25l[38;39Hk[10;1H[38;39H [9;1H[38;50H6,1  [9;1H[?25h[?25l[38;39Hk[9;1H[38;39H [7;1H[38;50H5[7;1H[?25h[?25l[38;39Hk[7;1H[38;39H [6;1H[38;50H4,0-1[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [7;1H[1;37r[1;1H[2L[1;38r[1;1H[1m[36m# This allows running arbitrary commands, but so does ALL, and it  [2;1Hmeans[m[38;1H[K[38;49H23,1[10C89%[7;1H[?25h[?25l[38;39Hk[7;1H[38;39H [6;1H[38;50H2[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[L[1;38r[38;49H[K[38;49H21,0-1[8C84%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [7;1H[1;37r[1;1H[2L[1;38r[1;1H[1m[36m#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[2;1Hproxy no_proxy"[m[38;49H[K[38;49H20,1[10C75%[7;1H[?25h[?25l[38;39Hk[7;1H[38;39H [6;1H[38;49H19[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[2L[1;38r[1;1H[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)[m[38;49H[K[38;49H18,1[10C65%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[L[1;38r[38;49H[K[38;49H17,0-1[8C60%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [7;1H[1;37r[1;1H[3L[1;38r[1;1HDefaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[2;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty[38;49H[K[38;49H16,1[10C47%[7;1H[?25h[?25l[38;39Hk[7;1H[38;39H [6;1H[38;50H5[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[L[1;38r[1;1HDefaults[8Cmail_badpass[38;49H[K[38;49H14,1[10C42%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[L[1;38r[1;1HDefaults[8Cenv_reset[38;49H[K[38;49H13,0-1[8C38%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[L[1;38r[1;1H[1m[36m#[m[38;49H[K[38;49H12,1[10C33%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[2L[1;38r[1;1H[1m[36m#
+# See the man page for details on how to write a sudoers file.[m[38;49H[K[38;49H11,1[10C23%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[L[1;38r[1;1H[1m[36m# directly modifying this file.[m[38;49H[K[38;49H10,1[10C19%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [7;1H[1;37r[1;1H[2L[1;38r[1;1H[1m[36m# Please consider adding local content in /etc/sudoers.d/ instead  [2;1Hof[m[38;49H[K[38;49H9,1[11C13%[7;1H[?25h[?25l[38;39Hk[7;1H[38;39H [6;1H[38;49H8[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[L[1;38r[1;1H[1m[36m#[m[38;49H[K[38;49H7,1[12C9%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[L[1;38r[1;1H[1m[36m# This file MUST be edited with the 'visudo' command as root.[m[38;49H[K[38;49H6,1[12C4%[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [6;1H[1;37r[1;1H[L[1;38r[1;1H[1m[36m#[m[38;49H[K[38;49H5,1[11CTop[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [4;1H[38;49H4[4;1H[?25h[?25l[38;39Hk[4;1H[38;39H [3;1H[38;49H3[3;1H[?25h[?25l[38;39Hk[3;1H[38;39H [2;1H[38;49H2[2;1H[?25h[?25l[38;39Hk[2;1H[38;39H [1;1H[38;49H1[1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hx[1;1H[38;39H [1;1H[38;39Hdl[1;1H[38;39H  [1;1H[1;1H[K[38;51H0-1[1;1H[?25h[?25l[38;39Hi[1;1H[38;39H [1;1H[38;1H[1m-- INSERT --[m[38;49H[K[38;49H1,1[11CTop[1;1H[?25h[?25l[1m[36m#[m[38;51H2[1;2H[?25h[?25l[1m[36m [m[38;51H3[1;3H[?25h[?25l[1m[36ma[m[38;51H4[1;4H[?25h[?25l[1m[36ma[m[38;51H5[1;5H[?25h[?25l[1m[36ma[m[38;51H6[1;6H[?25h[?25l[1m[36m [m[38;51H7[1;7H[?25h[?25l[1m[36mt[m[38;51H8[1;8H[?25h[?25l[1m[36mh[m[38;51H9[1;9H[?25h[?25l[1m[36mi[m[38;51H10[1;10H[?25h[?25l[1m[36ms[m[38;52H1[1;11H[?25h[?25l[1m[36m [m[38;52H2[1;12H[?25h[?25l[1m[36mi[m[38;52H3[1;13H[?25h[?25l[1m[36ms[m[38;52H4[1;14H[?25h[?25l[1m[36m [m[38;52H5[1;15H[?25h[?25l[1m[36ma[m[38;52H6[1;16H[?25h[?25l[1m[36m [m[38;52H7[1;17H[?25h[?25l[1m[36mt[m[38;52H8[1;18H[?25h[?25l[1m[36me[m[38;52H9[1;19H[?25h[?25l[1m[36ms[m[38;51H20[1;20H[?25h[?25l[1m[36mt[m[38;52H1[1;21H[?25h[38;1H[K[1;20H[?25l[38;39H^[[1;20H[38;39H  [1;21H[38;49H1,20[10CTop[1;20H[?25h[?25l[38;39Ha[1;20H[38;39H [1;21H[38;1H[1m-- INSERT --[m[38;49H[K[38;49H1,21[10CTop[1;21H[?25h[?25l[1m[36ma[m[38;52H2[1;22H[?25h[?25l[1m[36ma[m[38;52H3[1;23H[?25h[?25l[1m[36ma[m[38;52H4[1;24H[?25h[?25l[1;23H[K[38;52H3[1;23H[?25h[?25l[1;22H[K[38;52H2[1;22H[?25h[?25l[1;21H[K[38;52H1[1;21H[?25h[?25l[1m[36m [m[38;52H2[1;22H[?25h[?25l[1m[36ma[m[38;52H3[1;23H[?25h[?25l[1;22H[K[38;52H2[1;22H[?25h[?25l[2;37r[2;1H[L[1;38r[2;1H[1m[36m# [m[38;49H[K[38;49H2,3[11CTop[2;3H[?25h[?25l[2;2H[K[38;51H2[2;2H[?25h[?25l[2;1H[K[38;51H1[2;1H[?25h[?25l[1;37r[37;1H
+[1;38r[1;1H[1m[36m# aaa this is a test [37;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[m[38;49H[K[38;49H1,22[10CTop[1;22H[?25h[?25l[1m[36m}[m[38;52H3[1;23H[?25h[?25l[1;22H[K[38;52H2[1;22H[?25h[?25l[1m[36m|[m[38;52H3[1;23H[?25h[?25l[1m[36mA[m[38;52H4[1;24H[?25h[?25l[1m[36m:[m[38;52H5[1;25H[?25h[?25l[1;24H[K[38;52H4[1;24H[?25h[?25l[1;23H[K[38;52H3[1;23H[?25h[?25l[1m[36m:[m[38;52H4[1;24H[?25h[?25l[1;23H[K[38;52H3[1;23H[?25h[?25l[1m[36m:[m[38;52H4[1;24H[?25h[?25l[1;23H[K[38;52H3[1;23H[?25h[?25l[1m[36m:[m[38;52H4[1;24H[?25h[?25l[1;23H[K[38;52H3[1;23H[?25h[38;1H[K[1;22H[?25l[38;39H^[[1;22H[38;39H  [1;23H[38;49H1,22[10CTop[1;22H[?25h[?25l[38;39H:[1;22H[38;39H[K[38;1H:[?25h [?25l[1;22H[38;49H1,22[10CTop[1;22H[?25h[?25l[38;39Hi[1;22H[38;39H [1;22H[38;1H[1m-- INSERT --[m[38;49H[K[38;49H1,22[10CTop[1;22H[?25h[?25l[1m[36ma|[m[38;52H3[1;23H[?25h[?25l[1m[36m|[m[1;23H[K[38;52H2[1;22H[?25h[38;1H[K[1;21H[?25l[38;39H^[[1;21H[38;39H  [1;22H[38;49H1,21[10CTop[1;21H[?25h[?25l[38;39Ha[1;21H[38;39H [1;22H[38;1H[1m-- INSERT --[m[38;49H[K[38;49H1,22[10CTop[1;22H[?25h[?25l[1m[36ma|[m[38;52H3[1;23H[?25h[?25l[1m[36m|[m[1;23H[K[38;52H2[1;22H[?25h[38;1H[K[1;21H[?25l[38;39H^[[1;21H[38;39H  [1;22H[38;49H1,21[10CTop[1;21H[?25h[?25l[38;39H:[1;21H[38;39H[K[38;1H:[?25h [?25l[1;21H[38;49H1,21[10CTop[1;21H[?25h[?25l[38;39Hw[1;21H[38;39H [1;22H[38;52H2[1;22H[?25h[?25l[38;39Hw[1;22H[38;39H [2;1H[38;49H2,1 [2;1H[?25h[?25l[38;39Hk[2;1H[38;39H [1;1H[38;49H1[1;1H[?25h[?25l[38;39Hl[1;1H[38;39H [1;2H[38;51H2[1;2H[?25h[?25l[38;39Hk[1;2H[38;39H [1;2H[?25h[?25l[38;39Hl[1;2H[38;39H [1;3H[38;51H3[1;3H[?25h[?25l[38;39Hl[1;3H[38;39H [1;4H[38;51H4[1;4H[?25h[?25l[38;39Hl[1;4H[38;39H [1;5H[38;51H5[1;5H[?25h[?25l[38;39Hl[1;5H[38;39H [1;6H[38;51H6[1;6H[?25h[?25l[38;39Hl[1;6H[38;39H [1;7H[38;51H7[1;7H[?25h[?25l[38;39Hl[1;7H[38;39H [1;8H[38;51H8[1;8H[?25h[?25l[38;39Hl[1;8H[38;39H [1;9H[38;51H9[1;9H[?25h[?25l[38;39Hl[1;9H[38;39H [1;10H[38;51H10[1;10H[?25h[?25l[38;39Hl[1;10H[38;39H [1;11H[38;52H1[1;11H[?25h[?25l[38;39Hl[1;11H[38;39H [1;12H[38;52H2[1;12H[?25h[?25l[38;39Hl[1;12H[38;39H [1;13H[38;52H3[1;13H[?25h[?25l[38;39Hl[1;13H[38;39H [1;14H[38;52H4[1;14H[?25h[?25l[38;39Hl[1;14H[38;39H [1;15H[38;52H5[1;15H[?25h[?25l[38;39Hl[1;15H[38;39H [1;16H[38;52H6[1;16H[?25h[?25l[38;39Hl[1;16H[38;39H [1;17H[38;52H7[1;17H[?25h[?25l[38;39Hl[1;17H[38;39H [1;18H[38;52H8[1;18H[?25h[?25l[38;39H;[1;18H[38;39H [1;18H[?25h[?25l[38;39H;[1;18H[38;39H [1;18H[?25h[?25l[38;39H;[1;18H[38;39H [1;18H[?25h[?25l[38;39Hj[1;18H[38;39H [2;18H[38;49H2[2;18H[?25h[?25l[38;39Hk[2;18H[38;39H [1;18H[38;49H1[1;18H[?25h[?25l[38;39Hl[1;18H[38;39H [1;19H[38;52H9[1;19H[?25h[?25l[38;39Hl[1;19H[38;39H [1;20H[38;51H20[1;20H[?25h[?25l[38;39Hl[1;20H[38;39H [1;21H[38;52H1[1;21H[?25h[?25l[38;39Hl[1;21H[38;39H [1;22H[38;52H2[1;22H[?25h[?25l[38;39Hl[1;22H[38;39H [1;22H[?25h[?25l[38;39Hl[1;22H[38;39H [1;22H[?25h[?25l[38;39Hl[1;22H[38;39H [1;22H[?25h[?25l[38;39Hw[1;22H[38;39H [2;1H[38;49H2,1 [2;1H[?25h[?25l[38;39Hl[2;1H[38;39H [2;2H[38;51H2[2;2H[?25h[?25l[38;39Hl[2;2H[38;39H [2;3H[38;51H3[2;3H[?25h[?25l[38;39Hl[2;3H[38;39H [2;4H[38;51H4[2;4H[?25h[?25l[38;39Hl[2;4H[38;39H [2;5H[38;51H5[2;5H[?25h[?25l[38;39Hl[2;5H[38;39H [2;6H[38;51H6[2;6H[?25h[?25l[38;39Hl[2;6H[38;39H [2;7H[38;51H7[2;7H[?25h[?25l[38;39Hl[2;7H[38;39H [2;8H[38;51H8[2;8H[?25h[?25l[38;39Hl[2;8H[38;39H [2;9H[38;51H9[2;9H[?25h[?25l[38;39Hl[2;9H[38;39H [2;10H[38;51H10[2;10H[?25h[?25l[38;39Hl[2;10H[38;39H [2;11H[38;52H1[2;11H[?25h[?25l[38;39Hl[2;11H[38;39H [2;12H[38;52H2[2;12H[?25h[?25l[38;39Hl[2;12H[38;39H [2;13H[38;52H3[2;13H[?25h[?25l[38;39Hl[2;13H[38;39H [2;14H[38;52H4[2;14H[?25h[?25l[38;39Hl[2;14H[38;39H [2;15H[38;52H5[2;15H[?25h[?25l[38;39Hl[2;15H[38;39H [2;16H[38;52H6[2;16H[?25h[?25l[38;39Hl[2;16H[38;39H [2;17H[38;52H7[2;17H[?25h[?25l[38;39Hl[2;17H[38;39H [2;18H[38;52H8[2;18H[?25h[?25l[38;39Hl[2;18H[38;39H [2;19H[38;52H9[2;19H[?25h[?25l[38;39Hl[2;19H[38;39H [2;20H[38;51H20[2;20H[?25h[?25l[38;39Hl[2;20H[38;39H [2;21H[38;52H1[2;21H[?25h[?25l[38;39Hl[2;21H[38;39H [2;22H[38;52H2[2;22H[?25h[?25l[38;39Hl[2;22H[38;39H [2;23H[38;52H3[2;23H[?25h[?25l[38;39Hl[2;23H[38;39H [2;24H[38;52H4[2;24H[?25h[?25l[38;39Hl[2;24H[38;39H [2;25H[38;52H5[2;25H[?25h[?25l[38;39Hl[2;25H[38;39H [2;26H[38;52H6[2;26H[?25h[?25l[38;39Hl[2;26H[38;39H [2;27H[38;52H7[2;27H[?25h[?25l[38;39Hl[2;27H[38;39H [2;28H[38;52H8[2;28H[?25h[?25l[38;39Hl[2;28H[38;39H [2;29H[38;52H9[2;29H[?25h[?25l[38;39Hl[2;29H[38;39H [2;30H[38;51H30[2;30H[?25h[?25l[38;39Hl[2;30H[38;39H [2;31H[38;52H1[2;31H[?25h[?25l[38;39Hl[2;31H[38;39H [2;32H[38;52H2[2;32H[?25h[?25l[38;39Hl[2;32H[38;39H [2;33H[38;52H3[2;33H[?25h[?25l[38;39Hw[2;33H[38;39H [2;37H[38;52H7[2;37H[?25h[?25l[38;39Hw[2;37H[38;39H [2;38H[38;52H8[2;38H[?25h[?25l[38;39Hw[2;38H[38;39H [2;44H[38;51H44[2;44H[?25h[?25l[38;39Hw[2;44H[38;39H [2;46H[38;52H6[2;46H[?25h[?25l[38;39Hw[2;46H[38;39H [2;54H[38;51H54[2;54H[?25h[?25l[38;39Hw[2;54H[38;39H [2;57H[38;52H7[2;57H[?25h[?25l[38;39Hw[2;57H[38;39H [2;61H[38;51H61[2;61H[?25h[?25l[38;39Hb[2;61H[38;39H [2;57H[38;51H57[2;57H[?25h[?25l[38;39Hb[2;57H[38;39H [2;54H[38;52H4[2;54H[?25h[?25l[38;39Hb[2;54H[38;39H [2;46H[38;51H46[2;46H[?25h[?25l[38;39Hb[2;46H[38;39H [2;44H[38;52H4[2;44H[?25h[?25l[38;39Hb[2;44H[38;39H [2;38H[38;51H38[2;38H[?25h[?25l[38;39Hb[2;38H[38;39H [2;37H[38;52H7[2;37H[?25h[?25l[38;39Hb[2;37H[38;39H [2;33H[38;52H3[2;33H[?25h[?25l[38;39Hb[2;33H[38;39H [2;28H[38;51H28[2;28H[?25h[?25l[38;39Hb[2;28H[38;39H [2;21H[38;52H1[2;21H[?25h[?25l[38;39Hb[2;21H[38;39H [2;18H[38;51H18[2;18H[?25h[?25l[38;39Hb[2;18H[38;39H [2;13H[38;52H3[2;13H[?25h[?25l[38;39Hb[2;13H[38;39H [2;8H[38;51H8 [2;8H[?25h[?25l[38;39Hb[2;8H[38;39H [2;3H[38;51H3[2;3H[?25h[?25l[38;39Hb[2;3H[38;39H [2;1H[38;51H1[2;1H[?25h[?25l[38;39Hk[2;1H[38;39H [1;1H[38;49H1[1;1H[?25h[?25l[38;39Hl[1;1H[38;39H [1;2H[38;51H2[1;2H[?25h[?25l[38;39Hl[1;2H[38;39H [1;3H[38;51H3[1;3H[?25h[?25l[38;39Hl[1;3H[38;39H [1;4H[38;51H4[1;4H[?25h[?25l[38;39Hl[1;4H[38;39H [1;5H[38;51H5[1;5H[?25h[?25l[38;39Hl[1;5H[38;39H [1;6H[38;51H6[1;6H[?25h[?25l[38;39Hl[1;6H[38;39H [1;7H[38;51H7[1;7H[?25h[?25l[38;39Hl[1;7H[38;39H [1;8H[38;51H8[1;8H[?25h[?25l[38;39Hl[1;8H[38;39H [1;9H[38;51H9[1;9H[?25h[?25l[38;39Hl[1;9H[38;39H [1;10H[38;51H10[1;10H[?25h[?25l[38;39Hl[1;10H[38;39H [1;11H[38;52H1[1;11H[?25h[?25l[38;39Hl[1;11H[38;39H [1;12H[38;52H2[1;12H[?25h[?25l[38;39Hl[1;12H[38;39H [1;13H[38;52H3[1;13H[?25h[?25l[38;39Hl[1;13H[38;39H [1;14H[38;52H4[1;14H[?25h[?25l[38;39Hl[1;14H[38;39H [1;15H[38;52H5[1;15H[?25h[?25l[38;39Hl[1;15H[38;39H [1;16H[38;52H6[1;16H[?25h[?25l[38;39Hl[1;16H[38;39H [1;17H[38;52H7[1;17H[?25h[?25l[38;39H-[1;17H[38;39H [1;17H[?25h[?25l[38;39H-[1;17H[38;39H [1;17H[?25h[?25l[38;39H0[1;17H[38;39H [1;1H[38;52H [1;1H[?25h[?25l[38;39H$[1;1H[38;39H [1;22H[38;51H22[1;22H[?25h[?25l[38;39H5[1;22H[?25h[?25l[38;40HL[1;22H[38;39H  [32;1H[38;49H27,0-1[32;1H[?25h[?25l[38;39H5[32;1H[?25h[?25l[38;40HF[32;1H[?25h[?25l[38;41H~@k[32;1H[38;39H     [32;1H[?25h[?25l[38;39HG[32;1H[38;39H [37;1H[1;37r[1;1H[22M[1;38r[17;1H[1m[36m# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[1m[36m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[1m[36m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[1m[36m# See sudoers(5) for more information on "@include" directives:[m
+
+r /etc/sudoers.d[38;49H[K[38;49H54,1[10CBot[37;1H[?25h[?25l[38;39H5[37;1H[?25h[?25l[38;40Hr[37;1H[?25h[?25l[38;41H~@k[37;1H[38;39H     [37;1H[?25h[?25l[38;39H1[37;1H[?25h[?25l[38;40HF[37;1H[?25h[?25l[38;41H~@k[37;1H[38;39H     [37;1H[?25h[?25l[38;39HF[37;1H[?25h[?25l[38;40HG[37;1H[38;39H  [37;1H[?25h[?25l[38;39HFG[37;1H[38;39H  [37;1H[?25h[?25l[38;39H1[37;1H[?25h[?25l[38;39H [1;1H[1;37r[1;1H[22L[1;38r[1;1H[1m[36m# aaa this is a test |
+# This file MUST be edited with the 'visudo' command as root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead  [5;1Hof
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[13;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[19;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [22;1Hmeans[m[38;49H[K[38;49H1,1[11CTop[1;1H[?25h[?25l[38;39HT[1;1H[?25h[?25l[38;40HH[1;1H[38;39H  [1;1H[?25h[?25l[38;39HJ[1;1H[38;39H [1;23H[1m[36m # This file MUST be edited with the 'visudoo[2;1H' command as root.[m[2;19H[K[38;51H23[1;23H[?25h[?25l[38;39HJ[1;23H[38;39H [2;19H[1;37r[37;1H
+[1;38r[1;1H[1m[36m# aaa this is a test | # This file MUST be edited with the 'visudoo[2;1H' command as root.  #[m[38;49H[K[38;49H1,85[10CTop[2;19H[?25h[?25l[38;39HH[2;19H[38;39H [1;1H[38;51H1 [1;1H[?25h[?25l[38;39HH[1;1H[38;39H [1;1H[?25h[?25l[38;39HH[1;1H[38;39H [1;1H[?25h[?25l[38;39HH[1;1H[38;39H [1;1H[?25h[?25l[38;39HG[1;1H[38;39H [37;1H[1;37r[1;1H[21M[1;38r[17;1H[1m[36m# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[1m[36m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[1m[36m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[1m[36m# See sudoers(5) for more information on "@include" directives:[m
+
+r /etc/sudoers.d[38;49H[K[38;49H52,1[10CBot[37;1H[?25h[?25l[38;39Hg[37;1H[?25h[?25l[38;39H [37;1H[38;39Hg[37;1H[?25h[?25l[38;40H^M[37;1H[38;39H   [37;1H[?25h[?25l[38;39Hg[37;1H[?25h[?25l[38;39H [37;1H[38;39Hgg[37;1H[38;39H  [1;1H[1;37r[1;1H[21L[1;38r[1;1H[1m[36m# aaa this is a test | # This file MUST be edited with the 'visudoo[2;1H' command as root.  #
+# Please consider adding local content in /etc/sudoers.d/ instead  [4;1Hof
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[12;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[18;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [21;1Hmeans[m[38;49H[K[38;49H1,1[11CTop[1;1H[?25h[?25l[38;39Hd[1;1H[?25h[?25l[38;40H$[1;1H[38;39H  [1;1H[1;37r[37;1H
+[1;38r[1;1H[K[37;1H[1m[36m# Ditto for GPG agent[m[38;49H[K[38;49H1,0-1[9CTop[1;1H[?25h[?25l[38;39H~@k[1;1H[38;39H   [2;1H[38;49H2,1  [2;1H[?25h[?25l[38;39Hd[2;1H[?25h[?25l[38;40H$[2;1H[38;39H  [2;1H[2;37r[37;1H
+[1;38r[2;1H[K[37;1H[1m[36m#Defaults:%sudo env_keep += "GPG_AGENT_INFO"[m[38;49H[K[38;49H2,0-1[9CTop[2;1H[?25h[?25l[38;39Hk[2;1H[38;39H [1;1H[38;49H1[1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hl[1;1H[38;39H [1;1H[?25h[?25l[38;39Hl[1;1H[38;39H [1;1H[?25h[?25l[38;39Hk[1;1H[38;39H [1;1H[?25h[?25l[38;39Hj[1;1H[38;39H [2;1H[38;49H2[2;1H[?25h[?25l[38;39Hj[2;1H[38;39H [3;1H[38;49H3,1  [3;1H[?25h[?25l[38;39Hj[3;1H[38;39H [4;1H[38;49H4[4;1H[?25h[?25l[38;39Hj[4;1H[38;39H [5;1H[38;49H5[5;1H[?25h[?25l[38;39Hj[5;1H[38;39H [6;1H[38;49H6[6;1H[?25h[?25l[38;39Hj[6;1H[38;39H [7;1H[38;49H7[7;1H[?25h[?25l[38;39Hj[7;1H[38;39H [8;1H[38;49H8[8;1H[?25h[?25l[38;39Hk[8;1H[38;39H [7;1H[38;49H7[7;1H[?25h[?25l[38;39Hk[7;1H[38;39H [6;1H[38;49H6[6;1H[?25h[?25l[38;39Hl[6;1H[38;39H [6;1H[?25h[?25l[38;39Hl[6;1H[38;39H [6;1H[?25h[?25l[38;39Hl[6;1H[38;39H [6;1H[?25h[?25l[38;39Hl[6;1H[38;39H [6;1H[?25h[?25l[38;39Hl[6;1H[38;39H [6;1H[?25h[?25l[38;39Hh[6;1H[38;39H [6;1H[?25h[?25l[38;39Hh[6;1H[38;39H [6;1H[?25h[?25l[38;39Hh[6;1H[38;39H [6;1H[?25h[?25l[38;39Hh[6;1H[38;39H [6;1H[?25h[?25l[38;39Hj[6;1H[38;39H [7;1H[38;49H7[7;1H[?25h[?25l[38;39Hj[7;1H[38;39H [8;1H[38;49H8[8;1H[?25h[?25l[38;39Hj[8;1H[38;39H [9;1H[38;49H9[9;1H[?25h[?25l[38;39Hj[9;1H[38;39H [11;1H[38;49H10,1[11;1H[?25h[?25l[38;39Hk[11;1H[38;39H [9;1H[38;49H9,1 [9;1H[?25h[?25l[38;39Hk[9;1H[38;39H [8;1H[38;49H8[8;1H[?25h[?25l[38;39Hk[8;1H[38;39H [7;1H[38;49H7[7;1H[?25h[?25l[38;39Hl[7;1H[38;39H [7;2H[38;51H2[7;2H[?25h[?25l[38;39Hl[7;2H[38;39H [7;3H[38;51H3[7;3H[?25h[?25l[38;39Hl[7;3H[38;39H [7;4H[38;51H4[7;4H[?25h[?25l[38;39Hl[7;4H[38;39H [7;5H[38;51H5[7;5H[?25h[?25l[38;39Hl[7;5H[38;39H [7;6H[38;51H6[7;6H[?25h[?25l[38;39Hl[7;6H[38;39H [7;7H[38;51H7[7;7H[?25h[?25l[38;39Hl[7;7H[38;39H [7;8H[38;51H8[7;8H[?25h[?25l[38;39Hl[7;8H[38;39H [7;16H[38;51H9-16[7;16H[?25h[?25l[38;39Hj[7;16H[38;39H [8;16H[38;49H8[8;16H[?25h[?25l[38;39Hj[8;16H[38;39H [9;16H[38;49H9[9;16H[?25h[?25l[38;39Hj[9;16H[38;39H [11;16H[38;49H10,9-16[11;16H[?25h[?25l[38;39Hj[11;16H[38;39H [12;1H[38;50H1,0-1 [12;1H[?25h[?25l[38;39Hj[12;1H[38;39H [13;16H[38;50H2,16 [13;16H[?25h[?25l[38;39Hj[13;16H[38;39H [14;16H[38;50H3[14;16H[?25h[?25l[38;39Hj[14;16H[38;39H [15;16H[38;50H4[15;16H[?25h[?25l[38;39Hj[15;16H[38;39H [17;1H[38;50H5,0-1[17;1H[?25h[?25l[38;39Hj[17;1H[38;39H [18;16H[38;50H6,16 [18;16H[?25h[?25l[38;39Hj[18;16H[38;39H [20;16H[38;50H7[20;16H[?25h[?25l[38;39Hj[20;16H[38;39H [21;16H[38;50H8[21;16H[?25h[?25l[38;39Hj[21;16H[38;39H [22;1H[38;50H9,0-1[22;1H[?25h[?25l[38;39Hj[22;1H[38;39H [23;16H[38;49H20,16 [23;16H[?25h[?25l[38;39Hj[23;16H[38;39H [24;16H[38;50H1[24;16H[?25h[?25l[38;39Hj[24;16H[38;39H [25;1H[38;50H2,0-1[25;1H[?25h[?25l[38;39Hj[25;1H[38;39H [26;16H[38;50H3,16 [26;16H[?25h[?25l[38;39Hh[26;16H[38;39H [26;15H[38;53H5[26;15H[?25h[?25l[38;39Hh[26;15H[38;39H [26;14H[38;53H4[26;14H[?25h[?25l[38;39Hh[26;14H[38;39H [26;13H[38;53H3[26;13H[?25h[?25l[38;39Hh[26;13H[38;39H [26;12H[38;53H2[26;12H[?25h[?25l[38;39Hh[26;12H[38;39H [26;11H[38;53H1[26;11H[?25h[?25l[38;39Hh[26;11H[38;39H [26;10H[38;53H0[26;10H[?25h[?25l[38;39Hj[26;10H[38;39H [28;10H[38;50H4[28;10H[?25h[?25l[38;39Hj[28;10H[38;39H [29;1H[38;50H5,0-1[29;1H[?25h[?25l[38;39Hk[29;1H[38;39H [28;10H[38;50H4,10 [28;10H[?25h[?25l[38;39Hk[28;10H[38;39H [26;10H[38;50H3[26;10H[?25h[?25l[38;39Hk[26;10H[38;39H [25;1H[38;50H2,0-1[25;1H[?25h[?25l[38;39Hl[25;1H[38;39H [25;1H[?25h[?25l[38;39Hl[25;1H[38;39H [25;1H[?25h[?25l[38;39Hk[25;1H[38;39H [24;10H[38;50H1,10 [24;10H[?25h[?25l[38;39Hl[24;10H[38;39H [24;11H[38;53H1[24;11H[?25h[?25l[38;39Hl[24;11H[38;39H [24;12H[38;53H2[24;12H[?25h[?25l[38;39Hd[24;12H[?25h[?25l[38;40H0[24;12H[38;39H  [24;1Hsudo env_keep += [1m[35m"GREP_COLOR"[m[24;30H[K[38;53H [24;1H[?25h[?25l[38;39H~@k[24;1H[38;39H   [23;1H[38;50H0[23;1H[?25h[?25l[38;39H~@k[23;1H[38;39H   [22;1H[38;49H19,0-1[22;1H[?25h[?25l[38;39H~@k[22;1H[38;39H   [21;1H[38;50H8,1  [21;1H[?25h[?25l[38;39H~@k[21;1H[38;39H   [20;1H[38;50H7[20;1H[?25h[?25l[38;39H~@k[20;1H[38;39H   [18;1H[38;50H6[18;1H[?25h[?25l[38;39H~@k[18;1H[38;39H   [17;1H[38;50H5,0-1[17;1H[?25h[?25l[38;39H~@k[17;1H[38;39H   [15;1H[38;50H4,1  [15;1H[?25h[?25l[38;39H~@k[15;1H[38;39H   [14;1H[38;50H3[14;1H[?25h[?25l[38;39H~@k[14;1H[38;39H   [13;1H[38;50H2[13;1H[?25h[?25l[38;39H~@k[13;1H[38;39H   [12;1H[38;50H1,0-1[12;1H[?25h[?25l[38;39H~@k[12;1H[38;39H   [11;1H[38;50H0,1  [11;1H[?25h[?25l[38;39H~@k[11;1H[38;39H   [9;1H[38;49H9,1 [9;1H[?25h[?25l[38;39Hk[9;1H[38;39H [8;1H[38;49H8[8;1H[?25h[?25l[38;39Hk[8;1H[38;39H [7;1H[38;49H7[7;1H[?25h[?25l[38;39Hk[7;1H[38;39H [6;1H[38;49H6[6;1H[?25h[?25l[38;39Hk[6;1H[38;39H [5;1H[38;49H5[5;1H[?25h[?25l[38;39Hk[5;1H[38;39H [4;1H[38;49H4[4;1H[?25h[?25l[38;39Hk[4;1H[38;39H [3;1H[38;49H3[3;1H[?25h[?25l[38;39Hk[3;1H[38;39H [2;1H[38;49H2,0-1[2;1H[?25h[?25l[38;39Hs[2;1H[38;39H [2;1H[38;39Hcl[2;1H[38;39H  [2;1H[38;1H[1m-- INSERT --[m[38;49H[K[38;49H2,1[11CTop[2;1H[?25h[38;1H[K[2;1H[?25l[38;39H^[[2;1H[38;39H  [2;1H[38;49H2,0-1[9CTop[2;1H[?25h[?25l[38;39Hd[2;1H[?25h[?25l[38;40H$[2;1H[38;39H  [2;1H[?25h[?25l[38;39Hk[2;1H[38;39H [1;1H[38;49H1[1;1H[?25h[?25l[38;39Hl[1;1H[38;39H [1;1H[?25h[?25l[38;39Hl[1;1H[38;39H [1;1H[?25h[?25l[38;39Hp[1;1H[38;39H [1;11H[1m[36m#Defaults:%[m[38;51H11 [1;11H[?25h[?25l[38;39Hp[1;11H[38;39H [1;22H[1;12H[1m[36m#Defaults:%[m[38;51H22[1;22H[?25h[?25l[38;39Hp[1;22H[38;39H [1;33H[1;23H[1m[36m#Defaults:%[m[38;51H33[1;33H[?25h[?25l[38;39Hp[1;33H[38;39H [1;44H[1;34H[1m[36m#Defaults:%[m[38;51H44[1;44H[?25h[?25l[38;39Hp[1;44H[38;39H [1;55H[1;45H[1m[36m#Defaults:%[m[38;51H55[1;55H[?25h[?25l[38;39Hl[1;55H[38;39H [1;55H[?25h[?25l[38;39Hk[1;55H[38;39H [1;55H[?25h[?25l[38;39Hk[1;55H[38;39H [1;55H[?25h[?25l[38;39Hj[1;55H[38;39H [2;1H[38;49H2,0-1[2;1H[?25h[?25l[38;39Hj[2;1H[38;39H [3;31H[38;49H3,31 [3;31H[?25h[?25l[38;39Hy[3;31H[?25h[?25l[38;40Hy[3;31H[38;39H  [3;31H[?25h[?25l[38;39Hp[3;31H[38;39H [4;1H[4;37r[4;1H[L[1;38r[4;1H[1m[36m# directly modifying this file.[m[38;49H[K[38;49H4,1[11CTop[4;1H[?25h[?25l[38;39Hp[4;1H[38;39H [5;1H[5;37r[5;1H[L[1;38r[5;1H[1m[36m# directly modifying this file.[m[38;49H[K[38;49H5,1[11CTop[5;1H[?25h[?25l[38;39Hp[5;1H[38;39H [6;1H[6;37r[6;1H[L[1;38r[6;1H[1m[36m# directly modifying this file.[m[38;49H[K[38;49H6,1[11CTop[6;1H[?25h[?25l[38;39Hp[6;1H[38;39H [7;1H[7;37r[7;1H[L[1;38r[7;1H[1m[36m# directly modifying this file.[m[38;49H[K[38;49H7,1[11CTop[7;1H[?25h[?25l[38;39Hp[7;1H[38;39H [8;1H[8;37r[8;1H[L[1;38r[8;1H[1m[36m# directly modifying this file.[m[38;49H[K[38;49H8,1[11CTop[8;1H[?25h[?25l[38;39HK[8;1H[38;1H:! man 'directly'[38;39H[K[38;18H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[8;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m#Defaults:%#Defaults:%#Defaults:%#Defaults:%#Defaults:%
+
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[15;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[21;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [24;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.[m
+sudo env_keep += [1m[35m"GREP_COLOR"[m
+
+[1m[36m# While you shouldn't normally run git as root, you need to with ee[32;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[m[38;49H8,1[11CTop[8;1H[?25h[?25l[38;39HK[8;1H[38;1H:! man 'directly'[38;39H[K[38;18H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[8;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m#Defaults:%#Defaults:%#Defaults:%#Defaults:%#Defaults:%
+
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[15;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[21;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [24;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.[m
+sudo env_keep += [1m[35m"GREP_COLOR"[m
+
+[1m[36m# While you shouldn't normally run git as root, you need to with ee[32;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[m[38;49H8,1[11CTop[8;1H[?25h[?25l[38;39HK[8;1H[38;1H:! man 'directly'[38;39H[K[38;18H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+^[[IThis system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[8;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m#Defaults:%#Defaults:%#Defaults:%#Defaults:%#Defaults:%
+
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[15;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[21;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [24;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.[m
+sudo env_keep += [1m[35m"GREP_COLOR"[m
+
+[1m[36m# While you shouldn't normally run git as root, you need to with ee[32;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[m[38;49H8,1[11CTop[8;1H[?25h[?25l[38;1H:! man 'directly'[38;49H[K[38;18H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[27m[23m[29m[m[H[2J[?25l[1;1H[1m[36m#Defaults:%#Defaults:%#Defaults:%#Defaults:%#Defaults:%
+
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[15;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[21;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [24;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.[m
+sudo env_keep += [1m[35m"GREP_COLOR"[m
+
+[1m[36m# While you shouldn't normally run git as root, you need to with ee[32;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[m[38;49H8,1[11CTop[8;1H[?25h[?25l[38;39HK[8;1H[38;1H:! man 'directly'[38;39H[K[38;18H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+^[[IThis system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[8;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m#Defaults:%#Defaults:%#Defaults:%#Defaults:%#Defaults:%
+
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[15;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[21;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [24;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.[m
+sudo env_keep += [1m[35m"GREP_COLOR"[m
+
+[1m[36m# While you shouldn't normally run git as root, you need to with ee[32;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[m[38;49H8,1[11CTop[8;1H[?25h[?25l[38;39HK[8;1H[38;1H:! man 'directly'[38;39H[K[38;18H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[?25l[8;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m#Defaults:%#Defaults:%#Defaults:%#Defaults:%#Defaults:%
+
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[15;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[21;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [24;1Hmeans
+# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.[m
+sudo env_keep += [1m[35m"GREP_COLOR"[m
+
+[1m[36m# While you shouldn't normally run git as root, you need to with ee[32;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"[m[38;49H8,1[11CTop[8;1H[?25h[?25l[38;39Hq[8;1H[?25h[?25l[38;40H~@k[8;1H[38;39H    [8;1H[?25h[?25l[38;39H~@k[8;1H[38;39H   [9;1H[38;49H9[9;1H[?25h[?25l[38;39H~@k[9;1H[38;39H   [10;1H[38;49H10,1[10;1H[?25h[?25l[38;39H~@k[10;1H[38;39H   [11;1H[38;50H1[11;1H[?25h[?25l[38;39HJ[11;1H[38;39H [11;2H[11;37r[37;1H
+[1;38r[11;1H[1m[36m# Defaults      env_reset[37;1H# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[m[38;49H[K[38;49H11,2[10CTop[11;2H[?25h[?25l[38;39HJ[11;2H[38;39H [11;26H[11;37r[37;1H
+[1;38r[11;1H[1m[36m# Defaults      env_reset Defaults      mail_badpass[37;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[m[38;49H[K[38;49H11,21-26      Top[11;26H[?25h[?25l[38;39HJ[11;26H[38;39H [11;53H[1m[36m Defaults   see[12;1Hcure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbinn[13;1H:/bin:/snap/bin"[m[13;17H[K[38;52H43-53[11;53H[?25h[?25l[38;39HJ[11;53H[38;39H [13;17H[11;37r[37;1H
+[1;38r[11;1H[1m[36m# Defaults      env_reset Defaults      mail_badpass Defaults   see[12;1Hcure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbinn[13;1H:/bin:/snap/bin" Defaults   use_pty[m[38;49H[K[38;49H11,137-149    Top[13;17H[?25h[?25l[38;39HJ[13;17H[38;39H [13;35H[11;37r[37;1H
+[1;38r[11;1H[1m[36m# Defaults      env_reset Defaults      mail_badpass Defaults   see[12;1Hcure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbinn[13;1H:/bin:/snap/bin" Defaults   use_pty[37;1H# Ditto for GPG agent[m[38;49H[K[38;49H11,153-167    Top[13;35H[?25h[?25l[38;39HJ[13;35H[38;39H [13;36H[1m[36m # This preserves proxy settingg[14;1Hs from user environments of root[m[14;33H[K[38;54H4-168[13;36H[?25h[?25l[38;39Hi[13;36H[38;39H [13;36H[38;1H[1m-- INSERT --[m[38;49H[K[38;49H11,154-168    Top[13;36H[?25h[?25l[1m[36mi # This preserves proxy settinn[14;1Hgs from user environments of root[m[38;54H5-169[13;37H[?25h[?25l[1m[36mi # This preserves proxy settii[14;1Hngs from user environments of root[m[38;54H6-170[13;38H[?25h[?25l[1m[36mi # This preserves proxy settt[14;1Hings from user environments of root[m[38;54H7-171[13;39H[?25h[?25l[1m[36mi # This preserves proxy sett[14;1Htings from user environments of root[m[38;54H8-172[13;40H[?25h[?25l[1m[36mL # This preserves proxy see[14;1Httings from user environments of root[m[38;54H9-173[13;41H[?25h[?25l[1m[36m" # This preserves proxy ss[14;1Hettings from user environments of root[m[38;53H60-174[13;42H[?25h[38;1H[K[13;41H[?25l[38;39H^[[13;41H[38;39H  [13;42H[38;49H11,159-173    Top[13;41H[?25h[?25l[38;39Hh[13;41H[38;39H [13;40H[38;54H8-172[13;40H[?25h[?25l[38;39Hu[13;40H[38;1H1 change; before #38  7 seconds ago[38;39H[K[13;36H[1m[36m # This preserves proxy settingg[14;1Hs from user environments of root[m[14;33H[K[38;49H11,154-168    Top[38;49H[K[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39Hu[13;36H[38;3Hmore line; befo...7  22 seconds ago[38;39H[K[13;35H[13;36H[K[14;1H[1m[36m# This preserves proxy settings from user environments of root[m[38;49H11,153-167    Top[38;49H[K[38;49H11,153-167    Top[13;35H[?25h[?25l[38;39Hu[13;35H[38;21H6  23[38;39H[K[13;17H[14;37r[14;1H[L[1;38r[38;1H[K[38;49H11,137-149    Top1 more line; befo...6  23 seconds ago[38;49H[K[38;49H11,137-149    Top[13;17H[?25h[?25l[38;39Hu[13;17H[38;21H5  24[38;39H[K[11;53H[14;37r[14;1H[L[1;38r[13;17H[K[14;1HDefaults[8Cuse_pty[38;1H[K[38;49H11,43-53      Top1 more line; befo...5  24 seconds ago[38;49H[K[38;49H11,43-53      Top[11;53H[?25h[?25l[38;39Hu[11;53H[38;21H4  25[38;39H[K[11;26H[11;53H[K[12;1HDefaults        secure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[13;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m[38;49H11,21-26      Top[38;49H[K[38;49H11,21-26      Top[11;26H[?25h[?25l[38;39Hu[11;26H[38;21H3[38;39H[K[11;2H[12;37r[12;1H[L[1;38r[11;26H[K[12;1HDefaults[8Cmail_badpass[38;1H[K[38;49H11,2[10CTop1 more line; befo...3  25 seconds ago[38;49H[K[38;49H11,2[10CTop[11;2H[?25h[?25l[38;39Hu[11;2H[38;21H2  27[38;39H[K[11;1H[12;37r[12;1H[L[1;38r[11;2H[K[12;1HDefaults[8Cenv_reset[38;1H[K[38;49H11,1[10CTop1 more line; befo...2  27 seconds ago[38;49H[K[38;49H11,1[10CTop[11;1H[?25h[?25l[38;39Hu[11;1H[38;3Hline less; before #31  02:11:04[38;35H[K[7;1H[8;37r[37;1H
+[1;38r[37;1H[1m[36m# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[m[38;1H[K[38;49H7,1[11CTop1 line less; before #31  02:11:04[38;49H[K[38;49H7,1[11CTop[7;1H[?25h[?25l[38;39Hu[7;1H[38;23H0[9C3[38;39H[K[6;1H[7;37r[37;1H
+[1;38r[37;1H[1m[36m#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[m[38;1H[K[38;49H6,1[11CTop1 line less; before #30  02:11:03[38;49H[K[38;49H6,1[11CTop[6;1H[?25h[?25l[38;39Hu[6;1H[38;22H29[38;39H[K[5;1H[6;37r[37;1H
+[1;38r[38;1H[K[38;49H5,1[11CTop1 line less; before #29  02:11:03[38;49H[K[38;49H5,1[11CTop[5;1H[?25h[?25l[38;39Hu[5;1H[38;23H8[38;39H[K[4;1H[5;37r[37;1H
+[1;38r[37;1H[1m[36m# Ditto for GPG agent[m[38;1H[K[38;49H4,1[11CTop1 line less; before #28  02:11:03[38;49H[K[38;49H4,1[11CTop[4;1H[?25h[?25l[38;39Hu[4;1H[38;23H7[9C2[38;39H[K[3;31H[4;37r[37;1H
+[1;38r[37;1H[1m[36m#Defaults:%sudo env_keep += "GPG_AGENT_INFO"[m[38;1H[K[38;49H3,31[10CTop1 line less; before #27  02:11:02[38;49H[K[38;49H3,31[10CTop[3;31H[?25h[?25l[38;39Hu[3;31H[38;3Hchange; before #26  02:10:48[38;31H[K[1;44H[1;45H[K[38;49H1,44[10CTop[38;49H[K[38;49H1,44[10CTop[1;44H[?25h[?25l[38;39Hu[1;44H[38;20H5[38;39H[K[1;33H[1;34H[K[38;49H1,33[10CTop[38;49H[K[38;49H1,33[10CTop[1;33H[?25h[?25l[38;39Hu[1;33H[38;20H4[38;39H[K[1;22H[1;23H[K[38;49H1,22[10CTop[38;49H[K[38;49H1,22[10CTop[1;22H[?25h[?25l[38;39Hu[1;22H[38;20H3[9C7[38;39H[K[1;11H[1;12H[K[38;49H1,11[10CTop[38;49H[K[38;49H1,11[10CTop[1;11H[?25h[?25l[38;39Hu[1;11H[38;20H2[9C6[38;39H[K[1;1H[1;1H[K[38;49H1,0-1[9CTop[38;49H[K[38;49H1,0-1[9CTop[1;1H[?25h[?25l[38;39Hu[1;1H[38;20H1[8C35[38;39H[K[2;1H[38;49H2,0-1[9CTop[38;49H[K[38;49H2,0-1[9CTop[2;1H[?25h[?25l[38;39Hu[2;1H[38;20H0[8C02[38;39H[K[24;1H[1m[36m#Defaults:%sudo env_keep += "GREP_COLOR"[m[38;49H21,1[10CTop[38;49H[K[38;49H21,1[10CTop[24;1H[?25h[?25l[38;39H^R[24;1H[38;11Hafter #20  02:10:02[38;30H[K[24;1Hsudo env_keep += [1m[35m"GREP_COLOR"[m[24;30H[K[38;49H21,1[10CTop[38;49H[K[38;49H21,1[10CTop[24;1H[?25h[?25l[38;39H^R[24;1H[38;19H1[8C35[38;39H[K[2;1H[38;49H2,0-1[9CTop[38;49H[K[38;49H2,0-1[9CTop[2;1H[?25h[?25l[38;39H^R[2;1H[38;19H2[8C46[38;39H[K[1;1H[1m[36m#Defaults:%[m[38;49H1,1[11CTop[38;49H[K[38;49H1,1[11CTop[1;1H[?25h[?25l[38;39H^R[1;1H[38;19H3[9C7[38;39H[K[1;11H[1C[1m[36m#Defaults:%[m[38;49H1,11[10CTop[38;49H[K[38;49H1,11[10CTop[1;11H[?25h[?25l[38;39H^R[1;11H[38;19H4[9C8[38;39H[K[1;22H[1C[1m[36m#Defaults:%[m[38;49H1,22[10CTop[38;49H[K[38;49H1,22[10CTop[1;22H[?25h[?25l[38;39H^R[1;22H[38;19H5[38;39H[K[1;33H[1C[1m[36m#Defaults:%[m[38;49H1,33[10CTop[38;49H[K[38;49H1,33[10CTop[1;33H[?25h[?25l[38;39H^R[1;33H[38;19H6[38;39H[K[1;44H[1C[1m[36m#Defaults:%[m[38;49H1,44[10CTop[38;49H[K[38;49H1,44[10CTop[1;44H[?25h[?25l[38;39H^R[1;44H[38;3Hmore line; after #27  02:11:02[38;39H[K[3;31H[4;37r[4;1H[L[1;38r[4;1H[1m[36m# directly modifying this file.[m[38;1H[K[38;49H3,31[10CTop1 more line; after #27  02:11:02[38;49H[K[38;49H3,31[10CTop[3;31H[?25h[?25l[38;39H^R[3;31H[38;22H8[9C3[38;39H[K[4;1H[5;37r[5;1H[L[1;38r[5;1H[1m[36m# directly modifying this file.[m[38;1H[K[38;49H4,1[11CTop1 more line; after #28  02:11:03[38;49H[K[38;49H4,1[11CTop[4;1H[?25h[?25l[38;39H^R[4;1H[38;22H9[38;39H[K[5;1H[6;37r[6;1H[L[1;38r[6;1H[1m[36m# directly modifying this file.[m[38;1H[K[38;49H5,1[11CTop1 more line; after #29  02:11:03[38;49H[K[38;49H5,1[11CTop[5;1H[?25h[?25l[38;39H^R[5;1H[38;21H30[38;39H[K[6;1H[7;37r[7;1H[L[1;38r[7;1H[1m[36m# directly modifying this file.[m[38;1H[K[38;49H6,1[11CTop1 more line; after #30  02:11:03[38;49H[K[38;49H6,1[11CTop[6;1H[?25h[?25l[38;39H^R[6;1H[38;22H1[9C4[38;39H[K[7;1H[8;37r[8;1H[L[1;38r[8;1H[1m[36m# directly modifying this file.[m[38;1H[K[38;49H7,1[11CTop1 more line; after #31  02:11:04[38;49H[K[38;49H7,1[11CTop[7;1H[?25h[?25l[38;39H^R[7;1H[38;3Hline less; afte...2  36 seconds ago[38;39H[K[11;1H[11;37r[37;1H
+[1;38r[11;1H[1m[36m# Defaults      env_reset[37;1H# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[m[38;1H[K[38;49H11,1[10CTop1 line less; afte...2  36 seconds ago[38;49H[K[38;49H11,1[10CTop[11;1H[?25h[?25l[38;39H^R[11;1H[38;21H3  35[38;39H[K[11;2H[11;37r[37;1H
+[1;38r[11;1H[1m[36m# Defaults      env_reset Defaults      mail_badpass[37;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[m[38;1H[K[38;49H11,2[10CTop1 line less; afte...3  35 seconds ago[38;49H[K[38;49H11,2[10CTop[11;2H[?25h[?25l[38;39H^R[11;2H[38;21H4[38;39H[K[11;26H[27C[1m[36m Defaults   see[12;1Hcure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbinn[13;1H:/bin:/snap/bin"[m[13;17H[K[38;49H11,21-26      Top[38;49H[K[38;49H11,21-26      Top[11;26H[?25h[?25l[38;39H^R[11;26H[38;21H5[38;39H[K[11;53H[11;37r[37;1H
+[1;38r[11;1H[1m[36m# Defaults      env_reset Defaults      mail_badpass Defaults   see[12;1Hcure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbinn[13;1H:/bin:/snap/bin" Defaults   use_pty[m[38;1H[K[38;49H11,43-53      Top1 line less; afte...5  35 seconds ago[38;49H[K[38;49H11,43-53      Top[11;53H[?25h[?25l[38;39H^R[11;53H[38;21H6[38;39H[K[13;17H[11;37r[37;1H
+[1;38r[11;1H[1m[36m# Defaults      env_reset Defaults      mail_badpass Defaults   see[12;1Hcure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbinn[13;1H:/bin:/snap/bin" Defaults   use_pty[37;1H# Ditto for GPG agent[m[38;1H[K[38;49H11,137-149    Top1 line less; afte...6  35 seconds ago[38;49H[K[38;49H11,137-149    Top[13;17H[?25h[?25l[38;39H^R[13;17H[38;21H7  34[38;39H[K[13;35H[1C[1m[36m # This preserves proxy settingg[14;1Hs from user environments of root[m[14;33H[K[38;49H11,153-167    Top[38;49H[K[38;49H11,153-167    Top[13;35H[?25h[?25l[38;39H^R[13;35H[38;3Hchange; after #38  20 seconds ago[38;36H[K[13;36H[1m[36miiiiL" # This preserves proxy ss[14;1Hettings from user environments of root[m[38;49H11,154-168    Top[38;49H[K[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39H^R[13;36H[38;1HAlready at newest change[38;25H[K[13;36H[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39H^R[13;36H[38;39H[K[13;36H[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39H^R[13;36H[38;39H[K[13;36H[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39H^R[13;36H[38;39H[K[13;36H[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39H^R[13;36H[38;39H[K[13;36H[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39H^R[13;36H[38;39H[K[13;36H[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39H^R[13;36H[38;39H[K[13;36H[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39Hu[13;36H[38;1H1 change; before #38  21 seconds ago[38;39H[K[13;36H[1m[36m # This preserves proxy settingg[14;1Hs from user environments of root[m[14;33H[K[38;49H11,154-168    Top[38;49H[K[38;49H11,154-168    Top[13;36H[?25h[?25l[38;39Hu[13;36H[38;3Hmore line; befo...7  35 seconds ago[38;39H[K[13;35H[13;36H[K[14;1H[1m[36m# This preserves proxy settings from user environments of root[m[38;49H11,153-167    Top[38;49H[K[38;49H11,153-167    Top[13;35H[?25h[?25l[38;39Hu[13;35H[38;21H6  37[38;39H[K[13;17H[14;37r[14;1H[L[1;38r[38;1H[K[38;49H11,137-149    Top1 more line; befo...6  37 seconds ago[38;49H[K[38;49H11,137-149    Top[13;17H[?25h[?25l[38;39Hu[13;17H[38;21H5[38;39H[K[11;53H[14;37r[14;1H[L[1;38r[13;17H[K[14;1HDefaults[8Cuse_pty[38;1H[K[38;49H11,43-53      Top1 more line; befo...5  37 seconds ago[38;49H[K[38;49H11,43-53      Top[11;53H[?25h[?25l[38;39Hu[11;53H[38;21H4  38[38;39H[K[11;26H[11;53H[K[12;1HDefaults        secure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[13;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m[38;49H11,21-26      Top[38;49H[K[38;49H11,21-26      Top[11;26H[?25h[?25l[38;39Hu[11;26H[38;21H3[38;39H[K[11;2H[12;37r[12;1H[L[1;38r[11;26H[K[12;1HDefaults[8Cmail_badpass[38;1H[K[38;49H11,2[10CTop1 more line; befo...3  38 seconds ago[38;49H[K[38;49H11,2[10CTop[11;2H[?25h[?25l[38;39Hu[11;2H[38;21H2  39[38;39H[K[11;1H[12;37r[12;1H[L[1;38r[11;2H[K[12;1HDefaults[8Cenv_reset[38;1H[K[38;49H11,1[10CTop1 more line; befo...2  39 seconds ago[38;49H[K[38;49H11,1[10CTop[11;1H[?25h[?25l[38;39Hu[11;1H[38;3Hline less; before #31  02:11:04[38;35H[K[7;1H[8;37r[37;1H
+[1;38r[37;1H[1m[36m# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[m[38;1H[K[38;49H7,1[11CTop1 line less; before #31  02:11:04[38;49H[K[38;49H7,1[11CTop[7;1H[?25h[?25l[38;39Hu[7;1H[38;23H0[9C3[38;39H[K[6;1H[7;37r[37;1H
+[1;38r[37;1H[1m[36m#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"[m[38;1H[K[38;49H6,1[11CTop1 line less; before #30  02:11:03[38;49H[K[38;49H6,1[11CTop[6;1H[?25h[?25l[38;39Hu[6;1H[38;22H29[38;39H[K[5;1H[6;37r[37;1H
+[1;38r[38;1H[K[38;49H5,1[11CTop1 line less; before #29  02:11:03[38;49H[K[38;49H5,1[11CTop[5;1H[?25h[?25l[38;39Hu[5;1H[38;23H8[38;39H[K[4;1H[5;37r[37;1H
+[1;38r[37;1H[1m[36m# Ditto for GPG agent[m[38;1H[K[38;49H4,1[11CTop1 line less; before #28  02:11:03[38;49H[K[38;49H4,1[11CTop[4;1H[?25h[?25l[38;39Hu[4;1H[38;23H7[9C2[38;39H[K[3;31H[4;37r[37;1H
+[1;38r[37;1H[1m[36m#Defaults:%sudo env_keep += "GPG_AGENT_INFO"[m[38;1H[K[38;49H3,31[10CTop1 line less; before #27  02:11:02[38;49H[K[38;49H3,31[10CTop[3;31H[?25h[?25l[38;39Hu[3;31H[38;3Hchange; before #26  02:10:48[38;31H[K[1;44H[1;45H[K[38;49H1,44[10CTop[38;49H[K[38;49H1,44[10CTop[1;44H[?25h[?25l[38;39Hu[1;44H[38;20H5[38;39H[K[1;33H[1;34H[K[38;49H1,33[10CTop[38;49H[K[38;49H1,33[10CTop[1;33H[?25h[?25l[38;39Hu[1;33H[38;20H4[38;39H[K[1;22H[1;23H[K[38;49H1,22[10CTop[38;49H[K[38;49H1,22[10CTop[1;22H[?25h[?25l[38;39Hu[1;22H[38;20H3[9C7[38;39H[K[1;11H[1;12H[K[38;49H1,11[10CTop[38;49H[K[38;49H1,11[10CTop[1;11H[?25h[?25l[38;39Hu[1;11H[38;20H2[9C6[38;39H[K[1;1H[1;1H[K[38;49H1,0-1[9CTop[38;49H[K[38;49H1,0-1[9CTop[1;1H[?25h[?25l[38;39Hu[1;1H[38;20H1[8C35[38;39H[K[2;1H[38;49H2,0-1[9CTop[38;49H[K[38;49H2,0-1[9CTop[2;1H[?25h[?25l[38;39Hu[2;1H[38;20H0[8C02[38;39H[K[24;1H[1m[36m#Defaults:%sudo env_keep += "GREP_COLOR"[m[38;49H21,1[10CTop[38;49H[K[38;49H21,1[10CTop[24;1H[?25h[?25l[38;39Hu[24;1H[38;19H19  02:09:26[38;39H[K[2;1H[3;37r[3;1H[L[1;38r[2;1H[1m[36m# Please consider adding local content in /etc/sudoers.d/ instead  [3;1Hof[m[38;1H[K[38;49H2,1[11CTop1 change; before #19  02:09:26[38;49H[K[38;49H2,1[11CTop[2;1H[?25h[?25l[38;39Hu[2;1H[38;20H8[9C2[38;39H[K[1;1H[2;37r[2;1H[L[1;38r[1;1H[1m[36m# aaa this is a test | # This file MUST be edited with the 'visudoo[2;1H' command as root.  #[m[38;1H[K[38;49H1,1[11CTop1 change; before #18  02:09:22[38;49H[K[38;49H1,1[11CTop[1;1H[?25h[?25l[38;39H/[1;1H[38;1H[K[38;1H/[?25hd[?25l[1;45H[1m[7m[36md[m[1m[36mited with the 'visudoo[2;1H'[m[38;49H1,45[10CTop[38;49H[K[38;3H[?25he[?25l[1;45H[1m[36mdited with the 'visudoo[2;1H'[m[3;15H[1m[7m[36mde[m[1m[36mr adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H2,15[10CTop[38;49H[K[38;4H[?25hs[?25l[3;15H[1m[36mder adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H1,1[11CTop[38;49H[K[38;5H[?25ha[?25l[43C1,1[11CTop[38;49H[K[38;6H[?25h[?25l[38;5H[K[38;49H1,1[11CTop[38;49H[K[38;5H[?25h[?25l[38;4H[K[3;15H[1m[7m[36mde[m[1m[36mr adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H2,15[10CTop[38;49H[K[38;4H[?25hs[?25l[3;15H[1m[36mder adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H1,1[11CTop[38;49H[K[38;5H[?25h[?25l[38;4H[K[3;15H[1m[7m[36mde[m[1m[36mr adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H2,15[10CTop[38;49H[K[38;4H[?25hd[?25l[3;15H[1m[36mder adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H1,1[11CTop[38;49H[K[38;5H[?25h=[?25l[43C1,1[11CTop[38;49H[K[38;6H[?25h[?25l[38;5H[K[38;49H1,1[11CTop[38;49H[K[38;5H[?25h[?25l[38;4H[K[3;15H[1m[7m[36mde[m[1m[36mr adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H2,15[10CTop[38;49H[K[38;4H[?25hf[?25l[3;15H[1m[36mder adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H1,1[11CTop[38;49H[K[38;5H[?25ha[?25l[43C1,1[11CTop[38;49H[K[38;6H[?25hu[?25l[42C1,1[11CTop[38;49H[K[38;7H[?25hl[?25l[41C1,1[11CTop[38;49H[K[38;8H[?25h[?25l[38;7H[K[38;49H1,1[11CTop[38;49H[K[38;7H[?25hk[?25l[41C1,1[11CTop[38;49H[K[38;8H[?25ht[?25l[40C1,1[11CTop[38;49H[K[38;9H[?25h[?25l[38;8H[K[38;49H1,1[11CTop[38;49H[K[38;8H[?25h[?25l[38;7H[K[38;49H1,1[11CTop[38;49H[K[38;7H[?25hl[?25l[41C1,1[11CTop[38;49H[K[38;8H[?25ht[?25l[40C1,1[11CTop[38;49H[K[38;9H[?25h[?25l[38;8H[K[38;49H1,1[11CTop[38;49H[K[38;8H[?25h[?25l[38;7H[K[38;49H1,1[11CTop[38;49H[K[38;7H[?25h[?25l[38;6H[K[38;49H1,1[11CTop[38;49H[K[38;6H[?25h[?25l[38;5H[K[38;49H1,1[11CTop[38;49H[K[38;5H[?25h[?25l[38;4H[K[3;15H[1m[7m[36mde[m[1m[36mr adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H2,15[10CTop[38;49H[K[38;4H[?25h[?25l[38;3H[K[1;45H[1m[7m[36md[m[1m[36mited with the 'visudoo[2;1H'[3;15Hder adding local content in /etc/sudoers.d/ instead  [4;1Ho[m[38;49H1,45[10CTop[38;49H[K[38;3H[?25h[?25l[38;2H[K[1;45H[1m[36mdited with the 'visudoo[2;1H'[m[38;49H1,1[11CTop[38;49H[K[38;2H[?25hW[?25l[28;3H[1m[7m[36mW[m[1m[36mhile you shouldn't normally run git as root, you need to with ee[29;1Ht[m[38;49H23,3[10CTop[38;49H[K[38;3H[?25hh[?25l[28;4H[1m[7m[36mh[m[1m[36mile you shouldn't normally run git as root, you need to with ee[29;1Ht[m[38;49H23,3[10CTop[38;49H[K[38;4H[?25hu[?25l[28;3H[1m[36mWhile you shouldn't normally run git as root, you need to with ee[29;1Ht[m[38;49H1,1[11CTop[38;49H[K[38;5H[?25h[?25l[38;4H[K[28;3H[1m[7m[36mWh[m[1m[36mile you shouldn't normally run git as root, you need to with ee[29;1Ht[m[38;49H23,3[10CTop[38;49H[K[38;4H[?25hi[?25l[28;5H[1m[7m[36mi[m[1m[36mle you shouldn't normally run git as root, you need to with ee[29;1Ht[m[38;49H23,3[10CTop[38;49H[K[38;5H[?25hl[?25l[28;6H[1m[7m[36ml[m[1m[36me you shouldn't normally run git as root, you need to with ee[29;1Ht[m[38;49H23,3[10CTop[38;49H[K[38;6H[?25he[?25l[28;7H[1m[7m[36me[m[1m[36m you shouldn't normally run git as root, you need to with ee[29;1Ht[m[38;49H23,3[10CTop[38;49H[K[38;7H[?25h[?25l[28;3H[1m[36mWhile you shouldn't normally run git as root, you need to with ee[29;1Ht[m[38;49H23,3[10CTop[28;3H[?25h[?25l[38;39Hj[28;3H[38;39H [30;3H[38;50H4[30;3H[?25h[?25l[38;39Hj[30;3H[38;39H [31;1H[38;50H5,0-1[31;1H[?25h[?25l[38;39Hh[31;1H[38;39H [31;1H[?25h[?25l[38;39Hh[31;1H[38;39H [31;1H[?25h[?25l[38;39Hh[31;1H[38;39H [31;1H[?25h[?25l[38;39Hk[31;1H[38;39H [30;3H[38;50H4,3  [30;3H[?25h[?25l[38;39Hk[30;3H[38;39H [28;3H[38;50H3[28;3H[?25h[?25l[38;39Hk[28;3H[38;39H [27;1H[38;50H2,0-1[27;1H[?25h[?25l[38;39Hk[27;1H[38;39H [26;3H[38;50H1,3  [26;3H[?25h[?25l[38;39Hk[26;3H[38;39H [25;3H[38;50H0[25;3H[?25h[?25l[38;39Hh[25;3H[38;39H [25;2H[38;52H2[25;2H[?25h[?25l[38;39Hh[25;2H[38;39H [25;1H[38;52H1[25;1H[?25h[?25l[38;39Hh[25;1H[38;39H [25;1H[?25h[?25l[38;39Hg[25;1H[?25h[?25l[38;39H [25;1H[38;39Hgg[25;1H[38;39H  [1;1H[38;49H1,1 [1;1H[?25h[?25l[38;39HF[1;1H[?25h[?25l[38;40HD[1;1H[38;39H  [1;1H[?25h[?25l[38;39HF[1;1H[?25h[?25l[38;40H~@k[1;1H[38;39H    [1;1H[?25h[?25l[38;39HG[1;1H[38;39H [37;1H[1;37r[1;1H[21M[1;38r[17;1H[1m[36m# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[1m[36m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[1m[36m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[1m[36m# See sudoers(5) for more information on "@include" directives:[m
+
+r /etc/sudoers.d[38;1H[K[38;49H52,1[10CBot[37;1H[?25h[?25l[38;39H#[37;1H
+?\<r\>[38;39H[K[38;1H[1m[31msearch hit TOP, continuing at BOTTOM[37;1H[m[38;49H52,1[10CBot[38;49H[K[38;49H52,1[10CBot[37;1H[?25h[?25l[38;39H~@k[37;1H[38;39H   [36;1H[38;50H1,0-1[36;1H[?25h[?25l[38;39H$[36;1H[38;39H [36;1H[?25h[?25l[38;39H%[36;1H[38;39H [36;1H[?25h[?25l[38;39Hq[36;1H[?25h[?25l[38;40H1[36;1H
+
+[1mrecording[m[1m[31mt[m[1m @1[m[1m[31mO[m[38;13H[K[38;49H51,0-1[8CBot[36;1H[?25h[?25l[38;39H%[36;1H[38;39H [36;1H[?25h[?25l[38;39Hs[36;1H[38;39H [36;1H[38;39Hcl[36;1H[38;39H  [36;1H
+
+[1m--c INSERT --[m [1mrecording @1[m[38;49H[K[38;49H51,1[10CBot[36;1H[?25h[?25l[38;50H2[37;1H[?25h
+[1mrecording @1r[m[38;13H[K[37;1H[?25l[38;39H^[[37;1H[38;39H  [37;1H[38;49H52,1[10CBot[37;1H[?25h[?25l[38;39H^[[37;1H[38;39H  [37;1H[38;39H^[[37;1H[38;39H  [37;1H[?25h[?25l[38;39H^[[37;1H[38;39H  [37;1H[38;39H^[[37;1H[38;39H  [37;1H[?25h[?25l[38;39H^[[37;1H[38;39H  [37;1H[38;39H^[[37;1H[38;39H  [37;1H[?25h[?25l
+Type  :qa!  and p...nges and exit Vim[38;49H[K[38;1H[1mrecording @1[m[38;13H[K[38;49H52,1[10CBot[37;1H[?25h[?25l[38;39H:[37;1H[38;1H[K[38;1H:[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[?2004h]0;root@8e51637945da: /root@8e51637945da:/# vim sudoers 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"sudoers" 54L, 1671B[2;1H�[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"[m[2;37H[K[3;1H[K[4;1H[34m# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[8;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[15;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[34m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[34m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[34m# See sudoers(5) for more information on "@include" directives:[m
+
+@includedir /etc/sudoers.d[38;49H52,1[10CBot[35;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[38;39H/[35;1H[38;40Hc[35;1H[38;41Hc[35;1H[38;42Hc[35;1H[38;43Hc[35;1H[38;44H/[35;1H[38;45Hc[35;1H[38;46Hc[35;1H[38;47Hc[35;1H[38;48Hc[35;1H[38;39H          [35;1H[?25h[?25l[38;39H/[35;1H[38;40H2[35;1H[38;41Hb[35;1H[38;42H2[35;1H[38;43Hb[35;1H[38;44H/[35;1H[38;45H3[35;1H[38;46H6[35;1H[38;47H3[35;1H[38;48H6[35;1H[38;39H          [35;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m# different sudoers have their choice of editor respected.
+#Defaults:%sudo env_keep += "EDITOR"
+
+# Completely harmless preservation of a user preference.
+#Defaults:%sudo env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[8;1Htckeeper
+#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
+
+# Per-user preferences; root won't have sensible values for them.
+#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "sudo scp" or "sudo rsync" should be able to use your SSH agent.[15;1H#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[1m[36m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[1m[36m# Allow members of group sudo to execute any command[m
+%sudo   ALL=(ALL:ALL) ALL
+
+[1m[36m# See sudoers(5) for more information on "@include" directives:[m
+
+@includedir /etc/sudoers.d[38;49H52,1[10CBot"sudoers" 54L, 1671B[35;1H[?25h[?25l[38;39H%[35;1H[38;39H [35;16H[1m[36m[46m([m[1m[36m5[m[1m[36m[46m)[m[1m[36m for more information on "@include" directives:[m[38;53H6[35;16H[?25h[?25l[38;39Hs[35;16H[38;39H [35;16H[38;39Hcl[35;16H[38;39H  [35;16H
+
+
+[1m-- INSERT --[m[38;13H[K[38;49H52,16[9CBot[35;16H[1m[36m[46m [m[1m[36mfor more information on "@include" directives:[m[35;63H[K[35;14H[1m[36m(5 for more information on "@include" directives:[35;16H[?25h[?25l  for more information on "@include" directives:[m[38;53H7[35;17H[?25h[38;1H[K[35;16H[?25l[38;39H^[[35;16H[38;39H  [35;17H[38;49H52,16[9CBot[35;16H[?25h[?25l[38;39H"[35;16H[?25h[?25l[38;40H^[[35;16H[38;40H  [35;16H[38;40H^[[35;16H[38;39H   [35;16H[?25h[?25l[38;39H:[35;16H[38;39H[K[38;1H:[?25h%s [?25l[?25h/s[?25l[1;37r[1;1H[22L[1;38r[1;1H[1m[36m#
+# Thi[m[1m[7m[36ms[m[1m[36m file MUST be edited with the 'visudo' command as root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead  [5;1Hof
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#[m
+Defaults[8Cenv_reset
+Defaults[8Cmail_badpass
+Defaults[8Csecure_path=[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/ss[13;1Hbin:/usr/bin:/sbin:/bin:/snap/bin"[m
+Defaults[8Cuse_pty
+
+[1m[36m# This preserves proxy settings from user environments of root
+# equivalent users (group sudo)
+#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all__[19;1Hproxy no_proxy"
+
+# This allows running arbitrary commands, but so does ALL, and it  [22;1Hmeans[m[38;1H[K[38;49H2,6[11CTop:%s/s[38;49H[K[38;6H[?25hu[?25l[2;6H[1m[36ms file MUST be edited with the 'vi[m[1m[7m[36msu[m[1m[36mdo' command as root.[m[38;49H2,40[10CTop[38;49H[K[38;7H[?25hd[?25l[2;42H[1m[7m[36md[m[1m[36mo' command as root.[m[38;49H2,40[10CTop[38;49H[K[38;8H[?25ho[?25l[2;43H[1m[7m[36mo[m[1m[36m' command as root.[m[38;49H2,40[10CTop[38;49H[K[38;9H[?25h/[?25l[39C2,40[10CTop[38;49H[K[38;10H[?25hS[?25l[38C2,40[10CTop[38;49H[K[38;11H[?25hU[?25l[37C2,40[10CTop[38;49H[K[38;12H[?25hD[?25l[36C2,40[10CTop[38;49H[K[38;13H[?25hO[?25l[35C2,40[10CTop[38;49H[K[38;14H[?25h_[?25l[34C2,40[10CTop[38;49H[K[38;15H[?25hE[?25l[33C2,40[10CTop[38;49H[K[38;16H[?25h[?25l[38;15H[K[38;49H2,40[10CTop[38;49H[K[38;15H[?25h+[?25l[33C2,40[10CTop[38;49H[K[38;16H[?25h[?25l[38;15H[K[38;49H2,40[10CTop[38;49H[K[38;15H[?25hR[?25l[33C2,40[10CTop[38;49H[K[38;16H[?25hE[?25l[32C2,40[10CTop[38;49H[K[38;17H[?25hP[?25l[31C2,40[10CTop[38;49H[K[38;18H[?25hL[?25l[30C2,40[10CTop[38;49H[K[38;19H[?25hA[?25l[29C2,40[10CTop[38;49H[K[38;20H[?25hX[?25l[28C2,40[10CTop[38;49H[K[38;21H[?25hE[?25l[27C2,40[10CTop[38;49H[K[38;22H[?25h[?25l[38;21H[K[38;49H2,40[10CTop[38;49H[K[38;21H[?25h[?25l[38;20H[K[38;49H2,40[10CTop[38;49H[K[38;20H[?25hC[?25l[28C2,40[10CTop[38;49H[K[38;21H[?25hE[?25l[27C2,40[10CTop[38;49H[K[38;22H[?25h/[?25l[26C2,40[10CTop[38;49H[K[38;23H[?25hg[?25l[25C2,40[10CTop[38;49H[K[38;24H[?25h[?25l18 substitutions on 17 lines[37;1H[27m[23m[29m[m[H[2J[2;1H[1m[36m# Completely harmless preservation of a user preference.
+#Defaults:%SUDO_REPLACE env_keep += "GREP_COLOR"
+
+# While you shouldn't normally run git as root, you need to with ee[6;1Htckeeper
+#Defaults:%SUDO_REPLACE env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"[9;1H# Per-user preferences; root won't have sensible values for them.
+#Defaults:%SUDO_REPLACE env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
+
+# "SUDO_REPLACE scp" or "SUDO_REPLACE rsync" should be able to usee[13;1H your SSH agent.
+#Defaults:%SUDO_REPLACE env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
+
+# Ditto for GPG agent
+#Defaults:%SUDO_REPLACE env_keep += "GPG_AGENT_INFO"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification[m
+root    ALL=(ALL:ALL) ALL
+
+[1m[36m# Members of the admin group may gain root privileges[m
+%admin ALL=(ALL) ALL
+
+[1m[36m# Allow members of group SUDO_REPLACE to execute any command[m
+%SUDO_REPLACE   ALL=(ALL:ALL) ALL
+
+[1m[36m# See SUDO_REPLACEers(5  for more information on "@include" directt[35;1Hives:[m
+
+@includedir /etc/SUDO_REPLACEers.d[38;49H54,1[10CBot18 substitutions on 17 lines[38;49H[K[38;49H54,1[10CBot[37;1H[?25h[?25l[38;39H/[37;1H[38;1H[K[38;1H/[?25hA[?25l[37;27H[7mA[m[38;49H54,27[9CBot[38;49H[K[38;3H[?25hS[?25l[37;27HA[38;49H54,1[10CBot[38;49H[K[38;4H[?25h[?25l[38;3H[K[37;27H[7mA[m[38;49H54,27[9CBot[38;49H[K[38;3H[?25h[?25l[38;2H[K[37;27HA[38;49H54,1[10CBot[38;49H[K[38;2H[?25hA[?25l[37;27H[7mA[m[38;49H54,27[9CBot[38;49H[K[38;3H[?25hS[?25l[37;27HA[38;49H54,1[10CBot[38;49H[K[38;4H[?25h[?25l[38;3H[K[37;27H[7mA[m[38;49H54,27[9CBot[38;49H[K[38;3H[?25h[?25l[38;2H[K[37;27HA[38;49H54,1[10CBot[38;49H[K[38;2H[?25hS[?25l[37;18H[7mS[m[38;49H54,18[9CBot[38;49H[K[38;3H[?25hU[?25l[37;19H[7mU[m[38;49H54,18[9CBot[38;49H[K[38;4H[?25hD[?25l[37;20H[7mD[m[38;49H54,18[9CBot[38;49H[K[38;5H[?25hI[?25l[37;18HSUD[38;49H54,1[10CBot[38;49H[K[38;6H[?25hO[?25l[42C54,1[10CBot[38;49H[K[38;7H[?25h[?25l[38;6H[K[38;49H54,1[10CBot[38;49H[K[38;6H[?25h[?25l[38;5H[K[37;18H[7mSUD[m[38;49H54,18[9CBot[38;49H[K[38;5H[?25hO[?25l[37;21H[7mO[m[38;49H54,18[9CBot[38;49H[K[38;6H[?25hP[?25l[37;18HSUDO[38;49H54,1[10CBot[38;49H[K[38;7H[?25h[?25l[38;6H[K[37;18H[7mSUDO[m[38;49H54,18[9CBot[38;49H[K[38;6H[?25h[?25l[38;1H[K[37;1H[17CSUDO[38;49H54,1[10CBot[37;1H[?25h[?25l[38;39H>[37;1H[?25h[?25l[38;40H~@k[37;1H[38;39H    [36;1H[38;50H3,0-1[36;1H[?25h[?25l[38;39H/[36;1H[38;39H[K[38;1H/[?25hA[?25l[37;27H[7mA[m[38;49H54,27[9CBot[38;49H[K[38;3H[?25hU[?25l[7;42H[1m[7m[36mAU[m[1m[36mTHOR_* GIT_COMMITTER_*"[m[37;27HA[38;49H26,42[9CBot[38;49H[K[38;4H[?25h[?25l[38;3H[K[7;42H[1m[36mAUTHOR_* GIT_COMMITTER_*"[m[37;27H[7mA[m[38;49H54,27[9CBot[38;49H[K[38;3H[?25h[?25l[38;2H[K[37;27HA[38;49H53,0-1[8CBot[38;49H[K[38;2H[?25hS[?25l[37;18H[7mS[m[38;49H54,18[9CBot[38;49H[K[38;3H[?25hU[?25l[37;19H[7mU[m[38;49H54,18[9CBot[38;49H[K[38;4H[?25hD[?25l[37;20H[7mD[m[38;49H54,18[9CBot[38;49H[K[38;5H[?25hO[?25l[37;21H[7mO[m[38;49H54,18[9CBot[38;49H[K[38;6H[?25h:[?25l[37;18HSUDO[38;49H53,0-1[8CBot[38;49H[K[38;7H[?25hq[?25l[41C53,0-1[8CBot[38;49H[K[38;8H[?25h![?25l[40C53,0-1[8CBot[38;49H[K[38;9H[?25h[?25l[1m[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: SUDO:q![m[1m[31m [m[38;33H[K[36;1H[38;49H53,0-1[8CBot[36;1H[?25h[?25l[38;39H:[36;1H[38;1H[K[38;1H:[?25hqw[?25l[38;3H[K[38;3H[?25h![?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@8e51637945da: /root@8e51637945da:/# vimtutor
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"/usr/share/vim/vim82/tutor/tutor" 972 lines, 33583 bytes[?2004l[>4;m
+"/tmp/tutor0x2k6S" 972 lines, 33583 bytes written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"/tmp/tutor0x2k6S" 972 lines, 33583 bytes[2;1H�[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H===================================================================[2;1H=============[2;14H[K[3;1H=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Versii[4;1Hon 1.7      =
+===================================================================[6;1H=============[8;6HVim is a very powerful editor that has many commands, too mann[9;1Hy to[10;6Hexplain in a tutor such as this.  This tutor is designed to dd[11;1Hescribe[12;6Henough of the commands that you will be able to easily use Vii[13;1Hm as[14;6Han all-purpose editor.[16;6HThe approximate time required to complete the tutor is 30 minn[17;1Hutes,[18;6Hdepending upon how much time is spent with experimentation.[20;6HATTENTION:[21;6HThe commands in the lessons will modify the text.  Make a copp[22;1Hy of this[23;6Hfile to practice on (if you started "vimtutor" this is alreadd[24;1Hy a copy).[26;6HIt is important to remember that this tutor is set up to teacc[27;1Hh by[28;6Huse.  That means that you need to execute the commands to leaa[29;1Hrn them[30;6Hproperly.  If you only read the text, you will forget the comm[31;1Hmands![33;6HNow, make sure that your Caps-Lock key is NOT depressed and pp[34;1Hress[35;6Hthe   j   key enough times to move the cursor so that lesson  [36;1H1.1[37;6Hcompletely fills the screen.[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[38;56H/[1;1H[38;57Hc[1;1H[38;58Hc[1;1H[38;59Hc[1;1H[38;60Hc[1;1H[38;61H/[1;1H[38;62Hc[1;1H[38;63Hc[1;1H[38;64Hc[1;1H[38;65Hc[1;1H[?25h[?25l[38;56H          [1;1H[?25h[?25l[38;56H/[1;1H[38;57H2[1;1H[38;58Hb[1;1H[38;59H2[1;1H[38;60Hb[1;1H[38;61H/[1;1H[38;62H3[1;1H[38;63H6[1;1H[38;64H3[1;1H[38;65H6[1;1H[?25h[?25l[38;56H          [1;1H[27m[23m[29m[m[H[2J[1;1H===================================================================[2;1H=============
+=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Versii[4;1Hon 1.7      =
+===================================================================[6;1H=============[8;6HVim is a very powerful editor that has many commands, too mann[9;1Hy to[10;6Hexplain in a tutor such as this.  This tutor is designed to dd[11;1Hescribe[12;6Henough of the commands that you will be able to easily use Vii[13;1Hm as[14;6Han all-purpose editor.[16;6HThe approximate time required to complete the tutor is 30 minn[17;1Hutes,[18;6Hdepending upon how much time is spent with experimentation.[20;6HATTENTION:[21;6HThe commands in the lessons will modify the text.  Make a copp[22;1Hy of this[23;6Hfile to practice on (if you started "vimtutor" this is alreadd[24;1Hy a copy).[26;6HIt is important to remember that this tutor is set up to teacc[27;1Hh by[28;6Huse.  That means that you need to execute the commands to leaa[29;1Hrn them[30;6Hproperly.  If you only read the text, you will forget the comm[31;1Hmands![33;6HNow, make sure that your Caps-Lock key is NOT depressed and pp[34;1Hress[35;6Hthe   j   key enough times to move the cursor so that lesson  [36;1H1.1[37;6Hcompletely fills the screen.
+"/tmp/tutor0x2k6S" 972 lines, 33583 bytes[1;1H[?25h[?25l[38;56H~@k[1;1H[38;56H   [3;1H[?25h[?25l[38;56H~@k[3;1H[38;56H   [5;1H[?25h[?25l[38;56H~@k[5;1H[38;56H   [7;1H[?25h[?25l[38;56H~@k[7;1H[38;56H   [8;1H[?25h[?25l[38;56H~@k[8;1H[38;56H   [10;1H[?25h[?25l[38;56H~@k[10;1H[38;56H   [12;1H[?25h[?25l[38;56H~@k[12;1H[38;56H   [14;1H[?25h[?25l[38;56H~@k[14;1H[38;56H   [15;1H[?25h[?25l[38;56H~@k[15;1H[38;56H   [16;1H[?25h[?25l[38;56Hk[16;1H[38;56H [15;1H[?25h[?25l[38;56Hk[15;1H[38;56H [14;1H[?25h[?25l[38;56Hk[14;1H[38;56H [12;1H[?25h[?25l[38;56Hj[12;1H[38;56H [14;1H[?25h[?25l[38;56Hk[14;1H[38;56H [12;1H[?25h[?25l[38;56Hj[12;1H[38;56H [14;1H[?25h[?25l[38;56Hj[14;1H[38;56H [15;1H[?25h[?25l[38;56Hj[15;1H[38;56H [16;1H[?25h[?25l[38;56Hj[16;1H[38;56H [18;1H[?25h[?25l[38;56Hj[18;1H[38;56H [19;1H[?25h[?25l[38;56Hj[19;1H[38;56H [20;1H[?25h[?25l[38;56Hj[20;1H[38;56H [21;1H[?25h[?25l[38;56Hj[21;1H[38;56H [23;1H[?25h[?25l[38;56Hj[23;1H[38;56H [25;1H[?25h[?25l[38;56Hj[25;1H[38;56H [26;1H[?25h[?25l[38;56Hj[26;1H[38;56H [28;1H[?25h[?25l[38;56Hj[28;1H[38;56H [30;1H[?25h[?25l[38;56Hj[30;1H[38;56H [32;1H[?25h[?25l[38;56Hj[32;1H[38;56H [33;1H[?25h[?25l[38;56Hj[33;1H[38;56H [35;1H[?25h[?25l[38;56Hj[35;1H[38;56H [37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;1H[1;37r[1;1H[2M[1;38r[36;1H~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[37;1H~~~~~~~~~~~~[38;1H[K[36;1H[?25h[?25l[38;56Hl[36;1H[38;56H [36;2H[?25h[?25l[38;56Hl[36;2H[38;56H [36;3H[?25h[?25l[38;56Hk[36;3H[38;56H [35;3H[?25h[?25l[38;56Hl[35;3H[38;56H [35;4H[?25h[?25l[38;56Hj[35;4H[38;56H [36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [36;8H[1;37r[1;1H[2M[1;38r[36;25HLesson 1.1:  MOVING THE CURSOR[36;8H[?25h[?25l[38;56Hj[36;8H[38;56H [37;1H[?25h[?25l[38;56Hk[37;1H[38;56H [36;8H[?25h[?25l[38;56Hj[36;8H[38;56H [37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;1H[1;37r[1;1H[2M[1;38r[37;4H** To move the cursor, press the h,j,k,l keys as indicated. **[36;1H[?25h[?25l[38;56Hj[36;1H[38;56H [37;4H[?25h[?25l[38;56Hj[37;4H[38;56H [37;8H[1;37r[37;1H
+[1;38r[37;14H^[37;8H[?25h[?25l[38;56Hj[37;8H[38;56H [36;8H[1;37r[1;1H[2M[1;38r[36;14Hk[14CHint:  The h key is at the left and moo[37;1Hves left.[36;8H[?25h[?25l[38;56Hj[36;8H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;8H< h[7Cl >[15CThe l key is at the right and mm[37;1Hoves right.[36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [36;8H[1;37r[1;1H[2M[1;38r[36;14Hj[21CThe j key looks like a down arrr[37;1How.[36;8H[?25h[?25l[38;56Hj[36;8H[38;56H [37;8H[1;37r[37;1H
+[1;38r[37;14Hv[37;8H[?25h[?25l[38;56Hj[37;8H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H1. Move the cursor around the screen until you are comfortable.  1[?25h[?25l[38;56Hj[37;4H[38;56H [36;1H[1;37r[1;1H[2M[1;38r[37;3H2. Hold down the down key (j) until it repeats.[36;1H[?25h[?25l[38;56Hj[36;1H[38;56H [37;4H[?25h[?25l[38;56Hj[37;4H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;6HNow you know how to move to the next lesson.   [?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H3. Using the down key, move to lesson 1.2.  3[?25h[?25l[38;56Hj[37;4H[38;56H [36;1H[1;37r[1;1H[2M[1;38r[37;1HNOTE: If you are ever unsure about something you typed, press <ESC[37;1H[1m[34m@                                                                 [36;1H[?25h[?25l[m[38;56Hj[36;1H[38;56H [35;4H[1;37r[1;1H[2M[1;38r[35;1HNOTE: If you are ever unsure about something you typed, press <ESCC[36;1H> to place[37;7Hyou in Normal mode.  Then retype the command you wanted.[35;4H[?25h[?25l[38;56Hj[35;4H[38;56H [37;4H[?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;1HNOTE: The cursor keys should also work.  But using hjkl you will bb[37;1He able to[36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;7Hmove around much faster, once you get used to it.  Really!   [?25h[?25l[38;56Hj[36;4H[38;56H [37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;1H~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[37;1H~~~~~~~~~~~~[36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [37;8H[1;37r[37;1H
+[1;38r[37;29HLesson 1.2: EXITING VIM[37;8H[?25h[?25l[38;56Hj[37;8H[38;56H [36;1H[1;37r[1;1H[2M[1;38r[36;1H[?25h[?25l[38;56Hj[36;1H[38;56H [37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;3H!! NOTE: Before executing any of the steps below, read this entii[37;1Hre lesson!![36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;3H1. Press the <ESC> key (to make sure you are in Normal mode).  1[?25h[?25l[38;56Hj[36;4H[38;56H [37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H2. Type:      :q! <ENTER>.  2[?25h[?25l[38;56Hj[37;4H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;6HThis exits the editor, DISCARDING any changes you have made.   [?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;3H3. Get back here by executing the command that got you into thiss[37;1H tutor. That[36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;6Hmight be:  vimtutor <ENTER>   [?25h[?25l[38;56Hj[36;4H[38;56H [37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;3H4. If you have these steps memorized and are confident, execute  [37;1Hsteps[36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;6H1 through 3 to exit and re-enter the editor.   [?25h[?25l[38;56Hj[36;4H[38;56H [37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;1HNOTE:  :q! <ENTER>  discards any changes you made.  In a few lessoo[37;1Hns you[36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;8Hwill learn how to save the changes to a file.   [?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H5. Move the cursor down to lesson 1.3.  5[?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [35;4H[1;37r[1;1H[3M[1;38r[35;1H~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[36;1H~~~~~~~~~~~~[37;22HLesson 1.3: TEXT EDITING - DELETION[35;4H[?25h[?25l[38;56Hj[35;4H[38;56H [37;8H[?25h[?25l[38;56Hj[37;8H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;8H[1;37r[1;1H[2M[1;38r[36;12H** Press  x  to delete the character under the cursor.  [37;1H**[36;8H[?25h[?25l[38;56Hj[36;8H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H1. Move the cursor to the line below marked --->.  1[?25h[?25l[38;56Hj[37;4H[38;56H [36;1H[1;37r[1;1H[2M[1;38r[37;3H2. To fix the errors, move the cursor until it is on top of the[36;1H[?25h[?25l[38;56Hj[36;1H[38;56H [37;4H[?25h[?25l[38;56Hj[37;4H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;6Hcharacter to be deleted.   [?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H3. Press the  x  key to delete the unwanted character.  3[?25h[?25l[38;56Hj[37;4H[38;56H [36;1H[1;37r[1;1H[2M[1;38r[37;3H4. Repeat steps 2 through 4 until the sentence is correct.[36;1H[?25h[?25l[38;56Hj[36;1H[38;56H [37;4H[?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;1H---> The ccow jumpedd ovverr thhe mooon.---[?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H5. Now that the line is correct, go on to lesson 1.4.  5[?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [35;4H[1;37r[1;1H[3M[1;38r[35;1HNOTE: As you go through this tutor, do not try to memorize, learn  [36;1Hby usage.[35;4H[?25h[?25l[38;56Hj[35;4H[38;56H [37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;1H~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[37;1H~~~~~~~~~~~~[36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [37;8H[1;37r[37;1H
+[1;38r[37;23HLesson 1.4: TEXT EDITING - INSERTION[37;8H[?25h[?25l[38;56Hj[37;8H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;1H[1;37r[1;1H[2M[1;38r[37;25H** Press  i  to insert text. **[36;1H[?25h[?25l[38;56Hj[36;1H[38;56H [37;8H[?25h[?25l[38;56Hj[37;8H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H1. Move the cursor to the first line below marked --->.  1[?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;3H2. To make the first line the same as the second, move the cursoo[37;1Hr on top[36;4H[?25h[?25l[38;56Hj[36;4H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;6Hof the character BEFORE which the text is to be inserted.   [?25h
+[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H3. Press  i  and type in the necessary additions.  3[?25h[?25l[38;56Hj[37;4H[38;56H [37;1H[1;37r[37;1H
+[1;38r[37;1H[?25h[?25l[38;56Hj[37;1H[38;56H [37;4H[1;37r[37;1H
+[1;38r[37;3H4. As each error is fixed press <ESC> to return to Normal mode.  4[?25h[?25l[38;56Hj[37;4H[38;56H [36;4H[1;37r[1;1H[2M[1;38r[36;6HRepeat steps 2 through 4 to correct the sentence.   [?25h[?25l[38;56Hj[36;4H[38;56H [37;1H[?25h[?25l[38;56HG[37;1H[38;56H [36;1H[27m[23m[29m[m[H[2J[2;1H~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[3;1H~~~~~~~~~~~~
+
+  This concludes the Vim Tutor.  It was intended to give a brief oo[6;1Hverview of
+  the Vim editor, just enough to allow you to use the editor fairll[8;1Hy easily.
+  It is far from complete as Vim has many many more commands.  Reaa[10;1Hd the user
+  manual next: ":help user-manual".
+
+  For further reading and studying, this book is recommended:[14;9HVim - Vi Improved - by Steve Oualline[15;9HPublisher: New Riders
+  The first book completely dedicated to Vim.  Especially useful ff[17;1Hor beginners.
+  There are many examples and pictures.
+  See http://iccf-holland.org/click5.html
+
+  This book is older and more about Vi than Vim, but also recommenn[22;1Hded:[23;9HLearning the Vi Editor - by Linda Lamb[24;9HPublisher: O'Reilly & Associates Inc.
+  It is a good book to get to know almost anything you want to do  [26;1Hwith Vi.
+  The sixth edition also includes information on Vim.
+
+  This tutorial was written by Michael C. Pierce and Robert K. Warr[30;1He,
+  Colorado School of Mines using ideas supplied by Charles Smith,
+  Colorado State University.  E-mail: bware@mines.colorado.edu.
+
+  Modified for Vim by Bram Moolenaar.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[37;1H~~~~~~~~~~~~[36;1H[?25h[?25l[38;56Hg[36;1H[?25h[?25l[38;57Hg[36;1H[38;56H  [1;1H[27m[23m[29m[m[H[2J[1;1H===================================================================[2;1H=============
+=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Versii[4;1Hon 1.7      =
+===================================================================[6;1H=============[8;6HVim is a very powerful editor that has many commands, too mann[9;1Hy to[10;6Hexplain in a tutor such as this.  This tutor is designed to dd[11;1Hescribe[12;6Henough of the commands that you will be able to easily use Vii[13;1Hm as[14;6Han all-purpose editor.[16;6HThe approximate time required to complete the tutor is 30 minn[17;1Hutes,[18;6Hdepending upon how much time is spent with experimentation.[20;6HATTENTION:[21;6HThe commands in the lessons will modify the text.  Make a copp[22;1Hy of this[23;6Hfile to practice on (if you started "vimtutor" this is alreadd[24;1Hy a copy).[26;6HIt is important to remember that this tutor is set up to teacc[27;1Hh by[28;6Huse.  That means that you need to execute the commands to leaa[29;1Hrn them[30;6Hproperly.  If you only read the text, you will forget the comm[31;1Hmands![33;6HNow, make sure that your Caps-Lock key is NOT depressed and pp[34;1Hress[35;6Hthe   j   key enough times to move the cursor so that lesson  [36;1H1.1[37;6Hcompletely fills the screen.[1;1H[?25h[?25l[38;56H:[1;1H[38;56H[K[38;1H:[?25hhelp[?25l"help.txt" [readonly] 244L, 9098B[1;1H*help.txt*      For Vim version 8.2.  Last change: 2021 Dec 27[1;63H[K[2;1H[K[3;1H                        VIM - main help file[3;46H[K[4;1H             [52C  [5;1H       k[5;9H[K[6;1H      Move around:  Use the cursor keys, or "h" to go left,        [7;1H     h   l[8;6H               "j" to go down, "k" to go up, "l" to go right..[9;1H       j
+Close this window:  Use ":q<Enter>".[10;37H[K[11;1H   Get out of Vim:  Use ":qa!<Enter>" (careful, all changes are loo[12;1Hst!).[12;6H[K[13;1H[K[14;1HJump to a subject:  Position the cursor on a tag (e.g. |bars|) andd[15;1H hit CTRL-].
+   With the mouse:  ":set mouse=a" to enable the mouse (in xterm oo[17;1Hr GUI).[18;6H               Double-click the left mouse button on a tag, ee[19;1H.g. |bars|.[20;6H   Jump back:  Type CTRL-O.  Repeat to go further back.
+[1m[7mhelp.txt [Help][RO]                                               [m[22;1H===================================================================[23;1H=============[23;14H[K[24;1H=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Versii[25;1Hon 1.7      =
+===================================================================[27;1H=============[28;6H[K[29;1H     Vim is a very powerful editor that has many commands, too mann[30;1Hy to[30;6H[K[31;1H     explain in a tutor such as this.  This tutor is designed to dd[32;1Hescribe[33;6Henough of the commands that you will be able to easily use Vii[34;1Hm a[35;6Han all-purpose editor.[35;28H[K[36;1H[K[37;1H[7m/tmp/tutor0x2k6S                                                  [1;1H[?25h[?25l[m[38;56Hl[1;1H[38;56H [1;2H[?25h[?25l[38;56Hl[1;2H[38;56H [1;3H[?25h[?25l[38;56H;[1;3H[38;56H [1;3H[?25h[?25l[38;56Hl[1;3H[38;56H [1;4H[?25h[?25l[38;56Hl[1;4H[38;56H [1;5H[?25h[?25l[38;56H;[1;5H[38;56H [1;5H[?25h[?25l[38;56Hl[1;5H[38;56H [1;6H[?25h[?25l[38;56Ho[1;6H[38;1H[1m[37m[41mE21: Cannot make changes, 'modifiable' is off[m[38;56H[K[1;6H[?25h[?25l[38;56Hl[1;6H[38;56H [1;7H[?25h[?25l[38;56H;[1;7H[38;56H [1;7H[?25h[?25l[38;56Hl[1;7H[38;56H [1;8H[?25h[?25l[38;56Hk[1;8H[38;56H [1;8H[?25h[?25l[38;56Hj[1;8H[38;56H [2;1H[?25h[?25l[38;56Hj[2;1H[38;56H [3;8H[?25h[?25l[38;56Hj[3;8H[38;56H [4;8H[?25h[?25l[38;56Hj[4;8H[38;56H [6;8H[?25h[?25l[38;56Hj[6;8H[38;56H [8;8H[?25h[?25l[38;56Hj[8;8H[38;56H [10;8H[?25h[?25l[38;56Hj[10;8H[38;56H [11;8H[?25h[?25l[38;56Hj[11;8H[38;56H [13;1H[?25h[?25l[38;56Hj[13;1H[38;56H [14;8H[?25h[?25l[38;56Hj[14;8H[38;56H [16;8H[?25h[?25l[38;56Hj[16;8H[38;56H [18;8H[?25h[?25l[38;56Hj[18;8H[38;56H [20;8H[?25h[?25l[38;56Hj[20;8H[38;56H [20;1H[1;20r[20;1H
+[1;38r[38;1H[K[20;1H[?25h[?25l[38;56Hj[20;1H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;1HGet specific help:  It is possible to go directly to whatever you  [20;1Hwant help[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;21Hon, by giving an argument to the |:help| commaa[20;1Hnd.[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;21HPrepend something to specify the context:  *hee[20;1Hlp-context*[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;1H[1;20r[1;1H[2M[1;38r[20;27HWHAT[18CPREPEND    EXAMPLE[20;1H[1m[34m@                                                                 [19;1H[?25h[?25l[m[38;56Hj[19;1H[38;56H [19;8H[1;20r[20;1H
+[1;38r[19;1H                          WHAT                  PREPEND    EXAMPLEE[20;1H [19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;23HNormal mode command[18C:help x[20;23HVisual mode command[9Cv_[7C:help v[20;1H[1m[34m@                                                                 [19;8H[?25h[?25l[m[38;56Hj[19;8H[38;56H [19;8H[1;20r[20;1H
+[1;38r[19;1H                      Visual mode command         v_       :help vv[20;1H_u[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;23HInsert mode command[9Ci_[7C:help ii[20;1H_<Esc>[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;23HCommand-line command[8C:[8C:help ::[20;1Hquit[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;23HCommand-line editing[8Cc_[7C:help cc[20;1H_<Del>[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;23HVim command argument[8C-[8C:help --[20;1Hr[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;23HOption[22C'[8C:help ''[20;1Htextwidth'[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;23HRegular expression[10C/[8C:help //[20;1H[[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;21HSee |help-summary| for more contexts and an exx[20;1Hplanation.[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [20;1H[1;20r[20;1H
+[1;38r[20;1H[?25h[?25l[38;56Hj[20;1H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;3HSearch for help:  Type ":help word", then hit CTRL-D to see matcc[20;1Hhing[19;8H[?25h[?25l[38;56Hj[19;8H[38;56H [20;8H[1;20r[20;1H
+[1;38r[20;21Hhelp entries for "word".[20;8H[?25h[?25l[38;56Hj[20;8H[38;56H [19;8H[1;20r[1;1H[2M[1;38r[19;21HOr use ":helpgrep word". |:helpgrep|[19;8H[?25h[?25l[38;56H^[[19;8H[?25h[?25l[38;56H  [19;8H[?25h[?25l[38;56HL[19;8H[38;56H [20;1H[?25h[?25l[38;56HK[20;1H[38;1H[1m[37m[41mE349: No identifier under cursor[m[38;56H[K[20;1H[?25h[?25l[38;56HL[20;1H[38;56H [20;1H[?25h[?25l[38;56H^[[20;1H[?25h[?25l[38;56H  [20;1H[?25h[?25l[38;56HL[20;1H[38;56H [20;1H[?25h[?25l[38;56HK[20;1H[38;56H[K[20;1H[?25h[?25l[38;56HK[20;1H[38;56H[K[20;1H[?25h[?25l[38;56HJ[20;1H[38;2H[1m[37m[41m21: Cannot make changes, 'modifiable' is off[m[38;56H[K[20;1H[?25h[?25l[38;56HJ[20;1H[38;56H[K[20;1H[?25h[?25l[38;2H[1m[37m[41m349: No identifier under cursori[m[38;33H[K[20;1H[?25h[?25l[38;56HL[20;1H[38;56H [20;1H[?25h[?25l[38;56H^[[20;1H[?25h[?25l[38;56H  [20;1H[?25h[?25l[38;56H^[[20;1H[?25h[?25l[38;56H  [20;1H[?25h[?25l[38;56H^[[20;1H[?25h[?25l[38;56H  [20;1H[?25h[?25l[38;56Hw[20;1H[38;56H [19;3H[1;20r[1;1H[2M[1;38r[19;3HGetting started:  Do the Vim tutor, a 30-minute interactive courr[20;1Hse for the[38;1H[K[19;3H[?25h[?25l[38;56He[19;3H[38;56H [19;9H[?25h[?25l[38;56Hx[19;9H[38;56H [19;9H[38;56Hdl[19;9H[38;1H[1m[37m[41mE21: Cannot make changes, 'modifiable' is off[m[38;56H[K[19;9H[?25h[?25l[38;56Hu[19;9H[38;56H[K[19;9H[?25h[?25l[38;56Ht[19;9H[?25h[?25l[38;57H^M[19;9H[38;56H   [19;9H[?25h[?25l[38;56He[19;9H[38;56H [19;18H[?25h[?25l[38;56He[19;18H[38;56H [19;22H[?25h[?25l[38;56He[19;22H[38;56H [19;26H[?25h[?25l[38;56He[19;26H[38;56H [19;30H[?25h[?25l[38;56He[19;30H[38;56H [19;37H[?25h[?25l[38;56He[19;37H[38;56H [19;39H[?25h[?25l[38;56H^[[19;39H[?25h[?25l[38;56H  [19;39H[38;56H^[[19;39H[38;56H  [19;39H[?25h[?25l[38;56H1[19;39H[?25h[?25l[38;57H~@k[19;39H[38;56H    [19;38H[?25h[?25l[38;56H:[19;38H[38;1H[K[38;1H:[?25hq[?25l[1;1H===================================================================[2;1H=============
+=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Versii[4;1Hon 1.7      =
+===================================================================[6;1H=============[7;23H[K[8;1H     Vim is a very powerful editor that has many commands, too mann[9;1Hy to[9;23H[K[10;1H     explain in a tutor such as this.  This tutor is designed to dd[11;1Hescribe[11;21H[K[12;1H     enough of the commands that you will be able to easily use Vii[13;1Hm as
+     an all-purpose editor.[14;28H[K[15;1H[K[16;6HThe approximate time required to complete the tutor is 30 minn[17;1Hutes,[17;21H[K[18;6Hdepending upon how much time is spent with experimentation.[19;3H[K[20;1H     ATTENTION:
+     The commands in the lessons will modify the text.  Make a copp[22;1Hy of this[22;10H[K[23;1H     file to practice on (if you started "vimtutor" this is alreadd[24;1Hy a copy).[24;12H[K[25;1H[K[26;1H     It is important to remember that this tutor is set up to teacc[27;1Hh by[27;5H[K[28;6Huse.  That means that you need to execute the commands to leaa[29;1Hrn them[29;8H[K[30;1H     properly.  If you only read the text, you will forget the comm[31;1Hmands![31;7H[K[32;1H[K[33;6HNow, make sure that your Caps-Lock key is NOT depressed and pp[34;1Hres[35;6Hthe   j   key enough times to move the cursor so that lesson  [36;1H1.1
+     completely fills the screen.[37;34H[K[1;1H[?25h
