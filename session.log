@@ -1,58 +1,26 @@
-Script started on 2025-01-13 01:20:34+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="96" LINES="38"]
-# cat --help
-Usage: cat [OPTION]... [FILE]...
-Concatenate FILE(s) to standard output.
+Script started on 2025-01-13 01:22:28+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="96" LINES="38"]
+# ,m=   man   cat
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
 
-With no FILE, or when FILE is -, read standard input.
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+# unminimize
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
 
-  -A, --show-all           equivalent to -vET
-  -b, --number-nonblank    number nonempty output lines, overrides -n
-  -e                       equivalent to -vE
-  -E, --show-ends          display $ at end of each line
-  -n, --number             number all output lines
-  -s, --squeeze-blank      suppress repeated empty output lines
-  -t                       equivalent to -vT
-  -T, --show-tabs          display TAB characters as ^I
-  -u                       (ignored)
-  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB
-      --help     display this help and exit
-      --version  output version information and exit
+This script restores content and packages that are found on a default
+Ubuntu server system in order to make this system more suitable for
+interactive use.
 
-Examples:
-  cat f - g  Output f's contents, then standard input, then g's contents.
-  cat        Copy standard input to standard output.
+Reinstallation of packages may fail due to changes to the system
+configuration, the presence of third-party packages, or for other
+reasons.
 
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
-Full documentation <https://www.gnu.org/software/coreutils/cat>
-or available locally via: info '(coreutils) cat invocation'
-# ^[[A    cat --henp  lp -n
-Usage: cat [OPTION]... [FILE]...
-Concatenate FILE(s) to standard output.
+This operation may take some time.
 
-With no FILE, or when FILE is -, read standard input.
+Would you like to continue? [y/N] N] 
 
-  -A, --show-all           equivalent to -vET
-  -b, --number-nonblank    number nonempty output lines, overrides -n
-  -e                       equivalent to -vE
-  -E, --show-ends          display $ at end of each line
-  -n, --number             number all output lines
-  -s, --squeeze-blank      suppress repeated empty output lines
-  -t                       equivalent to -vT
-  -T, --show-tabs          display TAB characters as ^I
-  -u                       (ignored)
-  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB
-      --help     display this help and exit
-      --version  output version information and exit
+# q exzi    w w re  ezit^^B     xit
 
-Examples:
-  cat f - g  Output f's contents, then standard input, then g's contents.
-  cat        Copy standard input to standard output.
-
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
-Full documentation <https://www.gnu.org/software/coreutils/cat>
-or available locally via: info '(coreutils) cat invocation'
-# exit
-
-Script done on 2025-01-13 01:21:39+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-13 01:25:51+00:00 [COMMAND_EXIT_CODE="1"]
