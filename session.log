@@ -1,9 +1,16 @@
-Script started on 2025-01-13 05:40:28+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="66" LINES="38"]
-# je  echo $PATH
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-# PA:   {P  PART  TH- ="$PATH:$E HOME: /bim n"
-# ^[[A    echo $PAth  RH  ZTH   TH
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/bin
+Script started on 2025-01-13 05:47:01+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="66" LINES="38"]
+# echo $HOMEW 
+/root
+# f echio  o #$+   # $SHW ELL
+
+# ex xh  x choi  # # $0
+sh
+# echo $OWD   PWS
+
+# ^[[A    ech  o $PWS D
+/
+# exitr
+sh: 6: exitr: not found
 # exit
 
-Script done on 2025-01-13 05:42:00+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-13 05:47:50+00:00 [COMMAND_EXIT_CODE="127"]
