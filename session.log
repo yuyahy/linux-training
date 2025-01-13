@@ -1,0 +1,9 @@
+Script started on 2025-01-13 05:40:28+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="66" LINES="38"]
+# je  echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# PA:   {P  PART  TH- ="$PATH:$E HOME: /bim n"
+# ^[[A    echo $PAth  RH  ZTH   TH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/bin
+# exit
+
+Script done on 2025-01-13 05:42:00+00:00 [COMMAND_EXIT_CODE="0"]
