@@ -1,8 +1,0 @@
-Script started on 2025-01-14 12:32:39+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="66" LINES="38"]
-$ ls =l    -0 ; l /^[[Bn      /n n bo o in./\\    . /cat
--rwxr-xr-x 1 root root 35288 Feb  8  2024 /bin/cat
-$ ls -= l aa	 a.tz xty 
--rw-r--r-- 1 root root 0 Jan 14 12:31 aa.txt
-$ exit
-
-Script done on 2025-01-14 12:33:23+00:00 [COMMAND_EXIT_CODE="0"]
