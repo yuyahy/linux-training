@@ -1,18 +1,10 @@
-Script started on 2025-01-17 02:21:27+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="96" LINES="39"]
-$ ks-   ls -la file	.txt
--rw-r--r-- 1 root root 0 Jan 17 02:21 file.txt
-$ chmod u_ _ +w fukle    ile.txt
-chmod: changing permissions of 'file.txt': Operation not permitted
-$ sudo chmod u_ +w file.txt
-[sudo] password for ubuntu: 
-$ ls -lka    a file.xt  txt
--rw-r--r-- 1 root root 0 Jan 17 02:21 file.txt
-$ ^[[A    si udo chmod ui -w file	.txt
-$ ls -la file	,\  .tz z xt
--r--r--r-- 1 root root 0 Jan 17 02:21 file.txt
-$ suo do chmod f gop =r_ +w file.txt
-$ ls -la file.txt
+Script started on 2025-01-17 02:28:14+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="96" LINES="39"]
+$ k ls -la file.txt
 -r--rw-rw- 1 root root 0 Jan 17 02:21 file.txt
+$ c sudo chmod 7555  fike	  le,.  .txt
+[sudo] password for ubuntu: 
+$ ls -la fik le.txt
+-rwxr-xr-x 1 root root 0 Jan 17 02:21 file.txt
 $ exit
 
-Script done on 2025-01-17 02:24:47+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-17 02:30:20+00:00 [COMMAND_EXIT_CODE="0"]
