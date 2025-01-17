@@ -27,6 +27,9 @@ RUN usermod -aG sudo $USER_NAME
 # 作成したユーザにパスワードを設定する
 RUN echo "$USER_NAME:$USER_NAME" | chpasswd
 
+# スーパーユーザのパスワードを設定する
+RUN echo "root:root" | chpasswd
+
 # ユーザを切り替える
 USER $USER_NAME
 
