@@ -1,0 +1,67 @@
+Script started on 2025-01-17 04:38:56+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="82" LINES="39"]
+$ ps
+  PID TTY          TIME CMD
+   34 pts/1    00:00:00 sh
+   35 pts/1    00:00:00 ps
+$ o ps cf  xgf  f
+  PID TTY      STAT   TIME COMMAND
+    1 pts/0    Ss     0:00 /bin/bash
+   33 pts/0    S+     0:00 script -q session.log
+   34 pts/1    Ss     0:00  \_ sh -i
+   36 pts/1    R+     0:00      \_ ps xf
+$ ps    ps c cx  ca  a ax
+  PID TTY      STAT   TIME COMMAND
+    1 pts/0    Ss     0:00 /bin/bash
+   33 pts/0    R+     0:00 script -q session.log
+   34 pts/1    Ss     0:00 sh -i
+   37 pts/1    R+     0:00 ps ax
+$ ps afx
+  PID TTY      STAT   TIME COMMAND
+    1 pts/0    Ss     0:00 /bin/bash
+   33 pts/0    S+     0:00 script -q session.log
+   34 pts/1    Ss     0:00  \_ sh -i
+   38 pts/1    R+     0:00      \_ ps afx
+$ pd u   d uc    s uc
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ubuntu       1  0.0  0.0   4628  3740 pts/0    Ss   04:34   0:00 bash
+ubuntu      33  0.0  0.0   2808  1096 pts/0    S+   04:38   0:00 script
+ubuntu      34  0.0  0.0   2892   984 pts/1    Ss   04:38   0:00 sh
+ubuntu      39  0.0  0.0   7064  1664 pts/1    R+   04:44   0:00 ps
+$ pd     d u   s ux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ubuntu       1  0.0  0.0   4628  3740 pts/0    Ss   04:34   0:00 /bin/bash
+ubuntu      33  0.0  0.0   2808  1096 pts/0    R+   04:38   0:00 script -q session
+ubuntu      34  0.0  0.0   2892   984 pts/1    Ss   04:38   0:00 sh -i
+ubuntu      40  0.0  0.0   7064  1608 pts/1    R+   04:45   0:00 ps ux
+$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ubuntu       1  0.0  0.0   4628  3740 pts/0    Ss   04:34   0:00 /bin/bash
+ubuntu      33  0.0  0.0   2808  1096 pts/0    S+   04:38   0:00 script -q session
+ubuntu      34  0.0  0.0   2892   984 pts/1    Ss   04:38   0:00 sh -i
+ubuntu      41  0.0  0.0   7064  1588 pts/1    R+   04:45   0:00 ps aux
+$ ps auxWW
+error: obsolete W option not supported (you have a /dev/drum?)
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+$ ^[[A    ps auxww
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ubuntu       1  0.0  0.0   4628  3740 pts/0    Ss   04:34   0:00 /bin/bash
+ubuntu      33  0.0  0.0   2808  1096 pts/0    R+   04:38   0:00 script -q session.log
+ubuntu      34  0.0  0.0   2892   984 pts/1    Ss   04:38   0:00 sh -i
+ubuntu      43  0.0  0.0   7064  1576 pts/1    R+   04:45   0:00 ps auxww
+$ man ps
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+$ exit
+
+Script done on 2025-01-17 04:46:08+00:00 [COMMAND_EXIT_CODE="0"]
