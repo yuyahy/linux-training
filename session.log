@@ -1,190 +1,70 @@
-Script started on 2025-01-17 02:57:24+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="96" LINES="39"]
-$ du  sudo     -
-Password: 
-[?2004h]0;root@de6bebedd33f: ~root@de6bebedd33f:~# visudo
-[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;39r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[39;1H"/etc/sudoers.tmp" 54L, 1671B[2;1H½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#
-# This file MUST be edited with the 'visudo' command as root.[m[2;62H[K[3;1H[34m#[m[3;2H[K[4;1H[34m# Please consider adding local content in /etc/sudoers.d/ instead of
-# directly modifying this file.
-#
-# See the man page for details on how to write a sudoers file.
-#[m
-[33mDefaults[m[8C[36menv_reset[m
-[33mDefaults[m[8C[36mmail_badpass[m
-[33mDefaults[m[8C[36msecure_path[m[33m=[m[31m"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap//[12;1Hbin"[m
-[33mDefaults[m[8C[36muse_pty[m
-
-[34m# This preserves proxy settings from user environments of root
-# equivalent users (group sudo)
-#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"
-
-# This allows running arbitrary commands, but so does ALL, and it means
-# different sudoers have their choice of editor respected.
-#Defaults:%sudo env_keep += "EDITOR"
-
-# Completely harmless preservation of a user preference.
-#Defaults:%sudo env_keep += "GREP_COLOR"
-
-# While you shouldn't normally run git as root, you need to with etckeeper
-#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
-
-# Per-user preferences; root won't have sensible values for them.
-#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
-
-# "sudo scp" or "sudo rsync" should be able to use your SSH agent.
-#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
-
-# Ditto for GPG agent
-#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
-
-# Host alias specification[m[39;79H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[39;69H/[1;1H[39;70H2[1;1H[39;71Hb[1;1H[39;72H2[1;1H[39;73Hb[1;1H[39;74H/[1;1H[39;75H3[1;1H[39;76H6[1;1H[39;77H3[1;1H[39;78H6[1;1H[39;69H          [1;1H[27m[23m[29m[m[H[2J[1;1H[1m[36m#
-# This file MUST be edited with the 'visudo' command as root.
-#
-# Please consider adding local content in /etc/sudoers.d/ instead of
-# directly modifying this file.
-#
-# See the man page for details on how to write a sudoers file.
-#[m
-[1m[33mDefaults[m[8C[1m[36menv_reset[m
-[1m[33mDefaults[m[8C[1m[36mmail_badpass[m
-[1m[33mDefaults[m[8C[1m[36msecure_path[m[1m[33m=[m[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap//[12;1Hbin"[m
-[1m[33mDefaults[m[8C[1m[36muse_pty[m
-
-[1m[36m# This preserves proxy settings from user environments of root
-# equivalent users (group sudo)
-#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"
-
-# This allows running arbitrary commands, but so does ALL, and it means
-# different sudoers have their choice of editor respected.
-#Defaults:%sudo env_keep += "EDITOR"
-
-# Completely harmless preservation of a user preference.
-#Defaults:%sudo env_keep += "GREP_COLOR"
-
-# While you shouldn't normally run git as root, you need to with etckeeper
-#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
-
-# Per-user preferences; root won't have sensible values for them.
-#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
-
-# "sudo scp" or "sudo rsync" should be able to use your SSH agent.
-#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
-
-# Ditto for GPG agent
-#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
-
-# Host alias specification[m[39;79H1,1[11CTop"/etc/sudoers.tmp" 54L, 1671B[1;1H[?25h[?25l[39;69Hk[1;1H[39;69H [1;1H[?25h[?25l[39;69Hk[1;1H[39;69H [1;1H[?25h[?25l[39;69Hk[1;1H[39;69H [1;1H[?25h[?25l[39;69Hk[1;1H[39;69H [1;1H[?25h[?25l[39;69Hk[1;1H[39;69H [1;1H[?25h[?25l[39;69Hj[1;1H[39;69H [2;1H[39;79H2[2;1H[?25h[?25l[39;69Hj[2;1H[39;69H [3;1H[39;79H3[3;1H[?25h[?25l[39;69Hj[3;1H[39;69H [4;1H[39;79H4[4;1H[?25h[?25l[39;69Hj[4;1H[39;69H [5;1H[39;79H5[5;1H[?25h[?25l[39;69Hj[5;1H[39;69H [6;1H[39;79H6[6;1H[?25h[?25l[39;69Hj[6;1H[39;69H [7;1H[39;79H7[7;1H[?25h[?25l[39;69Hk[7;1H[39;69H [6;1H[39;79H6[6;1H[?25h[?25l[39;69Hk[6;1H[39;69H [5;1H[39;79H5[5;1H[?25h[?25l[39;69Hj[5;1H[39;69H [6;1H[39;79H6[6;1H[?25h[?25l[39;69Hj[6;1H[39;69H [7;1H[39;79H7[7;1H[?25h[?25l[39;69Hj[7;1H[39;69H [8;1H[39;79H8[8;1H[?25h[?25l[39;69Hj[8;1H[39;69H [9;1H[39;79H9[9;1H[?25h[?25l[39;69Hj[9;1H[39;69H [10;1H[39;79H10,1[10;1H[?25h[?25l[39;69Hj[10;1H[39;69H [11;1H[39;80H1[11;1H[?25h[?25l[39;69Hk[11;1H[39;69H [10;1H[39;80H0[10;1H[?25h[?25l[39;69Hk[10;1H[39;69H [9;1H[39;79H9,1 [9;1H[?25h[?25l[39;69Hk[9;1H[39;69H [8;1H[39;79H8[8;1H[?25h[?25l[39;69Hl[8;1H[39;69H [8;1H[?25h[?25l[39;69Hl[8;1H[39;69H [8;1H[?25h[?25l[39;69Hh[8;1H[39;69H [8;1H[?25h[?25l[39;69Hh[8;1H[39;69H [8;1H[?25h[?25l[39;69Hj[8;1H[39;69H [9;1H[39;79H9[9;1H[?25h[?25l[39;69Hk[9;1H[39;69H [8;1H[39;79H8[8;1H[?25h[?25l[39;69Hk[8;1H[39;69H [7;1H[39;79H7[7;1H[?25h[?25l[39;69Hj[7;1H[39;69H [8;1H[39;79H8[8;1H[?25h[?25l[39;69Hj[8;1H[39;69H [9;1H[39;79H9[9;1H[?25h[?25l[39;69Hj[9;1H[39;69H [10;1H[39;79H10,1[10;1H[?25h[?25l[39;69Hl[10;1H[39;69H [10;2H[39;82H2[10;2H[?25h[?25l[39;69Hl[10;2H[39;69H [10;3H[39;82H3[10;3H[?25h[?25l[39;69Hl[10;3H[39;69H [10;4H[39;82H4[10;4H[?25h[?25l[39;69Hl[10;4H[39;69H [10;5H[39;82H5[10;5H[?25h[?25l[39;69Hl[10;5H[39;69H [10;6H[39;82H6[10;6H[?25h[?25l[39;69Hl[10;6H[39;69H [10;7H[39;82H7[10;7H[?25h[?25l[39;69Hl[10;7H[39;69H [10;8H[39;82H8[10;8H[?25h[?25l[39;69Hh[10;8H[39;69H [10;7H[39;82H7[10;7H[?25h[?25l[39;69Hh[10;7H[39;69H [10;6H[39;82H6[10;6H[?25h[?25l[39;69Hh[10;6H[39;69H [10;5H[39;82H5[10;5H[?25h[?25l[39;69Hh[10;5H[39;69H [10;4H[39;82H4[10;4H[?25h[?25l[39;69H^L[10;4H[39;69H  [10;4H[27m[23m[29m[m[H[2J[1;1H[1m[36m#
-# This file MUST be edited with the 'visudo' command as root.
-#
-# Please consider adding local content in /etc/sudoers.d/ instead of
-# directly modifying this file.
-#
-# See the man page for details on how to write a sudoers file.
-#[m
-[1m[33mDefaults[m[8C[1m[36menv_reset[m
-[1m[33mDefaults[m[8C[1m[36mmail_badpass[m
-[1m[33mDefaults[m[8C[1m[36msecure_path[m[1m[33m=[m[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap//[12;1Hbin"[m
-[1m[33mDefaults[m[8C[1m[36muse_pty[m
-
-[1m[36m# This preserves proxy settings from user environments of root
-# equivalent users (group sudo)
-#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"
-
-# This allows running arbitrary commands, but so does ALL, and it means
-# different sudoers have their choice of editor respected.
-#Defaults:%sudo env_keep += "EDITOR"
-
-# Completely harmless preservation of a user preference.
-#Defaults:%sudo env_keep += "GREP_COLOR"
-
-# While you shouldn't normally run git as root, you need to with etckeeper
-#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
-
-# Per-user preferences; root won't have sensible values for them.
-#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
-
-# "sudo scp" or "sudo rsync" should be able to use your SSH agent.
-#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
-
-# Ditto for GPG agent
-#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
-
-# Host alias specification[m[39;79H10,4[10CTop[10;4H[?25h[?25l[39;69H^L[10;4H[39;69H  [10;4H[27m[23m[29m[m[H[2J[1;1H[1m[36m#
-# This file MUST be edited with the 'visudo' command as root.
-#
-# Please consider adding local content in /etc/sudoers.d/ instead of
-# directly modifying this file.
-#
-# See the man page for details on how to write a sudoers file.
-#[m
-[1m[33mDefaults[m[8C[1m[36menv_reset[m
-[1m[33mDefaults[m[8C[1m[36mmail_badpass[m
-[1m[33mDefaults[m[8C[1m[36msecure_path[m[1m[33m=[m[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap//[12;1Hbin"[m
-[1m[33mDefaults[m[8C[1m[36muse_pty[m
-
-[1m[36m# This preserves proxy settings from user environments of root
-# equivalent users (group sudo)
-#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"
-
-# This allows running arbitrary commands, but so does ALL, and it means
-# different sudoers have their choice of editor respected.
-#Defaults:%sudo env_keep += "EDITOR"
-
-# Completely harmless preservation of a user preference.
-#Defaults:%sudo env_keep += "GREP_COLOR"
-
-# While you shouldn't normally run git as root, you need to with etckeeper
-#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
-
-# Per-user preferences; root won't have sensible values for them.
-#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
-
-# "sudo scp" or "sudo rsync" should be able to use your SSH agent.
-#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
-
-# Ditto for GPG agent
-#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
-
-# Host alias specification[m[39;79H10,4[10CTop[10;4H[?25h[?25l[39;69H^L[10;4H[39;69H  [10;4H[27m[23m[29m[m[H[2J[1;1H[1m[36m#
-# This file MUST be edited with the 'visudo' command as root.
-#
-# Please consider adding local content in /etc/sudoers.d/ instead of
-# directly modifying this file.
-#
-# See the man page for details on how to write a sudoers file.
-#[m
-[1m[33mDefaults[m[8C[1m[36menv_reset[m
-[1m[33mDefaults[m[8C[1m[36mmail_badpass[m
-[1m[33mDefaults[m[8C[1m[36msecure_path[m[1m[33m=[m[1m[35m"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap//[12;1Hbin"[m
-[1m[33mDefaults[m[8C[1m[36muse_pty[m
-
-[1m[36m# This preserves proxy settings from user environments of root
-# equivalent users (group sudo)
-#Defaults:%sudo env_keep += "http_proxy https_proxy ftp_proxy all_proxy no_proxy"
-
-# This allows running arbitrary commands, but so does ALL, and it means
-# different sudoers have their choice of editor respected.
-#Defaults:%sudo env_keep += "EDITOR"
-
-# Completely harmless preservation of a user preference.
-#Defaults:%sudo env_keep += "GREP_COLOR"
-
-# While you shouldn't normally run git as root, you need to with etckeeper
-#Defaults:%sudo env_keep += "GIT_AUTHOR_* GIT_COMMITTER_*"
-
-# Per-user preferences; root won't have sensible values for them.
-#Defaults:%sudo env_keep += "EMAIL DEBEMAIL DEBFULLNAME"
-
-# "sudo scp" or "sudo rsync" should be able to use your SSH agent.
-#Defaults:%sudo env_keep += "SSH_AGENT_PID SSH_AUTH_SOCK"
-
-# Ditto for GPG agent
-#Defaults:%sudo env_keep += "GPG_AGENT_INFO"
-
-# Host alias specification[m[39;79H10,4[10CTop[10;4H[?25h[?25l[39;69H~@k[10;4H[39;69H   [11;4H[39;80H1[11;4H[?25h[?25l[39;69H~@k[11;4H[39;69H   [13;4H[39;80H2[13;4H[?25h[?25l[39;69H~@k[13;4H[39;69H   [14;1H[39;80H3,0-1[14;1H[?25h[?25l[39;69H~@k[14;1H[39;69H   [15;4H[39;80H4,4  [15;4H[?25h[?25l[39;69H~@k[15;4H[39;69H   [16;4H[39;80H5[16;4H[?25h[?25l[39;69H~@k[16;4H[39;69H   [17;4H[39;80H6[17;4H[?25h[?25l[39;69H~@k[17;4H[39;69H   [18;1H[39;80H7,0-1[18;1H[?25h[?25l[39;69H:[18;1H[39;69H[K[39;1H:[?25hew[?25l[39;3H[K[39;3H[?25h[?25l[39;2H[K[39;2H[?25hw[?25l[39;2H[K[39;2H[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[39;1H[K[39;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0tvisudo: /etc/sudoers.tmp unchanged
-[?2004h]0;root@de6bebedd33f: ~root@de6bebedd33f:~# exit
-[?2004llogout
-$ e exit    whoami
-ubuntu
+Script started on 2025-01-17 05:33:58+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="82" LINES="39"]
+$ kill -l\ 
+0
+HUP
+INT
+QUIT
+ILL
+TRAP
+ABRT
+BUS
+FPE
+KILL
+USR1
+SEGV
+USR2
+PIPE
+ALRM
+TERM
+16
+CHLD
+CONT
+STOP
+TSTP
+TTIN
+TTOU
+URG
+XCPU
+XFSZ
+VTALRM
+PROF
+WINCH
+IO
+PWR
+SYS
+32
+33
+RTMIN
+RTMIN+1
+RTMIN+2
+RTMIN+3
+RTMIN+4
+RTMIN+5
+RTMIN+6
+RTMIN+7
+RTMIN+8
+RTMIN+9
+RTMIN+10
+RTMIN+11
+RTMIN+12
+RTMIN+13
+RTMIN+14
+RTMIN+15
+RTMAX-14
+RTMAX-13
+RTMAX-12
+RTMAX-11
+RTMAX-10
+RTMAX-9
+RTMAX-8
+RTMAX-7
+RTMAX-6
+RTMAX-5
+RTMAX-4
+RTMAX-3
+RTMAX-2
+RTMAX-1
+RTMAX
 $ exit
 
-Script done on 2025-01-17 03:01:24+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-17 05:35:08+00:00 [COMMAND_EXIT_CODE="0"]
