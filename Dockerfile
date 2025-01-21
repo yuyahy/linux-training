@@ -33,5 +33,8 @@ RUN echo "root:root" | chpasswd
 # ユーザを切り替える
 USER $USER_NAME
 
+# 作業ディレクトリをホームディレクトリに設定
+WORKDIR /home/$USER_NAME
+
 CMD ["/bin/bash"]
 
