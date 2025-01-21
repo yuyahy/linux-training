@@ -1,26 +1,19 @@
-Script started on 2025-01-21 06:01:50+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="54" LINES="37"]
-$ cat \ /etc/passwd | rt    tr L : m ,
-root,x,0,0,root,/root,/bin/bash
-daemon,x,1,1,daemon,/usr/sbin,/usr/sbin/nologin
-bin,x,2,2,bin,/bin,/usr/sbin/nologin
-sys,x,3,3,sys,/dev,/usr/sbin/nologin
-sync,x,4,65534,sync,/bin,/bin/sync
-games,x,5,60,games,/usr/games,/usr/sbin/nologin
-man,x,6,12,man,/var/cache/man,/usr/sbin/nologin
-lp,x,7,7,lp,/var/spool/lpd,/usr/sbin/nologin
-mail,x,8,8,mail,/var/mail,/usr/sbin/nologin
-news,x,9,9,news,/var/spool/news,/usr/sbin/nologin
-uucp,x,10,10,uucp,/var/spool/uucp,/usr/sbin/nologin
-proxy,x,13,13,proxy,/bin,/usr/sbin/nologin
-www-data,x,33,33,www-data,/var/www,/usr/sbin/nologin
-backup,x,34,34,backup,/var/backups,/usr/sbin/nologin
-list,x,38,38,Mailing List Manager,/var/list,/usr/sbin/nologin
-irc,x,39,39,ircd,/run/ircd,/usr/sbin/nologin
-gnats,x,41,41,Gnats Bug-Reporting System (admin),/var/lib/gnats,/usr/sbin/nologin
-nobody,x,65534,65534,nobody,/nonexistent,/usr/sbin/nologin
-_apt,x,100,65534,,/nonexistent,/usr/sbin/nologin
-ubuntu,x,1000,1000,,/home/ubuntu,/bin/bash
-$ cat . . /etc/passwd | r er    rt  tr -d \ \ ]]  p '\n\ ; [ '
-root:x:0:0:root:/root:/bin/bashdaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologinbin:x:2:2:bin:/bin:/usr/sbin/nologinsys:x:3:3:sys:/dev:/usr/sbin/nologinsync:x:4:65534:sync:/bin:/bin/syncgames:x:5:60:games:/usr/games:/usr/sbin/nologinman:x:6:12:man:/var/cache/man:/usr/sbin/nologinlp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologinmail:x:8:8:mail:/var/mail:/usr/sbin/nologinnews:x:9:9:news:/var/spool/news:/usr/sbin/nologinuucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologinproxy:x:13:13:proxy:/bin:/usr/sbin/nologinwww-data:x:33:33:www-data:/var/www:/usr/sbin/nologinbackup:x:34:34:backup:/var/backups:/usr/sbin/nologinlist:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologinirc:x:39:39:ircd:/run/ircd:/usr/sbin/nologingnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologinnobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin_apt:x:100:65534::/nonexistent:/usr/sbin/nologinubuntu:x:1000:1000::/home/ubuntu:/bin/bash$ exit
+Script started on 2025-01-21 09:22:30+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="54" LINES="37"]
+$ tail /etc/passw	d
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin
+ubuntu:x:1000:1000::/home/ubuntu:/bin/bash
+$ tail 0 -n 1 /etc/pad sswd
+ubuntu:x:1000:1000::/home/ubuntu:/bin/bash
+$ head -n 1 /etc/passwad  d
+root:x:0:0:root:/root:/bin/bash
+$ exit
 
-Script done on 2025-01-21 06:02:52+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-21 09:23:48+00:00 [COMMAND_EXIT_CODE="0"]
