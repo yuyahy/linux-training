@@ -1,976 +1,131 @@
-Script started on 2025-01-21 04:37:01+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="43" LINES="40"]
-$ du -b . /n v bin/( *
-51648	/bin/[
-14720	/bin/addpart
-18824	/bin/apt
-84448	/bin/apt-cache
-27104	/bin/apt-cdrom
-27024	/bin/apt-config
-51680	/bin/apt-get
-28173	/bin/apt-key
-51680	/bin/apt-mark
-31240	/bin/arch
-21	/bin/awk
-51728	/bin/b2sum
-35336	/bin/base32
-35336	/bin/base64
-35336	/bin/basename
-47624	/bin/basenc
-1396520	/bin/bash
-6818	/bin/bashbug
-6963	/bin/c_rehash
-3	/bin/captoinfo
-35288	/bin/cat
-72184	/bin/chage
-14656	/bin/chattr
-59912	/bin/chcon
-72712	/bin/chfn
-55816	/bin/chgrp
-55816	/bin/chmod
-22912	/bin/choom
-59912	/bin/chown
-27008	/bin/chrt
-44808	/bin/chsh
-35240	/bin/cksum
-14656	/bin/clear
-14568	/bin/clear_console
-43408	/bin/cmp
-35344	/bin/comm
-141832	/bin/cp
-109064	/bin/csplit
-260328	/bin/curl
-39432	/bin/cut
-303512	/bin/cvtsudoers
-125688	/bin/dash
-104968	/bin/date
-68120	/bin/dd
-21394	/bin/deb-systemd-helper
-6156	/bin/deb-systemd-invoke
-2859	/bin/debconf
-11541	/bin/debconf-apt-progress
-608	/bin/debconf-communicate
-1719	/bin/debconf-copydb
-647	/bin/debconf-escape
-2995	/bin/debconf-set-selections
-1827	/bin/debconf-show
-14720	/bin/delpart
-85072	/bin/df
-133680	/bin/diff
-55824	/bin/diff3
-138216	/bin/dir
-39440	/bin/dircolors
-31112	/bin/dirname
-72304	/bin/dmesg
-8	/bin/dnsdomainname
-8	/bin/domainname
-318144	/bin/dpkg
-137720	/bin/dpkg-deb
-121336	/bin/dpkg-divert
-21209	/bin/dpkg-maintscript-helper
-141848	/bin/dpkg-query
-4189	/bin/dpkg-realpath
-100872	/bin/dpkg-split
-47368	/bin/dpkg-statoverride
-43424	/bin/dpkg-trigger
-150024	/bin/du
-35128	/bin/echo
-24	/bin/editor
-28	/bin/egrep
-43976	/bin/env
-20	/bin/ex
-35360	/bin/expand
-23136	/bin/expiry
-104872	/bin/expr
-72200	/bin/factor
-23136	/bin/faillog
-22912	/bin/fallocate
-26936	/bin/false
-28	/bin/fgrep
-22960	/bin/fincore
-282088	/bin/find
-65136	/bin/findmnt
-23024	/bin/flock
-39432	/bin/fmt
-35336	/bin/fold
-26864	/bin/free
-35112	/bin/getconf
-39576	/bin/getent
-22912	/bin/getopt
-72072	/bin/gpasswd
-277544	/bin/gpgv
-182728	/bin/grep
-35336	/bin/groups
-2346	/bin/gunzip
-6447	/bin/gzexe
-93424	/bin/gzip
-35256	/bin/hardlink
-43528	/bin/head
-2514	/bin/helpztags
-31240	/bin/hostid
-22760	/bin/hostname
-7	/bin/i386
-68000	/bin/iconv
-39432	/bin/id
-63872	/bin/infocmp
-3	/bin/infotocap
-145944	/bin/install
-18816	/bin/ionice
-22984	/bin/ipcmk
-18816	/bin/ipcrm
-39296	/bin/ipcs
-14536	/bin/ischroot
-47664	/bin/join
-30952	/bin/kill
-35200	/bin/last
-4	/bin/lastb
-28288	/bin/lastlog
-5443	/bin/ldd
-199048	/bin/less
-14656	/bin/lessecho
-8	/bin/lessfile
-24272	/bin/lesskey
-9047	/bin/lesspipe
-31240	/bin/link
-7	/bin/linux32
-7	/bin/linux64
-59912	/bin/ln
-58944	/bin/locale
-14488	/bin/locale-check
-334808	/bin/localedef
-24	/bin/locate
-35808	/bin/logger
-52976	/bin/login
-31240	/bin/logname
-138216	/bin/ls
-14656	/bin/lsattr
-125320	/bin/lsblk
-100736	/bin/lscpu
-51584	/bin/lsipc
-31440	/bin/lslocks
-51584	/bin/lslogins
-35200	/bin/lsmem
-39304	/bin/lsns
-320	/bin/man
-158504	/bin/mawk
-27080	/bin/mcookie
-43432	/bin/md5sum
-6	/bin/md5sum.textutils
-14720	/bin/mesg
-68104	/bin/mkdir
-39432	/bin/mkfifo
-43528	/bin/mknod
-39432	/bin/mktemp
-43400	/bin/more
-47488	/bin/mount
-18816	/bin/mountpoint
-137752	/bin/mv
-22912	/bin/namei
-22	/bin/nawk
-158304	/bin/netstat
-40496	/bin/newgrp
-35336	/bin/nice
-8	/bin/nisdomainname
-100936	/bin/nl
-35240	/bin/nohup
-35336	/bin/nproc
-27240	/bin/nsenter
-55848	/bin/numfmt
-68104	/bin/od
-1001272	/bin/openssl
-23	/bin/pager
-59784	/bin/partx
-59976	/bin/passwd
-35240	/bin/paste
-35336	/bin/pathchk
-3802104	/bin/perl
-30968	/bin/pgrep
-14	/bin/pidof
-30968	/bin/pidwait
-76672	/bin/ping
-4	/bin/ping4
-4	/bin/ping6
-35240	/bin/pinky
-5	/bin/pkill
-22904	/bin/pldd
-313904	/bin/plocate
-35064	/bin/pmap
-68176	/bin/pr
-31112	/bin/printenv
-51648	/bin/printf
-27536	/bin/prlimit
-141776	/bin/ps
-129592	/bin/ptx
-35336	/bin/pwd
-14568	/bin/pwdx
-4	/bin/rbash
-39336	/bin/readlink
-39336	/bin/realpath
-14720	/bin/renice
-4	/bin/reset
-22912	/bin/resizepart
-14720	/bin/rev
-30	/bin/rgrep
-59912	/bin/rm
-43432	/bin/rmdir
-27176	/bin/run-parts
-35336	/bin/runcon
-23	/bin/rview
-22	/bin/rvim
-10487	/bin/savelog
-51584	/bin/script
-43392	/bin/scriptlive
-35200	/bin/scriptreplay
-47504	/bin/sdiff
-113224	/bin/sed
-2450	/bin/select-editor
-1290	/bin/sensible-browser
-1269	/bin/sensible-editor
-565	/bin/sensible-pager
-47624	/bin/seq
-27288	/bin/setarch
-39304	/bin/setpriv
-14720	/bin/setsid
-35200	/bin/setterm
-6	/bin/sg
-4	/bin/sh
-43432	/bin/sha1sum
-51624	/bin/sha224sum
-51624	/bin/sha256sum
-59816	/bin/sha384sum
-59816	/bin/sha512sum
-51720	/bin/shred
-47624	/bin/shuf
-30952	/bin/skill
-22768	/bin/slabtop
-35336	/bin/sleep
-5	/bin/snice
-101176	/bin/sort
-52192	/bin/split
-80400	/bin/stat
-43528	/bin/stdbuf
-76296	/bin/stty
-55680	/bin/su
-232416	/bin/sudo
-4	/bin/sudoedit
-89744	/bin/sudoreplay
-35240	/bin/sum
-35240	/bin/sync
-18744	/bin/tabs
-100776	/bin/tac
-68112	/bin/tail
-517952	/bin/tar
-22912	/bin/taskset
-35336	/bin/tee
-14360	/bin/tempfile
-43456	/bin/test
-88488	/bin/tic
-39880	/bin/timeout
-18680	/bin/tload
-22840	/bin/toe
-133184	/bin/top
-92680	/bin/touch
-26968	/bin/tput
-47624	/bin/tr
-26936	/bin/true
-35336	/bin/truncate
-26944	/bin/tset
-47624	/bin/tsort
-31240	/bin/tty
-15378	/bin/tzselect
-27008	/bin/uclampset
-35200	/bin/umount
-35336	/bin/uname
-35360	/bin/unexpand
-43528	/bin/uniq
-31240	/bin/unlink
-31336	/bin/unshare
-59640	/bin/update-alternatives
-26	/bin/updatedb
-14568	/bin/uptime
-35336	/bin/users
-22912	/bin/utmpdump
-138216	/bin/vdir
-20	/bin/vi
-22	/bin/view
-21	/bin/vim
-3787824	/bin/vim.basic
-25	/bin/vimdiff
-2154	/bin/vimtutor
-39160	/bin/vmstat
-22760	/bin/w
-22912	/bin/wall
-27240	/bin/watch
-43440	/bin/wc
-31128	/bin/wdctl
-31576	/bin/whereis
-23	/bin/which
-946	/bin/which.debianutils
-51736	/bin/who
-31240	/bin/whoami
-7	/bin/x86_64
-63912	/bin/xargs
-18720	/bin/xxd
-31112	/bin/yes
-8	/bin/ypdomainname
-1984	/bin/zcat
-1678	/bin/zcmp
-5898	/bin/zdiff
-26840	/bin/zdump
-29	/bin/zegrep
-29	/bin/zfgrep
-2081	/bin/zforce
-8103	/bin/zgrep
-2206	/bin/zless
-1842	/bin/zmore
-4577	/bin/znew
-$ s diu  u -v b /v bin/* 
-51648	/bin/[
-14720	/bin/addpart
-18824	/bin/apt
-84448	/bin/apt-cache
-27104	/bin/apt-cdrom
-27024	/bin/apt-config
-51680	/bin/apt-get
-28173	/bin/apt-key
-51680	/bin/apt-mark
-31240	/bin/arch
-21	/bin/awk
-51728	/bin/b2sum
-35336	/bin/base32
-35336	/bin/base64
-35336	/bin/basename
-47624	/bin/basenc
-1396520	/bin/bash
-6818	/bin/bashbug
-6963	/bin/c_rehash
-3	/bin/captoinfo
-35288	/bin/cat
-72184	/bin/chage
-14656	/bin/chattr
-59912	/bin/chcon
-72712	/bin/chfn
-55816	/bin/chgrp
-55816	/bin/chmod
-22912	/bin/choom
-59912	/bin/chown
-27008	/bin/chrt
-44808	/bin/chsh
-35240	/bin/cksum
-14656	/bin/clear
-14568	/bin/clear_console
-43408	/bin/cmp
-35344	/bin/comm
-141832	/bin/cp
-109064	/bin/csplit
-260328	/bin/curl
-39432	/bin/cut
-303512	/bin/cvtsudoers
-125688	/bin/dash
-104968	/bin/date
-68120	/bin/dd
-21394	/bin/deb-systemd-helper
-6156	/bin/deb-systemd-invoke
-2859	/bin/debconf
-11541	/bin/debconf-apt-progress
-608	/bin/debconf-communicate
-1719	/bin/debconf-copydb
-647	/bin/debconf-escape
-2995	/bin/debconf-set-selections
-1827	/bin/debconf-show
-14720	/bin/delpart
-85072	/bin/df
-133680	/bin/diff
-55824	/bin/diff3
-138216	/bin/dir
-39440	/bin/dircolors
-31112	/bin/dirname
-72304	/bin/dmesg
-8	/bin/dnsdomainname
-8	/bin/domainname
-318144	/bin/dpkg
-137720	/bin/dpkg-deb
-121336	/bin/dpkg-divert
-21209	/bin/dpkg-maintscript-helper
-141848	/bin/dpkg-query
-4189	/bin/dpkg-realpath
-100872	/bin/dpkg-split
-47368	/bin/dpkg-statoverride
-43424	/bin/dpkg-trigger
-150024	/bin/du
-35128	/bin/echo
-24	/bin/editor
-28	/bin/egrep
-43976	/bin/env
-20	/bin/ex
-35360	/bin/expand
-23136	/bin/expiry
-104872	/bin/expr
-72200	/bin/factor
-23136	/bin/faillog
-22912	/bin/fallocate
-26936	/bin/false
-28	/bin/fgrep
-22960	/bin/fincore
-282088	/bin/find
-65136	/bin/findmnt
-23024	/bin/flock
-39432	/bin/fmt
-35336	/bin/fold
-26864	/bin/free
-35112	/bin/getconf
-39576	/bin/getent
-22912	/bin/getopt
-72072	/bin/gpasswd
-277544	/bin/gpgv
-182728	/bin/grep
-35336	/bin/groups
-2346	/bin/gunzip
-6447	/bin/gzexe
-93424	/bin/gzip
-35256	/bin/hardlink
-43528	/bin/head
-2514	/bin/helpztags
-31240	/bin/hostid
-22760	/bin/hostname
-7	/bin/i386
-68000	/bin/iconv
-39432	/bin/id
-63872	/bin/infocmp
-3	/bin/infotocap
-145944	/bin/install
-18816	/bin/ionice
-22984	/bin/ipcmk
-18816	/bin/ipcrm
-39296	/bin/ipcs
-14536	/bin/ischroot
-47664	/bin/join
-30952	/bin/kill
-35200	/bin/last
-4	/bin/lastb
-28288	/bin/lastlog
-5443	/bin/ldd
-199048	/bin/less
-14656	/bin/lessecho
-8	/bin/lessfile
-24272	/bin/lesskey
-9047	/bin/lesspipe
-31240	/bin/link
-7	/bin/linux32
-7	/bin/linux64
-59912	/bin/ln
-58944	/bin/locale
-14488	/bin/locale-check
-334808	/bin/localedef
-24	/bin/locate
-35808	/bin/logger
-52976	/bin/login
-31240	/bin/logname
-138216	/bin/ls
-14656	/bin/lsattr
-125320	/bin/lsblk
-100736	/bin/lscpu
-51584	/bin/lsipc
-31440	/bin/lslocks
-51584	/bin/lslogins
-35200	/bin/lsmem
-39304	/bin/lsns
-320	/bin/man
-158504	/bin/mawk
-27080	/bin/mcookie
-43432	/bin/md5sum
-6	/bin/md5sum.textutils
-14720	/bin/mesg
-68104	/bin/mkdir
-39432	/bin/mkfifo
-43528	/bin/mknod
-39432	/bin/mktemp
-43400	/bin/more
-47488	/bin/mount
-18816	/bin/mountpoint
-137752	/bin/mv
-22912	/bin/namei
-22	/bin/nawk
-158304	/bin/netstat
-40496	/bin/newgrp
-35336	/bin/nice
-8	/bin/nisdomainname
-100936	/bin/nl
-35240	/bin/nohup
-35336	/bin/nproc
-27240	/bin/nsenter
-55848	/bin/numfmt
-68104	/bin/od
-1001272	/bin/openssl
-23	/bin/pager
-59784	/bin/partx
-59976	/bin/passwd
-35240	/bin/paste
-35336	/bin/pathchk
-3802104	/bin/perl
-30968	/bin/pgrep
-14	/bin/pidof
-30968	/bin/pidwait
-76672	/bin/ping
-4	/bin/ping4
-4	/bin/ping6
-35240	/bin/pinky
-5	/bin/pkill
-22904	/bin/pldd
-313904	/bin/plocate
-35064	/bin/pmap
-68176	/bin/pr
-31112	/bin/printenv
-51648	/bin/printf
-27536	/bin/prlimit
-141776	/bin/ps
-129592	/bin/ptx
-35336	/bin/pwd
-14568	/bin/pwdx
-4	/bin/rbash
-39336	/bin/readlink
-39336	/bin/realpath
-14720	/bin/renice
-4	/bin/reset
-22912	/bin/resizepart
-14720	/bin/rev
-30	/bin/rgrep
-59912	/bin/rm
-43432	/bin/rmdir
-27176	/bin/run-parts
-35336	/bin/runcon
-23	/bin/rview
-22	/bin/rvim
-10487	/bin/savelog
-51584	/bin/script
-43392	/bin/scriptlive
-35200	/bin/scriptreplay
-47504	/bin/sdiff
-113224	/bin/sed
-2450	/bin/select-editor
-1290	/bin/sensible-browser
-1269	/bin/sensible-editor
-565	/bin/sensible-pager
-47624	/bin/seq
-27288	/bin/setarch
-39304	/bin/setpriv
-14720	/bin/setsid
-35200	/bin/setterm
-6	/bin/sg
-4	/bin/sh
-43432	/bin/sha1sum
-51624	/bin/sha224sum
-51624	/bin/sha256sum
-59816	/bin/sha384sum
-59816	/bin/sha512sum
-51720	/bin/shred
-47624	/bin/shuf
-30952	/bin/skill
-22768	/bin/slabtop
-35336	/bin/sleep
-5	/bin/snice
-101176	/bin/sort
-52192	/bin/split
-80400	/bin/stat
-43528	/bin/stdbuf
-76296	/bin/stty
-55680	/bin/su
-232416	/bin/sudo
-4	/bin/sudoedit
-89744	/bin/sudoreplay
-35240	/bin/sum
-35240	/bin/sync
-18744	/bin/tabs
-100776	/bin/tac
-68112	/bin/tail
-517952	/bin/tar
-22912	/bin/taskset
-35336	/bin/tee
-14360	/bin/tempfile
-43456	/bin/test
-88488	/bin/tic
-39880	/bin/timeout
-18680	/bin/tload
-22840	/bin/toe
-133184	/bin/top
-92680	/bin/touch
-26968	/bin/tput
-47624	/bin/tr
-26936	/bin/true
-35336	/bin/truncate
-26944	/bin/tset
-47624	/bin/tsort
-31240	/bin/tty
-15378	/bin/tzselect
-27008	/bin/uclampset
-35200	/bin/umount
-35336	/bin/uname
-35360	/bin/unexpand
-43528	/bin/uniq
-31240	/bin/unlink
-31336	/bin/unshare
-59640	/bin/update-alternatives
-26	/bin/updatedb
-14568	/bin/uptime
-35336	/bin/users
-22912	/bin/utmpdump
-138216	/bin/vdir
-20	/bin/vi
-22	/bin/view
-21	/bin/vim
-3787824	/bin/vim.basic
-25	/bin/vimdiff
-2154	/bin/vimtutor
-39160	/bin/vmstat
-22760	/bin/w
-22912	/bin/wall
-27240	/bin/watch
-43440	/bin/wc
-31128	/bin/wdctl
-31576	/bin/whereis
-23	/bin/which
-946	/bin/which.debianutils
-51736	/bin/who
-31240	/bin/whoami
-7	/bin/x86_64
-63912	/bin/xargs
-18720	/bin/xxd
-31112	/bin/yes
-8	/bin/ypdomainname
-1984	/bin/zcat
-1678	/bin/zcmp
-5898	/bin/zdiff
-26840	/bin/zdump
-29	/bin/zegrep
-29	/bin/zfgrep
-2081	/bin/zforce
-8103	/bin/zgrep
-2206	/bin/zless
-1842	/bin/zmore
-4577	/bin/znew
-$ du -b /bin. /* 
-51648	/bin/[
-14720	/bin/addpart
-18824	/bin/apt
-84448	/bin/apt-cache
-27104	/bin/apt-cdrom
-27024	/bin/apt-config
-51680	/bin/apt-get
-28173	/bin/apt-key
-51680	/bin/apt-mark
-31240	/bin/arch
-21	/bin/awk
-51728	/bin/b2sum
-35336	/bin/base32
-35336	/bin/base64
-35336	/bin/basename
-47624	/bin/basenc
-1396520	/bin/bash
-6818	/bin/bashbug
-6963	/bin/c_rehash
-3	/bin/captoinfo
-35288	/bin/cat
-72184	/bin/chage
-14656	/bin/chattr
-59912	/bin/chcon
-72712	/bin/chfn
-55816	/bin/chgrp
-55816	/bin/chmod
-22912	/bin/choom
-59912	/bin/chown
-27008	/bin/chrt
-44808	/bin/chsh
-35240	/bin/cksum
-14656	/bin/clear
-14568	/bin/clear_console
-43408	/bin/cmp
-35344	/bin/comm
-141832	/bin/cp
-109064	/bin/csplit
-260328	/bin/curl
-39432	/bin/cut
-303512	/bin/cvtsudoers
-125688	/bin/dash
-104968	/bin/date
-68120	/bin/dd
-21394	/bin/deb-systemd-helper
-6156	/bin/deb-systemd-invoke
-2859	/bin/debconf
-11541	/bin/debconf-apt-progress
-608	/bin/debconf-communicate
-1719	/bin/debconf-copydb
-647	/bin/debconf-escape
-2995	/bin/debconf-set-selections
-1827	/bin/debconf-show
-14720	/bin/delpart
-85072	/bin/df
-133680	/bin/diff
-55824	/bin/diff3
-138216	/bin/dir
-39440	/bin/dircolors
-31112	/bin/dirname
-72304	/bin/dmesg
-8	/bin/dnsdomainname
-8	/bin/domainname
-318144	/bin/dpkg
-137720	/bin/dpkg-deb
-121336	/bin/dpkg-divert
-21209	/bin/dpkg-maintscript-helper
-141848	/bin/dpkg-query
-4189	/bin/dpkg-realpath
-100872	/bin/dpkg-split
-47368	/bin/dpkg-statoverride
-43424	/bin/dpkg-trigger
-150024	/bin/du
-35128	/bin/echo
-24	/bin/editor
-28	/bin/egrep
-43976	/bin/env
-20	/bin/ex
-35360	/bin/expand
-23136	/bin/expiry
-104872	/bin/expr
-72200	/bin/factor
-23136	/bin/faillog
-22912	/bin/fallocate
-26936	/bin/false
-28	/bin/fgrep
-22960	/bin/fincore
-282088	/bin/find
-65136	/bin/findmnt
-23024	/bin/flock
-39432	/bin/fmt
-35336	/bin/fold
-26864	/bin/free
-35112	/bin/getconf
-39576	/bin/getent
-22912	/bin/getopt
-72072	/bin/gpasswd
-277544	/bin/gpgv
-182728	/bin/grep
-35336	/bin/groups
-2346	/bin/gunzip
-6447	/bin/gzexe
-93424	/bin/gzip
-35256	/bin/hardlink
-43528	/bin/head
-2514	/bin/helpztags
-31240	/bin/hostid
-22760	/bin/hostname
-7	/bin/i386
-68000	/bin/iconv
-39432	/bin/id
-63872	/bin/infocmp
-3	/bin/infotocap
-145944	/bin/install
-18816	/bin/ionice
-22984	/bin/ipcmk
-18816	/bin/ipcrm
-39296	/bin/ipcs
-14536	/bin/ischroot
-47664	/bin/join
-30952	/bin/kill
-35200	/bin/last
-4	/bin/lastb
-28288	/bin/lastlog
-5443	/bin/ldd
-199048	/bin/less
-14656	/bin/lessecho
-8	/bin/lessfile
-24272	/bin/lesskey
-9047	/bin/lesspipe
-31240	/bin/link
-7	/bin/linux32
-7	/bin/linux64
-59912	/bin/ln
-58944	/bin/locale
-14488	/bin/locale-check
-334808	/bin/localedef
-24	/bin/locate
-35808	/bin/logger
-52976	/bin/login
-31240	/bin/logname
-138216	/bin/ls
-14656	/bin/lsattr
-125320	/bin/lsblk
-100736	/bin/lscpu
-51584	/bin/lsipc
-31440	/bin/lslocks
-51584	/bin/lslogins
-35200	/bin/lsmem
-39304	/bin/lsns
-320	/bin/man
-158504	/bin/mawk
-27080	/bin/mcookie
-43432	/bin/md5sum
-6	/bin/md5sum.textutils
-14720	/bin/mesg
-68104	/bin/mkdir
-39432	/bin/mkfifo
-43528	/bin/mknod
-39432	/bin/mktemp
-43400	/bin/more
-47488	/bin/mount
-18816	/bin/mountpoint
-137752	/bin/mv
-22912	/bin/namei
-22	/bin/nawk
-158304	/bin/netstat
-40496	/bin/newgrp
-35336	/bin/nice
-8	/bin/nisdomainname
-100936	/bin/nl
-35240	/bin/nohup
-35336	/bin/nproc
-27240	/bin/nsenter
-55848	/bin/numfmt
-68104	/bin/od
-1001272	/bin/openssl
-23	/bin/pager
-59784	/bin/partx
-59976	/bin/passwd
-35240	/bin/paste
-35336	/bin/pathchk
-3802104	/bin/perl
-30968	/bin/pgrep
-14	/bin/pidof
-30968	/bin/pidwait
-76672	/bin/ping
-4	/bin/ping4
-4	/bin/ping6
-35240	/bin/pinky
-5	/bin/pkill
-22904	/bin/pldd
-313904	/bin/plocate
-35064	/bin/pmap
-68176	/bin/pr
-31112	/bin/printenv
-51648	/bin/printf
-27536	/bin/prlimit
-141776	/bin/ps
-129592	/bin/ptx
-35336	/bin/pwd
-14568	/bin/pwdx
-4	/bin/rbash
-39336	/bin/readlink
-39336	/bin/realpath
-14720	/bin/renice
-4	/bin/reset
-22912	/bin/resizepart
-14720	/bin/rev
-30	/bin/rgrep
-59912	/bin/rm
-43432	/bin/rmdir
-27176	/bin/run-parts
-35336	/bin/runcon
-23	/bin/rview
-22	/bin/rvim
-10487	/bin/savelog
-51584	/bin/script
-43392	/bin/scriptlive
-35200	/bin/scriptreplay
-47504	/bin/sdiff
-113224	/bin/sed
-2450	/bin/select-editor
-1290	/bin/sensible-browser
-1269	/bin/sensible-editor
-565	/bin/sensible-pager
-47624	/bin/seq
-27288	/bin/setarch
-39304	/bin/setpriv
-14720	/bin/setsid
-35200	/bin/setterm
-6	/bin/sg
-4	/bin/sh
-43432	/bin/sha1sum
-51624	/bin/sha224sum
-51624	/bin/sha256sum
-59816	/bin/sha384sum
-59816	/bin/sha512sum
-51720	/bin/shred
-47624	/bin/shuf
-30952	/bin/skill
-22768	/bin/slabtop
-35336	/bin/sleep
-5	/bin/snice
-101176	/bin/sort
-52192	/bin/split
-80400	/bin/stat
-43528	/bin/stdbuf
-76296	/bin/stty
-55680	/bin/su
-232416	/bin/sudo
-4	/bin/sudoedit
-89744	/bin/sudoreplay
-35240	/bin/sum
-35240	/bin/sync
-18744	/bin/tabs
-100776	/bin/tac
-68112	/bin/tail
-517952	/bin/tar
-22912	/bin/taskset
-35336	/bin/tee
-14360	/bin/tempfile
-43456	/bin/test
-88488	/bin/tic
-39880	/bin/timeout
-18680	/bin/tload
-22840	/bin/toe
-133184	/bin/top
-92680	/bin/touch
-26968	/bin/tput
-47624	/bin/tr
-26936	/bin/true
-35336	/bin/truncate
-26944	/bin/tset
-47624	/bin/tsort
-31240	/bin/tty
-15378	/bin/tzselect
-27008	/bin/uclampset
-35200	/bin/umount
-35336	/bin/uname
-35360	/bin/unexpand
-43528	/bin/uniq
-31240	/bin/unlink
-31336	/bin/unshare
-59640	/bin/update-alternatives
-26	/bin/updatedb
-14568	/bin/uptime
-35336	/bin/users
-22912	/bin/utmpdump
-138216	/bin/vdir
-20	/bin/vi
-22	/bin/view
-21	/bin/vim
-3787824	/bin/vim.basic
-25	/bin/vimdiff
-2154	/bin/vimtutor
-39160	/bin/vmstat
-22760	/bin/w
-22912	/bin/wall
-27240	/bin/watch
-43440	/bin/wc
-31128	/bin/wdctl
-31576	/bin/whereis
-23	/bin/which
-946	/bin/which.debianutils
-51736	/bin/who
-31240	/bin/whoami
-7	/bin/x86_64
-63912	/bin/xargs
-18720	/bin/xxd
-31112	/bin/yes
-8	/bin/ypdomainname
-1984	/bin/zcat
-1678	/bin/zcmp
-5898	/bin/zdiff
-26840	/bin/zdump
-29	/bin/zegrep
-29	/bin/zfgrep
-2081	/bin/zforce
-8103	/bin/zgrep
-2206	/bin/zless
-1842	/bin/zmore
-4577	/bin/znew
-$ {^[[C ||      exut  it
+Script started on 2025-01-21 09:36:09+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="54" LINES="37"]
+$ vi .bashrc
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;37r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[37;1H".bashrc" 117L, 3771B[2;1H½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H    [33malias [m[36mgrep[m[33m='[m[31mgrep --color=auto[m[33m'[m[2;35H[K[3;1H    [33malias [m[36mfgrep[m[33m='[m[31mfgrep --color=auto[m[33m'[m[3;37H[K[4;5H[33malias [m[36megrep[m[33m='[m[31megrep --color=auto[m[33m'
+fi[m
 
-Script done on 2025-01-21 04:38:25+00:00 [COMMAND_EXIT_CODE="0"]
+[34m# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;;[9;1H36:caret=01;32:locus=01:quote=01'
+
+# some more ls aliases[m
+[33malias [m[36mll[m[33m='[m[31mls -alF[m[33m'
+alias [m[36mla[m[33m='[m[31mls -A[m[33m'
+alias[m [36ml[m=[33m'[m[31mls -CF[m[33m'[m
+
+[34m# Add an "alert" alias for long running commands.  Usee[17;1H like so:
+#   sleep 10; alert[m
+[33malias [m[36malert[m[33m='[m[31mnotify-send --urgency=low -i "$([ $? = 0  [20;1H] && echo terminal || echo error)" "$(history|tail -n11[21;1H|sed -e [m[33m'[m[35m\'[m[33m'[m[31ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//[m[33m'[m[35m\'[m[33m'[m[31m))[22;1H"[m[33m'[m
+
+[34m# Alias definitions.
+# You may want to put all your additions into a separaa[26;1Hte file like
+# ~/.bash_aliases, instead of adding them here directll[28;1Hy.
+# See /usr/share/doc/bash-doc/examples in the bash-docc[30;1H package.[m
+
+[33mif [[m [33m-f[m ~/.bash_aliases [33m];[m [33mthen
+[m   [33m . [m~/.bash_aliases
+[33mfi[m
+
+[34m# enable programmable completion features (you don't n[m[36;1H[1m[34m@@@                                                   [m[37;37H96,8[10C88%[18;8H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[37;27H0[18;8H[37;28H0[18;8H[37;29H/[18;8H[37;30H2[18;8H[37;31Hb[18;8H[37;32H2[18;8H[37;33Hb[18;8H[37;34H/[18;8H[37;35H3[18;8H[37;36H6[18;8H[37;27H          [18;8H[27m[23m[29m[m[H[2J[2;5H[1m[33malias [m[1m[36mgrep[m[1m[33m='[m[1m[35mgrep --color=auto[m[1m[33m'
+[m    [1m[33malias [m[1m[36mfgrep[m[1m[33m='[m[1m[35mfgrep --color=auto[m[1m[33m'
+[m    [1m[33malias [m[1m[36megrep[m[1m[33m='[m[1m[35megrep --color=auto[m[1m[33m'
+fi[m
+
+[1m[36m# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;;[9;1H36:caret=01;32:locus=01:quote=01'
+
+# some more ls aliases[m
+[1m[33malias [m[1m[36mll[m[1m[33m='[m[1m[35mls -alF[m[1m[33m'
+alias [m[1m[36mla[m[1m[33m='[m[1m[35mls -A[m[1m[33m'
+alias[m [1m[36ml[m=[1m[33m'[m[1m[35mls -CF[m[1m[33m'[m
+
+[1m[36m# Add an "alert" alias for long running commands.  Usee[17;1H like so:
+#   sleep 10; alert[m
+[1m[33malias [m[1m[36malert[m[1m[33m='[m[1m[35mnotify-send --urgency=low -i "$([ $? = 0  [20;1H] && echo terminal || echo error)" "$(history|tail -n11[21;1H|sed -e [m[1m[33m'[m[1m[31m\'[m[1m[33m'[m[1m[35ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//[m[1m[33m'[m[1m[31m\'[m[1m[33m'[m[1m[35m))[22;1H"[m[1m[33m'[m
+
+[1m[36m# Alias definitions.
+# You may want to put all your additions into a separaa[26;1Hte file like
+# ~/.bash_aliases, instead of adding them here directll[28;1Hy.
+# See /usr/share/doc/bash-doc/examples in the bash-docc[30;1H package.[m
+
+[1m[33mif [[m [1m[33m-f[m ~/.bash_aliases [1m[33m];[m [1m[33mthen
+[m   [1m[33m . [m~/.bash_aliases
+[1m[33mfi[m
+
+[1m[36m# enable programmable completion features (you don't n[m[36;1H[1m[34m@@@                                                   [m[37;37H96,8[10C88%".bashrc" 117L, 3771B[18;8H[?25h[?25l[37;27H~@k[18;8H[37;27H   [19;8H[37;38H7[19;8H[?25h[?25l[37;27H~@k[19;8H[37;27H   [23;1H[37;38H8,0-1[23;1H[?25h[?25l[37;27H~@k[23;1H[37;27H   [24;8H[37;38H9,8  [24;8H[?25h[?25l[37;27H~@k[24;8H[37;27H   [25;8H[37;37H100,8[25;8H[?25h[?25l[37;27H~@k[25;8H[37;27H   [27;8H[37;39H1[27;8H[?25h[?25l[37;27H~@k[27;8H[37;27H   [29;8H[37;39H2[29;8H[?25h[?25l[37;27H~@k[29;8H[37;27H   [31;1H[37;39H3,0-1[31;1H[?25h[?25l[37;27H~@k[31;1H[37;27H   [31;8H[1;36r[36;1H
+[1;37r[35;1H[1m[36m# enable programmable completion features (you don't nn[36;1Heed to enable[m[37;1H[K[37;37H104,8[9C90%[31;8H[?25h[?25l[37;27H~@k[31;8H[37;27H   [30;8H[1;36r[1;1H[2M[1;37r[35;1H[1m[36m# this, if it's already enabled in /etc/bash.bashrc ann[36;1Hd /etc/profile[m[37;37H[K[37;37H105,8[9C91%[30;8H[?25h[?25l[37;27H~@k[30;8H[37;27H   [31;2H[37;39H6,2[31;2H[?25h[?25l[37;27H~@k[31;2H[37;27H   [31;1H[1;36r[36;1H
+[1;37r[36;1H[1m[36m# sources /etc/bash.bashrc).[m[37;37H[K[37;37H107,0-1[7C92%[31;1H[?25h[?25l[37;27H~@k[31;1H[37;27H   [29;8H[1;36r[1;1H[3M[1;37r[34;1H[1m[33mif ![m shopt [1m[31m-oq[m posix[1m[33m;[m [1m[33mthen
+[m  [1m[33mif [[m [1m[33m-f[m /usr/share/bash-completion/bash_completion [1m[33m]][36;1H;[m [1m[33mthen[m[37;37H[K[37;37H108,8[9C94%[29;8H[?25h[?25l[37;27H~@k[29;8H[37;27H   [29;8H[1;36r[1;1H[2M[1;37r[35;4H[1m[33m . [m/usr/share/bash-completion/bash_completion
+  [1m[33melif[m [1m[33m[[m [1m[33m-f[m /etc/bash_completion [1m[33m];[m [1m[33mthen[m[37;37H[K[37;37H109,8[9C96%[29;8H[?25h[?25l[37;27H~@k[29;8H[37;27H   [31;8H[37;38H10[31;8H[?25h[?25l[37;27H~@k[31;8H[37;27H   [31;8H[1;36r[36;1H
+[1;37r[36;4H[1m[33m . [m/etc/bash_completion[37;37H[K[37;37H111,8[9C97%[31;8H[?25h[?25l[37;27H~@k[31;8H[37;27H   [30;8H[1;36r[1;1H[2M[1;37r[35;3H[1m[33mfi
+fi[m[37;37H[K[37;37H112,8[9CBot[30;8H[?25h[?25l[37;27H~@k[30;8H[37;27H   [32;8H[37;39H3[32;8H[?25h[?25l[37;27H~@k[32;8H[37;27H   [33;8H[1m[33m[46m[[m [24C[1m[33m[46m][m[1m[33m;[m [37;39H4[33;8H[?25h[?25l[37;27H~@k[33;8H[37;27H   [34;8H[33;8H[1m[33m[[m [24C[1m[33m];[m [37;39H5[34;8H[?25h[?25l[37;27H~@k[34;8H[37;27H   [35;4H[37;39H6,4[35;4H[?25h[?25l[37;27H~@k[35;4H[37;27H   [36;2H[37;39H7,2[36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27Hi[36;2H[37;27H [36;2H
+[1m-- INSERT --[m[37;37H[K[37;37H117,2[9CBot[36;2H[?25h[?25l[37;41H3[36;3H[?25h[?25l[1;36r[36;1H
+[1;37r[37;37H[K[37;37H118,1[9CBot[36;1H[?25h[?25lP[37;41H2[36;2H[?25h[?25lS[37;41H3[36;3H[?25h[?25l1[37;41H4[36;4H[?25h[?25l[1m[36mPS1[m=[37;41H5[36;5H[?25h[?25la[37;41H6[36;6H[?25h[?25la[37;41H7[36;7H[?25h[?25la[37;41H8[36;8H[?25h[37;1H[K[36;7H[?25l[37;27H^[[36;7H[37;27H  [36;8H[37;37H118,7[9CBot[36;7H[?25h[?25l[37;27H:[36;7H[37;27H[K[37;1H:[?25hwq![?25l[?2004l[>4;m".bashrc"<hrc" 118L, 3779B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t$ cp , .bashrc , .bva  ashrc.org
+$ vu    diff .basher  rc .bva   ash   n v bashrc.org
+$ vi .bashrc
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;37r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[37;1H".bashrc" 118L, 3779B[2;1H½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[33malias[m [36ml[m=[33m'[m[31mls -CF[m[33m'[m[2;1H[K[3;1H[34m# Add an "alert" alias for long running commands.  Usee[4;1H like so:
+#   sleep 10; alert[m
+[33malias [m[36malert[m[33m='[m[31mnotify-send --urgency=low -i "$([ $? = 0  [7;1H] && echo terminal || echo error)" "$(history|tail -n11[8;1H|sed -e [m[33m'[m[35m\'[m[33m'[m[31ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//[m[33m'[m[35m\'[m[33m'[m[31m))[9;1H"[m[33m'[m
+
+[34m# Alias definitions.
+# You may want to put all your additions into a separaa[13;1Hte file like
+# ~/.bash_aliases, instead of adding them here directll[15;1Hy.
+# See /usr/share/doc/bash-doc/examples in the bash-docc[17;1H package.[m
+
+[33mif [[m [33m-f[m ~/.bash_aliases [33m];[m [33mthen
+[m   [33m . [m~/.bash_aliases
+[33mfi[m
+
+[34m# enable programmable completion features (you don't nn[24;1Heed to enable
+# this, if it's already enabled in /etc/bash.bashrc ann[26;1Hd /etc/profile
+# sources /etc/bash.bashrc).[m
+[33mif ![m shopt [35m-oq[m posix[33m;[m [33mthen
+[m  [33mif [[m [33m-f[m /usr/share/bash-completion/bash_completion [33m]][30;1H;[m [33mthen
+[m   [33m . [m/usr/share/bash-completion/bash_completion
+  [33melif[m [33m[[m [33m-f[m /etc/bash_completion [33m];[m [33mthen
+[m   [33m . [m/etc/bash_completion
+  [33mfi
+fi[m
+[36mPS1[m=aaa[37;37H118,7[9CBot[36;7H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[37;27H0[36;7H[37;28H0[36;7H[37;29H/[36;7H[37;30H2[36;7H[37;31Hb[36;7H[37;32H2[36;7H[37;33Hb[36;7H[37;34H/[36;7H[37;35H3[36;7H[37;36H6[36;7H[37;27H          [36;7H[27m[23m[29m[m[H[2J[1;1H[1m[33malias[m [1m[36ml[m=[1m[33m'[m[1m[35mls -CF[m[1m[33m'[m
+
+[1m[36m# Add an "alert" alias for long running commands.  Usee[4;1H like so:
+#   sleep 10; alert[m
+[1m[33malias [m[1m[36malert[m[1m[33m='[m[1m[35mnotify-send --urgency=low -i "$([ $? = 0  [7;1H] && echo terminal || echo error)" "$(history|tail -n11[8;1H|sed -e [m[1m[33m'[m[1m[31m\'[m[1m[33m'[m[1m[35ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//[m[1m[33m'[m[1m[31m\'[m[1m[33m'[m[1m[35m))[9;1H"[m[1m[33m'[m
+
+[1m[36m# Alias definitions.
+# You may want to put all your additions into a separaa[13;1Hte file like
+# ~/.bash_aliases, instead of adding them here directll[15;1Hy.
+# See /usr/share/doc/bash-doc/examples in the bash-docc[17;1H package.[m
+
+[1m[33mif [[m [1m[33m-f[m ~/.bash_aliases [1m[33m];[m [1m[33mthen
+[m   [1m[33m . [m~/.bash_aliases
+[1m[33mfi[m
+
+[1m[36m# enable programmable completion features (you don't nn[24;1Heed to enable
+# this, if it's already enabled in /etc/bash.bashrc ann[26;1Hd /etc/profile
+# sources /etc/bash.bashrc).[m
+[1m[33mif ![m shopt [1m[31m-oq[m posix[1m[33m;[m [1m[33mthen
+[m  [1m[33mif [[m [1m[33m-f[m /usr/share/bash-completion/bash_completion [1m[33m]][30;1H;[m [1m[33mthen
+[m   [1m[33m . [m/usr/share/bash-completion/bash_completion
+  [1m[33melif[m [1m[33m[[m [1m[33m-f[m /etc/bash_completion [1m[33m];[m [1m[33mthen
+[m   [1m[33m . [m/etc/bash_completion
+  [1m[33mfi
+fi[m
+[1m[36mPS1[m=aaa[37;37H118,7[9CBot".bashrc" 118L, 3779B[36;7H[?25h[?25l[37;27Hl[36;7H[37;27H [36;7H[?25h[?25l[37;27H.[36;7H[37;27H [36;7H[?25h[?25l[37;27H~@k[36;7H[37;27H   [36;7H[?25h[?25l[37;27Hl[36;7H[37;27H [36;7H[?25h[?25l[37;27Hi[36;7H[37;27H [36;7H
+[1m-- INSERT --[m[37;13H[K[37;37H118,7[9CBot[36;7H[?25h[?25l[36;7H[K[37;41H6[36;6H[?25h[?25l[36;6H[K[37;41H5[36;5H[?25h[?25l[37;41H6[36;6H[?25h[?25l[36;5H[K[37;41H5[36;5H[?25h[?25lv[37;41H6[36;6H[?25h[?25lv[37;41H7[36;7H[?25h[?25lv[37;41H8[36;8H[?25h[37;1H[K[36;7H[?25l[37;27H^[[36;7H[37;27H  [36;8H[37;37H118,7[9CBot[36;7H[?25h[?25l[37;27H:[36;7H[37;27H[K[37;1H:[?25hwq![?25l[?2004l[>4;m".bashrc"<hrc" 118L, 3779B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t$ diff .bva as   asgr  hj rc .v basgh  hrc.orfg  g
+118c118
+< PS1=vvv
+---
+> PS1=aaa
+$ diff -u .bv ashrc ,.  .bashrc, n m,  , mn  .orgf 
+--- .bashrc	2025-01-21 09:37:15.043245128 +0000
++++ .bashrc.org	2025-01-21 09:36:41.714130969 +0000
+@@ -115,4 +115,4 @@
+     . /etc/bash_completion
+   fi
+ fi
+-PS1=vvv
++PS1=aaa
+$ ec xti  it
+
+Script done on 2025-01-21 09:37:54+00:00 [COMMAND_EXIT_CODE="1"]
