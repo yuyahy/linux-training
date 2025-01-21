@@ -1,13 +1,7 @@
-Script started on 2025-01-19 03:06:07+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="91" LINES="16"]
-$ ls /xxxx 2> error.txt
-$ cat error/txt
-cat: error/txt: No such file or directory
-$ cat error/ .txt
+Script started on 2025-01-21 02:32:17+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="43" LINES="16"]
+$ ks .  =   k = = kl  ls /xxxx > resukt    lt 2$ # ! $%  $ * ^ ) @ # &1   > 2>( &1
+$ cat re	sult
 ls: cannot access '/xxxx': No such file or directory
-$ ls - /xxxx > list., txt 3 2? < ? <>  > r error.txt
-$ cat liost   st/t  / .tz xt
-$ cat errp or.txt^[[A     t
-ls: cannot access '/xxxx': No such file or directory
-$ exit
+$ r re  exit
 
-Script done on 2025-01-19 03:10:27+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-21 02:33:29+00:00 [COMMAND_EXIT_CODE="0"]
