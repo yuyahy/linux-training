@@ -1,131 +1,50 @@
-Script started on 2025-01-21 09:36:09+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="54" LINES="37"]
-$ vi .bashrc
-[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;37r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[37;1H".bashrc" 117L, 3771B[2;1H½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H    [33malias [m[36mgrep[m[33m='[m[31mgrep --color=auto[m[33m'[m[2;35H[K[3;1H    [33malias [m[36mfgrep[m[33m='[m[31mfgrep --color=auto[m[33m'[m[3;37H[K[4;5H[33malias [m[36megrep[m[33m='[m[31megrep --color=auto[m[33m'
-fi[m
+Script started on 2025-01-22 22:22:37+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="93" LINES="37"]
+$ grep bash /etc/passwi d
+root:x:0:0:root:/root:/bin/bash
+ubuntu:x:1000:1000::/home/ubuntu:/bin/bash
+$ grep -n PS1 . /etc/bashrc
+grep: /etc/bashrc: No such file or directory
+$ grep -n PS1 / , , ./bashrc
+grep: ./bashrc: No such file or directory
+$ lds  s -la
+total 24
+drwxr-x--- 1 ubuntu ubuntu 4096 Jan 22 22:22 .
+drwxr-xr-x 1 root   root   4096 Jan 14 12:27 ..
+-rw-r--r-- 1 ubuntu ubuntu  220 Jan  6  2022 .bash_logout
+-rw-r--r-- 1 ubuntu ubuntu 3771 Jan  6  2022 .bashrc
+-rw-r--r-- 1 ubuntu ubuntu  807 Jan  6  2022 .profile
+-rw-r--r-- 1 ubuntu ubuntu    0 Jan 22 22:22 session.log
+$ grep -n PS1 ./.bashrc
+60:    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+62:    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+69:    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+$ grep system /etc/passwd
+$ f grep -i sysy tem ./  . . /etc/passwd
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+$ grep -v bash /etc/[asswd
+grep: /etc/[asswd: No such file or directory
+$ grep -= v bash . /etcv/  /passwd
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin
+$ ls /etc/  | grep crobn  n
+cron.d
+cron.daily
+$ ecxi   xit
 
-[34m# colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;;[9;1H36:caret=01;32:locus=01:quote=01'
-
-# some more ls aliases[m
-[33malias [m[36mll[m[33m='[m[31mls -alF[m[33m'
-alias [m[36mla[m[33m='[m[31mls -A[m[33m'
-alias[m [36ml[m=[33m'[m[31mls -CF[m[33m'[m
-
-[34m# Add an "alert" alias for long running commands.  Usee[17;1H like so:
-#   sleep 10; alert[m
-[33malias [m[36malert[m[33m='[m[31mnotify-send --urgency=low -i "$([ $? = 0  [20;1H] && echo terminal || echo error)" "$(history|tail -n11[21;1H|sed -e [m[33m'[m[35m\'[m[33m'[m[31ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//[m[33m'[m[35m\'[m[33m'[m[31m))[22;1H"[m[33m'[m
-
-[34m# Alias definitions.
-# You may want to put all your additions into a separaa[26;1Hte file like
-# ~/.bash_aliases, instead of adding them here directll[28;1Hy.
-# See /usr/share/doc/bash-doc/examples in the bash-docc[30;1H package.[m
-
-[33mif [[m [33m-f[m ~/.bash_aliases [33m];[m [33mthen
-[m   [33m . [m~/.bash_aliases
-[33mfi[m
-
-[34m# enable programmable completion features (you don't n[m[36;1H[1m[34m@@@                                                   [m[37;37H96,8[10C88%[18;8H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[37;27H0[18;8H[37;28H0[18;8H[37;29H/[18;8H[37;30H2[18;8H[37;31Hb[18;8H[37;32H2[18;8H[37;33Hb[18;8H[37;34H/[18;8H[37;35H3[18;8H[37;36H6[18;8H[37;27H          [18;8H[27m[23m[29m[m[H[2J[2;5H[1m[33malias [m[1m[36mgrep[m[1m[33m='[m[1m[35mgrep --color=auto[m[1m[33m'
-[m    [1m[33malias [m[1m[36mfgrep[m[1m[33m='[m[1m[35mfgrep --color=auto[m[1m[33m'
-[m    [1m[33malias [m[1m[36megrep[m[1m[33m='[m[1m[35megrep --color=auto[m[1m[33m'
-fi[m
-
-[1m[36m# colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;;[9;1H36:caret=01;32:locus=01:quote=01'
-
-# some more ls aliases[m
-[1m[33malias [m[1m[36mll[m[1m[33m='[m[1m[35mls -alF[m[1m[33m'
-alias [m[1m[36mla[m[1m[33m='[m[1m[35mls -A[m[1m[33m'
-alias[m [1m[36ml[m=[1m[33m'[m[1m[35mls -CF[m[1m[33m'[m
-
-[1m[36m# Add an "alert" alias for long running commands.  Usee[17;1H like so:
-#   sleep 10; alert[m
-[1m[33malias [m[1m[36malert[m[1m[33m='[m[1m[35mnotify-send --urgency=low -i "$([ $? = 0  [20;1H] && echo terminal || echo error)" "$(history|tail -n11[21;1H|sed -e [m[1m[33m'[m[1m[31m\'[m[1m[33m'[m[1m[35ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//[m[1m[33m'[m[1m[31m\'[m[1m[33m'[m[1m[35m))[22;1H"[m[1m[33m'[m
-
-[1m[36m# Alias definitions.
-# You may want to put all your additions into a separaa[26;1Hte file like
-# ~/.bash_aliases, instead of adding them here directll[28;1Hy.
-# See /usr/share/doc/bash-doc/examples in the bash-docc[30;1H package.[m
-
-[1m[33mif [[m [1m[33m-f[m ~/.bash_aliases [1m[33m];[m [1m[33mthen
-[m   [1m[33m . [m~/.bash_aliases
-[1m[33mfi[m
-
-[1m[36m# enable programmable completion features (you don't n[m[36;1H[1m[34m@@@                                                   [m[37;37H96,8[10C88%".bashrc" 117L, 3771B[18;8H[?25h[?25l[37;27H~@k[18;8H[37;27H   [19;8H[37;38H7[19;8H[?25h[?25l[37;27H~@k[19;8H[37;27H   [23;1H[37;38H8,0-1[23;1H[?25h[?25l[37;27H~@k[23;1H[37;27H   [24;8H[37;38H9,8  [24;8H[?25h[?25l[37;27H~@k[24;8H[37;27H   [25;8H[37;37H100,8[25;8H[?25h[?25l[37;27H~@k[25;8H[37;27H   [27;8H[37;39H1[27;8H[?25h[?25l[37;27H~@k[27;8H[37;27H   [29;8H[37;39H2[29;8H[?25h[?25l[37;27H~@k[29;8H[37;27H   [31;1H[37;39H3,0-1[31;1H[?25h[?25l[37;27H~@k[31;1H[37;27H   [31;8H[1;36r[36;1H
-[1;37r[35;1H[1m[36m# enable programmable completion features (you don't nn[36;1Heed to enable[m[37;1H[K[37;37H104,8[9C90%[31;8H[?25h[?25l[37;27H~@k[31;8H[37;27H   [30;8H[1;36r[1;1H[2M[1;37r[35;1H[1m[36m# this, if it's already enabled in /etc/bash.bashrc ann[36;1Hd /etc/profile[m[37;37H[K[37;37H105,8[9C91%[30;8H[?25h[?25l[37;27H~@k[30;8H[37;27H   [31;2H[37;39H6,2[31;2H[?25h[?25l[37;27H~@k[31;2H[37;27H   [31;1H[1;36r[36;1H
-[1;37r[36;1H[1m[36m# sources /etc/bash.bashrc).[m[37;37H[K[37;37H107,0-1[7C92%[31;1H[?25h[?25l[37;27H~@k[31;1H[37;27H   [29;8H[1;36r[1;1H[3M[1;37r[34;1H[1m[33mif ![m shopt [1m[31m-oq[m posix[1m[33m;[m [1m[33mthen
-[m  [1m[33mif [[m [1m[33m-f[m /usr/share/bash-completion/bash_completion [1m[33m]][36;1H;[m [1m[33mthen[m[37;37H[K[37;37H108,8[9C94%[29;8H[?25h[?25l[37;27H~@k[29;8H[37;27H   [29;8H[1;36r[1;1H[2M[1;37r[35;4H[1m[33m . [m/usr/share/bash-completion/bash_completion
-  [1m[33melif[m [1m[33m[[m [1m[33m-f[m /etc/bash_completion [1m[33m];[m [1m[33mthen[m[37;37H[K[37;37H109,8[9C96%[29;8H[?25h[?25l[37;27H~@k[29;8H[37;27H   [31;8H[37;38H10[31;8H[?25h[?25l[37;27H~@k[31;8H[37;27H   [31;8H[1;36r[36;1H
-[1;37r[36;4H[1m[33m . [m/etc/bash_completion[37;37H[K[37;37H111,8[9C97%[31;8H[?25h[?25l[37;27H~@k[31;8H[37;27H   [30;8H[1;36r[1;1H[2M[1;37r[35;3H[1m[33mfi
-fi[m[37;37H[K[37;37H112,8[9CBot[30;8H[?25h[?25l[37;27H~@k[30;8H[37;27H   [32;8H[37;39H3[32;8H[?25h[?25l[37;27H~@k[32;8H[37;27H   [33;8H[1m[33m[46m[[m [24C[1m[33m[46m][m[1m[33m;[m [37;39H4[33;8H[?25h[?25l[37;27H~@k[33;8H[37;27H   [34;8H[33;8H[1m[33m[[m [24C[1m[33m];[m [37;39H5[34;8H[?25h[?25l[37;27H~@k[34;8H[37;27H   [35;4H[37;39H6,4[35;4H[?25h[?25l[37;27H~@k[35;4H[37;27H   [36;2H[37;39H7,2[36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27H~@k[36;2H[37;27H   [36;2H[?25h[?25l[37;27Hi[36;2H[37;27H [36;2H
-[1m-- INSERT --[m[37;37H[K[37;37H117,2[9CBot[36;2H[?25h[?25l[37;41H3[36;3H[?25h[?25l[1;36r[36;1H
-[1;37r[37;37H[K[37;37H118,1[9CBot[36;1H[?25h[?25lP[37;41H2[36;2H[?25h[?25lS[37;41H3[36;3H[?25h[?25l1[37;41H4[36;4H[?25h[?25l[1m[36mPS1[m=[37;41H5[36;5H[?25h[?25la[37;41H6[36;6H[?25h[?25la[37;41H7[36;7H[?25h[?25la[37;41H8[36;8H[?25h[37;1H[K[36;7H[?25l[37;27H^[[36;7H[37;27H  [36;8H[37;37H118,7[9CBot[36;7H[?25h[?25l[37;27H:[36;7H[37;27H[K[37;1H:[?25hwq![?25l[?2004l[>4;m".bashrc"<hrc" 118L, 3779B written[23;2t[23;1t
-[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t$ cp , .bashrc , .bva  ashrc.org
-$ vu    diff .basher  rc .bva   ash   n v bashrc.org
-$ vi .bashrc
-[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;37r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[37;1H".bashrc" 118L, 3779B[2;1H½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[33malias[m [36ml[m=[33m'[m[31mls -CF[m[33m'[m[2;1H[K[3;1H[34m# Add an "alert" alias for long running commands.  Usee[4;1H like so:
-#   sleep 10; alert[m
-[33malias [m[36malert[m[33m='[m[31mnotify-send --urgency=low -i "$([ $? = 0  [7;1H] && echo terminal || echo error)" "$(history|tail -n11[8;1H|sed -e [m[33m'[m[35m\'[m[33m'[m[31ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//[m[33m'[m[35m\'[m[33m'[m[31m))[9;1H"[m[33m'[m
-
-[34m# Alias definitions.
-# You may want to put all your additions into a separaa[13;1Hte file like
-# ~/.bash_aliases, instead of adding them here directll[15;1Hy.
-# See /usr/share/doc/bash-doc/examples in the bash-docc[17;1H package.[m
-
-[33mif [[m [33m-f[m ~/.bash_aliases [33m];[m [33mthen
-[m   [33m . [m~/.bash_aliases
-[33mfi[m
-
-[34m# enable programmable completion features (you don't nn[24;1Heed to enable
-# this, if it's already enabled in /etc/bash.bashrc ann[26;1Hd /etc/profile
-# sources /etc/bash.bashrc).[m
-[33mif ![m shopt [35m-oq[m posix[33m;[m [33mthen
-[m  [33mif [[m [33m-f[m /usr/share/bash-completion/bash_completion [33m]][30;1H;[m [33mthen
-[m   [33m . [m/usr/share/bash-completion/bash_completion
-  [33melif[m [33m[[m [33m-f[m /etc/bash_completion [33m];[m [33mthen
-[m   [33m . [m/etc/bash_completion
-  [33mfi
-fi[m
-[36mPS1[m=aaa[37;37H118,7[9CBot[36;7H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[37;27H0[36;7H[37;28H0[36;7H[37;29H/[36;7H[37;30H2[36;7H[37;31Hb[36;7H[37;32H2[36;7H[37;33Hb[36;7H[37;34H/[36;7H[37;35H3[36;7H[37;36H6[36;7H[37;27H          [36;7H[27m[23m[29m[m[H[2J[1;1H[1m[33malias[m [1m[36ml[m=[1m[33m'[m[1m[35mls -CF[m[1m[33m'[m
-
-[1m[36m# Add an "alert" alias for long running commands.  Usee[4;1H like so:
-#   sleep 10; alert[m
-[1m[33malias [m[1m[36malert[m[1m[33m='[m[1m[35mnotify-send --urgency=low -i "$([ $? = 0  [7;1H] && echo terminal || echo error)" "$(history|tail -n11[8;1H|sed -e [m[1m[33m'[m[1m[31m\'[m[1m[33m'[m[1m[35ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//[m[1m[33m'[m[1m[31m\'[m[1m[33m'[m[1m[35m))[9;1H"[m[1m[33m'[m
-
-[1m[36m# Alias definitions.
-# You may want to put all your additions into a separaa[13;1Hte file like
-# ~/.bash_aliases, instead of adding them here directll[15;1Hy.
-# See /usr/share/doc/bash-doc/examples in the bash-docc[17;1H package.[m
-
-[1m[33mif [[m [1m[33m-f[m ~/.bash_aliases [1m[33m];[m [1m[33mthen
-[m   [1m[33m . [m~/.bash_aliases
-[1m[33mfi[m
-
-[1m[36m# enable programmable completion features (you don't nn[24;1Heed to enable
-# this, if it's already enabled in /etc/bash.bashrc ann[26;1Hd /etc/profile
-# sources /etc/bash.bashrc).[m
-[1m[33mif ![m shopt [1m[31m-oq[m posix[1m[33m;[m [1m[33mthen
-[m  [1m[33mif [[m [1m[33m-f[m /usr/share/bash-completion/bash_completion [1m[33m]][30;1H;[m [1m[33mthen
-[m   [1m[33m . [m/usr/share/bash-completion/bash_completion
-  [1m[33melif[m [1m[33m[[m [1m[33m-f[m /etc/bash_completion [1m[33m];[m [1m[33mthen
-[m   [1m[33m . [m/etc/bash_completion
-  [1m[33mfi
-fi[m
-[1m[36mPS1[m=aaa[37;37H118,7[9CBot".bashrc" 118L, 3779B[36;7H[?25h[?25l[37;27Hl[36;7H[37;27H [36;7H[?25h[?25l[37;27H.[36;7H[37;27H [36;7H[?25h[?25l[37;27H~@k[36;7H[37;27H   [36;7H[?25h[?25l[37;27Hl[36;7H[37;27H [36;7H[?25h[?25l[37;27Hi[36;7H[37;27H [36;7H
-[1m-- INSERT --[m[37;13H[K[37;37H118,7[9CBot[36;7H[?25h[?25l[36;7H[K[37;41H6[36;6H[?25h[?25l[36;6H[K[37;41H5[36;5H[?25h[?25l[37;41H6[36;6H[?25h[?25l[36;5H[K[37;41H5[36;5H[?25h[?25lv[37;41H6[36;6H[?25h[?25lv[37;41H7[36;7H[?25h[?25lv[37;41H8[36;8H[?25h[37;1H[K[36;7H[?25l[37;27H^[[36;7H[37;27H  [36;8H[37;37H118,7[9CBot[36;7H[?25h[?25l[37;27H:[36;7H[37;27H[K[37;1H:[?25hwq![?25l[?2004l[>4;m".bashrc"<hrc" 118L, 3779B written[23;2t[23;1t
-[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t$ diff .bva as   asgr  hj rc .v basgh  hrc.orfg  g
-118c118
-< PS1=vvv
----
-> PS1=aaa
-$ diff -u .bv ashrc ,.  .bashrc, n m,  , mn  .orgf 
---- .bashrc	2025-01-21 09:37:15.043245128 +0000
-+++ .bashrc.org	2025-01-21 09:36:41.714130969 +0000
-@@ -115,4 +115,4 @@
-     . /etc/bash_completion
-   fi
- fi
--PS1=vvv
-+PS1=aaa
-$ ec xti  it
-
-Script done on 2025-01-21 09:37:54+00:00 [COMMAND_EXIT_CODE="1"]
+Script done on 2025-01-22 22:26:20+00:00 [COMMAND_EXIT_CODE="0"]
