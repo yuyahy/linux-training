@@ -1,19 +1,15 @@
-Script started on 2025-01-22 22:54:59+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="93" LINES="37"]
-$ grep      grep 'net' example.txt
-test.example.net
-tfst.example.net
-tzst.example.net
-tzzst.example.net
-www.example.net
-netapp.example.com
-$ grep '&*  ^net' example/t  , .x txt
-netapp.example.com
-$ grep ; 'net$' exas mplw e/ ///    e.txt
-test.example.net
-tfst.example.net
-tzst.example.net
-tzzst.example.net
-www.example.net
-$ ^[[D    ^P^P^P      r examp   it
+Script started on 2025-01-22 23:03:30+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="82" LINES="63"]
+$ grep 'Be*r' drink.txt
+Ber
+Beer
+BeerBeerBeer
+Beeeeeeeeeer!!!
+Br
+$ grep '@ ^V N V B; [ea[ ]  *r^ & $' drink.txt
+Ber
+Beer
+Bear
+Br
+$ w exit
 
-Script done on 2025-01-22 22:58:36+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-22 23:08:14+00:00 [COMMAND_EXIT_CODE="0"]
