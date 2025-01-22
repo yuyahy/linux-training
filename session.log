@@ -1,16 +1,12 @@
-Script started on 2025-01-22 23:08:57+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="82" LINES="63"]
-$ 
-$ greo p /'''    ; 'Be_ ) -=-   { +r; ' drinn,  k.txt
-$ grep -ER  'Be) _+  +r' dron  ink, .txt
+Script started on 2025-01-22 23:17:05+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="38" LINES="63"]
+$ grep -E ; 'Be_ _            grep -E 'Be_ ) +er  r; ' drink.txt
 Ber
 Beer
 BeerBeerBeer
 Beeeeeeeeeer!!!
-$ grep 'Be\+r' do i rink.txt
-Ber
-Beer
-BeerBeerBeer
-Beeeeeeeeeer!!!
-$ exity 
+$ grep -E 'EW  Ei  Wine @ # _ ?Wine' drink.txt
+Wine Wine
+WineWine
+$ w exit
 
-Script done on 2025-01-22 23:15:25+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-01-22 23:30:26+00:00 [COMMAND_EXIT_CODE="0"]
