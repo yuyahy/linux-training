@@ -36,5 +36,8 @@ USER $USER_NAME
 # 作業ディレクトリをホームディレクトリに設定
 WORKDIR /home/$USER_NAME
 
+# ~/.bashrc に $PATH を追加
+RUN echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+
 CMD ["/bin/bash"]
 

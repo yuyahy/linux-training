@@ -16,7 +16,7 @@ docker build -t linux-training .
 ### 2. Run the Docker container
 
 ```bash
- docker run -v $(pwd)/session.log:/home/ubuntu/session.log -v $(pwd)/work:/work -it linux-training
+ docker run -v $(pwd)/session.log:/home/ubuntu/session.log -v $(pwd)/bin/:/home/ubuntu/bin/ -it linux-training
  ```
 
 ### 3. Start saving the command logs and finish it
