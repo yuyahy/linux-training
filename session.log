@@ -1,11 +1,312 @@
-Script started on 2025-01-22 23:38:13+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="51" LINES="22"]
-$ grep 0E  0E  -E j;  '(Wine){ {2,}; ' drink.txt
-WineWine
-$ grep -E 'My (Vodka |    |Wine+ { ] ( ); ' drink.txt
+Script started on 2025-01-23 00:04:15+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="51" LINES="22"]
+$ sed 1d drink2.txt
+Beer
+BeerBeer
+BeerBeerBeer
+Beeeeeeeeeer!!!
 My Vodka
 My Wine
-$ ' ; exut
-sh: 3: exut: not found
-$ exu = it
 
-Script done on 2025-01-22 23:40:29+00:00 [COMMAND_EXIT_CODE="127"]
+$ bi  vi drui  ink2.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;22r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[22;1H"drink2.txt" 8L, 65B[2;1H½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HBer
+Beer[2;5H[K[3;1HBeerBeer[3;9H[K[4;1HBeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+[1m[34m~                                                  [10;1H~                                                  [11;1H~                                                  [12;1H~                                                  [13;1H~                                                  [14;1H~                                                  [15;1H~                                                  [16;1H~                                                  [17;1H~                                                  [18;1H~                                                  [19;1H~                                                  [20;1H~                                                  [21;1H~                                                  [m[22;34H8,0-1[9CAll[8;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[22;24H/[8;1H[22;25Hc[8;1H[22;26Hc[8;1H[22;27Hc[8;1H[22;28Hc[8;1H[22;29H/[8;1H[22;30Hc[8;1H[22;31Hc[8;1H[22;32Hc[8;1H[22;33Hc[8;1H[22;24H          [8;1H[?25h[?25l[22;24H/[8;1H[22;25H2[8;1H[22;26Hb[8;1H[22;27H2[8;1H[22;28Hb[8;1H[22;29H/[8;1H[22;30H3[8;1H[22;31H6[8;1H[22;32H3[8;1H[22;33H6[8;1H[22;24H          [8;1H[27m[23m[29m[m[H[2J[1;1HBer
+Beer
+BeerBeer
+BeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+[1m[34m~                                                  [10;1H~                                                  [11;1H~                                                  [12;1H~                                                  [13;1H~                                                  [14;1H~                                                  [15;1H~                                                  [16;1H~                                                  [17;1H~                                                  [18;1H~                                                  [19;1H~                                                  [20;1H~                                                  [21;1H~                                                  [m[22;34H8,0-1[9CAll"drink2.txt" 8L, 65B[8;1H[?25h[?25l[22;24H~@k[8;1H[22;24H   [7;7H[22;34H7,7  [7;7H[?25h[?25l[22;24H:[7;7H[22;1H[K[22;1H:[?25hew[?25l[22;3H[K[22;3H[?25h[?25l[22;2H[K[22;2H[?25hwq![?25l[?2004l[>4;m"drink2.txt"<.txt" 8L, 65B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t$ cat d	ri       ^[[C^[[C^[[C            ^C
+$ vi  cat drink2/tr   .txt
+Ber
+Beer
+BeerBeer
+BeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+$ vi drink2w / .txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;22r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[22;1H"drink2.txt" 8L, 65B[2;1H½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HBer
+Beer[2;5H[K[3;1HBeerBeer[3;9H[K[4;1HBeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+[1m[34m~                                                  [10;1H~                                                  [11;1H~                                                  [12;1H~                                                  [13;1H~                                                  [14;1H~                                                  [15;1H~                                                  [16;1H~                                                  [17;1H~                                                  [18;1H~                                                  [19;1H~                                                  [20;1H~                                                  [21;1H~                                                  [m[22;34H7,7[11CAll[7;7H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[22;24H/[7;7H[22;25H2[7;7H[22;26Hb[7;7H[22;27H2[7;7H[22;28Hb[7;7H[22;29H/[7;7H[22;30H3[7;7H[22;31H6[7;7H[22;32H3[7;7H[22;33H6[7;7H[22;24H          [7;7H[27m[23m[29m[m[H[2J[1;1HBer
+Beer
+BeerBeer
+BeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+[1m[34m~                                                  [10;1H~                                                  [11;1H~                                                  [12;1H~                                                  [13;1H~                                                  [14;1H~                                                  [15;1H~                                                  [16;1H~                                                  [17;1H~                                                  [18;1H~                                                  [19;1H~                                                  [20;1H~                                                  [21;1H~                                                  [m[22;34H7,7[11CAll"drink2.txt" 8L, 65B[7;7H[?25h[?25l[22;24Hi[7;7H[22;24H [7;7H[22;1H[1m-- INSERT --[m[22;14H[K[22;34H7,7[11CAll[7;7H[?25h[?25l[22;34H8,1[8;1H[?25h[?25l[1m[34m~                                                  [m[22;34H7,8[7;8H[?25h[22;1H[K[7;7H[?25l[22;24H^[[7;7H[22;24H  [7;8H[22;34H7,7[11CAll[7;7H[?25h[?25l[22;24H:[7;7H[22;24H[K[22;1H:[?25hew[?25l[22;3H[K[22;3H[?25h[?25l[22;2H[K[22;2H[?25hwq![?25l[?2004l[>4;m"drink2.txt"<.txt" 7L, 64B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t$ ser   d sed 2. ,4 5d drink.txt
+sed: can't read drink.txt: No such file or directory
+$ sed 2. ,4 5d drink2.txt
+Ber
+My Vodka
+My Wine
+$ sed ; '3,@ # ! @ # $d' drink2.txt
+Ber
+Beer
+$ sed d dru=  ink2.txt
+$ sed 
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+      --debug
+                 annotate program execution
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  --follow-symlinks
+                 follow symlinks when processing in place
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if SUFFIX supplied)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -E, -r, --regexp-extended
+                 use extended regular expressions in the script
+                 (for portability use POSIX -E).
+  -s, --separate
+                 consider files as separate rather than as a single,
+                 continuous long stream.
+      --sandbox
+                 operate in sandbox mode (disable e/r/w commands).
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                 the output buffers more often
+  -z, --null-data
+                 separate lines by NUL characters
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+GNU sed home page: <https://www.gnu.org/software/sed/>.
+General help using GNU software: <https://www.gnu.org/gethelp/>.
+$ sed 
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+      --debug
+                 annotate program execution
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  --follow-symlinks
+                 follow symlinks when processing in place
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if SUFFIX supplied)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -E, -r, --regexp-extended
+                 use extended regular expressions in the script
+                 (for portability use POSIX -E).
+  -s, --separate
+                 consider files as separate rather than as a single,
+                 continuous long stream.
+      --sandbox
+                 operate in sandbox mode (disable e/r/w commands).
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                 the output buffers more often
+  -z, --null-data
+                 separate lines by NUL characters
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+GNU sed home page: <https://www.gnu.org/software/sed/>.
+General help using GNU software: <https://www.gnu.org/gethelp/>.
+$ sed \ /& $ # )(   ^ > /$ % ^B. /d drink2.txt
+My Vodka
+My Wine
+$ exit
+
+Script done on 2025-01-23 00:23:31+00:00 [COMMAND_EXIT_CODE="0"]
+~                                                  [19;1H~                                                  [20;1H~                                                  [21;1H~                                                  [m[22;34H8,0-1[9CAll[8;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[22;24H/[8;1H[22;25Hc[8;1H[22;26Hc[8;1H[22;27Hc[8;1H[22;28Hc[8;1H[22;29H/[8;1H[22;30Hc[8;1H[22;31Hc[8;1H[22;32Hc[8;1H[22;33Hc[8;1H[22;24H          [8;1H[?25h[?25l[22;24H/[8;1H[22;25H2[8;1H[22;26Hb[8;1H[22;27H2[8;1H[22;28Hb[8;1H[22;29H/[8;1H[22;30H3[8;1H[22;31H6[8;1H[22;32H3[8;1H[22;33H6[8;1H[22;24H          [8;1H[27m[23m[29m[m[H[2J[1;1HBer
+Beer
+BeerBeer
+BeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+[1m[34m~                                                  [10;1H~                                                  [11;1H~                                                  [12;1H~                                                  [13;1H~                                               [?25l[22;24H:[7;7H[22;1H[K[22;1H:[?25hew[?25l[22;3H[K[22;3H[?25h[?25l[22;2H[K[22;2H[?25hwq![?25l[?2004l[>4;m"drink2.txt"<.txt" 8L, 65B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t$ cat d	ri       ^[[C^[[C^[[C            ^C
+$ vi  cat drink2/tr   .txt
+Ber
+Beer
+BeerBeer
+BeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+$ vi drink2w / .txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;22r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[22;1H"drink2.txt" 8L, 65B[2;1H½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HBer
+Beer[2;5H[K[3;1HBeerBeer[3;9H[K[4;1HBeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+[1m[34m~                                                  [10;1H~                                                  [11;1H~                                    xt
+Ber
+Beer
+BeerBeer
+BeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+$ vi drink2w / .txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;22r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[22;1H"drink2.txt" 8L, 65B[2;1H½[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HBer
+Beer[2;5H[K[3;1HBeerBeer[3;9H[K[4;1HBeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+[1m[34m~                                                  [10;1H~                                                  [11;1H~                                                  [12;1H~                                                  [13;1H~                                                  [14;1H~                                                  [15;1H~                                                  [16;1H~                                                  [17;1H~                                                  [18;1H~                                                  [19;1H~                                                  [20;1H~                                                  [21;1H~                                                  [m[22;34H7,7[11CAll[7;7H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[22;24H/[7;7H[22;25H2[7;7H[22;26Hb[7;7H[22;27H2[7;7H[22;28Hb[7;7H[22;29H/[7;7H[22;30H3[7;7H[22;31H6[7;7H[22;32H3[7;7H[22;33H6[7;7H[22;24H          [7;7H[27m[23m[29m[m[H[2J[1;1HBer
+Beer
+BeerBeer
+BeerBeerBeer
+Beeeeeeeeeer!!!
+My Vodka
+My Wine
+
+[1m[34m~                                                  [10;1H~                                                  [11;1H~                                                  [12;1H~                                                  [13;1H~                                                  [14;1H~                           [?25l[22;34H8,1[8;1H[?25h[?25l[1m[34m~                                                  [m[22;34H7,8[7;8H[?25h[22;1H[K[7;7H[?25l[22;24H^[[7;7H[22;24H  [7;8H[22;34H7,7[11CAll[7;7H[?25h[?25l[22;24H:[7;7H[22;24H[K[22;1H:[?25hew[?25l[22;3H[K[22;3H[?25h[?25l[22;2H[K[22;2H[?25hwq![?25l[?2004l[>4;m"drink2.txt"<.txt" 7L, 64B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t$ ser   d sed 2. ,4 5d drink.txt
+sed: can't read drink.txt: No such file or directory
+$ sed 2. ,4 5d drink2.txt
+Ber
+My Vodka
+My Wine
+$ sed ; '3,@ # ! @ # $d' drink2.txt
+Ber
+Beer
+$ sed d dru=  ink2.txt
+$ sed 
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+      --debug
+                 annotate program execution
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  --follow-symlinks
+                 follow symlinks when processing in place
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit filessed 
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+      --debug
+                 annotate program execution
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  --follow-symlinks
+                 follow symlinks when processing in place
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if SUFFIX supplied)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -E, -r, --regexp-extended
+                 use extended regular expressions in the script
+                 (for portability use POSIX -E).
+  -s, --separate
+                 consider files as separate rather than as a single,
+                 continuous long stream.
+      --sandbox
+                 operate in sandbox mode (disable e/r/w commands).
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                 the output buffers more often
+  -z, --null-data
+                 separate lines by NUL characters
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+GNU sed home page: <https://www.gnu.org/software/sed/>.
+General help using GNU software: <https://www.gnu.org/gethelp/>.
+$ sed 
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+      --debug
+                 annotate program execution
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  --follow-symlinks
+                 follow symlinks when processing in place
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if SUFFIX supplied)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -E, -r, --regexp-extended
+                 use extended regular expressions in the script
+                 (for portability use POSIX -E).
+  -s, --separate
+                 consider files as separate rather than as a single,
+                 continuous long stream.
+      --sandbox
+                 operate in sandbox mode (disable e/r/w commands).
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                /& $ # )(   ^ > /$ % ^B. /d drink2.txt
+My Vodka
+My Wine
+$  NUL characters
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+GNU sed home page: <https://www.gnu.org/software/sed/>.
+General help using GNU software: <https://www.gnu.org/gethelp/>.
+$ sed \ /& $ # )(   ^ > /$ % ^
