@@ -3,20 +3,21 @@
 list_recursive ()
 {
 	local filepath=$1
+	local indent=$2
 
-	echo "$filepath"
+	# インデント付きでパス部分を除外してファイル名を表示する
+	echo "${indent}${filepath##*/}"
 
 	if [ -d "$filepath" ]; then
-		# ディレクトリである場合は、その中に含まれるファイルや
-local fname
-for fname in $(ls "$filepath")
-do
-	# ディレクトリ内のファイルを表�
-	list_recursive "${filepath}/${fname}"
-done
-
-# ディレクトリを一覧表示する
+		IFS='
+		'
+		# ディレクトリである場合は、再帰的に処理
+		local fname
+		for fname in $(ls "$filepath")
+		do
+			list_recursive "${filepath}/${fname}" "		$indent"
+		done
 	fi
 }
 
-list_recursive "$1"
+list_recursive "$1" ""
