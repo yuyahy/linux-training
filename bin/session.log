@@ -1,0 +1,64 @@
+Script started on 2025-01-30 06:52:27+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="51" LINES="54"]
+$ mkdir dier  r1
+$ tuch   ouch dir1/file-{1,,4   ..5
+$ ls
+ alias_set.sh		      if-bin.sh
+ args.sh		      if-int.sh
+ case_test.sh		      if-or.sh
+ check_empty.sh		      parameters.sh
+ check_if_file_exist.sh       quote.sh
+ diary.sh		      rootdir.sh
+ dir1			      rootls.sh
+ findgrep.sh		      sep_var.sh
+ for_parameters.sh	      session.log
+ for_sample.sh		      showstatus.sh
+ for_sample_extract_path.sh  'space file.txt'
+ for_touch.sh		      summary.sh
+ func_parameters.sh	      test1.sh
+ func_test.sh		      today.sh
+ homesize-noshebang.sh	      tree.sh
+ homesize.sh		      var.sh
+ if-and.sh		      while.sh
+$ c ls dir	
+ls: cannot access 'dir': No such file or directory
+$ ^Pls      ls die r1
+file-{1..5
+$ rm dir  1^B      -r dor  io r1
+$ ls    touch dier  r1/file-] P {}^[[D      {1..5" }.txt
+touch: cannot touch 'dir1/file-{1..5}.txt': No such file or directory
+$ touch dir1
+$ t rm dir	^[  1
+$ mkdir dir1
+$ touch dir1. ; /file-{1..5_ }/ / / / .txt
+^[[A$     ^C
+$ .s ;  ; ls  
+ alias_set.sh		      if-bin.sh
+ args.sh		      if-int.sh
+ case_test.sh		      if-or.sh
+ check_empty.sh		      parameters.sh
+ check_if_file_exist.sh       quote.sh
+ diary.sh		      rootdir.sh
+ dir1			      rootls.sh
+ findgrep.sh		      sep_var.sh
+ for_parameters.sh	      session.log
+ for_sample.sh		      showstatus.sh
+ for_sample_extract_path.sh  'space file.txt'
+ for_touch.sh		      summary.sh
+ func_parameters.sh	      test1.sh
+ func_test.sh		      today.sh
+ homesize-noshebang.sh	      tree.sh
+ homesize.sh		      var.sh
+ if-and.sh		      while.sh
+$ ks =    ls dir1
+file-{1..5}.txt
+$ rm -r dir1
+$ mkdir dir1
+$ ls dir1
+$ touch dir1? ./  /file-{1..5{ }.txt
+$ kls   ls dir1
+file-{1..5}.txt
+$ exot  ot
+sh: 19: exot: not found
+$ er xit
+
+Script done on 2025-01-30 06:55:51+00:00 [COMMAND_EXIT_CODE="127"]
